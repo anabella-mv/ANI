@@ -11,6 +11,11 @@
 \section{Temas}
 \subsection{Primer Trimestre}
 Factoreo. Conjuntos de números reales. Representación en recta numérica. Intervalos: abiertos, cerrados y semiabiertos. Potencia con exponente fraccionario. Propiedades de potenciación. Operaciones de potencia con exponente fraccionario. Radicales: concepto, semejantes y no semejantes. Extracción de factores de fuera del signo radical por simplificacion y por regla práctica.
+\subsection{Segundo trimestre}
+Suma algebráica de radicales semejantes y aparentes no semejantes. Multiplicaciónde radicales de igual y distinto índice. División de radicales de igual y de distinto índice. Binomio conjugado. Racionalización de denominadores.
+\subsection{Tercer trimestre}
+Función: dominio e imagen, codomino. Funcion lineal. Gráfico de la función. Ecuación de la recta. Distintas formas de la ecuación de la recta. Ecuación de la recta que pasa por un punto. Ecuación que pasa por una recta y es paralelo a una recta. Ecuación de una recta que pasa por un punto y es perpendicular a una recta. Ecuación de segundo grado (parábolas): Definición, elementos, clasificación, resolución y verificación.
+
 \section{Desarrollo}
 \subsection{Factoreo}
 Hay 5 casos de factoreo conocidos, su finalidad es poder facilitar las expresiones algebráicas descomponiendolas en factores primos.
@@ -238,5 +243,58 @@ Resolver:
     &(1) \quad \left(\frac{1-\frac{5}{4}}{\sqrt[3]{-\frac{11}{8}}-2}+\sqrt{\left(\frac{1}{2}\right)^{-4}}\right)^{-1} \\
     &(2) \quad \left(\frac{\left(\frac{3}{5}\right)^4\left(\frac{3}{5}\right)^{-3}+1}{1-\frac{2}{3-\frac{1}{2}}}\right)^{-\frac{1}{3}}
 \end{flalign*}
+
+\subsection{Radicación}
+\subsubsection{Conceptos:}
+Comencemos señalando las partes de un radical:
+\begin{center}
+    \huge{$\sqrt[b]{a}$} 
+\end{center}
+\qquad Donde $a$ es el radicando, $b$ el índice y el símbolo es la raíz.\\
+Cualquier número o expresión que utiliza una raíz se conoce como radical. El término radical se deriva del latín radix, que significa raíz. El radical puede describir diferentes tipos de raíces para un número. El número escrito antes del radical se conoce como número índice o grado. Este número nos ayuda a decir cuántas veces se multiplicaría el número por sí mismo para obtener el radicando. Este se considera el opuesto de un exponente, al igual que la suma es el opuesto de la resta y la división es el opuesto de la multiplicación
+
+\subsubsection{Semejanzas y no semejanzas}
+Dos radicales son semejantes cuando comparten indice y radicando, lo que pueden no compartir sería el coeficiente que los acompaña. Por ejemplo:
+\begin{flalign*}
+    & (1) \quad \sqrt[b]{55} \quad y \quad 25\sqrt[b]{55} && (2) \quad 2\sqrt[4]{16} \quad y \quad 3\sqrt[4]{16}\\
+    & (3) \quad \sqrt[9]{m^3} \quad y \quad 8\sqrt[9]{m^2} && (4) \quad 23\sqrt[2]{25} \quad y \quad 13\sqrt[3]{25}
+\end{flalign*}
+Donde $1$ y $2$ son semejantes y $3$ y $4$ no cumplen con la semejanza ya sea por índice o radicando, y coeficiente es aquel número que acompaña a las raíces
+
+\subsubsection{Extracción de factores fuera de la raíz}
+\begin{center}
+    ¿Qué sucede cuando un radicando tiene un factor de exponente mayor o igual al índice de la raíz?
+\end{center}
+Primero debemos saber identificar todos los factores con sus exponentes que son parte del radicando y posteriormente analizar si es posible "extraerlos" de la raíz.\\*
+
+\textbf{Identificación de factores:} Necesito saber todos los números primos y exponentes de cada letra involucrados en el radicando. ¿Cómo lo hago? Primero puedo factorizar los factores, es decir, aplicar los casos de factoreo y/o descomponer los números en números primos. Ejemplo:\\*
+
+$\sqrt{25(m^3n+m^2h)}$ \quad El radicando en este caso es $25(m^3n+m^2h)$\\*
+Primero el número 25 puedo factorizarlo:
+\begin{tabular}{c|c}
+    25 & 5 \\
+    5 & 5 \\
+    1&  \\        
+\end{tabular}\\
+Luego identifico si hay algún caso de factoreo en $m^3n+m^2h$, que es en efecto el primer caso de factoreo: factor común.\\*
+\[
+    m^3n+m^2h= m^2(mn+h)
+\]
+\textbf{Reviso índices y exponentes:} Como la raiz es aquella que es opuesta al exponente, entonces si sabemos la potencia del número puede anularse o reducirse, es decir:\\*
+
+Nuestro radical se ve así ahora: $\sqrt{5^2\cdot m^2\cdot (mn+h)}$, además como sabemos por las propiedades de potencia y radicación, la raíz es distribuible en cuanto al producto, por lo tanto:\\*
+
+$\sqrt{5^2}\cdot \sqrt{m^2} \cdot \sqrt{mn+h}$ cuando el índice es igual al exponente puede "cancelarse" lo cual resulta en $5\cdot m \cdot \sqrt{mn+h}$ que sería la solución. Ahora ¿Qué sucede cuando el exponente es mayor al índice? recordemos que los exponentes fraccionarios representan raíces y potencias, lo que se refiere a que pueden simplificarse como fracciones, o dividirse, si hubiese trabajado con 
+\[
+\sqrt[4]{2^8}=2^{\frac{8}{4}}=2^2=4
+\]
+
+En caso de tener un exponente que no es simplificable de ese modo podemos optar por separar en términos simplificables, es decir:
+\begin{align*}
+    \sqrt[3]{m^4} &= \sqrt[3]{m^3 \cdot m} \qquad \text{Por propiedad de la potencia se puede}\\
+    &= \sqrt[3]{m^3} \cdot \sqrt[3]{m}\\
+    &= m \cdot \sqrt[3]{m}
+\end{align*}
+
 
 \end{document}
