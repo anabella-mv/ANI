@@ -1,0 +1,13 @@
+\documentclass[a4paper]{article}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\title{Apuntes}
+\author{Matemática 4to}
+
+\begin{document}
+
+\maketitle
+\begin{section}[Practico 1]
+    \textbf{1.(a) A \subseteq B \longleftrightarrow A \subseteq A\bigcup B}
+    Que $A$ esté contenida en $B$ quiere decir que para todo elemento $x \in A$ resulta que $x \in B$, esto resulta en la definición de la intersección, por lo tanto $\forall x \in A$ resultan en $B$ y por consiguiente en la intersección de ambos cjtos
