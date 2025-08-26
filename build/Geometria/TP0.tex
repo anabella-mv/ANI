@@ -9,10 +9,58 @@
 
 \maketitle
 \section{Practico 0}
-\textbf{1.(a) $A \subseteq B \longleftrightarrow A \subseteq A\bigcup B$}
-Que $A$ esté contenida en $B$ quiere decir que para todo elemento $x \in A$ resulta que $x \in B$, esto resulta en la definición de la intersección, por lo tanto $\forall x \in A$ resultan en $B$ y por consiguiente en la intersección de ambos cjtos
-\textbf{1.(b) $A \subseteq B \longleftrightarrow A\cup B \subseteq B$}
+\subsection{Ejercicio 1}
+\subsubsection{$A \subseteq B \leftrightarrow A \subseteq A\cap B$}
+\textbf{($\Rightarrow$)} Si $A \subseteq B$, entonces $A\subseteq(A\cap B)$, $\forall x \in A$ como $A$ está contenida o es igual a $B$, Por lo tanto $x \in B$, es decir, $x \in A\cap B$.\\
+\textbf{($\Leftarrow$)} Si $A \subseteq (A\cap B)$, entonces $A \subseteq B$, Tomo cualquier $x \in A$. Por hipotesis $x \in (A\cap B)$, por lo que $x \in B$ y como el elemento es arbitrario de $A$ resulta en todo $A$ contenida en $B$.
 
-Como todo elemento de A está en B, $\forall x \in A$ resulta que $x \in B$, si están en la intersección, más aún se encuentra en la union, por lo tanto como la union resulta en la union de todos los elementos de A y B, entonces bastaría ver que los elementos de A están en B, lo cual es verdadero por proposicion.
+\subsubsection{$A \subseteq B \leftrightarrow A\cup B \subseteq B$}
+\textbf{($\Rightarrow$)} Si $A \subseteq B$, entonces como todo elemento de $A$ está en $B$, y la union contiene a los elementos de ambos, entonces todos los elementos de A están tambien en su union con otros conjuntos. Pero como todos los elementos de $A$ están en $B$ resulta en que los elementos de la unión son los elementos de $B$, por lo tanto $A\cup B = B$\\
+\textbf{($\Leftarrow$)} Si $A\cup B \subseteq B$, entonces todos los elementos de $A\cup B$ están en $A$ y/o $B$. Entonces tenemos 4 casos:\\
+Si $x \in A$ y $x \notin B$ entonces como la unión está contenida en $B$, entonces todo elemento de $A$ está contenido en $B$.\\
+Si $x \in A$ y $x\notin B$, entonces no es posible ya que la unión debería estar contenida en $B$. Por lo tanto todos los elementos de $A$ están en B.
+
+\subsubsection{$A \subseteq B \Rightarrow B=A\cup (B\setminus A)$ y $A\cap(B\setminus A)=\emptyset$}
+Como estamos hablando de igualdades necesitamos demostrar la doble inclusión entre ambas proposiciones.\\
+\textbf{($\subseteq$)} Sea $x \in B$, tenemos dos posibilidades:\\
+Si $x \in A$, entonces $x \in A \subseteq A\cup (B\setminus A)$\\
+Si $x \notin A$, entonces $x \in B\setminus A \subseteq A\cup (B\setminus A)$\\
+En ambos casos $x \in A\cup (B\setminus A)$, por lo cual $B \subseteq A\cup (B\setminus A)$.\\
+\textbf{($\supseteq$)} Sea $x \in A\cup (B\setminus A)$, entonces tenemos dos posibilidades, pues $A$ y $B\setminus A$ son disjuntas:\\
+Si $x \in A$, entonces $x \in B$ por hipotesis.\\
+Si $x \in B\setminus A$, entonces $x \in B$ por definición de diferencia.\\
+En ambos casos $x \in B$. Como hay doble contencion, se concluye la igualdad.
+
+\subsubsection{$A\cap (B\cup C)=(A\cap B)\cup(A\cap C)$}
+Nuevamente demostramos la doble inclusión.\\
+\textbf{($\subseteq$)} Sea $x \in A\cap (B\cup C)$, entonces $x \in A$ y $x \in (B\cup C)$. A su vez, por definicion de union $x \in B$ o $x \in C$. Viendo los dos casos:\\
+$x \in A$ y $x \in B$ lo cual es la definicion de intersección $x \in A\cap B$\\
+$x \in A$ y $x \in C$ lo cual es la definicion de intersección ($x \in A\cap C$). Resulta en $x$ en alguna de esas intersecciones o ambas, por lo tanto $x \in (A\cap B)\cup(A\cap C)$.\\
+\textbf{($\supseteq$)} Sea $x \in (A\cap B)\cup(A\cap C)$, entonces $x \in (A\cap B)$ o $x \in (A\cap C)$. Ambas intersecciones incluyen a $A$, por lo que $x \in A$. Ahora tenemos dos casos:\\
+Si $x \in (A\cap B)$, entonces $x \in B$ por lo que $x \in (B\cup C)$ y resulta en $x \in A\cap (B\cup C)$\\
+Si $x \in (A\cap C)$, entonces $x \in C$ por lo que $x \in (B\cup C)$ y resulta en $x \in A\cap (B\cup C)$\\
+Por doble contención se concluye la igualdad.
+
+\subsubsection{$A\cup (B\cap C)=(A\cup B)\cap(A\cup C)$}
+\textbf{($\subseteq$)} Sea $x \in A\cup (B\cap C)$, entonces $x \in A$ o $x \in (B\cap C)$:\\
+Si $x \in A$, entonces $x \in (A\cup B)$ y $x \in (A\cup C)$ por lo que $x \in (A\cup B)\cap(A\cup C)$.\\
+Si $x \in (B\cap C)$, entonces $x \in B$ y $x \in C$, por lo que $x \in (A\cup B)$ y $x \in (A\cup C)$, por lo que $x \in (A\cup B)\cap(A\cup C)$.\\
+\textbf{($\supseteq$)} Sea $x \in (A\cup B)\cap(A\cup C)$, entonces $x \in (A\cup B)$ y $x \in (A\cup C)$, es decir:\\
+$x \in A$ lo cual resulta en $x \in A\cup (B\cap C)$\\
+$x \notin A$, como $x$ tiene que estar en ambas uniones, entonces al no estar en $A$, $x \in B$ y $x \in C$, por lo que $x \in (B\cap C)$ y resulta en $x \in A\cup (B\cap C)$.\\
+Por doble contención se concluye la igualdad.
+
+\subsubsection{$A \subseteq (B\cap C) \rightarrow A \subseteq B$ y $A \subseteq C$}
+Sea $x \in A$, por hipotesis $A \subseteq (B\cap C)$, por lo que $x \in (B\cap C)$, es decir, $x \in B$ y $x \in C$. Como cualquier elemento arbitrario de $A$ está en $B$ y $C$, entonces todo $A$ está en $B$ y en $C$.
+
+\subsubsection{$A\cup B \subseteq C \rightarrow A \subseteq C$ y $B \subseteq C$}
+Sea $x \in A\cup B$, esto quiere decir que hay 3 casos:\\
+Si $x \in A$, y $x \notin B$, entonces todos los elementos de $A$ están en $C$.\\
+Si $x \notin A$, y $x \in B$, entonces todos los elementos de $B$ están en $C$.\\
+Si $x \in A$ y $x \in B$, entonces todos los elementos de $A$ y $B$ están en $C$.\\
+En los 3 casos se ven incluidos los conjuntos $A$ y $B$ en $C$.
+
+\subsubsection{$A \subseteq B \leftrightarrow B^{c} \subseteq A^{c}$}
+\textbf{($\Rightarrow$)} Sea $x \in A$, entonces $x \notin A^{c}$. Por hipotesis $A \subseteq B$, por lo que $x \in B$
 
 \end{document}
