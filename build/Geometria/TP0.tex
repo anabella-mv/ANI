@@ -63,4 +63,62 @@ En los 3 casos se ven incluidos los conjuntos $A$ y $B$ en $C$.
 \subsubsection{$A \subseteq B \leftrightarrow B^{c} \subseteq A^{c}$}
 \textbf{($\Rightarrow$)} Sea $x \in A$, entonces $x \notin A^{c}$. Por hipotesis $A \subseteq B$, por lo que $x \in B$
 
+\section{Práctico 1}
+\subsection{Ejercicio 1}
+Los axiomas de incidencia son:
+\begin{enumerate}
+    \item El plano es un conjunto infinito y sus elementos de llaman puntos.
+    \item Existe $\mathcal{R} \subseteq \mathcal{P} (\pi)$ tal que cada $R \in \mathcal{R}$ es un subconjunto propio de $\pi$ que posee al menos dos elementos.
+    \item Dados $a,b \in \pi$ con $a \neq b$, existe un único $R \in \mathcal{R}$ tal que $a,b \in R$.  
+\end{enumerate}
+\textbf{(1)} Sea $\pi = \mathbb{Z} \times \mathbb{Z}$, entendemos por infinito a todo conjunto que no es finito, es decir, $\forall n \in \mathbb{N}$ ninguna función $f:X\rightarrow \{1,\dots ,n\}$ es biyectiva. Más aún conocemos que los naturales son infinitos, basta crear una inyección con ellos para hablar de un conjunto infinito. Consideramos $f:\mathbb{N}\rightarrow\mathbb{Z} \times \mathbb{Z}$ con $f(n)=(n,0)$, es claro que $f$ es inyectiva, por lo tanto $\pi$ es infinito.\\\\
+\textbf{(2)} Las rectas están implícitas en este conjunto como los subconjuntos de $\pi$ de dos elementos. Por definición, son subconjuntos propios de $\pi$ y poseen al menos dos elementos, mas específicamente, dos.\\\\
+\textbf{(3)} Dados $a,b \in \pi$ con $a\neq b$, con como está definidas las rectas, se sabe que los subconjuntos tienen sólo dos elementos, por lo tanto no es posible que otra recta aparte de ella misma contenga esos dos elementos.
+
+\subsection{Ejercicio 2}
+Dado $V=\mathbb{R}^3$ espacio vectorial tridimensional sobre los reales. Se considera el plano $\pi$ de subespacios unidimensionales de $V$. Estos serán los puntos. Si $W \subset V$ en un subespacio de $V$ de dimension 2, entonces el conjunto de puntos contenidos en $W$ será llamado una recta. Mostrar que este modelo cumple con los axiomas de incidencia.\\\\
+\textbf{(1)} $n \rightarrow R_n=<(1,n,0)>=\{(x,y,z)=t(1,n,0) \forall t \in \mathbb{R}\}$\\
+$(x,y,z) \in R_n$ si y solo si $(x,y,z)=(t,tn,o)$\\
+\begin{equation}
+    \left\{
+    \begin{array}{l}
+        x=t\\
+        y=tn\\
+        z=0
+    \end{array}
+    \leftrightarrow
+    \begin{array}{l}
+        z=0\\
+        y=nx
+    \end{array}
+    \right.
+\end{equation}
+Suponiendo $n_1\neq n_2$, $R_{n_1}=<(1,n_1,0)>$ y $R_{n_2}=<(1,n_2,0)>$.\\
+$k_1(1,n_1,0)+k_2(1,n_2,0)=(0,0,0)$ Los vectores $(1,n_1,0)$ y $(1,n_2,0)$ son li.
+\begin{equation}
+    \begin{array}{c}
+        k_1+k_2=0 \Rightarrow k_2=-k_1\\
+        n_1k_1+n_2(-k_1)=0\\
+        k_1(n_1-n_2)=0        
+    \end{array}
+\end{equation}
+
+\textbf{(2)} Las rectas están definidas como los puntos contenidos en $W\subset V$ (subespacios de dimension 2). Cada una de ellas debe ser un subconjunto propio de $\pi$ que posea al menos dos elementos de $V$ 
+
+\subsection{Guía 1:Ejercicio 9}
+\subsubsection{Enunciado}
+La actividad 5 debe habernos dejado como enseñanza que hay modelos de geomtría en los que se satisfacen los axiomas de incidencia y en los que las rectas no son infinitas. De ello inferimos que la infinitud de las rectas no es una consecuencia lógica de estos axiomas. Así pues, asumamos los axiomas de orden:
+\begin{enumerate}
+    \item Dar la definición de que un conjunto sea infinito.
+    \item Que cada uno elabore una demostración de los siguientes enunciados. Las rectas tienen una cantidad infinita de puntos. Las semirrectas tienen infinitos puntos. Los segmentos tambien poseen una cantidad infinita de puntos.
+    \item Compare las estrategias seguidas por cada integrante.
+\end{enumerate}
+\subsubsection{Solución}
+\textbf{(1)} Puntualmente un conjunto $A$ es infinito si \textbf{no} es finito, se entiende que no hay biyección posible entre el conjunto y un conjunto $\{1,\dots,n\}$ con $n\in \mathbb{N}$, puedo armar una inyección $f:\mathbb{N}\rightarrow A$ también para definir la infinitud de A ya que $\mathbb{N}$ es infinito, por no haber una biyección entre el conjunto finito $\{1,\dots, n\}$ y $\mathbb{N}$.\\\\
+\textbf{(2)}
+\begin{itemize}
+    \item \textbf{Las rectas tienen una cantidad infinita de puntos.}\\
+    \item Sea $r$ una recta,  por definicion de recta tenemos 
+    \item ejercicios 3, 5 y 10 con rodrigo.
+\end{itemize}
 \end{document}
