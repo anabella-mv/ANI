@@ -71,37 +71,35 @@ Los axiomas de incidencia son:
     \item Existe $\mathcal{R} \subseteq \mathcal{P} (\pi)$ tal que cada $R \in \mathcal{R}$ es un subconjunto propio de $\pi$ que posee al menos dos elementos.
     \item Dados $a,b \in \pi$ con $a \neq b$, existe un único $R \in \mathcal{R}$ tal que $a,b \in R$.  
 \end{enumerate}
-\textbf{(1)} Sea $\pi = \mathbb{Z} \times \mathbb{Z}$, entendemos por infinito a todo conjunto que no es finito, es decir, $\forall n \in \mathbb{N}$ ninguna función $f:X\rightarrow \{1,\dots ,n\}$ es biyectiva. Más aún conocemos que los naturales son infinitos, basta crear una inyección con ellos para hablar de un conjunto infinito. Consideramos $f:\mathbb{N}\rightarrow\mathbb{Z} \times \mathbb{Z}$ con $f(n)=(n,0)$, es claro que $f$ es inyectiva, por lo tanto $\pi$ es infinito.\\\\
-\textbf{(2)} Las rectas están implícitas en este conjunto como los subconjuntos de $\pi$ de dos elementos. Por definición, son subconjuntos propios de $\pi$ y poseen al menos dos elementos, mas específicamente, dos.\\\\
-\textbf{(3)} Dados $a,b \in \pi$ con $a\neq b$, con como está definidas las rectas, se sabe que los subconjuntos tienen sólo dos elementos, por lo tanto no es posible que otra recta aparte de ella misma contenga esos dos elementos.
+\subsubsection{A}
+\textbf{(1)} Sea $\pi = \mathbb{Z} \times \mathbb{Z}$, entendemos por infinito a todo conjunto que no es finito, es decir, $\forall n \in \mathbb{N}$ ninguna función $f:X\rightarrow \{1,\dots ,n\}$ es biyectiva. Más aún conocemos que los naturales son infinitos ya que no puedo crear una función inyectiva entre ese conjunto y $\{1,\dots,n\}$(basta considerar a un subconjunto $\{1,\dots,n+1\}\in \mathbb{N}$), entonces consideramos una función inyectiva con ellos para hablar de un conjunto infinito. Consideramos $f:\mathbb{N}\rightarrow\mathbb{Z} \times \mathbb{Z}$ con $f(n)=(n,0)$, es claro que $f$ es inyectiva y a su vez recorre sólo un subconjunto de $\pi$, por lo tanto $\pi$ es infinito.\\\\
+\textbf{(2)} Las rectas están implícitas en este conjunto como los subconjuntos de $\pi$ de dos elementos, es decir, $W\subset \pi$ y $W$ contiene dos pares ordenados de $\mathbb{Z}$. Por definición, son subconjuntos propios de $\pi$ y poseen al menos dos elementos, mas específicamente, dos.\\\\
+\textbf{(3)} Dados $a,b \in \pi$ con $a\neq b$, con como está definidas las rectas, se sabe que los subconjuntos tienen sólo dos elementos, por lo tanto no es posible que otra recta aparte de ella misma contenga esos dos elementos. Es decir, si consideramos $a,b,c \in \pi$ si son distintos no hay recta que contengan a ambos, y si existe una recta que los contenga, implica que uno es igual a los otros.
+\subsubsection{B}
+"Si se cumplen los axiomas de incidencia, entonces las rectas son subconjuntos infinitos del plano".\\
+Si bien los axiomas nos aseguran los infinitos puntos del plano, no nos aseguran que no exista una biyección entre los elementos de un subconjunto de un conjunto infinito y un conjunto $\{1, \dots,n\}$, sirviendo como contraejemplo el inciso anterior donde las rectas sólo presentan dos elementos a los cuales puedo definir una biyección para cada recta que recorra sus elementos de modo que $f:R\rightarrow \{1,2\}$. Por lo tanto esta proposición resulta falsa.
 
 \subsection{Ejercicio 2}
 Dado $V=\mathbb{R}^3$ espacio vectorial tridimensional sobre los reales. Se considera el plano $\pi$ de subespacios unidimensionales de $V$. Estos serán los puntos. Si $W \subset V$ en un subespacio de $V$ de dimension 2, entonces el conjunto de puntos contenidos en $W$ será llamado una recta. Mostrar que este modelo cumple con los axiomas de incidencia.\\\\
-\textbf{(1)} $n \rightarrow R_n=<(1,n,0)>=\{(x,y,z)=t(1,n,0) \forall t \in \mathbb{R}\}$\\
-$(x,y,z) \in R_n$ si y solo si $(x,y,z)=(t,tn,o)$\\
+
+\textbf{(1)} En el enunciado se denota a los puntos como los subespacios unidimensionales de V, es decir, las rectas vectoriales que pasan por el origen ya que hay un único vector que las genera. Con $n\in \mathbb{N}$, sea $<(n,1,0)>$ uno de los vectores generadores de un punto de $\pi$, es decir $X_1=\{(x,y,z) \in \mathbb{R}^3: (x,y,0)=t(n,1,0), t\in \mathbb{R}\}$ es punto de $V$ y $X_1\in V$, quiero ver que dados dos puntos $X_1$ y $X_2$ con $X_2=\{(x,y,z)\in \mathbb{R}^3 : (x,y,z)=t(m,1,0), t \in \mathbb{R}^3\}$ si $n\neq m$, entonces los puntos también son distintos, es decir, que son li\\
+Partimos de trabajar por el absurdo, consideramos $X_1=X_2$, lo que implica que dado $(1,n,0)\in X_1$ entonces existe $r \in \mathbb{R}$ tal que $r(n,1,0)=(m,1,0)$, esto es:
 \begin{equation}
     \left\{
     \begin{array}{l}
-        x=t\\
-        y=tn\\
-        z=0
+        rn=m\\
+        r=1\\
+        0=0
     \end{array}
-    \leftrightarrow
+    \rightarrow
     \begin{array}{l}
-        z=0\\
-        y=nx
+        r=1\\
+        n=m\\
+        0=0        
     \end{array}
     \right.
 \end{equation}
-Suponiendo $n_1\neq n_2$, $R_{n_1}=<(1,n_1,0)>$ y $R_{n_2}=<(1,n_2,0)>$.\\
-$k_1(1,n_1,0)+k_2(1,n_2,0)=(0,0,0)$ Los vectores $(1,n_1,0)$ y $(1,n_2,0)$ son li.
-\begin{equation}
-    \begin{array}{c}
-        k_1+k_2=0 \Rightarrow k_2=-k_1\\
-        n_1k_1+n_2(-k_1)=0\\
-        k_1(n_1-n_2)=0        
-    \end{array}
-\end{equation}
+Lo cual resulta absurdo ya que $n\neq m$. Por lo tanto $X_1 \neq X_2$ de allí se puede demostrar una inyección con los naturales(pensamos en que todos los vectores generadores se ven dados por $f:\mathbb{N} \rightarrow V$ tal que $f(x)=(x,1,0)$), que a su vez sólo son subconjuntos de $V$, por lo que $V$ es infinito.\\\\
 
 \textbf{(2)} Las rectas están definidas como los puntos contenidos en $W\subset V$ (subespacios de dimension 2). Cada una de ellas debe ser un subconjunto propio de $\pi$ que posea al menos dos elementos de $V$ 
 
