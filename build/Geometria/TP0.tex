@@ -82,7 +82,7 @@ Si bien los axiomas nos aseguran los infinitos puntos del plano, no nos aseguran
 \subsection{Ejercicio 2}
 Dado $V=\mathbb{R}^3$ espacio vectorial tridimensional sobre los reales. Se considera el plano $\pi$ de subespacios unidimensionales de $V$. Estos serán los puntos. Si $W \subset V$ en un subespacio de $V$ de dimension 2, entonces el conjunto de puntos contenidos en $W$ será llamado una recta. Mostrar que este modelo cumple con los axiomas de incidencia.\\\\
 
-\textbf{(1)} En el enunciado se denota a los puntos como los subespacios unidimensionales de V, es decir, las rectas vectoriales que pasan por el origen ya que hay un único vector que las genera. Con $n\in \mathbb{N}$, sea $<(n,1,0)>$ uno de los vectores generadores de un punto de $\pi$, es decir $X_1=\{(x,y,z) \in \mathbb{R}^3: (x,y,0)=t(n,1,0), t\in \mathbb{R}\}$ es punto de $V$ y $X_1\in V$, quiero ver que dados dos puntos $X_1$ y $X_2$ con $X_2=\{(x,y,z)\in \mathbb{R}^3 : (x,y,z)=t(m,1,0), t \in \mathbb{R}^3\}$ si $n\neq m$, entonces los puntos también son distintos, es decir, que son li\\
+\textbf{(1)} En el enunciado se denota a los puntos como los subespacios unidimensionales de V, es decir, las rectas vectoriales que pasan por el origen ya que hay un único vector que las genera. Con $n\in \mathbb{N}$, sea $<(n,1,0)>$ uno de los vectores generadores de un punto de $\pi$, es decir $X_1=\{(x,y,z) \in \mathbb{R}^3: (x,y,0)=t(n,1,0), t\in \mathbb{R}\}$ es punto de $\pi$ y $X_1\in V$, quiero ver que dados dos puntos $X_1$ y $X_2$ con $X_2=\{(x,y,z)\in \mathbb{R}^3 : (x,y,z)=t(m,1,0), t \in \mathbb{R}^3\}$ si $n\neq m$, entonces los puntos también son distintos, es decir, que son li\\
 Partimos de trabajar por el absurdo, consideramos $X_1=X_2$, lo que implica que dado $(1,n,0)\in X_1$ entonces existe $r \in \mathbb{R}$ tal que $r(n,1,0)=(m,1,0)$, esto es:
 \begin{equation}
     \left\{
@@ -98,10 +98,10 @@ Partimos de trabajar por el absurdo, consideramos $X_1=X_2$, lo que implica que 
         0=0        
     \end{array}
     \right.
-\end{equation}
-Lo cual resulta absurdo ya que $n\neq m$. Por lo tanto $X_1 \neq X_2$ de allí se puede demostrar una inyección con los naturales(pensamos en que todos los vectores generadores se ven dados por $f:\mathbb{N} \rightarrow V$ tal que $f(x)=(x,1,0)$), que a su vez sólo son subconjuntos de $V$, por lo que $V$ es infinito.\\\\
+\end{equation} 
+Lo cual resulta absurdo ya que $n\neq m$. Por lo tanto $X_1 \neq X_2$ de allí se puede demostrar una inyección con los naturales(pensamos en que todos los vectores generadores se ven dados por $f:\mathbb{N} \rightarrow V$ tal que $f(x)=(x,1,0)$), que a su vez sólo son subconjuntos de vectores que generan a $\pi$, por lo que $\pi$ es infinito.\\\\
 
-\textbf{(2)} Las rectas están definidas como los puntos contenidos en $W\subset V$ (subespacios de dimension 2). Cada una de ellas debe ser un subconjunto propio de $\pi$ que posea al menos dos elementos de $V$ 
+\textbf{(2)} Las rectas están definidas como los puntos contenidos en $W\subset V$ (subespacios de dimension 2). Cada una de ellas debe ser un subconjunto propio de $\pi$ que posea al menos dos elementos de $V$, es decir 
 
 \subsection{Guía 1:Ejercicio 9}
 \subsubsection{Enunciado}
@@ -112,11 +112,28 @@ La actividad 5 debe habernos dejado como enseñanza que hay modelos de geomtría
     \item Compare las estrategias seguidas por cada integrante.
 \end{enumerate}
 \subsubsection{Solución}
-\textbf{(1)} Puntualmente un conjunto $A$ es infinito si \textbf{no} es finito, se entiende que no hay biyección posible entre el conjunto y un conjunto $\{1,\dots,n\}$ con $n\in \mathbb{N}$, puedo armar una inyección $f:\mathbb{N}\rightarrow A$ también para definir la infinitud de A ya que $\mathbb{N}$ es infinito, por no haber una biyección entre el conjunto finito $\{1,\dots, n\}$ y $\mathbb{N}$.\\\\
-\textbf{(2)}
+\textbf{(1)} Puntualmente un conjunto $A$ es infinito si \textbf{no} es finito, se entiende que no hay biyección posible entre el conjunto y un conjunto $\{1,\dots,n\}$ con $n\in \mathbb{N}$, puedo armar una inyección $f:\mathbb{N}\rightarrow A$ también para definir la infinitud de A ya que $\mathbb{N}$ es infinito, por no haber una biyección entre el conjunto finito $\{1,\dots, n\}$ y $\mathbb{N}$.
 \begin{itemize}
-    \item \textbf{Las rectas tienen una cantidad infinita de puntos.}\\
+    \item \textbf{Las rectas tienen una cantidad infinita de puntos.}
     \item Sea $r$ una recta,  por definicion de recta tenemos 
     \item ejercicios 3, 5 y 10 con rodrigo.
 \end{itemize}
+\subsection{Guía 1:Ejercicio 10}
+\subsubsection{Enunciado}
+Dado $p \in \pi$, denotamos con $H_p$ el \textit{haz de rectas} que pasan por $p$. 
+\begin{enumerate}
+    \item Demostrar que todo punto del plano pertenece a alguna recta de $H_p$.
+    \item No toda recta del plano, es una recta de $H_p$.
+    \item Demostrar que los axiomas de orden implican que $H_p$ tiene infinitas rectas.
+    \item Mostrar con un ejemplo que sin los axiomas de orden se puede construir un plano que satisfaga los axiomas de incidencia, mas no el item anterior.
+\end{enumerate}
+\subsubsection{Solución}
+\textbf{(1)} Definimos al conjunto $H_p=\{R \in \mathcal{R}: p \in R\}$, queremos ver que dado cualquier punto $q \in \pi$ existe una recta $r \in H_p$ tal que $q \in r$. Por lo que consideramos los siguientes casos:\\
+Si $p=q$, entonces cualquier recta que pase por $p$ cumple la condición ya que toda recta de $H_p$ contiene a $p$.\\
+Si $p \neq q$, por el axioma 3 de incidencia, existe una única recta $r$ que contiene a ambos puntos ($I.3$), tal recta contiene a $p$ por construcción, así $r \in H_p$ y a su vez $q \in r$ por lo que queda demostrado el enunciado para todo $q \in \pi$.\\\\
+\textbf{(2)} Nuevamente, sea $p \in \pi$, quiero probar que existe alguna recta en $\mathcal{R}$ que no contenga a $p$. Tratamos por el absurdo, supongamos que toda recta en el plano contiene a $p$.\\\\
+Por $I.2$ conocemos que existen al menos dos puntos distintos en el plano que son parte de una recta, es decir, existen $q \in \pi$ tal que $q \neq p$, y $R$ recta que contenga a estos dos puntos y es subconjunto propio de $\pi$, lo que implica que existe al menos un punto de $\pi$ que no está en $R$. Sean $r \notin R$ un punto de $\pi$ y $N$ la recta determinada por $q$ y $r$, por el axioma $I.3$ dicha recta existe y es única.\\\\
+Por lo que asumimos al principio de que toda recta contiene a $p$, entonces $p \in N$, que a su vez por unicidad de la recta $N$ coincide con $R$ pues es la recta generada por $p$ y $q$, resulta así que $N = R$ por lo tanto $r \in R$ lo cual es absurdo por como definí a $r$, este absurdo nace de asumir que todas las rectas en el plano contienen a $p$.\\\\
+
+
 \end{document}
