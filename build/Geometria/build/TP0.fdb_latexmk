@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1756698660.70559 "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/TP0.tex" "build/TP0.pdf" "TP0" 1756698661.34783 0
+["pdflatex"] 1757534037.06712 "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/TP0.tex" "build/TP0.pdf" "TP0" 1757534037.65361 0
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1753472373 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1753230834 11548 d38a8a79954ee491fe27aafa6e132278 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
@@ -36,7 +36,9 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247596666 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1247596667 32762 7fee39e011c23b3589931effd97b9702 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
+  "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1247596673 31764 459c573c03a4949a528c2cc7f557e217 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.cfg" 1616067285 584 2a1075dd71571459f59146da9f7502ad ""
@@ -61,9 +63,9 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/mathtools/mathtools.sty" 1728300125 62711 3b0ed1d68b598a75677c10d16646d5e5 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/mathtools/mhsetup.sty" 1728300125 5582 a43dedf8e5ec418356f1e9dfe5d29fc3 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1749468414 10374 2ffd4f27c7f90b8a300608069537743c ""
-  "TP0.tex" 1756698660 13403 6304dbc235b2203d00a98798011a6040 ""
-  "build/TP0.aux" 1756698661 2631 81ed90445fdee2fd3f18c242b1a60df2 "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/TP0.tex" 1756698660 13403 6304dbc235b2203d00a98798011a6040 ""
+  "TP0.tex" 1757534036 19058 af3857fe503905d19901089fb3334e59 ""
+  "build/TP0.aux" 1757534037 4205 2473fe74054f95855b3b6c2d44a25b1d "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/TP0.tex" 1757534036 19058 af3857fe503905d19901089fb3334e59 ""
   (generated)
   "build/TP0.aux"
   "build/TP0.log"

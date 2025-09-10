@@ -134,6 +134,32 @@ Si $p \neq q$, por el axioma 3 de incidencia, existe una única recta $r$ que co
 \textbf{(2)} Nuevamente, sea $p \in \pi$, quiero probar que existe alguna recta en $\mathcal{R}$ que no contenga a $p$. Tratamos por el absurdo, supongamos que toda recta en el plano contiene a $p$.\\\\
 Por $I.2$ conocemos que existen al menos dos puntos distintos en el plano que son parte de una recta, es decir, existen $q \in \pi$ tal que $q \neq p$, y $R$ recta que contenga a estos dos puntos y es subconjunto propio de $\pi$, lo que implica que existe al menos un punto de $\pi$ que no está en $R$. Sean $r \notin R$ un punto de $\pi$ y $N$ la recta determinada por $q$ y $r$, por el axioma $I.3$ dicha recta existe y es única.\\\\
 Por lo que asumimos al principio de que toda recta contiene a $p$, entonces $p \in N$, que a su vez por unicidad de la recta $N$ coincide con $R$ pues es la recta generada por $p$ y $q$, resulta así que $N = R$ por lo tanto $r \in R$ lo cual es absurdo por como definí a $r$, este absurdo nace de asumir que todas las rectas en el plano contienen a $p$.\\\\
+\textbf{(3)} Por desarrollo en $(9)$ con uso de los axiomas de los dos primeros axiomas de orden pudimos definir que las rectas tienen infinitos puntos y más aún en el inciso anterior probamos la existencia de una recta fuera de $H_p$, 
+\section{Práctico 2}
+\subsection{Ejercicio 1} Analizar la validez de cada una de las siguientes afirmaciones. En caso de ser verdadera probarla, y si no, dar un contraejemplo que muestre su falsedad.
+\subsubsection{(a) La intersección de conjuntos convexos es convexa}
+\textbf{Verdadero} Un conjunto $C$ se dice convexo si $\forall a,b \in C$, $a \neq b$ vale que $\overline{ab} \subseteq C$, sea $D$ la intersección de dos conjuntos convexos $A$ y $B$, es decir $D=A\cap B$. Sea $x,y \in D$, entonces $x,y \in A$ y $x,y \in B$, por lo que esos segmentos están contenidos en ambos conjuntos, es decir, $\overline{xy} \subseteq A$ y $\overline{xy} \subseteq B$ esto es por la convexidad de $A$ y $B$. Pero si los puntos de ese segmento pertenecen a ambos conjuntos, entonces pertenecen también a su intersección, es decir, $\overline{xy} \subseteq A\cap B = D$. Por lo que $D$ resulta convexa por ser mis $x,y$ arbitrarios de la intersección de $A$ y $B$.
+\subsubsection{(b) La unión de conjuntos convexos es convexa}
+\textbf{Falso} Faltaría ver demostrar o refutar el porqué los discos son convexos, podría usar los semiplanos divididos con una recta pero sin la recta que los define, entonces pasar de un semiplano a otro corta la recta\\
+Sea $R$ una recta tal que defina los dos semiplanos abiertos $A$ y $B$, es decir, $A \cup B \cup R = \mathbb{R}^2$. Considero los conjuntos $A=\{(x,y) \in \mathbb{R}^2 : y > 0\}$ y $B=\{(x,y) \in \mathbb{R}^2 : y < 0\}$, ambos conjuntos son semiplanos abiertos y convexos en el plano cartesiano y $R$ es el eje $x$. Considero los puntos $a=(0,1) \in A$ y $b=(0,-1) \in B$, el segmento $\overline{ab}$ es la porción del eje $y$ que va desde el punto $(0,-1)$ hasta el punto $(0,1)$, es claro que este segmento no está contenido ni en $A$ ni en $B$ ya que $(0,0)$ es parte del segmento pues pertenece a la intersección de las semirrectas dadas por $(0,1)$ y $(0,-1)$, pero no pertenece a ninguno de los conjuntos, y por lo tanto tampoco en su unión.\\\\
+\subsubsection{(c) Si $A$ es convexo entonces $A^{c}$ es convexo}
+\textbf{Falso} Sea $A$ un conjunto convexo, considero $A=\{(x,y) \in \mathbb{R}^2 \}$
+\subsubsection{(d) Si $A$ y $B$ son convexos, entonces $A-B$ es convexo}
+\textbf{Falso} Sea $A=\{(x,y) \in \mathbb{R}^2 : x^2+y^2 < 4\}$ y $B=\{(x,y) \in \mathbb{R}^2 : x^2+y^2 \leq 1\}$, ambos conjuntos son discos en el plano cartesiano, por lo que son convexos. Considero los puntos $a=(0,2) \in A-B$ y $b=(0,-2) \in A-B$, el segmento $\overline{ab}$ es la porción del eje $y$ que va desde el punto $(0,-2)$ hasta el punto $(0,2)$, es claro que este segmento no está contenido en $A-B$ ya que pasa por el conjunto $B$, por lo tanto la resta de conjuntos no es siempre convexa.
+\subsubsection{(e) Todo ángulo es convexo}
+\textbf{Falso} Sea $\angle AB$ un ángulo con origen $\{o\}$, por definición de ángulo, $A$ y $B$ son semirrectas con origen en $o$. Sea $x,y \in \angle AB$, entonces $x$
 
-
+\section{Práctico 2: Ejercicios 10 y 13}
+\subsection{Ejercicio 10}
+\subsubsection{Enunciado}
+Dado un polígono convexo $P$, probar que su interior es la intersección de los interiores de todos los ángulos interiores del polígono.
+\subsubsection{Solución}
+Sea $P$ un polígono convexo, por definición de polígono, $P$ es la unión de sus lados, es decir, $P=\bigcup_{i=1}^{n} \overline{A_iA_{i+1}}$ con $A_{n+1}=A_1$. Por definición de polígono convexo, sus ángulos interiores son de la forma $\widehat{A_iA_{i+1}A_{i+2}}$. Sea $\alpha_i$ el ángulo interior en el vértice $A_i$, entonces $\alpha_i = \angle A_{i-1}A_iA_{i+1}$ con $A_0=A_n$. Por definición de ángulo, $\alpha_i$ está formado por las semirrectas $\overrightarrow{A_iA_{i-1}}$ y $\overrightarrow{A_iA_{i+1}}$.\\\\
+Considero el conjunto de todos los ángulos interiores del polígono $P$, es decir, $S=\{\alpha_i : i=1,\dots,n\}$. Quiero probar que el interior de $P$ es la intersección de los interiores de todos los ángulos interiores del polígono, es decir, que $\text{int}(P) = \bigcap_{i=1}^{n} \text{int}(\alpha_i)$.\\\\
+\textbf{($\subseteq$)} Sea $x \in \text{int}(P)$, por definición de interior, existe un entorno $U_r(x)$ tal que $U_r(x) \subseteq P$. Por definición de polígono, $P$ es la unión de sus lados, entonces $x$ debe estar contenido en al menos uno de los lados del polígono, digamos $\overline{A_jA_{j+1}}$. Por definición de ángulo interior, el punto $x$ debe estar contenido en el ángulo $\alpha_j$ y en el ángulo $\alpha_{j+1}$ (considerando índices módulo $n$). Por lo tanto, $x$ está contenido en la intersección de los interiores de todos los ángulos interiores del polígono.\\\\
+\textbf{($\supseteq$)} Sea $x \in \bigcap_{i=1}^{n} \text{int}(\alpha_i)$, entonces $x$ está contenido en el interior de todos los ángulos interiores del polígono. Por definición de ángulo interior, esto implica que $x$ está contenido en al menos uno de los lados del polígono, digamos $\overline{A_kA_{k+1}}$. Por lo tanto, existe un entorno $U_r(x)$ tal que $U_r(x) \subseteq P$. Por definición de interior, esto implica que $x \in \text{int}(P)$.\\\\
+Por lo tanto, se concluye que $\text{int}(P) = \bigcap_{i=1}^{n} \text{int}(\alpha_i)$.
+\subsection{Ejercicio 13}
+\subsubsection{Enunciado}
+Probar que las dos diagonales de un cuadriláteri convexo se cortan en un único punto y que éste es interior al cuadrilátero.
 \end{document}
