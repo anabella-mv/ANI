@@ -14,7 +14,7 @@ Factoreo. Conjuntos de números reales. Representación en recta numérica. Inte
 \subsection{Segundo trimestre}
 Suma algebráica de radicales semejantes y aparentes no semejantes. Multiplicación de radicales de igual y distinto índice. División de radicales de igual y de distinto índice. Binomio conjugado. Racionalización de denominadores.
 \subsection{Tercer trimestre}
-Función: dominio e imagen, codomino. Funcion lineal. Gráfico de la función. Ecuación de la recta. Distintas formas de la ecuación de la recta. Ecuación de la recta que pasa por un punto. Ecuación que pasa por una recta y es paralelo a una recta. Ecuación de una recta que pasa por un punto y es perpendicular a una recta. Ecuación de segundo grado (parábolas): Definición, elementos, clasificación, resolución y verificación.
+Función: dominio e imagen, codominio. Funcion lineal. Gráfico de la función. Ecuación de la recta. Distintas formas de la ecuación de la recta. Ecuación de la recta que pasa por un punto. Ecuación que pasa por una recta y es paralelo a una recta. Ecuación de una recta que pasa por un punto y es perpendicular a una recta. Ecuación de segundo grado (parábolas): Definición, elementos, clasificación, resolución y verificación.
 
 \section{Primer trimestre}
 \subsection{Factoreo}
@@ -334,5 +334,50 @@ Principalmente se va trabajar con factorización y las propiedades de radicació
     \item $\sqrt[3]{8xy^3}-\sqrt[3]{125x^3y}-\sqrt[3]{216xy^3}+\sqrt[3]{8x^3y}$
 \end{enumerate}
 \subsection{Multiplicación de radicales de distinto e igual índice}
+Consideremos que el índice de las raíces para poder multiplicar las raíces, no podemos introducir una dentro de la otra si no trabajamos con los mísmos índices ¿Qué sucede entonces si son distintos?
+\begin{align*}
+    \sqrt[2]{5} \cdot \sqrt[3]{5} &= 5^{\frac{1}{2}} \cdot 5^{\frac{1}{3}} \quad \text{(por propiedad de potencia y raíz)}\\
+    &= 5^{\frac{1}{2}+\frac{1}{3}} \quad \text{(por propiedad de multiplicación de potencias de igual base)}\\
+    &= 5^{\frac{3}{6}+\frac{2}{6}}=\quad 5^{\frac{5}{6}} \quad \text{(por suma de fracciones)}\\
+    &= \sqrt[6]{5^5} \quad \text{(por propiedad de potencia fraccionaria)}
+\end{align*}
+De otro modo que podemos verlo es buscando un índice común, que sería el mínimo común múltiplo entre los índices, en este caso $6$. Entonces:
+\begin{align*}
+    \sqrt[2]{5} \cdot \sqrt[3]{5} &= \sqrt[6]{5^3} \cdot \sqrt[6]{5^2} \quad \text{(por propiedad de potencia fraccionaria)}\\
+    &= \sqrt[6]{5^3\cdot 5^2}\\
+    &= \sqrt[6]{5^{3+2}} \quad \text{(por propiedad de multiplicación de raíces de igual índice)}\\
+    &= \sqrt[6]{5^5}
+\end{align*}
+
+Lo mismo sucede con multiplicación de radicales de distinta base, es decir:
+\begin{align*}
+    \sqrt[2]{5} \cdot \sqrt[3]{3} &= 5^{\frac{1}{2}} \cdot 3^{\frac{1}{3}} \quad \text{(por propiedad de potencia y raíz)}\\
+    &= \sqrt[6]{5^3} \cdot \sqrt[6]{3^2} \quad \text{(por propiedad de potencia fraccionaria)}\\
+    &= \sqrt[6]{5^3\cdot 3^2} \quad \text{(por propiedad de multiplicación de raíces de igual índice)}
+\end{align*}
+\textbf{Ejercicios:}
+\begin{enumerate}
+    \item $\sqrt{3}\cdot \sqrt[3]{3}$
+    \item $\sqrt[4]{2x}\cdot \sqrt[6]{8x^2}$
+    \item $\sqrt[3]{5a^2b}\cdot \sqrt[4]{10ab^3}$
+\end{enumerate}
+\subsection{División de radicales de igual y distinto índice}
+Al igual que en la multiplicación, para dividir radicales de distinto índice debemos trabajar con un índice común, que sería el mínimo común múltiplo entre los índices.\\
+Por ejemplo: Si consideramos $\sqrt[2]{5} : \sqrt[3]{5}$ podemos ver que el mínimo común múltiplo entre $2$ y $3$ es $6$, elevamos ambos índices lo que se necesite para llegar a $6$ 
+
+\begin{align*}
+    \sqrt[2]{5} : \sqrt[3]{5} &= \sqrt[2\cdot 3]{5^3} : \sqrt[3\cdot 2]{5^2} \quad \text{(por propiedad de potencia y raíz)}\\
+    &= \sqrt[6]{5^3} : \sqrt[6]{5^2} \quad \text{(por propiedad de potencia fraccionaria)}\\   
+    &= \sqrt[6]{5^3:5^2} \quad \text{(por propiedad de división de raíces de igual índice)}\\
+    &= \sqrt[6]{5^{3-2}} \quad \text{(por propiedad de división de potencias de igual base)}\\
+    &= \sqrt[6]{5}
+\end{align*}
+De igual manera para radicales de distinta base:
+\begin{align*}
+    \sqrt[2]{5} : \sqrt[3]{3} &= \sqrt[2\cdot 3]{5^3} : \sqrt[3\cdot 2]{3^2} \quad \text{(por propiedad de potencia y raíz)}\\
+    &= \sqrt[6]{5^3} : \sqrt[6]{3^2} \quad \text{(por propiedad de potencia fraccionaria)}\\   
+    &= \sqrt[6]{5^3:3^2} \quad \text{(por propiedad de división de raíces de igual índice)}
+\end{align*}
+\subsection{Binomio conjugado}
 
 \end{document}
