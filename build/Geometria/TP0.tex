@@ -154,11 +154,24 @@ Sea $R$ una recta tal que defina los dos semiplanos abiertos $A$ y $B$, es decir
 \subsubsection{Enunciado}
 Dado un polígono convexo $P$, probar que su interior es la intersección de los interiores de todos los ángulos interiores del polígono.
 \subsubsection{Solución}
-Sea $P$ un polígono convexo, por definición de polígono, $P$ es la unión de sus lados, es decir, $P=\bigcup_{i=1}^{n} \overline{A_iA_{i+1}}$ con $A_{n+1}=A_1$. Por definición de polígono convexo, sus ángulos interiores son de la forma $\widehat{A_iA_{i+1}A_{i+2}}$. Sea $\alpha_i$ el ángulo interior en el vértice $A_i$, entonces $\alpha_i = \angle A_{i-1}A_iA_{i+1}$ con $A_0=A_n$. Por definición de ángulo, $\alpha_i$ está formado por las semirrectas $\overrightarrow{A_iA_{i-1}}$ y $\overrightarrow{A_iA_{i+1}}$.\\\\
-Considero el conjunto de todos los ángulos interiores del polígono $P$, es decir, $S=\{\alpha_i : i=1,\dots,n\}$. Quiero probar que el interior de $P$ es la intersección de los interiores de todos los ángulos interiores del polígono, es decir, que $\text{int}(P) = \bigcap_{i=1}^{n} \text{int}(\alpha_i)$.\\\\
-\textbf{($\subseteq$)} Sea $x \in \text{int}(P)$, por definición de interior, existe un entorno $U_r(x)$ tal que $U_r(x) \subseteq P$. Por definición de polígono, $P$ es la unión de sus lados, entonces $x$ debe estar contenido en al menos uno de los lados del polígono, digamos $\overline{A_jA_{j+1}}$. Por definición de ángulo interior, el punto $x$ debe estar contenido en el ángulo $\alpha_j$ y en el ángulo $\alpha_{j+1}$ (considerando índices módulo $n$). Por lo tanto, $x$ está contenido en la intersección de los interiores de todos los ángulos interiores del polígono.\\\\
-\textbf{($\supseteq$)} Sea $x \in \bigcap_{i=1}^{n} \text{int}(\alpha_i)$, entonces $x$ está contenido en el interior de todos los ángulos interiores del polígono. Por definición de ángulo interior, esto implica que $x$ está contenido en al menos uno de los lados del polígono, digamos $\overline{A_kA_{k+1}}$. Por lo tanto, existe un entorno $U_r(x)$ tal que $U_r(x) \subseteq P$. Por definición de interior, esto implica que $x \in \text{int}(P)$.\\\\
-Por lo tanto, se concluye que $\text{int}(P) = \bigcap_{i=1}^{n} \text{int}(\alpha_i)$.
+\begin{itemize}
+\item \textbf{P es polígono convexo:} Sean $a_1,\dots, a_n \in \Pi$ (con $n\geq 3$) numerados de tal modo que las rectas $\overline{a_1a_2}, \overline{a_2a_3}, \dots, \overline{a_na_1}$ dejen en un mismo semiplano abierto los $(n-2)$ puntos restantes. Se llama pológono convexo de vértices $a_1,\dots,a_n$ a la union de los segmentos $\overline{a_1a_2}, \overline{a_2a_3}, \dots, \overline{a_na_1}$.
+\item \textbf{Interior de un polígono convexo:} Sea la intersección de los semiplanos abiertos determinados por las rectas $\overleftrightarrow{a_ia_{i+1}}$ que contienen a los demás puntos.
+\item \textbf{Ángulo interior:} del polígono son los ángulos de la forma $\widehat{a_{i-1}a_ia_{i+1}}$, y se los denota por $\hat{a_i}$.
+\item \textbf{Interior de un ángulo:} Considerar el sector angular sin los bordes es $sec(\angle AB)=A_B\cap B_A$
+\end{itemize}
+
+Quiero ver que los ángulos interiores terminan formando el interior del polígono, es decir, que la intersección de los sectores angulares de los ángulos interiores del polígono es igual al interior del polígono.\\\\
+Sea $P$ un polígono convexo de vértices $a_1,\dots,a_n$ e $I_P$ su interior y $sec(\hat{a_i})$ el interior del ángulo $\hat{a_i}$, quiero ver que:
+\begin{equation}
+    I_P = \bigcap_{i=1}^{n} sec(\hat{a_i})
+\end{equation}
+\textbf{($\subseteq$)} Sea $x \in I_P$, por definición de interior de un polígono convexo, $x$ pertenece a todos los semiplanos determinados por las rectas $\overleftrightarrow{a_ia_{i+1}}$ que contengan a los otros $(n-2)$ puntos. Por lo tanto, $x$ pertenece a los semiplanos determinados por las rectas $A=\overleftrightarrow{a_{i-1}a_i}$ y $B=\overleftrightarrow{a_ia_{i+1}}$, es decir, $x \in B_A$ y $x \in A_B$ que forman el ángulo $\hat{a_i}$, por lo que $x \in sec(\hat{a_i})$. Como $x$ pertenece a todos los sectores angulares de los ángulos interiores del polígono, entonces $x \in \bigcap_{i=1}^{n} sec(\hat{a_i})$.\\\\
+\textbf{pensar en definir un ángulo y de ahí los demás y considerar el tema de que estoy tomando semirrectas y no un punto para definir los semiplanos abiertos, entonces considero cosas de la recta que no están}\\
+\textbf{($\supseteq$)} Sea $x \in \bigcap_{i=1}^{n} sec(\hat{a_i})$, entonces $x \in sec(\hat{a_i})$ para todo $i=1,\dots,n$. Por definición de sector angular, $x \in A_{a_ia_{i-1}}$ y $x \in B_{a_ia_{i+1}}$ para todo $i=1,\dots,n$. Por lo que $x$ pertenece a todos los semiplanos determinados por las rectas $\overleftrightarrow{a_ia_{i+1}}$ que contengan a los otros $(n-2)$ puntos, es decir, $x \in I_P$.\\\\
+\textbf{fijarme bien la definición de las semirrectas que estoy citando}
+
+Por doble contención se concluye la igualdad.
 \subsection{Ejercicio 13}
 \subsubsection{Enunciado}
 Probar que las dos diagonales de un cuadriláteri convexo se cortan en un único punto y que éste es interior al cuadrilátero.
