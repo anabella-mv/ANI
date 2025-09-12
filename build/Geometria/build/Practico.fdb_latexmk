@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1757709333.41301 "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/TP0.tex" "build/TP0.pdf" "TP0" 1757709334.06235 0
+["pdflatex"] 1757713318.39303 "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/Practico.tex" "build/Practico.pdf" "Practico" 1757713318.94417 0
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1753472373 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1753230834 11548 d38a8a79954ee491fe27aafa6e132278 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
@@ -66,11 +66,11 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/mathtools/mathtools.sty" 1728300125 62711 3b0ed1d68b598a75677c10d16646d5e5 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/mathtools/mhsetup.sty" 1728300125 5582 a43dedf8e5ec418356f1e9dfe5d29fc3 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1749468414 10374 2ffd4f27c7f90b8a300608069537743c ""
-  "TP0.tex" 1757709332 19796 689566933ad5908ac7f183e5f7213e98 ""
-  "build/TP0.aux" 1757709333 4205 4643596e77532c26dbe5580b3bc6a648 "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/TP0.tex" 1757709332 19796 689566933ad5908ac7f183e5f7213e98 ""
+  "Practico.tex" 1757713305 19796 689566933ad5908ac7f183e5f7213e98 ""
+  "build/Practico.aux" 1757713318 4205 4643596e77532c26dbe5580b3bc6a648 "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/Practico.tex" 1757713305 19796 689566933ad5908ac7f183e5f7213e98 ""
   (generated)
-  "build/TP0.aux"
-  "build/TP0.log"
-  "build/TP0.pdf"
+  "build/Practico.aux"
+  "build/Practico.log"
+  "build/Practico.pdf"
   (rewritten before read)
