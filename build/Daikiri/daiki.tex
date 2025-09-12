@@ -7,4 +7,31 @@
 \begin{document}
 \maketitle
 \section{Apuntes Limites}
+\subsection{Limites de funciones}
+\subsubsection{Definicion}
+Sea $A$ un intervalo abierto de $\mathbb{R}$ y sea $a \in A$ 
+\subsubsection{Ejemplos}
+\begin{equation}
+    \lim_{x \to 5}\frac{2x+3}{x-2}=\frac{13}{3}
+\end{equation}
+
+Por definición de límite, $l$ es límite de la función $f(x)$ cuando $x \rightarrow a$ si $\forall \varepsilon>0, \exists \delta >0$ tal que $|f(x)-l|<\varepsilon$ si $0<|x-a|<\delta$\\
+Entonces, para demostrar que $\lim_{x \to 5}\frac{2x+3}{x-2}=\frac{13}{3}$, tenemos que demostrar que $\forall \varepsilon>0, \exists \delta >0$ tal que:
+\begin{equation*}
+        \left|\frac{2x+3}{x-2}-\frac{13}{3}\right|<\varepsilon \quad \text{si} \quad 0<|x-5|<\delta
+\end{equation*}
+Trabajo con la parte de épsilon para encontrar un delta y ponerlo en función de ese épsilon:
+\begin{align*}  
+    \left|\frac{3(2x+3)-13(x-2)}{3(x-2)}\right|<\varepsilon\\\\
+    \left|\frac{-7x+35}{3(x-2)}\right|<\varepsilon\\\\
+    \left|\frac{-7}{3}\right|\left|\frac{x-5}{x-2}\right|<\varepsilon\\\\
+    \left|\frac{x-5}{x-2}\right|<\frac{3}{7}\varepsilon\\\\
+    |x-5|<\frac{3}{7}\varepsilon|x-2|\\\\
+\end{align*}
+
+Consideramos como \textbf{acotar $\delta$} a $|x-2|<\delta$ acoto $\delta < 1$ por transitividad queda en que $|x-2|<1$ entonces $x \in (1,3)$ y de ahí concluimos que $|x-5|<4$ por lo tanto volvemos a mi cálculo con épsilon:
+\begin{align*}  
+    |x-5|<\varepsilon\frac{3}{7}|x-2|<\varepsilon\frac{3}{7} 5\\\\
+    |x-5|<\varepsilon\frac{15}{7}
+\end{align*}
 \end{document}
