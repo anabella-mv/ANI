@@ -1,0 +1,54 @@
+\documentclass[a4paper]{article}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\title{Teórico}
+\author{Geometría I}
+
+\begin{document}
+\maketitle
+\section{Parcial 1}
+\subsection{Axiomas}
+\subsubsection{De tipo I: Incidencia}
+\begin{enumerate}
+    \item El plano es un conjunto infinito $\Pi$
+    \item $\exists \mathcal{R} \subseteq \mathcal{P}(\Pi)$ tal que cada $R \in \mathcal{R}$ es un subconjunto propio de $\Pi$ que posee al menos dos elementos
+    \item Dados $a,b \in \Pi$ y $a \neq b$, existe una única $R \in \mathcal{R}$ tal que $a,b \in R$ 
+\end{enumerate}
+\subsubsection{De tipo II: Orden}
+\begin{enumerate}
+    \item Toda recta en $\Pi$ posee un orden total estricto, ($\mathcal{R^{-1}}$ también lo posee), luego si en una recta $A$ tomamos los puntos $p$ y $q$ con $p \neq q$, existe un orden total estricto en $A$ tal que $p<q$
+    \item Dados dos puntos distintos en una recta $A$, existe al menos un punto de $A$ entre ellos y, dado un punto cualquiera, siempre existe un punto que lo precede y otro que le sigue:
+    \begin{itemize}
+        \item Si $p,q \in A$ con $p<q$ entonces $\exists r \in A$ tal que $p<r<q$
+        \item Si $x \in A$ entonces $\exists y,z \in A$ tal que $y<x<z$ para algún orden en $A$
+    \end{itemize}
+    \item Dada una recta $A$, su complemento $A^c$ está dividido en dos subconjuntos convexos disjuntos, tales que si $a$ pertenece a uno de ellos y $b$ al otro, entocnes $\overline{ab}$ corta a la recta $A$
+\end{enumerate}
+\subsubsection{De tipo III: Rígidez}
+\begin{enumerate}
+    \item La transformaciones rígidas del plano son funciones biyectivas del plano en sí mismo que mandan rectas en rectas y semirrectas en semirrectas.
+    \item La composición de dos transformaciones rígidas es otra transformación rígida, la inversa de una transformación rígida es también una transformación rígida. 
+    \item Si $T$ es una transformación rígida entonces:
+    \begin{itemize}
+        \item $\overline{ab} \equiv \overline{cd}$ y sucede que $\overline{ab} \subseteq \overline{cd}$ o viceversa, entonces $\overline{ab}= \overline{cd}$
+        \item $\hat{aob} \equiv \hat{cod}$  y sucede que $sec(\hat{aob}) \subseteq sec(\hat{cod})$ o viceversa, entonces $\hat{aob} = \hat{cod}$
+    \end{itemize}
+    \item Dados dos pares SR-SP $(A,\alpha)$ y $(B,\beta)$, existe una única transformación rígidad tal que $T(A,\alpha)=(B,\beta)$, es decir $T(A)=B$ y $T(\alpha)=\beta$
+\end{enumerate}
+\subsection{Teorema 4}
+\subsubsection{Enunciado}
+Sea $A$ una recta, $a \in A$ y $p \notin A$ entonces $\overrightarrow{ap} \subseteq A_p$.
+\subsubsection{Demostración}
+Consideramos en $\overleftrightarrow{ap}$ el orden $<$ tal que $a<p$, quiero ir por el absurdo, supongo $\overrightarrow{ap}\nsubseteq A$, es decir, \textbf{existe $q \in \overrightarrow{ap}$ tal que $q \notin A_p$}.\\
+Pero como $A \subset A_p$ entonces $q \in \check{A_p}$, más precisamente $q \in \check{A_p}- A$.\\
+Por II.3 sabemos que $\overline{pq} \cap A \neq \varnothing$, pero $a,p,q$ están alineados, entonces $\overline{pq} \subseteq\overleftrightarrow{ap}$.\\\\
+\begin{itemize}
+    \item $\varnothing \neq \overline{pq} \cap A \subseteq \overleftrightarrow{ap} \cap A =\{a\} \text{ entonces } \overline{pq} \cap A=\{a\}$
+    \item $\rightarrow q<a<p \text{ por definición de segmento,}$
+    \item $\text{pero } q \in \overrightarrow{ap} \rightarrow a<q \text{ lo cual resulta absurdo}$
+\end{itemize}
+$\therefore \overrightarrow{ap} \subseteq A_p$
+
+\end{document}
