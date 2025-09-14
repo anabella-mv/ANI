@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1757872972.76107 "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/Teorico.tex" "build/Teorico.pdf" "Teorico" 1757872973.28945 0
+["pdflatex"] 1757873012.13438 "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/Teorico.tex" "build/Teorico.pdf" "Teorico" 1757873012.71286 0
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1753472373 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1753230834 11548 d38a8a79954ee491fe27aafa6e132278 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
@@ -60,9 +60,9 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/mathtools/mathtools.sty" 1728300125 62711 3b0ed1d68b598a75677c10d16646d5e5 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/mathtools/mhsetup.sty" 1728300125 5582 a43dedf8e5ec418356f1e9dfe5d29fc3 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1749468414 10374 2ffd4f27c7f90b8a300608069537743c ""
-  "Teorico.tex" 1757872972 3589 2d6ec5346688af4820cf7b49d7b57e08 ""
-  "build/Teorico.aux" 1757872973 902 b86131a2600d19d47c9b9ca016a94dc2 "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/Teorico.tex" 1757872972 3589 2d6ec5346688af4820cf7b49d7b57e08 ""
+  "Teorico.tex" 1757873011 3591 66bb80020d053af611eaca39a1f98bba ""
+  "build/Teorico.aux" 1757873012 902 b86131a2600d19d47c9b9ca016a94dc2 "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/Teorico.tex" 1757873011 3591 66bb80020d053af611eaca39a1f98bba ""
   (generated)
   "build/Teorico.aux"
   "build/Teorico.log"
