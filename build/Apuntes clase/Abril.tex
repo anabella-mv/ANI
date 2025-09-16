@@ -379,5 +379,77 @@ De igual manera para radicales de distinta base:
     &= \sqrt[6]{5^3:3^2} \quad \text{(por propiedad de división de raíces de igual índice)}
 \end{align*}
 \subsection{Binomio conjugado}
+El binomio conjudado es aquél que trabaja con algo que ya vimos antes que es la diferencia de cuadrados, sabemos que dado dos números al cuadrado que se estén restando, podemos desarmarlos según la resta en dos cosas más simples, es decir:
+\begin{equation*}
+    a^2+b^2=(a+b)(a-b)
+\end{equation*}
+entonces se llama binomio por contar con una suma de dos cosas, y conjugado, porque en el segundo, en vez de sumar, se resta. entonces en el caso anterior, el binomio conjugado de $(a+b)$ es $(a-b)$, esto nos va a servir mucho para poder armar expresiones más fáciles en el futuro sabiendo que al multiplicar un número por su conjugado resulta en el cuadrado, nos ayudará a trabajar con las raíces.
 
+\subsubsection{Ejercicio: Dar el binomio conjugado de las siguientes expresiones}
+\begin{enumerate}
+    \item $23+\sqrt{12}$
+    \item $12 - 24$
+    \item $2 - \sqrt{5}$
+\end{enumerate}
+
+\subsection{Racionalización del denominador}
+Considerando lo anterior veamos el siguiente ejercicio que buscamos resolver:
+\begin{equation*}
+    \frac{1}{12+\sqrt{2}}
+\end{equation*}
+
+Como vemos es complicado resolver ese denominador porque esa raíz nos está complicando los resultados, más aún cuando trabajemos con ecuaciones, va a ser más dificil de despejar por eso, nos conviene mil veces más tener la raíz en el numerador que en el denominador.\\\\
+Pero recordando lo anterior, sabemos que una manera para deshacernos de esa raíz podría ser multiplicarla por su binomio conjugado, pero no podemos sólo multiplicar algo porque sí. Veámoslo de la siguiente manera:
+\begin{gather*}
+    \frac{1}{12+\sqrt{2}}\\
+    \frac{1}{12+\sqrt{2}} \cdot 1 
+\end{gather*}
+Sabemos que multiplicar por 1 no afecta nada, más aún, conocemos que todo número dividido por sí mismo resulta en 1:
+\begin{gather*}
+    \frac{1}{12+\sqrt{2}}\\
+    \frac{1}{12+\sqrt{2}} \cdot 1 \\
+    \frac{1}{12+\sqrt{2}} \cdot \frac{12-\sqrt{2}}{12-\sqrt{2}}
+\end{gather*}
+
+Aplicamos diferencia de cuadrados, tengo dos número que no coinciden en un signo que se multiplican, entonces puedo hacer:
+\begin{align*}
+    \frac{1}{12+\sqrt{2}} \cdot \frac{12-\sqrt{2}}{12-\sqrt{2}} &= \frac{1 \cdot (12-\sqrt{2})}{12^2-(\sqrt{2})^2}\\
+    &=\frac{12-\sqrt{2}}{144-2}\\
+    &=\frac{12-\sqrt{2}}{142}
+\end{align*}
+En un caso aún más sencillo si tenemos sólo una raíz en el numerador podemos usar algo muy similar sin necesidad de usar el congujado.
+\begin{gather*}
+    \frac{1}{\sqrt{2}}\\
+    \frac{1}{\sqrt{2}} \cdot 1 \\
+    \frac{1}{\sqrt{2}} \cdot \frac{\sqrt{2}}{\sqrt{2}}
+\end{gather*}
+Como vemos basta multiplicarlo por sí mismo, y va a resultar el radical solamente en el numerador. Lo que sí hay que tener que tener cuidado es que nuestro objetivo es sacar el radical del denominador, para eso debe tener el mismo exponente que el índice de la raíz para poder hacer eso, por ejemplo:
+\begin{equation*}
+    \frac{3}{\sqrt[5]{4^2}}  
+\end{equation*}
+Observamos que necesito que ese 4 esté a la 5ta, entonces lo ideal sería multiplicarlo por algo que nos sume a la potencia.
+\begin{align*}
+    \frac{3}{\sqrt[5]{4^2}} \cdot  \frac{\sqrt[5]{4^3}}{\sqrt[5]{4^3}}&= \frac{3 \cdot \sqrt[5]{4^3}}{\sqrt[5]{4^{2+3}}}\\
+    &= \frac{3 \cdot \sqrt[5]{4^3}}{\sqrt[5]{4^5}}\\
+    &= \frac{3 \cdot \sqrt[5]{4^3}}{4}
+\end{align*}
+Probemos ejercitando con las siguientes operaciones combinadas:
+\subsubsection{Ejercicios: Resolver}
+\begin{enumerate}
+    \item $\frac{5}{\sqrt{6}-3\sqrt{6}+8\sqrt{6}}$
+    \item $\frac{9}{\sqrt{7}+2}$
+    \item $\frac{\sqrt{x}}{\sqrt[3]{2x}}$
+\end{enumerate}
+
+\subsubsection{Tratemos de resolver el parcial}
+\begin{enumerate}
+    \item Resolver con propiedades
+    \begin{itemize}
+        \item $(a^2)^{\frac{1}{2}}:(a^3)^{\frac{2}{3}}$
+        \item $6^{\frac{2}{3}}\cdot 6^{\frac{1}{5}} \cdot 6^{\frac{1}{2}}$
+    \end{itemize}
+    \item $\sqrt{32}+\sqrt{243}-\sqrt{12}-\sqrt{48}-\sqrt{27}$
+    \item $\sqrt[3]{2a^2 6c^3} \cdot (-4\cdot \sqrt[3]{5a6^4c^2})$
+    \item $\frac{2\sqrt{5}}{\sqrt{2}-\sqrt{5}}$
+\end{enumerate}
 \end{document}

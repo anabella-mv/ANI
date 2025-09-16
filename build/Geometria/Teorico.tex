@@ -46,9 +46,108 @@ Pero como $A \subset A_p$ entonces $q \in \check{A_p}$, más precisamente $q \in
 Por II.3 sabemos que $\overline{pq} \cap A \neq \varnothing$, pero $a,p,q$ están alineados, entonces $\overline{pq} \subseteq\overleftrightarrow{ap}$.\\\\
 \begin{itemize}
     \item $\varnothing \neq \overline{pq} \cap A \subseteq \overleftrightarrow{ap} \cap A =\{a\} \text{ entonces } \overline{pq} \cap A=\{a\}$
-    \item $\rightarrow q<a<p \text{ por definición de segmento,}$
-    \item $\text{pero } q \in \overrightarrow{ap} \rightarrow a<q \text{ lo cual resulta absurdo}$
+    \item $\implies q<a<p \text{ por definición de segmento,}$
+    \item $\text{pero } q \in \overrightarrow{ap} \implies a<q \text{ lo cual resulta absurdo}$
 \end{itemize}
 $\therefore \overrightarrow{ap} \subseteq A_p$
+\subsection{Teorema 10}
+\subsubsection{Enunciado}
+Si $R$ es una recta que interseca al $\vartriangle abc$ y no pasa por sus vértices, entonces $R$ interseca a $\vartriangle abc$ en exactamente dos puntos.
+\subsubsection{Demostración}
+Sea $p$ un punto del tríangulo, supongamos $R$ corta a $\overline{ac}$ con $p\neq a$ y $p\neq c$, $R$ corta a $\overline{ac}$ únicamente en $p$ pues si lo hiciera en otro punto, $R$ tendría dos puntos dentro del segmento y sería la recta $\overleftrightarrow{ac}$, absurdo.\\\\
+Entonces $a$ y $c$ están en semiplanos opuestos respecto a $R$, es decir $c \in \check{R_a}$. Ahora tenemos que $b \in R_a$ o $b \in \check{R_a}$ y puntualmente $b \notin R$.\\\\
+$\implies$ Si $b \in R_a$ entonces $a,b \in R_a - R \implies \overline{ab} \cap R = \varnothing$ (esto es por ser $R_a - R$ convexo). Además $c \in \check{R_a}$ y $b \in R_a$ por II.3 $\implies \overline{bc} \cap R = \{q\}$ con $q\neq p$.\\
+Luego $R$ corta a $\vartriangle abc$ sólo en $p$ y $q$.\\\\
+$\implies$ Si $b \in \check{R_a}$, entonces análogamente se ve que $R$ corta a $\vartriangle abc$ en $\overline{ac}$ y $\overline{ab}$ en sólo dos puntos.
 
+\subsection{Teorema 16}
+\subsubsection{Enunicado}
+Sea $R$ una recta y $p \notin R$. Si $T$ es una transformación rígida y $R'=T(R)$, $p'=T(p)$ entonces $T(R_p)=R'_{p'}$
+
+\subsubsection{Demostración}
+
+Claramente $R' \subseteq R'_{p'}$ y $p' \in R'_{p'}$. Sea ahora $q \in R_p-R$ con $q\neq p$, entonces $\overline{pq} \cap R = \varnothing$ aplico la transformación rígida a $q$, ie, $q'=T(q)$
+\begin{gather*}
+    \implies T(\overline{pq})\cap T(R)=\varnothing\\
+    \overline{p'q'} \cap R'=\varnothing
+\end{gather*}
+Por un corolario anterior podemos deducir que $q' \in R'_{p'}$, luego se probó que $T(R_p)\subseteq R'_{p'}$ esto quiere decir que $T(R_p) \subseteq T(R)_{T(p)}, \forall T$ transformación rígida, $\forall R$ recta y $\forall p \notin R$.\\
+Considerando \textbf{III.2}, $T{-1}$ es una transformación rígida, vamos a aplicar ahora esa transformación rígida al semiplano $R'_{p'}$:\\
+\begin{gather*}
+    T^{-1}(R'_{p'}) \subseteq T^{-1}(R')_{T^{-1}(p')} \text{ con } R'=T(R), p'=T(p)\\
+    T^{-1}(R'_{p'}) \subseteq R_p \rightarrow \text{ aplico T}\\
+    R'_{p'} \subseteq T(R_p)
+\end{gather*}
+ Y por la doble contención obtenida concluimos $R'_{p'}=T(R_p)$
+\subsection{Teorema 20}
+\subsubsection{Enunciado}
+Sea $(A,\alpha)$ un par semirrecta-semiplano con $A$ de origen en $o$ y sea $T$ la transformación rígida que cumple $T(A,\alpha)=(\check{A},\check{\alpha})$ entonces:
+\begin{enumerate}
+    \item $T$ es involutiva
+    \item Si $(B, \beta)$ es un par semirrecta-semiplano tal que $B$ tiene origen en $o$ entonces $T(B,\beta)=(\check{B},\check{\beta})$
+\end{enumerate}
+\subsubsection{Demostración}
+\textbf{Para (1):}
+\begin{equation*}
+    T^2(A,\alpha)=T(T(A,\alpha))=T(\check{A},\check{\alpha})=(\check{T(A)},\check{T(\alpha)})=(A,\alpha)
+\end{equation*}
+Por unicidad de \textbf{III.4}, debe ser $T^2=Id$\\\\
+\textbf{Para (2):}
+\begin{itemize}
+    \item Si $B=A$ o $\check{A}$ entonces 
+    \begin{equation*}
+        (B,\beta)=\left\{ \begin{array}{l}
+            (A,\alpha)\\
+            (A,\check{\alpha})\\
+            (\check{A}, \alpha)\\
+            (\check{A},\check{\alpha})
+        \end{array}
+        \right.
+        \xrightarrow{T}
+        \left\{ \begin{array}{l}
+            (\check{A},\check{\alpha})\\
+            (\check{A}, \alpha)\\
+            (A, \check{\alpha})\\
+            (A,\alpha)
+        \end{array}
+        \right.
+    \end{equation*}
+    \item Si $B\neq A$ y $B \neq \check{A}$ entonces:
+    \begin{equation*}
+        B\subseteq \alpha \text{ o } B\subseteq \check{\alpha} (\text{ Considero }B\subseteq \alpha, \text{y al otro caso análogo})
+    \end{equation*}
+    \begin{itemize}
+        \item Sea $p \in B, p\neq o \implies B=\overrightarrow{op}$ y $p'=T(p) \in \check{\alpha} \quad (p'\neq p)$. Por \textbf{II.3} $\overline{pp'}$ corta a $\overleftrightarrow{A}$ en un punto $a$, ahora puede ser $a \in A$ o $a \in \check{A}$:
+        \begin{itemize}
+            \item Si $a \in A \implies \{a\}=\overline{pp'} \cap A$, por ser $T$ involutiva $\implies T(p')=T(T(p))=p$, entonces aplicamos $T$
+            \begin{equation*}
+              \{T(a)\}=T(\overline{pp'}\cap T(A))=\overline{pp'}\cap \check{A}
+            \end{equation*}
+            Pero $\overline{pp'}$ corta a $\overleftrightarrow{A}=A\cup \check{A}$ en un único punto. De allí y la igualdad anterior de deduce $T(a)=a$ y pertenecen a $\check{A}$ y $A$ respectivamente, $\implies T(a)=a=o$, es decir, $o \in \overline{pp'}$ luego $p' \in \check{B}$, entonces
+            \begin{equation*}
+              T(B)=T(\overrightarrow{op})=\overrightarrow{op'}=\check{B}
+            \end{equation*}
+            \item Si $a \in \check{A}$ es análogo.
+        \end{itemize}
+        \item Sea $q \in \beta, q \notin \overleftrightarrow{B}$, por lo probado anteriormente se tiene que: $T(\overrightarrow{oq})=\check{\overrightarrow{oq}} \implies T(q) \in \check{\beta} \implies T(\beta)=\check{\beta}$
+    \end{itemize} 
+\end{itemize}
+El teorema afirma que $T$ no depende del par $(A,\alpha)$
+\subsection{Teorema 25}
+\subsubsection{Enunciado}
+Sea $(A, \alpha)$ un par semirrecta-semiplano de origen $o$ y sea $T$ la única transformación rígida que cumple $T(A,\alpha)=(A,\check{\alpha})$, entonces:
+\begin{enumerate}
+    \item $T$ es involutiva
+    \item $T(p)=p, \forall p \in A$
+    \item Si $B$ es una semirrecta de $\overleftrightarrow{A}$ entonces $T(B,\alpha)=(B,\check{\alpha})$
+\end{enumerate}
+\subsubsection{Demostración}
+\textbf{Para (a):} $T^2(A,\alpha)=T(T(A,\alpha))=T(A,\check{\alpha})=T(A,\alpha)$. Por unicidad de \textbf{III.4} tenemos $T^2=Id$\\\\
+\textbf{Para (b):} Como $T(A)=A$ y $A$ tiene origen en $o \implies T(o)=o$. Y sea $p':=T(p) \in A$ por $T(A)=A$ y 
+\begin{equation*}
+    T(\overline{op})=\overline{op'} \implies \overline{op} \equiv \overline{op'} \implies \overline{op} \subseteq \overline{op'} \lor \overline{op'} \subseteq \overline{op}
+\end{equation*} 
+Por \textbf{III.3} $\implies \overline{op}= \overline{op'} \implies p=p'$, es decir, $T(p)=p$\\\\
+\textbf{Para (c):} Por (b), $T(B)=B$ y por definición de $T \implies T(\alpha)=\check{\alpha} \implies T(B,\alpha)=T(B, \check{\alpha})$.\\
+Este teorema asegura que $T$ no depende de la semirrecta $A$, sólo de $\overleftrightarrow{A}$
 \end{document}
