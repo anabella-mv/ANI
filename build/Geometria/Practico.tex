@@ -156,23 +156,31 @@ Dado un polígono convexo $P$, probar que su interior es la intersección de los
 \subsubsection{Solución}
 \begin{itemize}
 \item \textbf{P es polígono convexo:} Sean $a_1,\dots, a_n \in \Pi$ (con $n\geq 3$) numerados de tal modo que las rectas $\overline{a_1a_2}, \overline{a_2a_3}, \dots, \overline{a_na_1}$ dejen en un mismo semiplano abierto los $(n-2)$ puntos restantes. Se llama pológono convexo de vértices $a_1,\dots,a_n$ a la union de los segmentos $\overline{a_1a_2}, \overline{a_2a_3}, \dots, \overline{a_na_1}$.
-\item \textbf{Interior de un polígono convexo:} Sea la intersección de los semiplanos abiertos determinados por las rectas $\overleftrightarrow{a_ia_{i+1}}$ que contienen a los demás puntos.
+\item \textbf{Interior de un polígono convexo:} Sea la intersección de los semiplanos abiertos determinados por las rectas $\overleftrightarrow{a_ia_{i+1}}$ que contienen a los demás puntos, en estos se ignora los lados del polígono.
 \item \textbf{Ángulo interior:} del polígono son los ángulos de la forma $\widehat{a_{i-1}a_ia_{i+1}}$, y se los denota por $\hat{a_i}$.
-\item \textbf{Interior de un ángulo:} Considerar el sector angular sin los bordes es $sec(\angle AB)=A_B\cap B_A$
+\item \textbf{Interior de un ángulo:} Considerar el sector angular sin los bordes es $sec(\angle AB) - \angle AB =(A_B\cap B_A)- \angle AB$, en el caso de mis lados determinados, $A=\overrightarrow{a_ia_{i-1}}$ y $B=\overrightarrow{a_{i}a_{i+1}}$
 \end{itemize}
 
 Quiero ver que los ángulos interiores terminan formando el interior del polígono, es decir, que la intersección de los sectores angulares de los ángulos interiores del polígono es igual al interior del polígono.\\\\
-Sea $P$ un polígono convexo de vértices $a_1,\dots,a_n$ e $I_P$ su interior y $sec(\hat{a_i})$ el interior del ángulo $\hat{a_i}$, quiero ver que:
+Sea $P$ un polígono convexo de vértices $a_1,\dots,a_n$ e $I_P$ su interior y $sec(\hat{a_i}) -\hat{a}_i$ el interior del ángulo $\hat{a_i}$, quiero ver que:
 \begin{equation}
-    I_P = \bigcap_{i=1}^{n} sec(\hat{a_i})
+    I_P = \bigcap_{i=1}^{n} (sec(\hat{a_i}) -\hat{a_i}) = \bigcap_{i=1}^{n} int(\hat{a_i})
 \end{equation}
-\textbf{($\subseteq$)} Sea $x \in I_P$, por definición de interior de un polígono convexo, $x$ pertenece a todos los semiplanos determinados por las rectas $\overleftrightarrow{a_ia_{i+1}}$ que contengan a los otros $(n-2)$ puntos. Por lo tanto, $x$ pertenece a los semiplanos determinados por las rectas $A=\overleftrightarrow{a_{i-1}a_i}$ y $B=\overleftrightarrow{a_ia_{i+1}}$, es decir, $x \in B_A$ y $x \in A_B$ que forman el ángulo $\hat{a_i}$, por lo que $x \in sec(\hat{a_i})$. Como $x$ pertenece a todos los sectores angulares de los ángulos interiores del polígono, entonces $x \in \bigcap_{i=1}^{n} sec(\hat{a_i})$.\\\\
-\textbf{pensar en definir un ángulo y de ahí los demás y considerar el tema de que estoy tomando semirrectas y no un punto para definir los semiplanos abiertos, entonces considero cosas de la recta que no están}\\
-\textbf{($\supseteq$)} Sea $x \in \bigcap_{i=1}^{n} sec(\hat{a_i})$, entonces $x \in sec(\hat{a_i})$ para todo $i=1,\dots,n$. Por definición de sector angular, $x \in A_{a_ia_{i-1}}$ y $x \in B_{a_ia_{i+1}}$ para todo $i=1,\dots,n$. Por lo que $x$ pertenece a todos los semiplanos determinados por las rectas $\overleftrightarrow{a_ia_{i+1}}$ que contengan a los otros $(n-2)$ puntos, es decir, $x \in I_P$.\\\\
-\textbf{fijarme bien la definición de las semirrectas que estoy citando}
+\textbf{($\subseteq$)} Sea $x \in I_P$, por definición de interior de un polígono convexo, $x$ pertenece a todos los semiplanos determinados por las rectas $\overleftrightarrow{a_ia_{i+1}}$ que contengan a los otros $(n-2)$ puntos, por lo tanto, esos semiplanos abiertos, contienen a las semirrectas formadas por $\overrightarrow{a_{i+1}a_{i+2}}$ ya que por definición contiene a $a_{i+2}$ (acá hay una excepción con $a_{i+1}$ pues es parte de la recta). Por lo tanto, $x$ pertenece a los semiplanos determinados por $A=\overrightarrow{a_{i-1}a_i}$ y $B=\overrightarrow{a_ia_{i+1}}$, es decir, $x \in \overleftrightarrow{A}_B$ y $x \in \overleftrightarrow{B}_A$ que forman el interior del ángulo $\hat{a_i}$, ya que no pertenece a ninguna de las rectas que definen al polígono, más aún a sus semirrectas, por lo que $x \in sec(\hat{a_i})-\hat{a_i}$. Como $x$ pertenece a todos los interiores de los ángulos interiores del polígono, entonces $x \in \bigcap_{i=1}^{n} int(\hat{a_i})$.\\\\
+\textbf{($\supseteq$)} Sea $x \in \bigcap_{i=1}^{n} int(\hat{a_i})$, entonces $x \in int(\hat{a_i})$ para todo $i=1,\dots,n$. Por definición de interior de un ángulo y $A=\overrightarrow{a_ia_{i-1}}$ y $B=\overrightarrow{a_{i}a_{i+1}}$, $x \in \overleftrightarrow{A}_B$ y $x \in \overleftrightarrow{B}_A$ para todo $i=1,\dots,n$. Por lo que $x$ pertenece a todos los semiplanos determinados por las rectas $\overleftrightarrow{a_ia_{i+1}}$ que contengan a los otros $(n-2)$ puntos, es decir, $x \in I_P$.\\\\
 
 Por doble contención se concluye la igualdad.
 \subsection{Ejercicio 13}
 \subsubsection{Enunciado}
-Probar que las dos diagonales de un cuadriláteri convexo se cortan en un único punto y que éste es interior al cuadrilátero.
+Probar que las dos diagonales de un cuadrilátero convexo se cortan en un único punto y que éste es interior al cuadrilátero.
+\subsubsection{Demostración}
+\begin{itemize}
+    \item \textbf{P es polígono convexo:} Sean $a_1,\dots, a_n \in \Pi$ (con $n\geq 3$) numerados de tal modo que las rectas $\overline{a_1a_2}, \overline{a_2a_3}, \dots, \overline{a_na_1}$ dejen en un mismo semiplano abierto los $(n-2)$ puntos restantes. Se llama pológono convexo de vértices $a_1,\dots,a_n$ a la union de los segmentos $\overline{a_1a_2}, \overline{a_2a_3}, \dots, \overline{a_na_1}$.
+    \item \textbf{Diagonales del polígono:} Los segmentos que unen dos vértices no consecutivos
+    \item \textbf{Interior de un polígono convexo:} Sea la intersección de los semiplanos abiertos determinados por las rectas $\overleftrightarrow{a_ia_{i+1}}$ que contienen a los demás puntos, en estos se ignora los lados del polígono.
+\end{itemize}
+Notar que en el caso del cuadrilátero $i=1,\dots,4$.\\\\
+
+Sean $a_1, \dots, a_4$ los puntos que determinan un polígono convexo, entonces los lados del polígono están determinados por los segmentos $\overline{a_ia_{i+1}}$, considero la recta que contiene a $a_1$ y $a_3$, esta recta, divide el plano en dos semiplanos abiertos en los cuales $a_2$ y $a_4$ quedan en semiplanos distintos:\\\\
+Si no fuese así, supongo a $a_2$ está unido a $a_1$ y $a_3$ mediante los lados $\overline{a_1a_2}$ y $\overline{a_2a_3}$, Por definición del interior del cuadrilátero, uno de sus semiplanos que los forman, es decir, $\overleftrightarrow{A}_B$, con  $A=\overrightarrow{a_1a_2}$ y $B=\overrightarrow{a_2a_3}$ contienen a $a_3$ y $a_4$
 \end{document}
