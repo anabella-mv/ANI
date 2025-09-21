@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1758490237.5337 "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/Entrega.tex" "build/Entrega.pdf" "Entrega" 1758490238.05104 0
+["pdflatex"] 1758492674.85427 "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/Entrega.tex" "build/Entrega.pdf" "Entrega" 1758492675.34776 0
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1753472373 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1753230834 11548 d38a8a79954ee491fe27aafa6e132278 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
@@ -61,9 +61,9 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/mathtools/mathtools.sty" 1728300125 62711 3b0ed1d68b598a75677c10d16646d5e5 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/mathtools/mhsetup.sty" 1728300125 5582 a43dedf8e5ec418356f1e9dfe5d29fc3 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1749468414 10374 2ffd4f27c7f90b8a300608069537743c ""
-  "Entrega.tex" 1758490236 6050 8ba49a9fe80a11f38509e947d61611bb ""
-  "build/Entrega.aux" 1758490237 793 4a7778088c72d6e6889ec4da6ae8d054 "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/Entrega.tex" 1758490236 6050 8ba49a9fe80a11f38509e947d61611bb ""
+  "Entrega.tex" 1758492674 6942 1b84b468d69fc34dc678931d0bbcd57b ""
+  "build/Entrega.aux" 1758492675 793 4a7778088c72d6e6889ec4da6ae8d054 "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/Entrega.tex" 1758492674 6942 1b84b468d69fc34dc678931d0bbcd57b ""
   (generated)
   "build/Entrega.aux"
   "build/Entrega.log"
