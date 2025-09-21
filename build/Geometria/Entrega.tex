@@ -1,0 +1,46 @@
+\documentclass[a4paper]{article}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\title{Practico}
+\author{Geometría I}
+
+\begin{document}
+
+\maketitle
+\section{Práctico 2: Ejercicios 10 y 13}
+\subsection{Ejercicio 10}
+\subsubsection{Enunciado}
+Dado un polígono convexo $P$, probar que su interior es la intersección de los interiores de todos los ángulos interiores del polígono.
+\subsubsection{Solución}
+\begin{itemize}
+\item \textbf{P es polígono convexo:} Sean $a_1,\dots, a_n \in \Pi$ (con $n\geq 3$) numerados de tal modo que las rectas $\overline{a_1a_2}, \overline{a_2a_3}, \dots, \overline{a_na_1}$ dejen en un mismo semiplano abierto los $(n-2)$ puntos restantes. Se llama pológono convexo de vértices $a_1,\dots,a_n$ a la union de los segmentos $\overline{a_1a_2}, \overline{a_2a_3}, \dots, \overline{a_na_1}$.
+\item \textbf{Interior de un polígono convexo:} Sea la intersección de los semiplanos abiertos determinados por las rectas $\overleftrightarrow{a_ia_{i+1}}$ que contienen a los demás puntos, en estos se ignora los lados del polígono.
+\item \textbf{Ángulo interior:} del polígono son los ángulos de la forma $\widehat{a_{i-1}a_ia_{i+1}}$, y se los denota por $\hat{a_i}$.
+\item \textbf{Interior de un ángulo:} Considerar el sector angular sin los bordes es $sec(\angle AB) - \angle AB =(A_B\cap B_A)- \angle AB$, en el caso de mis lados determinados, $A=\overrightarrow{a_ia_{i-1}}$ y $B=\overrightarrow{a_{i}a_{i+1}}$
+\end{itemize}
+
+Quiero ver que los ángulos interiores terminan formando el interior del polígono, es decir, que la intersección de los sectores angulares de los ángulos interiores del polígono es igual al interior del polígono.\\\\
+Sea $P$ un polígono convexo de vértices $a_1,\dots,a_n$ e $I_P$ su interior y $sec(\hat{a_i}) -\hat{a}_i$ el interior del ángulo $\hat{a_i}$, quiero ver que:
+\begin{equation}
+    I_P = \bigcap_{i=1}^{n} (sec(\hat{a_i}) -\hat{a_i}) = \bigcap_{i=1}^{n} int(\hat{a_i})
+\end{equation}
+\textbf{($\subseteq$)} Sea $x \in I_P$, por definición de interior de un polígono convexo, $x$ pertenece a todos los semiplanos determinados por las rectas $\overleftrightarrow{a_ia_{i+1}}$ que contengan a los otros $(n-2)$ puntos, por lo tanto, esos semiplanos abiertos, contienen a las semirrectas formadas por $\overrightarrow{a_{i+1}a_{i+2}}$ ya que por definición contiene a $a_{i+2}$ (acá hay una excepción con $a_{i+1}$ pues es parte de la recta). Por lo tanto, $x$ pertenece a los semiplanos determinados por $A=\overrightarrow{a_{i-1}a_i}$ y $B=\overrightarrow{a_ia_{i+1}}$, es decir, $x \in \overleftrightarrow{A}_B$ y $x \in \overleftrightarrow{B}_A$ que forman el interior del ángulo $\hat{a_i}$, ya que no pertenece a ninguna de las rectas que definen al polígono, más aún a sus semirrectas, por lo que $x \in sec(\hat{a_i})-\hat{a_i}$. Como $x$ pertenece a todos los interiores de los ángulos interiores del polígono, entonces $x \in \bigcap_{i=1}^{n} int(\hat{a_i})$.\\\\
+\textbf{($\supseteq$)} Sea $x \in \bigcap_{i=1}^{n} int(\hat{a_i})$, entonces $x \in int(\hat{a_i})$ para todo $i=1,\dots,n$. Por definición de interior de un ángulo y $A=\overrightarrow{a_ia_{i-1}}$ y $B=\overrightarrow{a_{i}a_{i+1}}$, $x \in \overleftrightarrow{A}_B$ y $x \in \overleftrightarrow{B}_A$ para todo $i=1,\dots,n$. Por lo que $x$ pertenece a todos los semiplanos determinados por las rectas $\overleftrightarrow{a_ia_{i+1}}$ que contengan a los otros $(n-2)$ puntos, es decir, $x \in I_P$.\\\\
+
+Por doble contención se concluye la igualdad.
+\subsection{Ejercicio 13}
+\subsubsection{Enunciado}
+Probar que las dos diagonales de un cuadrilátero convexo se cortan en un único punto y que éste es interior al cuadrilátero.
+\subsubsection{Demostración}
+\begin{itemize}
+    \item \textbf{P es polígono convexo:} Sean $a_1,\dots, a_n \in \Pi$ (con $n\geq 3$) numerados de tal modo que las rectas $\overline{a_1a_2}, \overline{a_2a_3}, \dots, \overline{a_na_1}$ dejen en un mismo semiplano abierto los $(n-2)$ puntos restantes. Se llama pológono convexo de vértices $a_1,\dots,a_n$ a la union de los segmentos $\overline{a_1a_2}, \overline{a_2a_3}, \dots, \overline{a_na_1}$.
+    \item \textbf{Diagonales del polígono:} Los segmentos que unen dos vértices no consecutivos
+    \item \textbf{Interior de un polígono convexo:} Sea la intersección de los semiplanos abiertos determinados por las rectas $\overleftrightarrow{a_ia_{i+1}}$ que contienen a los demás puntos, en estos se ignora los lados del polígono.
+    \item Notar que en el caso del cuadrilátero $i=1,\dots,4$.
+    \item Por definición de sector de un polígono convexo, ambas diagonales quedan en él ya que son segmentos que están contenidos en todos los semiplanos convexos que conforman dicho sector, y como es intersección de convexos, el sector poligonal también lo es.
+\end{itemize}
+Sea un cuadrilátero convexo un polígono de vértices $a_1, a_2, a_3, a_4$ (Todos puntos distintos). Conociendo que ambas diagonales están en el interior del sector polígonal, es decir, $\overline{a_1a_3}$ y $\overline{a_2a_4}$ están totalmente contenidas en el sector poligonal, quiero ver que estos segmentos se cortan en único punto.\\\\
+Considero la recta $\overleftrightarrow{a_1a_3}$ que define dos semiplanos y deja a $a_2$ y $a_4$ en dos semiplanos distintos, porque si no fuese así entonces al querer unir los segmentos para nuevamente formar el polígono, todos ellos quedarían dentro del mismo semiplano abierto, pero no así el segmento $\overline{a_1a_3}$ que termina determinado fuera del sector poligonal, lo cual es absurdo ya que las diagonales están en su interior. Absurdo que nace de asumir que $a_2$ y $a_4$ están en el mismo semiplano. \\
+Ahora como sé que están en semiplanos distintos por \textbf{II.3} el segmento $\overline{a_2a_4}$ corta a la recta $\overleftrightarrow{a_1a_3}$ en un único punto, ahora ¿Qué asegura que tal intersección sea dentro del interior del polígono?
+\end{document}
