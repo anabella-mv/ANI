@@ -38,10 +38,34 @@ Probar que las dos diagonales de un cuadrilátero convexo se cortan en un único
     \item \textbf{Diagonales del polígono:} Los segmentos que unen dos vértices no consecutivos
     \item \textbf{Interior de un polígono convexo:} Sea la intersección de los semiplanos abiertos determinados por las rectas $\overleftrightarrow{a_ia_{i+1}}$ que contienen a los demás puntos, en estos se ignora los lados del polígono.
     \item Notar que en el caso del cuadrilátero $i=1,\dots,4$.
-    \item Por definición de sector de un polígono convexo, ambas diagonales quedan en él ya que son segmentos que están contenidos en todos los semiplanos convexos que conforman dicho sector, y como es intersección de convexos, el sector poligonal también lo es.
+    \item Por definición de sector de un polígono convexo, ambas diagonales quedan en él ya que son segmentos que están contenidos en todos los semiplanos convexos que conforman dicho sector, y como es intersección de convexos, el sector poligonal también lo es. Podemos considerar que si no tomamos en cuenta sus extremos, los segmentos que conforman dichas diagonales están contenidas en el interior del polígono.
 \end{itemize}
 Sea un cuadrilátero convexo un polígono de vértices $a_1, a_2, a_3, a_4$ (Todos puntos distintos). Conociendo que ambas diagonales están en el interior del sector polígonal, es decir, $\overline{a_1a_3}$ y $\overline{a_2a_4}$ están totalmente contenidas en el sector poligonal, quiero ver que estos segmentos se cortan en único punto.\\\\
 Considero la recta $\overleftrightarrow{a_1a_3}$ que define dos semiplanos y deja a $a_2$ y $a_4$ en dos semiplanos distintos, porque si no fuese así entonces al querer unir los segmentos para nuevamente formar el polígono, todos ellos quedarían dentro del mismo semiplano abierto, pero no así el segmento $\overline{a_1a_3}$ que termina determinado fuera por ser parte de la recta que lo define, lo cual es absurdo ya que las diagonales están en el interior del polígono. Absurdo que nace de asumir que $a_2$ y $a_4$ están en el mismo semiplano abierto. \\\\
 Ahora como sé que están en semiplanos distintos por \textbf{II.3} el segmento $\overline{a_2a_4}$ corta a la recta $\overleftrightarrow{a_1a_3}$ en un único punto, llamemósle $o_1$, ¿Qué asegura que tal intersección sea dentro del interior del polígono ?, es decir, quiero ver que $\overline{a_2a_4}$ corta a $\overline{a_1a_3}$, para eso tomo en cuenta el procedimiento análogo al que obtuve al decir que $\overline{a_2a_4}$ corta a la recta que contiene a la otra diagonal y concluyo que $\overline{a_1a_3}$ corta a la recta $\overleftrightarrow{a_2a_4}$ en un único punto al que voy a llamar $o_2$. Si supongo $o_1 \neq o_2$ esto quiere decir que las rectas son iguales ya que son dos puntos que pertenecen a ambas y por \textbf{I.3} tal recta es única, lo cual es absurdo porque los puntos que la determinan, es decir, los extremos de los segmentos, perteneces a semiplanos abiertos distintos para cada una de las rectas, esto implica que $o_1=o_2$ (el punto es único).\\\\
 Por lo tanto, las diagonales del cuadrilátero se cortan én un único punto en el interior del polígono.
+
+\subsubsection{Otra demostración}
+El sector poligonal es convexo. La intersección de cualquier par de segmentos distintos contenidos en el sector poligonal está dentro del sector poligonal (propiedad de conjuntos). La intersección de cualesquiera dos segmentos distintos es única pues la intersección de dos rectas distintas es única (ver contrarrecíproca del Teorema 2), en particular de sus diagonales. Por lo tanto esta intersección pertenece al sector poligonal.\\\\
+
+Ahora queremos ver que la intersección $p$ no pertenece al cuadrilátero:\\\\
+
+$\bullet$ Caso la intersección $p$ de las diagonales pertenece a algún lado del cuadrilátero:  
+
+$p$ pertenece al interior del segmento $a_{i}a_{i+1}$ es decir además pertenece
+al interior de la diagonal $a_{i}a_{i+2}$, de igual forma $a_{i}$ pertenece a
+ambos segmentos, luego por el tercer axioma de incidencia la recta que pasa por
+estos puntos es única, por lo tanto esta recta contiene a ambos segmentos,
+por lo tanto los puntos $a_{i},a_{i+1},a_{i+2}$ pertenecen a la
+misma recta lo que es absurdo por definición de polígono convexo.\\\\
+
+$\bullet$ Caso la intersección $p$ de las diagonales pertenece a un vértice:\\\\
+
+$p=a_{i}$ entonces $p$ pertenece al segmento $a_{i-1}a_{i}$ además pertenece
+al segmento $a_{i-1}a_{i+1}$ de igual manera $a_{i-1}$ pertenece a ambos segmentos.
+La recta que contiene a estos dos puntos es única, por lo tanto
+los segmentos deben estár contenidos en esta recta, luego los puntos
+$a_{i-1}, a_{i}, a_{i+1}$ pertenecen a la misma recta absurdo.\\\\
+
+Luego $p$ no pertenece al cuadrilátero, es decir pertenece al interior del cuadrílatero.
 \end{document}
