@@ -184,4 +184,39 @@ Probar que las dos diagonales de un cuadrilátero convexo se cortan en un único
 Sea un cuadrilátero convexo un polígono de vértices $a_1, a_2, a_3, a_4$ (Todos puntos distintos). Conociendo que ambas diagonales están en el interior del sector polígonal, es decir, $\overline{a_1a_3}$ y $\overline{a_2a_4}$ están totalmente contenidas en el sector poligonal, quiero ver que estos segmentos se cortan en único punto.\\\\
 Considero la recta $\overleftrightarrow{a_1a_3}$ que define dos semiplanos y deja a $a_2$ y $a_4$ en dos semiplanos distintos, porque si no fuese así entonces al querer unir los segmentos para nuevamente formar el polígono, todos ellos quedarían dentro del mismo semiplano abierto, pero no así el segmento $\overline{a_1a_3}$ que termina determinado fuera del sector poligonal, lo cual es absurdo ya que las diagonales están en su interior. Absurdo que nace de asumir que $a_2$ y $a_4$ están en el mismo semiplano. \\
 Ahora como sé que están en semiplanos distintos por \textbf{II.3} el segmento $\overline{a_2a_4}$ corta a la recta $\overleftrightarrow{a_1a_3}$ en un único punto, ahora ¿Qué asegura que tal intersección sea dentro del interior del polígono?
+\subsection{Ejercicio 2}
+\subsubsection{Enunciado}
+Sea $p$ un punto de la recta $A$ del plano $\Pi$, y sea $q \in \Pi \backslash A$. Probar que la semirrecta opuesta a $\overrightarrow{pq}$ está contenida en $\check{A}_q$
+\subsubsection{Demostración}
+Sea $A$ la recta que divide el plano en dos semiplanos abiertos disjuntos, dos puntos no están en el mismo semiplano si y solo si el segmento que los une no interseca $A$.\\\\
+Por definición de recta, sea $\overleftrightarrow{pq}=\overrightarrow{pq}\cup \check{\overrightarrow{pq}}$. Por definición de semirrecta opuesta, sea un $x \in \check{\overrightarrow{pq}}$, entonces $p \in \overline{xq}$ y a su vez $p \in A$, por lo tanto $\overline{xq}$ interseca a $A$ en $p$, y por \textbf{II.3} $x$ no está en el mismo semiplano que $q$, si no en su semiplano opuesto respecto a $A$, a su vez como mi elección de $x$ es arbitraria en la semirrecta opuesta, entonces toda la semirrecta se encuentra contenida en el semiplano $\check{A}_p$
+\subsection{Ejercicio 3}
+Sean $a, b, o$ tres puntos no alineados, probar las siguientes afirmaciones:
+\subsubsection{(a)}
+\section{Práctico 3}
+\subsection{Ejercicio 1}
+Sea $f: X \rightarrow Y$ biyectiva, $A,B \subseteq X$ y $C,D \subseteq Y$. Probar:
+\subsubsection{(a) $f(A\cup B)=f(A)\cup f(B)$}
+\textbf{($\subseteq$)} Sea $y \in f(A\cup B)$, entonces existe $x \in A\cup B$ tal que $f(x)=y$. Por definición de unión, $x \in A$ o $x \in B$. Si $x \in A$, entonces $y=f(x) \in f(A)$, y si $x \in B$, entonces $y=f(x) \in f(B)$. En ambos casos, $y \in f(A)\cup f(B)$.\\\\
+\textbf{($\supseteq$)} Sea $y \in f(A)\cup f(B)$, entonces $y \in f(A)$ o $y \in f(B)$. Si $y \in f(A)$, entonces existe $x \in A$ tal que $f(x)=y$, y si $y \in f(B)$, entonces existe $x \in B$ tal que $f(x)=y$. En ambos casos, $x \in A\cup B$, por lo tanto, $y=f(x) \in f(A\cup B)$.\\\\
+\subsubsection{(b) $f(A\cap B)=f(A)\cap f(B)$}
+\subsection{Ejercicio 2}
+Sea $T$ una transformación rígida. Porbar que:
+\subsubsection{(a) $T$ lleva rectas paralelas en rectas paralelas}
+Sea $R$ y $S$ dos rectas paralelas, es decir, $R \cap S = \emptyset$. Quiero ver que $T(R) \cap T(S) = \emptyset$.\\\\
+Si $T(R) \cap T(S) \neq \emptyset$, entonces existe $y \in T(R) \cap T(S)$, es decir, $y \in T(R)$ y $y \in T(S)$. Por lo que existen $x_1 \in R$ y $x_2 \in S$ tales que $T(x_1)=y$ y $T(x_2)=y$. Por lo que $T(x_1)=T(x_2)$, y como $T$ es inyectiva, entonces $x_1=x_2$, lo cual es absurdo ya que $R$ y $S$ son disjuntas.\\\\
+Por lo tanto, $T(R) \cap T(S) = \emptyset$, es decir, $T(R)$ y $T(S)$ son rectas paralelas.\\\\
+\subsubsection{(b) $T$ lleva rectas secantes en rectas secantes}
+Sea $R$ y $S$ dos rectas secantes, es decir, $R \cap S = \{p\}$. Quiero ver que $T(R) \cap T(S) = \{T(p)\}$.\\\\
+Aplico en la definición de la intersección la transformación rígida y obtengo $T(R \cap S) = T(\{p\})$, además como $T$ es biyectiva y una función, puedo obtener lo siguiente $T(R) \cap T(S) = \{T(p)\}$ y por el axioma \textbf{III.1} manda a las rectas $R$ y $S$ en rectas, por lo tanto, las rectas resultantes terminan siendo secantes.
+\subsubsection{(c) $T$ lleva conjuntos convexos en conjuntos convexos}
+Sea $C$ un conjunto convexo, es decir, $\forall a,b \in C$, $a \neq b$ vale que $\overline{ab} \subseteq C$. Quiero ver que $T(C)$ es convexo, es decir, $\forall y_1,y_2 \in T(C)$, $y_1 \neq y_2$ vale que $\overline{y_1y_2} \subseteq T(C)$.\\\\
+Sea $y_1,y_2 \in T(C)$, entonces existen $x_1,x_2 \in C$ tales que $T(x_1)=y_1$ y $T(x_2)=y_2$. Por lo que $x_1 \neq x_2$, ya que si no fuese así, $y_1=y_2$, lo cual es absurdo.\\\\
+Por lo que $\overline{x_1x_2} \subseteq C$, y aplicando la transformación rígida, $T(\overline{x_1x_2}) \subseteq T(C)$. Por lo que $\overline{y_1y_2} \subseteq T(C)$, esto sale del corolario 15 que dice que $T(\overline{ab})=\overline{a'b'}$ con $a'=T(a), b'=T(b)$ ya que $T$ es una transformación rígida, entonces $T(\overline{x_1x_2})=\overline{y_1y_2}$. Y resulta que $T(C)$ es convexo.
+
+\subsection{Ejercicio 4}
+\subsubsection{(a) Probar que si $T(\overrightarrow{pq})=\overrightarrow{rs}$ entonces $T(p)=r$ y $T(\check{\overrightarrow{pq}})=\check{\overrightarrow{rs}}$}
+Sea $T(\overrightarrow{pq})=\overrightarrow{rs}$, por el corolario 
+
+
 \end{document}
