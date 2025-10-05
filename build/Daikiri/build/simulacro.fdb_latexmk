@@ -1,7 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1759630338.18362 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/simulacro.tex" "build/simulacro.pdf" "simulacro" 1759630338.71521 0
+["pdflatex"] 1759630875.06907 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/simulacro.tex" "build/simulacro.pdf" "simulacro" 1759630875.66419 0
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1759627302 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+  "C:/Users/maile/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1753230834 11548 d38a8a79954ee491fe27aafa6e132278 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
+  "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -49,10 +51,9 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/mathtools/mhsetup.sty" 1728300125 5582 a43dedf8e5ec418356f1e9dfe5d29fc3 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/preprint/fullpage.sty" 1369148873 2867 05b418f78b224ec872f5b11081138605 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1749468414 10374 2ffd4f27c7f90b8a300608069537743c ""
-  "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1749468414 33259 db80f750a01491473161bd4d0f6986d2 ""
-  "build/simulacro.aux" 1759630338 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/simulacro.tex" 1759630337 459 b61bac4ca489af2068253ea0a00966ab ""
-  "simulacro.tex" 1759630337 459 b61bac4ca489af2068253ea0a00966ab ""
+  "build/simulacro.aux" 1759630875 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/simulacro.tex" 1759630873 769 4d097ca04dd0e94c0d096ac2b95fc26d ""
+  "simulacro.tex" 1759630873 769 4d097ca04dd0e94c0d096ac2b95fc26d ""
   (generated)
   "build/simulacro.aux"
   "build/simulacro.log"
