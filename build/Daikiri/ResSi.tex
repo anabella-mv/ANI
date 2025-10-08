@@ -6,6 +6,7 @@
 \usepackage{multicol}
 \usepackage{fullpage}
 \usepackage{graphicx}
+\usepackage{polynom}
 \title{Facultad de Matemática, Astronomía, Física y Computación}
 \author{Curso de Nivelación 2025\\Simulacro Primer Parcial\\ GURI - La Bisagra, conduccion del CEIMAF}
 \date{10 de Octubre de 2025}
@@ -23,7 +24,7 @@
         (b) Martine tiene 67 años, Lucía 8 y Julieta 9.\\\\
         El \textbf{doble de la suma} de las edades que están avanzando con el paso de esos $x$ años se puede ver como:
         \begin{equation*}
-                2\cdot((8+x)+(9+x))=66+x
+                2\cdot((8+x)+(9+x))=67+x
         \end{equation*}
         Se puede resolver de la siguiente manera:
         \begin{gather*}
@@ -34,5 +35,169 @@
                 x=\frac{33}{3}\\
                 x=11
         \end{gather*}
-\end{enumerate}
+        \item Resolvemos la división como se conoce.
+        \begin{center}
+            \polylongdiv[style=D]{x^5+5x^4+x^3-2x^2-10x+2}{x^4-2x}
+        \end{center}
+        Como podemos ver:
+        \begin{itemize}
+            \item \textbf{Cociente:} $x+5$
+            \item \textbf{Resto:} $x^3+2$
+        \end{itemize}
+        \item (a) El total de preguntas es 100, si llamamos $x$ a las que se respondieron correctamente e $y$ a las incorrectas o en blanco, obtengo que $x+y=100$, ahora si hablamos del puntaje podemos determinar que $76$ es el total de sumar todas las correctas y restar el medio punto que da de sanción la incorrecta, es decir, $x-\frac{1}{2}y=76$
+        \begin{equation*}
+            \left\{
+            \begin{array}{l}
+                x+y=100\\
+                x-\frac{1}{2}y=76
+            \end{array}
+            \right.
+        \end{equation*}
+        (b) Resolver el sistema:
+        \begin{equation*}
+            \left\{
+            \begin{array}{l}
+                x+y=100\\
+                x-\frac{1}{2}y=76
+            \end{array}
+            \right.
+            \implies
+            \left\{
+            \begin{array}{l}
+                x=100-y\\
+                x-\frac{1}{2}y=76
+            \end{array}
+            \right.
+        \end{equation*}
+        Uso sustitución en $x$ en la segunda ecuación:
+        \begin{equation*}
+            \left\{
+            \begin{array}{l}
+                x=100-y\\
+                100-y-\frac{1}{2}y=76
+            \end{array}
+            \right.
+            \implies
+            \left\{
+            \begin{array}{l}
+                x=100-y\\
+                -\frac{3}{2}y=76-100
+            \end{array}
+            \right.
+            \implies\left\{
+            \begin{array}{l}
+                x=100-y\\
+                y=-24 : \left(-\frac{3}{2}\right)=16
+            \end{array}
+            \right.
+        \end{equation*}
+        Por último reemplazo el valor de $y$ en la primera ecuación:
+        \begin{equation*}
+            \left\{
+            \begin{array}{l}
+                x=100-16=84\\
+                y=16
+            \end{array}
+            \right.
+        \end{equation*}
+        Como llegué a una única solución podemos asegurar que el sistema de ecucaiones es \textbf{compatible} y \textbf{determinado}, con $84$ respuestas correctas y $16$ incorrectas.
+        \item (a) Al hablar de una única raíz real doble, aseguramos que el discriminante sea 0:
+        \begin{gather*}
+            \Delta=b^2-4ac=0\\
+            \Delta=(-9)^2-4\cdot k \cdot k=0\\
+            \Delta=81-4k^2=0
+        \end{gather*}
+        Podemos notar una diferencia de cuadrados ya que $4k^2=(2k)^2$
+        \begin{gather*}
+            (9-2k)(9+2k)=0\\
+            9-2k=0 \vee 9+2k=0
+        \end{gather*}
+        Despejamos k en ambos casos:
+        \begin{equation*}
+                k=\frac{9}{2} \vee k=-\frac{9}{2}
+        \end{equation*}
+        Por lo tanto, $k$ no es único.\\\\
+        (b) Para calcular las raíces de la ecuación, tomemos $y=x^2$
+        \begin{gather*}
+            x^4-8x^2+16=0\\
+            y^2-8y+16=0
+        \end{gather*}
+        Aplico la fórmula de Bhaskara:
+        \begin{gather*}
+            y=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\
+            y=\frac{8\pm\sqrt{(-8)^2-4\cdot 1 \cdot 16}}{2\cdot 1}\\
+            y=\frac{8\pm\sqrt{64-64}}{2}\\
+            y=\frac{8\pm 0}{2}\\
+            y=4
+        \end{gather*}
+        Ahora deshacemos el cambio de variable:
+        \begin{gather*}
+            x^2=4\\
+            x=\pm\sqrt{4}\\
+            x=\pm 2
+        \end{gather*}
+        (c) Sabemos que la suma de las raíces es $-5$ y el producto $6$, por lo tanto:
+        \begin{gather*}
+            x_1+x_2=-\frac{b}{a}=-5\\
+            x_1 \cdot x_2=\frac{c}{a}=6
+        \end{gather*}
+        De allí podemos trabajar despejando porque conocemos $b$, pero a su vez, sabemos que sabiendo sus raíces podemos reescribir a la ecuación de la siguiente manera:
+        \begin{gather*}
+            ax^2+bx+c=a(x-x_1)(x-x_2)=0\\
+            ax^2+5x+c=a(x^2-(x_1+x_2)x+x_1x_2)=0\\
+            ax^2+5x+c=a(x^2+5x+6)=0 
+        \end{gather*}
+        De acá podemos concluir que $5x=a5x$ lo que implica que $a=1$ y de allí ya obtenemos $c$.
+        \item (a) La ecuación no está definida cuando el denominador es 0, es decir, cuando $x^3-4x=0$. En particular podemos notar que podemos factorizarlo como $x(x^2-4)=0$, donde es más obvio cuales son las raíces del denominador: $x=0$, $x=2$ y $x=-2$. La segunda parte es usando diferencia de cuadrados ($(x^2-4)=(x-2)(x+2)$).\\\\
+        (b) Simplificamos la ecuación:
+        \begin{gather}
+            \frac{x^4-16}{x^3-4x}=5\\
+            \frac{(x^2-4)(x^2+4)}{x(x^2-4)}=5\\
+            \frac{x^2+4}{x}=5\\
+            x^2+4=5x\\
+            x^2-5x+4=0
+        \end{gather}
+        Acá podemos buscar sus raíces de la manera que conocemos por ser una ecuación de segundo grado:
+        \begin{gather*}
+            x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\
+            x=\frac{5\pm\sqrt{(-5)^2-4\cdot 1 \cdot 4}}{2\cdot 1}\\
+            x=\frac{5\pm\sqrt{25-16}}{2}\\
+            x=\frac{5\pm\sqrt{9}}{2}\\
+            x=\frac{5\pm 3}{2}
+        \end{gather*}
+        Por lo tanto, las raíces son: $x_1=\frac{8}{2}=4$ y $x_2=\frac{2}{2}=1$.
+        \item (a) La proposición es \textit{Verdadera}, ya que si resolvemos la ecuación $2x-3=3x+1$ obtenemos:
+        \begin{gather*}
+            2x-3=3x+1\\
+            2x-3x=1+3\\
+            -x=4\\
+            x=-4
+        \end{gather*}
+        Por lo tanto, existe un $x$ en los reales que cumple la ecuación. La negación de la proposición nos cambia el cuantificador y niega la función proposicional:
+        \begin{equation*}
+            \forall x \in \mathbb{R}, 2x-3 \neq 3x+1
+        \end{equation*}
+        (b) Sabemos que $(\neg p \wedge q)$ es \textit{Falso}, por lo que una o ambas son falsas, con $p \implies r$ tenemos que es falsa si $p$ es verdadera y $r$ falsa, ahí obtuve dos valores de la verdad y me queda $q$ que podemos resolverla con $\neg p \iff q$ que es verdadera únicamente cuando ambas son falsas o verdaderas, como $\neg p$ es falsa, $q$ es falsa.
+        \begin{itemize}
+            \item $p$ es \textit{Verdadero}, $q$ es \textit{Falso} y $r$ es \textit{Falso}.
+            \item 
+            \begin{gather*}
+                    (V \vee F)\implies (\neg F)\\
+                    V \implies V\\
+                    V
+            \end{gather*}
+        \end{itemize}
+        \item (a)
+        \begin{itemize}
+            \item Resuelvo la ecuación que condiciona a $A$: Identifico a $0$ como raíz y luego diferencia de cuadrados donde las raíces son las que provocan $0$ en $(2x-4)$ y $(2x+4)$, es decir, \textit{por extensión} $A=\{0,2,-2\}$
+            \item $B$ \textit{por compresión} se ve como $B=\{x\in \mathbb{R}: 3\leq x\}$
+            \item $C$ \textit{como intervalo} es $C=(-3,8]$
+        \end{itemize}
+        (b)
+        \begin{itemize}
+            \item $C^c=\mathcal{U}-C=(-\infty,-3]\cup(8,\infty)$
+            \item $A\cap B=\{-2,0,2\} \cap [3,\infty)=\varnothing$
+            \item $B-C=[3,\infty)-(-3,8]=(8,\infty)$
+        \end{itemize}
+    \end{enumerate}
 \end{document}

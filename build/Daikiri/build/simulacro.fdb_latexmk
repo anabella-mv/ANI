@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1759951684.19973 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/simulacro.tex" "build/simulacro.pdf" "simulacro" 1759951684.9942 0
-  "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1759627302 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+["pdflatex"] 1759953536.47264 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/simulacro.tex" "build/simulacro.pdf" "simulacro" 1759953537.10036 0
+  "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1759951979 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1753230834 11548 d38a8a79954ee491fe27aafa6e132278 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
@@ -64,9 +64,9 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/preprint/fullpage.sty" 1369148873 2867 05b418f78b224ec872f5b11081138605 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1749468414 10374 2ffd4f27c7f90b8a300608069537743c ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1749468414 33259 db80f750a01491473161bd4d0f6986d2 ""
-  "build/simulacro.aux" 1759951684 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/simulacro.tex" 1759951682 4553 234ce9637e62512c0b5ce9392a0a3ac9 ""
-  "simulacro.tex" 1759951682 4553 234ce9637e62512c0b5ce9392a0a3ac9 ""
+  "build/simulacro.aux" 1759953536 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/simulacro.tex" 1759953535 4554 37dfc42f0cb4ef745910f8989319fd42 ""
+  "simulacro.tex" 1759953535 4554 37dfc42f0cb4ef745910f8989319fd42 ""
   (generated)
   "build/simulacro.aux"
   "build/simulacro.log"
