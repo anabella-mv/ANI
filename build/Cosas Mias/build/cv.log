@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  24 OCT 2025 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  24 OCT 2025 17:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -793,13 +793,13 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  27296 strings out of 468149
  529776 string characters out of 5431082
- 1031948 words of memory out of 5000000
+ 1031998 words of memory out of 5000000
  55264 multiletter control sequences out of 15000+600000
  689746 words of font info for 148 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,12n,129p,1054b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso17.pfb>
-Output written on "c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\cv.pdf" (4 pages, 242751 bytes).
+Output written on "c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\cv.pdf" (4 pages, 242306 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1761336981.71238 "c:/Users/maile/OneDrive/Desktop/ANI/build/Cosas Mias/cv.tex" "build/cv.pdf" "cv" 1761336983.19275 0
+["pdflatex"] 1761338973.49876 "c:/Users/maile/OneDrive/Desktop/ANI/build/Cosas Mias/cv.tex" "build/cv.pdf" "cv" 1761338974.90449 0
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1761336645 82011 97247c01f6bfb6f6d0c40fab12a08423 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1651500229 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
@@ -197,10 +197,10 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "build/cv.aux" 1761336982 1389 71f9192553791b8433cbb466cd1a5e93 "pdflatex"
-  "build/cv.out" 1761336982 1848 e5bf2fa927e41027027fcaa0f9cdf89b "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Cosas Mias/cv.tex" 1761336979 17606 3c90a9fc63ed47003d2ba5ad3f657262 ""
-  "cv.tex" 1761336979 17606 3c90a9fc63ed47003d2ba5ad3f657262 ""
+  "build/cv.aux" 1761338974 1389 71f9192553791b8433cbb466cd1a5e93 "pdflatex"
+  "build/cv.out" 1761338974 1848 e5bf2fa927e41027027fcaa0f9cdf89b "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Cosas Mias/cv.tex" 1761338972 17608 3c4a79fc46048dbf0e65058d7d997fc7 ""
+  "cv.tex" 1761338972 17608 3c4a79fc46048dbf0e65058d7d997fc7 ""
   (generated)
   "build/cv.aux"
   "build/cv.log"
