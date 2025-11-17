@@ -1,0 +1,277 @@
+\documentclass[a4paper]{article}
+\usepackage[a4paper, top=1.5cm, left=2cm, right=2cm,bottom=2cm]{geometry}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{polynom}
+\title{Facultad de Matemática, Astronomía, Física y Computación}
+\author{Curso de Nivelación 2025\\Simulacro Segundo Parcial\\ GURI - La Bisagra, conduccion del CEIMAF}
+\date{21 de Noviembre de 2025}
+\begin{document}
+\maketitle
+\section{Resolución}
+\begin{enumerate}
+    \item
+    \begin{enumerate}
+        \item Visualmente se aprecia una función por partes en la cual hay puntos abiertos y cerrados, vemos como el dominio es $[-4,4)$, abierto al final ya que en $4$ hay un punto abierto y la imagen es $[-2,2]$.
+        \item El conjunto de valores de $x$ para los que se cumple que $f(x)\leq-1$ son $[-4,-3] \cup [-1,4]$
+        \item Por como está definida la función $g(x)=-f(x+1)$, podemos ver que en primer lugar tiene un desplazamiento a la izquierda de $1$ y luego se refleja respecto al eje $x$ dado por el $-1$ que multiplica a $f$.
+        \begin{enumerate}
+            \item Desplazamiento a la izquierda de $1$:
+            \begin{figure}[htb]
+                \centering
+                \includegraphics[scale=0.5]{izquierda.png}
+                \label{fig:izquierda}
+            \end{figure}
+            \item Reflexión respecto al eje $x$:
+            \begin{figure}[htb]
+                \centering
+                \includegraphics[scale=0.35]{reflejo.png}
+                \label{fig:reflejo}
+            \end{figure}
+        \end{enumerate}
+    \end{enumerate}
+    \item Podemos ver que en el denominador no puede tener valores que provoquen el $0$, por lo cual $x^2-1\neq 0$:
+        \begin{gather*}
+            x^2-1\neq0\\
+            x^2\neq1\\
+            x\neq\pm 1
+        \end{gather*}
+        o bien tambien puede verse como diferencia de cuadrados:
+        \begin{gather*}
+            x^2-1\neq0\\
+            (x-1)(x+1)\neq 0\\
+            x\neq 1, x\neq -1
+        \end{gather*}
+        Otro conflicto yace en el radicando en el numerador, sabemos que debe ser siempre positivo o igual a 0:
+        \begin{gather*}
+            x+1\geq 0\\
+            x\geq -1
+        \end{gather*}
+        Conociendo estas restricciones podemos definir el dominio como $(-1,1) \cup (1,\infty)$
+        \item 
+        \begin{enumerate}
+            \item Para obtener la ecuación de una recta que pasa por dos puntos podemos en primer lugar buscar la pendiente con $A=(x_1,y_1)=(8,-2)$ y $B=(x_2,y_2)=(-4,2)$:
+            \begin{gather*}
+                m=\frac{y_2-y_1}{x_2-x_1}\\
+                m=\frac{2-(-2)}{-4-8}\\
+                m=\frac{4}{-12}=-\frac{1}{3}
+            \end{gather*}
+            La ecuación de una recta es de la forma $y=mx+b$, es decir, que una vez obtenida la pendiente podemos evaluar en cualquier punto que conozcamos para poder despejar $b$, evalúo en $A$:
+            \begin{gather*}
+            y_1=-\frac{1}{3}x_1+b\\
+            -2=-\frac{1}{3}8+b\\
+            -2+\frac{8}{3}=b\\
+            \frac{-6+8}{3}=b\\
+            b=\frac{2}{3}
+            \end{gather*}
+            \begin{figure}[htb]
+                \centering
+                \includegraphics[scale=0.35]{L.png}
+                \label{fig:lineal}
+            \end{figure}
+            \item La rectas perpendiculares tienen pendientes negativas recíprocas entre sí, es decir, $m_p=-\frac{1}{m}$ por lo que la pendiente de la recta perpendicular es $m_p=-\frac{1}{-\frac{1}{3}}=3$ a lo cual sólo nos falta saber donde ubicar tal recta a lo largo de toda la recta $L$, para eso consideramos el punto que pertenece a la recta $C=(0,-1)$:
+            \begin{gather*}
+            y_3=3x_3+b\\
+            -1=3\cdot 0+b\\
+            -1=b\\
+            \end{gather*}
+            \item Para el punto de intersección bastaría igualar las ecuaciones con el metodo de igualación con $y$:
+            \begin{gather*}
+            -\frac{1}{3}x+\frac{2}{3}=3x-1\\
+            \frac{2}{3}+1=3x+\frac{1}{3}x\\
+            \frac{2+3}{3}=\frac{9+1}{3}x\\
+            -\frac{5}{3}=\frac{10}{3}x\\
+            -\frac{5}{3}\cdot \frac{3}{10}=x\\
+            \frac{5}{10}=x\\
+            x=\frac{1}{2}
+            \end{gather*}
+            Ahora puedo reemplazar ese valor de $x$ en cualquiera de las funciones de la recta y obtener la coordenada $y$:
+            \begin{gather*}
+            y=-\frac{1}{3}\cdot \frac{1}{2}+\frac{2}{3}\\
+            y=-\frac{1}{6}+\frac{2}{3}\\
+            y=\frac{-1+4}{6}\\
+            y=\frac{3}{6}\\
+            y=\frac{1}{2}
+            \end{gather*}
+            La coordenada del punto intersección es en $\left(\frac{1}{2},\frac{1}{2}\right)$
+            \begin{figure}[htb]
+                \centering
+                \includegraphics[scale=0.35]{P.png}
+                \label{fig:perpendicular}
+            \end{figure}
+        \end{enumerate}
+        \item
+        \begin{enumerate}
+            \item Podemos ver que ambos puntos dados se encuentran a la misma altura, por lo tanto el eje de simetría se encuentra en medio de ellos, por lo tanto:
+            \begin{gather*}
+                x_v=\frac{x_M+x_N}{2}\\
+                x_v=\frac{-2+14}{2}\\
+                x_v=\frac{12}{2}\\
+                x_v=6
+            \end{gather*}
+            \item Tanto como para $a$ como para $b$ podemos plantear un sistema de ecuaciones con los puntos dados:
+            \begin{gather*}
+                f(-2)=a(-2)^2+b(-2)+\frac{5}{2}=6\\
+                4a-2b+\frac{5}{2}=6\\
+                4a-2b=6-\frac{5}{2}\\
+                4a-2b=\frac{12-5}{2}\\
+                4a-2b=\frac{7}{2} \hspace{1cm} (1)
+            \end{gather*}
+            Ahora con el punto $N$:
+            \begin{gather*}
+                f(14)=a(14)^2+b(14)+\frac{5}{2}=6\\
+                196a+14b+\frac{5}{2}=6\\
+                196a+14b=6-\frac{5}{2}\\
+                196a+14b=\frac{12-5}{2}\\
+                196a+14b=\frac{7}{2}\\
+                28a+2b=\frac{1}{2} \hspace{1cm} (2)
+            \end{gather*}
+            Usamos algún metodo para resolver el sistema:
+            \begin{equation*}
+                \left\{
+                \begin{array}{l}
+                4a-2b=\frac{7}{2}\\
+                28a+2b=\frac{1}{2}
+                \end{array}
+                \right.
+                \implies
+                \left\{
+                \begin{array}{l}
+                2b=4a-\frac{7}{2}\\
+                2b=\frac{1}{2}-28a
+                \end{array}
+                \right.
+            \end{equation*}
+            Finalmente igualo las ecuaciones:
+            \begin{gather*}
+                4a-\frac{7}{2}=\frac{1}{2}-28a\\
+                28a+4a=\frac{1}{2}+\frac{7}{2}\\
+                24a=\frac{8}{2}\\
+                32a=4\\
+                a=\frac{4}{32}=\frac{1}{8}
+            \end{gather*}
+            Reemplazo $a$ en las ecuaciones para así obtener $b$:
+            \begin{gather*}
+                2b=4a-\frac{7}{2}\\
+                2b=4\cdot \frac{1}{8}-\frac{7}{2}\\
+                2b=\frac{1}{2}-\frac{7}{2}\\
+                b=\frac{-6}{2}\cdot \frac{1}{2}=-\frac{3}{2}
+            \end{gather*}
+            \item Como obtuve $a$ y $b$, mi función ahora se ve así: $f(x)=\frac{1}{8}x^2-\frac{3}{2}+\frac{5}{2}$, es decir que puedo evaluar cualquier punto de la parábola para obtener su coordenada en el eje de las abscisas, conociendo el eje de simetría, evalúo en $x_v$:
+            \begin{gather*}
+                y_v=f(6)=\frac{1}{8}(6)^2-\frac{3}{2}(6)+\frac{5}{2}\\
+                y_v=\frac{36}{8}-9+\frac{5}{2}\\
+                y_v=4.5-9+2.5\\
+                y_v=-2
+            \end{gather*}
+            Las coordenadas del vértice son $(6,-2)$
+            \item Para las raices de la función igualamos a $0$:
+            \begin{gather*}
+                \frac{1}{8}x^2-\frac{3}{2}x+\frac{5}{2}=0\\
+                x^2-12x+20=0\\
+                (x-10)(x-2)=0\\
+                x_1=10, x_2=2
+            \end{gather*}
+            O bien podemos aplicar Bhaskara:
+            \begin{gather*}
+                x=\frac{-b\pm \sqrt{b^2-4ac}}{2a}\\
+                x=\frac{3/2\pm \sqrt{(-3/2)^2-4\cdot 1/8 \cdot 5/2}}{2\cdot 1/8}\\
+                x=\frac{3/2\pm \sqrt{9/4-20/16}}{1/4}\\
+                x=\frac{3/2\pm \sqrt{36/16-20/16}}{1/4}\\
+                x=\frac{3/2\pm \sqrt{16/16}}{1/4}\\
+                x=\frac{3/2\pm 1}{1/4}\\
+                x_1=\frac{5/2}{1/4}=10, x_2=\frac{1/2}{1/4}=2
+            \end{gather*}
+            Y para saber donde corta el eje de las ordenadas, evaluamos la función en $x=0$:
+            \begin{gather*}
+                f(0)=\frac{1}{8}(0)^2-\frac{3}{2}(0)+\frac{5}{2}\\
+                f(0)=\frac{5}{2}
+            \end{gather*} 
+            \item Se ve graficado de la siguiente manera:
+            \begin{figure}[htb]
+                \centering
+                \includegraphics[scale=0.35]{cuadratica.png}
+                \label{fig:cuadratica}
+            \end{figure}
+        \end{enumerate}
+        \item 
+        \begin{enumerate}
+            \item Evalúo en esos puntos según como está definida la función:
+            \begin{itemize}
+                \item $f(1)=\frac{5}{2}+2(1)=\frac{5}{2}+2=\frac{9}{2}$
+                \item $f(-\frac{1}{2})=2(-\frac{1}{2})^2-(-\frac{1}{2})-1=\frac{1}{2}+\frac{1}{2}-1=0$
+                \item $f(3)=\frac{5}{2}+2(3)=\frac{5}{2}+6=\frac{17}{2}$
+            \end{itemize}
+            \item Esbozo el gráfico conociendo los puntos evaluados y los datos que aportan la función como las ordenadas al origen en ambos intérvalo y el comportamiento de las funciones segun el coeficiente que acompaña. Además, evalúo en el punto $x=1$ para ver la continuidad de la función:
+            \begin{equation*}
+                f(1)=2(1)^2-1-1=0
+            \end{equation*}
+            Pude encontrar la otra raíz de la parte cuadrática (Podría calcular con Bhaskara como alternativa)
+            \begin{figure}[htb]
+                \centering
+                \includegraphics[scale=0.45]{fpp.png}
+                \label{fig:porpartes}
+            \end{figure}
+        \end{enumerate}
+        \item Como está en el cuarto cuadrante, conozco que el coseno es positivo, además recordando ángulos notables, quien provoca en $sen(t)=\frac{\sqrt{3}}{2}$ es $60^{\circ}$ o $\frac{\pi}{3}$, lo cual hace que el ángulo que le corresponde en el cuarto cuadrante sea $360^{\circ}-60^{\circ}=300^{\circ}$ o $2\pi-\frac{\pi}{3}=\frac{5\pi}{3}$.
+        \begin{enumerate}
+            \item Ahora conociendo el valor de $t$, basta evaluarlo en el círculo unitario (a las ordenadas las determina el seno y a las abscisas el coseno) e interpretando el signo de las funciones:
+            \begin{gather*}
+                P(t)=P\left(\frac{5}{3}\pi\right)\left(cos\left(\frac{5}{3}\pi\right),-\frac{\sqrt{3}}{2}\right)=(\frac{1}{2},-\frac{\sqrt{3}}{2})\\\\
+                P\left(t+\frac{\pi}{3}\right)=P\left(2\pi\right)=(1,0)\\\\    
+                P(t+\pi)=P\left(\frac{8\pi}{3}\right)=P\left(\frac{2\pi}{3}\right)=\left(cos\left(\frac{2\pi}{3}\right),sen\left(\frac{2\pi}{3}\right)\right)=\left(-\frac{1}{2},\frac{\sqrt{3}}{2}\right)
+            \end{gather*}
+            \item \begin{gather*}
+                sec(t)=\frac{1}{cos(t)}=\frac{1}{\frac{1}{2}}=2\\\\
+                cotan(t)=\frac{cos(t)}{sen(t)}=\frac{\frac{1}{2}}{-\frac{\sqrt{3}}{2}}=-\frac{1}{\sqrt{3}}
+            \end{gather*}
+            \item Sabemos que la función $g(x)=\frac{1}{2}sen(2x)$ tiene una amplitud de $\frac{1}{2}$ (dado por el coeficiente que multiplica al seno) y un periodo de $\pi$ (dado por $\frac{2\pi}{k}$, siendo $k=2$):
+            \begin{figure}[htb]
+                \centering
+                \includegraphics[scale=0.5]{seno.png}
+                \label{fig:seno}
+            \end{figure}
+            \item En trigonometría se ve que la recta $S$ es paralela a otra recta de la misma pendiente que pasa por el origen, tal recta corta la circunferencia unitaria en dos puntos: $P(t)$ y $P(t+\pi)$, ($P(t)=(cos(t),sen(t))$), el punto pertenece a la recta mencionada, ($L:y=ax$), por lo cual:
+            \begin{equation*}
+                sen(t)=a\cdot cos(t) \implies a=\frac{sen(t)}{cos(t)}=tan(t)
+            \end{equation*}
+            Como hace un ángulo de $30^{\circ}$ con la dirección negativa del eje de las abscisas, el ángulo que forma con la dirección positiva es de $180^{\circ}-30^{\circ}=150^{\circ}=\frac{11}{6}\pi$, por lo cual:
+            \begin{gather*}
+                a=tan\left(\frac{11}{6}\pi\right)=-\frac{1}{\sqrt{3}}
+            \end{gather*}
+            Se llega pensando en seno y coseno en el circulo unitario y los ángulos notables.
+        \end{enumerate}
+        \item podemos ver que se forman 2 triangulos rectángulos, uno con el barco $A$ y el faro y el otro con el barco $B$ y el faro, ambos comparten la altura del faro $H$, y tienen como catetos las distancias que separan a cada barco del faro ($d$ y $d+40$ respectivamente). Podemos plantear las siguientes ecuaciones:
+        \begin{enumerate}
+            \item 
+            \begin{gather*}
+                tan(60^{\circ})=\frac{H}{d} \implies H=d\cdot tan(60^{\circ})=d\cdot \sqrt{3}\\
+                tan(30^{\circ})=\frac{H}{d+40} \implies H=(d+40)\cdot tan(30^{\circ})=(d+40)\cdot \frac{1}{\sqrt{3}}
+            \end{gather*}
+            Igualando ambas ecuaciones:
+            \begin{gather*}
+                d\cdot \sqrt{3}=(d+40)\cdot \frac{1}{\sqrt{3}}\\
+                3d=d+40\\
+                2d=40\\
+                d=20
+            \end{gather*}
+            Reemplazando $d$ en alguna de las ecuaciones para obtener $H$:
+            \begin{gather*}
+                H=20\cdot \sqrt{3}=20\sqrt{3} \text{ metros}
+            \end{gather*}
+            \item Para calcular la distancia entre el barco $A$ y los focos del faro ($L$), podemos usar el teorema de Pitágoras:
+            \begin{gather*}
+                L^2=d^2+H^2\\
+                L^2=20^2+(20\sqrt{3})^2\\
+                L^2=400+1200\\
+                L^2=1600\\
+                L=40 \text{ metros}
+            \end{gather*}
+        \end{enumerate} 
+    \end{enumerate}
+\end{document}
