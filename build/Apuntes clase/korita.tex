@@ -1,0 +1,214 @@
+\documentclass[a4paper]{article}
+
+%paquetes necesarios
+\usepackage[a4paper, top=1.5cm, left=2cm, right=2cm,bottom=2cm]{geometry}
+\usepackage{amsfonts}
+\usepackage{amsmath, scalerel}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{graphicx}
+%texto del  documento
+\title{Apuntes resumen}
+\author{Analisis Matematico III}
+\date{19 de Noviembre de 2025}
+
+\begin{document}
+\maketitle
+
+%Inicio apuntes
+%Teorema de green stokes y gauss
+\section{Teorema de Green}
+\subsection{Definiciones}
+\textbf{Integral de linea:} es una integral que se evalúa sobre una curva en el espacio.Supongamos C es una curva cerrada simple y suave por partes que forma la frontera de una región simplemente conexa R con orientación positiva (que al caminar la región se mantenga a la izquierda)\\
+\textbf{Gradiente:} es un operador vectorial que actúa sobre una función escalar y produce un campo vectorial. El gradiente de una función escalar f(x,y) se denota como $\nabla f$ y apunta al lugar de mas inclinación\\
+\textbf{Diveregencia:} es una medida de la magnitud de una fuente o sumidero en un punto en un campo vectorial. La divergencia de un campo vectorial F se denota como $\nabla \cdot F$ y es un escalar que indica la tasa neta de flujo que sale de un punto. (habla de la concentración de vectores en un punto)\\
+\textbf{Rotacional:} es una medida de la tendencia de un campo vectorial a rotar alrededor de un punto. El rotacional de un campo vectorial F se denota como $\nabla \times F$ y es un vector que indica la dirección y magnitud de la rotación en un punto. (habla del giro de los vectores en un punto) Tendencia de un campo vectorial a producir una rotación o giro en un punto\\
+Relaciona una integral de linea en una curva con una integral de superficie.
+\begin{equation*}
+    \oint_{C} Pdx + Qdy = \iint_{D} \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right) dA
+\end{equation*}
+
+Significado de los términos:
+\begin{itemize}
+    \item $C$: Curva cerrada (su inicio y final coinciden), simple (no se superpone a si misma) y suave (sin puntos agudos, esquinas o quiebre, continua) en el plano xy. (orientada positivamente)
+    \item $D$: Región del plano xy delimitada por la curva C.
+    \item $P$ y $Q$: Funciones de dos variables con derivadas parciales continuas en una región que contiene a D.
+\end{itemize}
+El teorema de Green toma esta idea y la extiende al cálculo de integrales dobles. El teorema de Green dice que podemos calcular una integral doble sobre la región D basándonos únicamente en la información sobre el borde de D. También dice que podemos calcular una integral de línea sobre una curva simple cerrada C basándonos únicamente en la información sobre la región que encierra C. En particular, el teorema de Green conecta una integral doble sobre la región D con una integral de línea alrededor del borde de D.\\
+Longitud de la curva en esas funciones resulta en el área encerrada de las derivadas de esas funciones parciales.
+\subsection{Ejemplos}
+\begin{enumerate}
+    \item Calcular la siguiente integral de línea donde $C$ es un rectángulo con vértices $(1,1)$, $(4,1)$, $(4,5)$ y $(1,5)$:
+    \begin{equation*}
+        \oint_{C}x^2ydx+(y-3)dy
+    \end{equation*}
+    \begin{figure}[htb]
+        \centering
+        \includegraphics[scale=0.5]{original.png}
+        \label{fig:funcion}
+    \end{figure}
+    \textbf{Solución:}
+    Identificamos las funcionles $P(x,y)$ y $Q(x,y)$
+    \begin{equation*}
+        P(x,y)=x^2y, Q(x,y)=y-3
+    \end{equation*}
+    Obtenemos las derivadas parciales:
+    \begin{figure}[htb]
+        \centering
+        \includegraphics[scale=0.8]{derivadas.png}
+        \label{fig:derivadas}
+    \end{figure}
+
+    \begin{gather*}
+        \frac{\partial Q}{\partial x}=\frac{\partial{(y-3)}}{\partial x}=0\\
+        \frac{\partial P}{\partial y}=\frac{\partial{(x^2y)}}{\partial y}=x^2     
+    \end{gather*}
+    Por ultimo observamos la curva $C$ y la región $D$ que delimita, tenemos que tener cuidado en que la curva debe ser suave, es decir, no debe tener esquinas. A lo que podemos entonces trabajar con las rectas que delimitan el rectángulo, recorriendolas en sentido antihorario.
+    \begin{figure}[htb]
+        \centering
+        \includegraphics[scale=0.8]{curva.png}
+        \label{fig:curva}
+    \end{figure}
+    Ahora aplicamos el teorema de Green:
+    \begin{flalign*}
+        &\oint_{C} Pdx + Qdy = \iint_{D} \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right) dA\\
+        &\oint_{C} x^2ydx+(y-3)dy = \iint_{D} (0 - x^2) dA\\
+        &\oint_{C} x^2ydx+(y-3)dy = \int_{1}^{4} \int_{1}^{5} -x^2 dy dx\\
+        &\oint_{C} x^2ydx+(y-3)dy = \int_{1}^{4} \left[ -x^2y \right]_{1}^{5} dx\\
+        &\oint_{C} x^2ydx+(y-3)dy = \int_{1}^{4} -4x^2 dx\\
+        &\oint_{C} x^2ydx+(y-3)dy = \left[ -\frac{4x^3}{3} \right]_{1}^{4}\\
+        &\oint_{C} x^2ydx+(y-3)dy = -\frac{4(64)}{3} + \frac{4(1)}{3} = -\frac{252}{3} = -84
+    \end{flalign*}
+\end{enumerate}
+\section{Teorema de Stokes}
+Es una generalización del teorema de Green a superficies en el espacio tridimensional. Relaciona una integral de línea alrededor del borde de una superficie con una integral de superficie sobre la superficie misma. El teorema de Stokes puede utilizarse para reducir una integral sobre un objetom geométrico a una integral sobre su borde.
+\begin{equation*}
+    \oint_{C} \mathbf{F} \cdot d\mathbf{r} = \iint_{S} (\nabla \times \mathbf{F}) \cdot d\mathbf{S} = \int_{S} rot(F(g(u,v)) \cdot (g_u\times g_v)) dS
+\end{equation*}
+Significado de los términos:
+\begin{itemize}
+    \item $C$: Curva cerrada y suave en el espacio tridimensional. (orientada positivamente)
+    \item $S$: Superficie en el espacio tridimensional delimitada por la curva C.
+    \item $\mathbf{F}$: Campo vectorial con componentes que tienen derivadas parciales continuas en una región que contiene a S.
+    \item $\nabla \times \mathbf{F}$: Rotacional del campo vectorial $\mathbf{F}$. Se escribe tambien como \textbf{rot}.
+\end{itemize}
+Si F es un campo vectorial continuo y diferenciable en $\mathbb{R}^3$ la integral de circulacion de F a lo largo de la curva C es igual al flujo del rotacional del campo vectorial sobre una superficie orientada cualquiera S cuya frontera es la curva C, normalmente a esa superficie S solemos parametrizarla para facilitar los calculos de la integral de superficie. 
+\subsection{Ejemplos} 
+\begin{enumerate}
+    \item Utilizando el teorema de Stokes, calcular las integrales correspondientes
+    \begin{enumerate}
+        \item $\int_{\delta} F \cdot dx$ donde $F(x,y,z)=(xy,x^2+y^2+z^2,yz)$ y $\delta$ es el borde del paralelogramo con vertices $(0,0,1)$, $(0,1,0)$, $(2,0,-1)$ y $(2,1,-2)$ recorrido en sentido antihorario.\\\\
+        \textbf{Solución:} Consideramos la curva $\delta$, lo parametrizamos:
+        \begin{flalign*}
+            0 \leq u \leq 1\\
+            &r_1(u)=(0,1-u,u), &r_1'(u)=(0,-1,1)\\
+            &r_2(u)=(2u,0,1-2u), &r_2'(u)=(2,0,-2)\\
+            &r_3(u)=(2,u,-1-u), &r_3'(u)=(0,1,-1)\\
+            &r_4(u)=(2-2u,1,2-2u), &r_4'(u)=(-2,0,-2)
+        \end{flalign*}
+        Entonces tenemos que sin usar Stockes, la integral de línea sería:
+        \begin{equation*}
+            \int_{\delta} F \cdot dx = \int_{0}^{1} F(r_1(u)) \cdot r_1'(u) du + \int_{0}^{1} F(r_2(u)) \cdot r_2'(u) du + \int_{0}^{1} F(r_3(u)) \cdot r_3'(u) du + \int_{0}^{1} F(r_4(u)) \cdot r_4'(u) du
+        \end{equation*}
+        Resolviendolas individualmente:
+        \begin{flalign*}
+            &\int_{0}^{1} F(r_1(u)) \cdot r_1'(u) du = \int_{0}^{1} (0,(1-u)^2+u^2,u(1-u)) \cdot (0,-1,1) du = \int_{0}^{1} (- (1-u)^2 - u^2 + u - u^2) du = -\frac{1}{3}\\
+            &\int_{0}^{1} F(r_2(u)) \cdot r_2'(u) du = \int_{0}^{1} (0,4u^2+(1-2u)^2,0) \cdot (2,0,-2) du = 0\\
+            &\int_{0}^{1} F(r_3(u)) \cdot r_3'(u) du = \int_{0}^{1} (2u(1+u),4+u^2+(-1-u)^2,-u(1+u)) \cdot (0,1,-1) du =\\
+            &\int_{0}^{1} (4+u^2+(1+2u+u^2)+u+u^2) du = \frac{19}{3}\\
+            &\int_{0}^{1} F(r_4(u)) \cdot r_4'(u) du = \int_{0}^{1} ((2-2u),4+(1)^2+(2-2u)^2,1(2-2u)) \cdot (-2,0,-2) du =\\
+            &\int_{0}^{1} (-4+4u - 2 + 2u) du = -3\\
+            &\int_{\delta} F \cdot dx =-\frac{1}{3}+0+\frac{19}{3}-3=3
+        \end{flalign*}
+        Ahora utilizando el teorema de Stokes, debo primero parametrizar esa superficie:
+        \begin{equation*}
+            S=\{(2u,v,1-2u-v) | 0 \leq u \leq 1, 0 \leq v \leq 1\}
+        \end{equation*}
+        Entonces:
+        \begin{flalign*}
+            &g(u,v)=(2u,v,1-2u-v)\\
+            &g_u=(2,0,-2)\\
+            &g_v=(0,1,-1)\\
+            &g_u \times g_v = \begin{vmatrix}
+            \mathbf{i} & \mathbf{j} & \mathbf{k} \\
+            2 & 0 & -2 \\
+            0 & 1 & -1
+            \end{vmatrix} = (2,2,2)
+        \end{flalign*}
+        Ahora calculamos el rotacional de $F$:
+        \begin{flalign*}
+            &\nabla \times F = \begin{vmatrix}
+            \mathbf{i} & \mathbf{j} & \mathbf{k} \\
+            \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+            xy & x^2+y^2+z^2 & yz
+            \end{vmatrix} = (z-2z, 0, 2x - x)\\
+            &\nabla \times F = (-z,0,x)\\
+            &\nabla \times F (g(u,v))=(2u+v-1,0,2u)
+        \end{flalign*}
+        Juntamos todo:
+        \begin{flalign*}
+            &\iint_{S} (\nabla \times F) \cdot d\mathbf{S} = \int_{0}^{1} \int_{0}^{1} (\nabla \times F (g(u,v))) \cdot (g_u \times g_v) dv du\\
+            &\iint_{S} (\nabla \times F) \cdot d\mathbf{S} = \int_{0}^{1} \int_{0}^{1} (2u+v-1,0,2u) \cdot (2,2,2) dv du\\
+            &\iint_{S} (\nabla \times F) \cdot d\mathbf{S} = \int_{0}^{1} \int_{0}^{1} 4u + 2v - 2 + 4u dv du\\
+            &\iint_{S} (\nabla \times F) \cdot d\mathbf{S} = \int_{0}^{1} \left[ 8u v + v^2 - 2v \right]_{0}^{1} du\\
+            &\iint_{S} (\nabla \times F) \cdot d\mathbf{S} = \int_{0}^{1} (8u + 1 - 2) du\\
+            &\iint_{S} (\nabla \times F) \cdot d\mathbf{S} = \left[ 4u^2 - u \right]_{0}^{1} = 4 - 1 = 3
+        \end{flalign*}
+    \end{enumerate}
+\end{enumerate}
+\subsection{Teorema de Gauss}
+También conocido como teorema de la divergencia, es una herramienta fundamental en cálculo vectorial que relaciona el flujo de un campo vectorial a través de una superficie cerrada con la divergencia del campo dentro del volumen delimitado por esa superficie.
+\begin{equation*}
+    \iint_{S} \mathbf{F} \cdot d\mathbf{S} = \iiint_{V} (\nabla \cdot \mathbf{F}) dV
+\end{equation*}
+Significado de los términos:
+\begin{itemize}
+    \item $S$: Superficie cerrada y suave en el espacio tridimensional. (orientada positivamente)
+    \item $V$: Volumen en el espacio tridimensional delimitado por la superficie S.
+    \item $\mathbf{F}$: Campo vectorial con componentes que tienen derivadas parciales continuas en una región que contiene a V.
+    \item $\nabla \cdot \mathbf{F}$: Divergencia del campo vectorial $\mathbf{F}$.
+\end{itemize}
+Si F es un campo vectorial continuo y diferenciable en $\mathbb{R}^3$, el flujo del campo F a través de una superficie S en dirección del vector unitario normal exterior a la superficie, es igual a la itnegral de la divergencia del campo sobre la región D encerrada por la superficie.
+\subsection{Ejemplos}
+\begin{enumerate}
+    \item Emplear el teorema de Gauss para calcular la integral de superficie $\iint_{S} \mathbf{F} \cdot d\mathbf{S}$\\
+    \begin{enumerate}
+    \item Si $S$ es la frontera del cubo con centro en el origen cuyas caras son los planos $x=\pm 1$, $y=\pm 1$ y $z=\pm 1$, con normal hacia afuera, y $F(x,y,z)=(x-y,y-z,z-x)$
+    La integral del volumen es:
+    \begin{flalign*}
+        &\iiint_{V} (\nabla \cdot \mathbf{F}) dV = \iiint_{V} \left( \frac{\partial}{\partial x}(x-y) + \frac{\partial}{\partial y}(y-z) + \frac{\partial}{\partial z}(z-x) \right) dV\\
+        &\iiint_{V} (\nabla \cdot \mathbf{F}) dV = \iiint_{V} (1 + 1 + 1) dV = \iiint_{V} 3 dV\\
+        &\iiint_{V} (\nabla \cdot \mathbf{F}) dV = 3 \cdot \text{Volumen del cubo}\\
+        &\text{Volumen del cubo} = (2)(2)(2) = 8\\
+        &\iiint_{V} (\nabla \cdot \mathbf{F}) dV = 3 \cdot 8 = 24
+    \end{flalign*}
+    \item Si $S$ es la frontera de la región exterior de la esfera $x^2+y^2+z^2=1$ que se encuentra dentro de la esfera $x^2+y^2+z^2=4$, con normal hacia afuera, y $F(x,y,z)=\frac{xi+yj+zk}{x^2+y^2+z^2}$
+    La integral del volumen es:
+    \begin{flalign*}
+        &\iiint_{V} (\nabla \cdot \mathbf{F}) dV = \iiint_{V} \left( \frac{\partial}{\partial x}\left(\frac{x}{x^2+y^2+z^2}\right) + \frac{\partial}{\partial y}\left(\frac{y}{x^2+y^2+z^2}\right) + \frac{\partial}{\partial z}\left(\frac{z}{x^2+y^2+z^2}\right) \right) dV\\
+        &\iiint_{V} (\nabla \cdot \mathbf{F}) dV = \iiint_{V} \frac{3x^2+3y^2+3z^2-2x^2-2y^2-2z^2}{(x^2+y^2+z^2)^2} dV= \iiint_{V} \frac{x^2+y^2+z^2}{(x^2+y^2+z^2)^2} dV\\
+        &\iiint_{V} (\nabla \cdot \mathbf{F}) dV = \iiint_{V} \frac{1}{x^2+y^2+z^2} dV
+    \end{flalign*}
+    Cambiando a coordenadas esféricas:
+    \begin{flalign*}
+        &x=\rho \sin\phi \cos\theta\\
+        &y=\rho \sin\phi \sin\theta\\
+        &z=\rho \cos\phi\\
+        &dV=\begin{vmatrix}
+            \frac{\partial x}{\partial \rho} & \frac{\partial x}{\partial \theta} & \frac{\partial x}{\partial \phi} \\
+            \frac{\partial y}{\partial \rho} & \frac{\partial y}{\partial \theta} & \frac{\partial y}{\partial \phi}  \\
+            \frac{\partial z}{\partial \rho} & \frac{\partial z}{\partial \theta} & \frac{\partial z}{\partial \phi} 
+            \end{vmatrix} = \rho^2 \sin\phi d\rho d\phi d\theta
+    \end{flalign*}
+    Entonces:
+    \begin{flalign*}
+        &\iiint_{V} (\nabla \cdot \mathbf{F}) dV = \int_{0}^{2\pi} \int_{0}^{\pi} \int_{1}^{2} \frac{1}{\rho^2} \cdot \rho^2 \sin\phi d\rho d\phi d\theta\\
+        &\iiint_{V} (\nabla \cdot \mathbf{F}) dV = \int_{0}^{2\pi} \int_{0}^{\pi} \int_{1}^{2} \sin\phi d\rho d\phi d\theta\\
+        &\iiint_{V} (\nabla \cdot \mathbf{F}) dV = \int_{0}^{2\pi} \int_{0}^{\pi} \sin\phi (2-1) d\phi d\theta\\
+        &\iiint_{V} (\nabla \cdot \mathbf{F}) dV = \int_{0}^{2\pi} \left[ -\cos\phi \right]_{0}^{\pi} d\theta\\
+        &\iiint_{V} (\nabla \cdot \mathbf{F}) dV = \int_{0}^{2\pi} (2) d\theta = 4\pi
+    \end{flalign*}
+    \end{enumerate}
+\end{enumerate}
+\end{document}
