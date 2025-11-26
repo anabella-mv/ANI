@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1763596674.68085 "c:/Users/maile/OneDrive/Desktop/ANI/build/Apuntes clase/korita.tex" "build/korita.pdf" "korita" 1763596675.39137 0
+["pdflatex"] 1763597829.85543 "c:/Users/maile/OneDrive/Desktop/ANI/build/Apuntes clase/korita.tex" "build/korita.pdf" "korita" 1763597831.00683 0
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1763148563 82011 97247c01f6bfb6f6d0c40fab12a08423 ""
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1753230834 11548 d38a8a79954ee491fe27aafa6e132278 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
@@ -71,11 +71,11 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/scalerel/scalerel.sty" 1482995416 7825 43f8c26a0a3916d218f4f48c29aa92e4 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1749468414 10374 2ffd4f27c7f90b8a300608069537743c ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1749468414 33259 db80f750a01491473161bd4d0f6986d2 ""
-  "build/korita.aux" 1763596675 890 2cd38e2c109aa0c8fc5f214a5c4f4bcc "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Apuntes clase/korita.tex" 1763596672 14547 38b199fe0dbe686c6ec6259f06dcdbe2 ""
+  "build/korita.aux" 1763597830 890 2cd38e2c109aa0c8fc5f214a5c4f4bcc "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Apuntes clase/korita.tex" 1763597828 14549 6d02cd8d8b16e4521b225960c33e9d57 ""
   "curva.png" 1763566844 28664 88b5bd2e5c5ac37cab14733fcc1f4d3b ""
   "derivadas.png" 1763566517 65065 45c247f7712f1947e6ac2a5c56022b42 ""
-  "korita.tex" 1763596672 14547 38b199fe0dbe686c6ec6259f06dcdbe2 ""
+  "korita.tex" 1763597828 14549 6d02cd8d8b16e4521b225960c33e9d57 ""
   "original.png" 1763565536 72772 40ed44f315f93ca422cbcf26b925e012 ""
   (generated)
   "build/korita.aux"

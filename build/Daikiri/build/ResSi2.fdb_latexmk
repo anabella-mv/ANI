@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1763352194.2147 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSi2.tex" "build/ResSi2.pdf" "ResSi2" 1763352195.18487 0
+["pdflatex"] 1763662550.673 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSi2.tex" "build/ResSi2.pdf" "ResSi2" 1763662554.95506 0
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1763148563 82011 97247c01f6bfb6f6d0c40fab12a08423 ""
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1753230834 11548 d38a8a79954ee491fe27aafa6e132278 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
@@ -68,9 +68,9 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1749468414 33259 db80f750a01491473161bd4d0f6986d2 ""
   "L.png" 1763336519 57210 2e066c555350e4b2205c299750c2cf13 ""
   "P.png" 1763340924 73175 d8de8b5c8675b38467be9f5261f8be9a ""
-  "ResSi2.tex" 1763352193 14551 9d2f8a84e6a8fe8d03d5e5657054a399 ""
-  "build/ResSi2.aux" 1763352195 471 462c97170c4e9a10f4d2e6b2071140cd "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSi2.tex" 1763352193 14551 9d2f8a84e6a8fe8d03d5e5657054a399 ""
+  "ResSi2.tex" 1763662548 14551 2da4754835d3c2919d89a90019a94099 ""
+  "build/ResSi2.aux" 1763662554 471 462c97170c4e9a10f4d2e6b2071140cd "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSi2.tex" 1763662548 14551 2da4754835d3c2919d89a90019a94099 ""
   "cuadratica.png" 1763346822 99243 fdaad36334dbf904d962051d8213bd6e ""
   "fpp.png" 1763347817 37604 d959c35ed98e70384bc66f29f589c983 ""
   "izquierda.png" 1763334224 35689 3ad8823423113831c9281f533d03c4c9 ""
