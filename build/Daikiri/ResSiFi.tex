@@ -1,0 +1,91 @@
+\documentclass[a4paper]{article}
+
+%paquetes necesarios
+\usepackage[a4paper, top=1.5cm, left=2cm, right=2cm,bottom=2cm]{geometry}
+\usepackage{amsfonts}
+\usepackage{amsmath, scalerel}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{polynom}
+%texto del  documento
+\title{Facultad de Matemática, Astronomía, Física y Computación}
+\author{Curso de Nivelación 2025\\Simulacro Segundo Parcial\\ GURI - La Bisagra, conduccion del CEIMAF}
+\date{18 de Diciembre de 2025}
+
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+    \item Resolución:
+    \begin{gather*}
+        -\sqrt[9]{\left(\frac{16}{5^{23}\cdot 10 \cdot 5^{-21}}\right)^3} - \frac{722^2-710^2}{722+710} + \left(\frac{2}{7}\right)^{21} \cdot \left(\frac{2}{7}\right)^{-23}\\
+        = -\sqrt[9]{\left(\frac{2^4}{5^{23}\cdot 2 \cdot 5 \cdot 5^{-21}}\right)^3} - \frac{(722+710)(722-710)}{722+710} + \left(\frac{2}{7}\right)^{21-23}\\
+        = -\left(\frac{2^3}{5^{23+1-21}}\right)^{\frac{3}{9}} - (722-710) + \left(\frac{2}{7}\right)^{-2}\\
+        = -\left(\frac{2^3}{5^3}\right)^{\frac{1}{3}} - 12 + \left(\frac{7}{2}\right)^{2}\\
+        = -\frac{2}{5} - 12 + \frac{49}{4}\\
+        = \frac{-8 - 240 + 245}{20} = - \frac{3}{20}
+    \end{gather*}
+    \item Planteo:
+    \begin{enumerate}
+        \item Sistema de ecuaciones:
+        \begin{equation*}   
+        \left\{
+            \begin{array}{ll}
+                4V +2G = 86 & (1)\\
+                V+3+G=46 & (2)
+            \end{array}
+        \right.
+        \end{equation*}
+        \item Resolución:
+        \begin{equation*}   
+        \left\{
+            \begin{array}{ll}
+                4V +2G = 86\\
+                V+3+G=37 
+            \end{array}
+        \right.
+        \implies
+        \left\{
+            \begin{array}{ll}
+                2V + G = 43 \\
+                V + 3 + G = 37
+            \end{array}
+        \right.
+        \implies
+        \left\{
+            \begin{array}{ll}
+                G = 43 - 2V\\
+                V + 3 + 43 -2V = 37
+            \end{array}
+        \right.
+        \end{equation*}
+        \begin{equation*}
+        \left\{
+            \begin{array}{ll}
+                G = 43 - 2V\\
+                46 - 37 = V
+            \end{array}
+        \right.
+        \implies
+        \left\{
+            \begin{array}{ll}
+                G = 43 - 18 = 25\\
+                V = 9
+            \end{array}
+        \right.
+        \end{equation*}
+    \end{enumerate}
+    \item 
+    \begin{itemize}
+        \item $q:$ Falso, es rápido ver que el centro de la circunferencia es $A=(3,2)$
+        \item $p:$ Falso
+        \begin{center}
+            \polylongdiv[style=D]{x^4+x^3+2x-4}{x^3-3x}
+        \end{center}
+        \item $r:$ Verdadero, la negación de la primera proposición es equivalente.
+    \end{itemize}
+\end{enumerate}
+
+\end{document}
