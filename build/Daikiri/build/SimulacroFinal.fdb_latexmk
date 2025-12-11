@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1765417605.99798 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/SimulacroFinal.tex" "build/SimulacroFinal.pdf" "SimulacroFinal" 1765417607.51447 0
+["pdflatex"] 1765474093.37812 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/SimulacroFinal.tex" "build/SimulacroFinal.pdf" "SimulacroFinal" 1765474094.26978 0
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1763148563 82011 97247c01f6bfb6f6d0c40fab12a08423 ""
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1753230834 11548 d38a8a79954ee491fe27aafa6e132278 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
@@ -70,10 +70,10 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/scalerel/scalerel.sty" 1482995416 7825 43f8c26a0a3916d218f4f48c29aa92e4 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1749468414 10374 2ffd4f27c7f90b8a300608069537743c ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1749468414 33259 db80f750a01491473161bd4d0f6986d2 ""
-  "SimulacroFinal.tex" 1765416259 6938 84526109237307ebc4b6fa85b5d390e0 ""
-  "build/SimulacroFinal.aux" 1765417607 75 e1a384a4b6fc40223efd12e9f304267b "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/SimulacroFinal.tex" 1765416259 6938 84526109237307ebc4b6fa85b5d390e0 ""
-  "edificio.png" 1765417602 218018 d10fc1a1b2b71428be969fee5228bdca ""
+  "SimulacroFinal.tex" 1765474092 6973 835f1c620dfe37becc17fd0a1e256d6d ""
+  "build/SimulacroFinal.aux" 1765474094 75 e1a384a4b6fc40223efd12e9f304267b "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/SimulacroFinal.tex" 1765474092 6973 835f1c620dfe37becc17fd0a1e256d6d ""
+  "edificio.png" 1765469597 217235 49e2124cca0be65583f6a205dff5d01a ""
   (generated)
   "build/SimulacroFinal.aux"
   "build/SimulacroFinal.log"

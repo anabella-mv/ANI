@@ -78,14 +78,177 @@
         \end{equation*}
     \end{enumerate}
     \item 
-    \begin{itemize}
-        \item $q:$ Falso, es rápido ver que el centro de la circunferencia es $A=(3,2)$
-        \item $p:$ Falso
-        \begin{center}
-            \polylongdiv[style=D]{x^4+x^3+2x-4}{x^3-3x}
-        \end{center}
-        \item $r:$ Verdadero, la negación de la primera proposición es equivalente.
+    \begin{enumerate}
+        \item 
+        \begin{itemize}
+            \item $q:$ Falso, es rápido ver que el centro de la circunferencia es $A=(3,2)$
+            \item $p:$ Falso
+            \begin{center}
+                \polylongdiv[style=D]{x^4+x^3+2x-4}{x^3-3x}
+            \end{center}
+            \item $r:$ Verdadero, la negación de la primera proposición es equivalente.
+        \end{itemize}
+        \item $V \implies F$ es falso y $V \wedge V$ es Verdadero
+        \begin{enumerate}
+            \item $V \equiv \lnot a$ entonces $a$ es falso.
+            \item $b$ es falso.
+            \item $c$ es verdadero.
+            \item $c \vee a$ es $V \vee F$ entonces es verdadero.
+        \end{enumerate}
+    \end{enumerate}
+    \item 
+    \begin{enumerate}
+        \item Dominio de la función:
+        \begin{equation*}
+            f(x)=\frac{2x}{x^2-1} - \frac{1}{x-1} = \frac{2x}{(x-1)(x+1)} - \frac{1}{x-1} = \frac{2x-(x+1)}{(x-1)(x+1)} = \frac{x-1}{(x-1)(x+1)} = \frac{1}{x+1}, x \neq 1
+            \end{equation*}
+    \end{enumerate}
+\item \begin{enumerate}
+    \item \begin{itemize}
+        \item $A=(-3,-1]$
+        \item $B=\{-1,0\}$
+        \item $C=\{x \in \mathcal{U}/ x \geq 1\}$
+    \end{itemize}
+    \item \begin{itemize}
+        \item $D=A^{c}=(-1,\infty)$
+        \item $E=A \cup C = (-3,-1] \cup [1,\infty)$
+        \item $F=A-C = (-3,-1]=A$
     \end{itemize}
 \end{enumerate}
-
+\item Sean las rectas $L_1$ y $L_2$ definidas por las ecuaciones:
+    \[
+        L_1: y = ax + b, \qquad \qquad L_2: y = \frac{1}{3}x + c
+    \]
+\begin{enumerate}
+    \item Evalúo el punto P en ambas rectas y además conozco que son perpendiculares los que no da que la pendiente de $L_1$ es $-3$.
+    \begin{equation*}
+        \left\{
+            \begin{array}{ll}
+                \frac{2}{3} = -3(-1) + b\\
+                \frac{2}{3} = \frac{1}{3}(-1) + c
+            \end{array}
+        \right.
+        \implies
+        \left\{
+            \begin{array}{ll}
+                b = -\frac{7}{3}\\
+                c = 1\\
+                a = -3
+            \end{array}
+        \right.
+    \end{equation*}
+    Las intersecciones con los ejes coordenados son:
+    \begin{itemize}
+        \item Eje x:
+        \begin{equation*}
+            L_1: 0 = -3x - \frac{7}{3} \implies x = -\frac{7}{9}
+        \end{equation*}
+        \begin{equation*}
+            L_2: 0 = \frac{1}{3}x + 1 \implies x = -3
+        \end{equation*}
+        \item Eje y:
+        \begin{equation*}
+            L_1: y = -3(0) - \frac{7}{3} = -\frac{7}{3}
+        \end{equation*}
+        \begin{equation*}
+            L_2: y = \frac{1}{3}(0) + 1 = 1
+        \end{equation*}
+    \end{itemize}
+    \item Verifico si $A$ pertenece a la recta $L_2$:
+    \begin{equation*}
+        A: \frac{1}{3} = \frac{1}{3}(2) + 1= \frac{2+3}{3}=\frac{5}{3} \quad \textbf{No pertenece}
+    \end{equation*}
+    Ahora verifico si $B$ pertenece a la recta $L_1$
+    \begin{equation*}
+        B: -2 = -3\left(-\frac{1}{9}\right) - \frac{7}{3}=\frac{1}{3} - \frac{7}{3} =-2\quad \textbf{Pertenece}
+    \end{equation*}
+    La distancia entre ambos puntos se obtiene mediante la fórmula de distancia:
+    \begin{gather*}
+        d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} = \sqrt{\left(-\frac{1}{9} - 2\right)^2 + (-2 - \frac{1}{3})^2} = \sqrt{\left(-\frac{19}{9}\right)^2 + \left(-\frac{7}{3}\right)^2}\\
+         = \sqrt{\frac{361}{81} + \frac{189}{81}} = \sqrt{\frac{550}{81}} = \frac{\sqrt{550}}{9} = \frac{5\sqrt{22}}{9}
+    \end{gather*}
+\end{enumerate}
+\item Sea la parábola $P: y = 2(x-3)^2 + k$ que pasa por el punto $Q=(2,-6)$.
+\begin{enumerate}
+    \item Calculo el valor de $k$:
+        \begin{equation*}
+            -6= 2(2-3)^2 + k \implies -6 = 2(1) + k \implies k = -6 -2 = -8
+        \end{equation*}
+    \item Coordenadas del vértice:
+        \begin{equation*}
+            x_v = 3, \quad y_v = 2(3-3)^2 -8 =-8 \implies (x_v,y_v) = (3,-8)
+        \end{equation*}
+        Esto sale de la ecuacion de la parábola en su forma canónica: $f(x)=a(x-x_v)^2+y_v$
+    \item Intersección con el eje de ordenadas:
+        \begin{equation*}
+            y = 2(0-3)^2 -8 = 2\cdot 9 -8 = 18-8=10 \implies (0,10)
+        \end{equation*}
+        Intersección con el eje de abscisas:
+        \begin{equation*}
+            0 = 2(x-3)^2 -8 \implies 2(x-3)^2 = 8 \implies (x-3)^2 =4 \implies x-3 = \pm 2
+        \end{equation*}
+        \begin{equation*}
+            x_1 = 3+2=5, \quad x_2 = 3-2=1 \implies (5,0) \text{ y } (1,0)
+        \end{equation*}
+    \item Gráfico:
+    \begin{figure}[htb]
+        \centering
+        \includegraphics[scale=0.4]{parabola7.png}
+        \label{fig:punto7}
+    \end{figure}
+    \end{enumerate}
+\item El punto al encontrarse sobre la circunferencia unitaria, sabemos que la primera coordenada hace referencia a $cos(t)$, podemos usar el teorema de pitágoras para encontrar el valor del $sen(t)$
+\begin{enumerate}
+    \item \begin{itemize}
+        \item $cos(t) = -\frac{\sqrt{8}}{3}$
+        \item \begin{equation*}
+        1=sen^2(t) + cos^2(t) = sen^2(t) + \left(-\frac{\sqrt{8}}{3}\right)^2 = sen^2(t) + \frac{8}{9} \implies sen^2(t) = 1 - \frac{8}{9} = \frac{1}{9} \implies sen(t) = -\frac{1}{3}
+        \end{equation*}
+        \item \begin{equation*}
+            tg(t) = \frac{sen(t)}{cos(t)} = \frac{-\frac{1}{3}}{-\frac{\sqrt{8}}{3}} = \frac{1}{\sqrt{8}}
+        \end{equation*}
+        \item \begin{equation*}
+            sec(t) = \frac{1}{cos(t)} = \frac{1}{-\frac{\sqrt{8}}{3}} = -\frac{3}{\sqrt{8}}
+        \end{equation*}
+        \item \begin{equation*}
+            csc(t) = \frac{1}{-\frac{1}{3}}= -3
+        \end{equation*}
+        \item \begin{equation*}
+            cotg(t) = \frac{1}{tg(t)} = \sqrt{8}
+        \end{equation*}
+        \end{itemize}
+    En el caso del seno, aseguramos que es en signo negativo por estar en el tercer cuadrante.
+    \item El punto $P(s)$ se encuentra en el tercer cuadrante, por lo que sus coordenadas son negativas y consideramos que están dadas por $cos$ y $sen$:
+    \begin{equation*}
+        P(s) = \left(cos\left(7\frac{\pi}{6}\right), sen\left(7\frac{\pi}{6}\right)\right) = \left(-\frac{\sqrt{3}}{2}, -\frac{1}{2}\right)
+    \end{equation*}
+    \item \begin{equation*}
+        sen\left(7\frac{\pi}{6} + \frac{\pi}{2}\right) = sen\left(\frac{7\pi + 3\pi}{6}\right) = sen\left(\frac{10\pi}{6}\right) = sen\left(\frac{5\pi}{3}\right) = -sen\left(\frac{\pi}{3}\right) = -\frac{\sqrt{3}}{2}
+    \end{equation*}
+\end{enumerate}
+\item Podemos ver dos triangulos formados por la altura del edificio y las distancias de las plazas a él, como los ángulos son en depresión, basta considerar su complementario como parte del tríangulo rectángulo que se puede formar, así tenemos el triangulo 1 con un lado de 100 metros, la altura del edificio y un ángulo de $45^{\circ}$, y el triangulo 2 con la altura del edificio, la distancia entre las plazas $(100m + d)$ y un ángulo de $60^{\circ}$.
+\begin{itemize}
+    \item En el primer triángulo:
+    \begin{equation*}
+        tan(45^{\circ}) = \frac{h}{100} \implies h = 100 \cdot tan(45^{\circ}) = 100 \cdot 1 = 100m
+    \end{equation*}
+    Sabiendo la altura del edificio, podemos usar el segundo triángulo para encontrar la distancia entre las plazas:
+    \item En el segundo triángulo:
+    \begin{equation*}
+        tan(30^{\circ}) = \frac{h}{100 + d} \implies 100 + d = \frac{h}{tan(30^{\circ})} = \frac{100}{\frac{1}{\sqrt{3}}} = 100\sqrt{3} \implies d = 100\sqrt{3} - 100 = 100(\sqrt{3} - 1)m
+    \end{equation*}
+\end{itemize}
+\item \begin{enumerate}
+    \item \begin{figure}[htb]
+        \centering
+        \includegraphics[scale=0.4]{CS.png}
+        \label{fig:consejo}
+    \end{figure}
+    \item\begin{figure}[htb]
+        \centering
+        \includegraphics[scale=0.4]{CE.png}
+        \label{fig:consejere}
+    \end{figure}
+\end{enumerate}
+\end{enumerate}
 \end{document}
