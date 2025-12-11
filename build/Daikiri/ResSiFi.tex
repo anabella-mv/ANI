@@ -96,12 +96,24 @@
             \item $c \vee a$ es $V \vee F$ entonces es verdadero.
         \end{enumerate}
     \end{enumerate}
-    \item 
+\item 
     \begin{enumerate}
         \item Dominio de la función:
         \begin{equation*}
-            f(x)=\frac{2x}{x^2-1} - \frac{1}{x-1} = \frac{2x}{(x-1)(x+1)} - \frac{1}{x-1} = \frac{2x-(x+1)}{(x-1)(x+1)} = \frac{x-1}{(x-1)(x+1)} = \frac{1}{x+1}, x \neq 1
-            \end{equation*}
+            x \neq 0, \quad x \neq 3
+        \end{equation*}
+        Resulta entonces el dominio $D_f = \mathbb{R} - \{0,3\}$
+        \item Resolución de la ecuación:
+        \begin{gather*}
+            \frac{2x^2-18}{x-3} = \frac{x^2+x-6}{x} \\
+            \frac{2(x^2-9)}{x-3} = \frac{(x+3)(x-2)}{x} \\
+            \frac{2(x+3)(x-3)}{x-3} = \frac{(x+3)(x-2)}{x} \\
+            2(x+3)x = (x+3)(x-2)\\
+            (x+3)(2x-(x-2))=0\\
+            (x+3)(x+2)=0\\
+            x_1 = -3, \quad x_2 = -2
+        \end{gather*}
+
     \end{enumerate}
 \item \begin{enumerate}
     \item \begin{itemize}
@@ -239,14 +251,16 @@
     \end{equation*}
 \end{itemize}
 \item \begin{enumerate}
-    \item \begin{figure}[htb]
+    \item
+    \begin{figure}[htb]
         \centering
-        \includegraphics[scale=0.4]{CS.png}
+        \includegraphics[scale=0.8]{CS.png}
         \label{fig:consejo}
     \end{figure}
-    \item\begin{figure}[htb]
+    \item
+    \begin{figure}[htb]
         \centering
-        \includegraphics[scale=0.4]{CE.png}
+        \includegraphics[scale=0.8]{CE.png}
         \label{fig:consejere}
     \end{figure}
 \end{enumerate}

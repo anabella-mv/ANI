@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1765474098.0397 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSiFi.tex" "build/ResSiFi.pdf" "ResSiFi" 1765474098.91987 0
+["pdflatex"] 1765475038.35936 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSiFi.tex" "build/ResSiFi.pdf" "ResSiFi" 1765475039.19146 0
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1763148563 82011 97247c01f6bfb6f6d0c40fab12a08423 ""
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1753230834 11548 d38a8a79954ee491fe27aafa6e132278 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
@@ -37,6 +37,7 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1247596667 32762 7fee39e011c23b3589931effd97b9702 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
+  "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty" 1734114575 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty" 1734114575 1057 525c2192b5febbd8c1f662c9468335bb ""
@@ -71,9 +72,9 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1749468414 33259 db80f750a01491473161bd4d0f6986d2 ""
   "CE.png" 1765473973 13816 5d5e990b60e79bf35389a0662682e2a2 ""
   "CS.png" 1765473086 45053 85be35474bddd5f6ab6a76ba8b177a37 ""
-  "ResSiFi.tex" 1765474096 10599 992348db92e768a66323b1d491a61d9c ""
-  "build/ResSiFi.aux" 1765474098 173 e34d74927ddb55346bff6bcd6dd43cc5 "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSiFi.tex" 1765474096 10599 992348db92e768a66323b1d491a61d9c ""
+  "ResSiFi.tex" 1765475037 10942 52a800ba5ecdc5fc25228262b06a2179 ""
+  "build/ResSiFi.aux" 1765475038 173 e34d74927ddb55346bff6bcd6dd43cc5 "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSiFi.tex" 1765475037 10942 52a800ba5ecdc5fc25228262b06a2179 ""
   "parabola7.png" 1765468088 74632 9a1c51062558b954225ffc633fffe21d ""
   (generated)
   "build/ResSiFi.aux"
