@@ -1,5 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1765475038.35936 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSiFi.tex" "build/ResSiFi.pdf" "ResSiFi" 1765475039.19146 0
+["pdflatex"] 1765509735.29656 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSiFi.tex" "build/ResSiFi.pdf" "ResSiFi" 1765509736.03256 0
+  "AUC.png" 1765509316 36062 90c762b5353538217567ac1f25ba4540 ""
+  "Acom.png" 1765509262 35891 803c248622975fa480987c5374665bad ""
+  "AmenosC.png" 1765509353 36488 21edcd18ec6e69e310d97f26f0507278 ""
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1763148563 82011 97247c01f6bfb6f6d0c40fab12a08423 ""
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1753230834 11548 d38a8a79954ee491fe27aafa6e132278 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
@@ -72,9 +75,9 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1749468414 33259 db80f750a01491473161bd4d0f6986d2 ""
   "CE.png" 1765473973 13816 5d5e990b60e79bf35389a0662682e2a2 ""
   "CS.png" 1765473086 45053 85be35474bddd5f6ab6a76ba8b177a37 ""
-  "ResSiFi.tex" 1765475037 10942 52a800ba5ecdc5fc25228262b06a2179 ""
-  "build/ResSiFi.aux" 1765475038 173 e34d74927ddb55346bff6bcd6dd43cc5 "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSiFi.tex" 1765475037 10942 52a800ba5ecdc5fc25228262b06a2179 ""
+  "ResSiFi.tex" 1765509734 11651 b913e4a0a2a4b2bbc6d04f855765f2e4 ""
+  "build/ResSiFi.aux" 1765509735 302 fa8395ec93afad1b1af8edbca98ea466 "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSiFi.tex" 1765509734 11651 b913e4a0a2a4b2bbc6d04f855765f2e4 ""
   "parabola7.png" 1765468088 74632 9a1c51062558b954225ffc633fffe21d ""
   (generated)
   "build/ResSiFi.aux"

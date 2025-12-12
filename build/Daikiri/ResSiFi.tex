@@ -34,7 +34,7 @@
         \left\{
             \begin{array}{ll}
                 4V +2G = 86 & (1)\\
-                V+3+G=46 & (2)
+                V+3+G=37 & (2)
             \end{array}
         \right.
         \end{equation*}
@@ -86,7 +86,7 @@
             \begin{center}
                 \polylongdiv[style=D]{x^4+x^3+2x-4}{x^3-3x}
             \end{center}
-            \item $r:$ Verdadero, la negación de la primera proposición es equivalente.
+            \item $r:$ Verdadero, la negación de la primera proposición es equivalente y además ambas proposiciones son verdaderas.
         \end{itemize}
         \item $V \implies F$ es falso y $V \wedge V$ es Verdadero
         \begin{enumerate}
@@ -118,13 +118,28 @@
 \item \begin{enumerate}
     \item \begin{itemize}
         \item $A=(-3,-1]$
-        \item $B=\{-1,0\}$
+        \item $B=\emptyset$ Pues ser negativo y natural a la vez no es posible.
         \item $C=\{x \in \mathcal{U}/ x \geq 1\}$
     \end{itemize}
     \item \begin{itemize}
         \item $D=A^{c}=(-1,\infty)$
+        \begin{figure}[htb]
+        \centering
+        \includegraphics[scale=0.4]{Acom.png}
+        \label{fig:AC}
+    \end{figure}
         \item $E=A \cup C = (-3,-1] \cup [1,\infty)$
+        \begin{figure}[htb]
+        \centering
+        \includegraphics[scale=0.4]{AUC.png}
+        \label{fig:AUC}
+    \end{figure}
         \item $F=A-C = (-3,-1]=A$
+        \begin{figure}[htb]
+        \centering
+        \includegraphics[scale=0.3]{AmenosC.png}
+        \label{fig:AmenosC}
+    \end{figure}
     \end{itemize}
 \end{enumerate}
 \item Sean las rectas $L_1$ y $L_2$ definidas por las ecuaciones:
@@ -168,7 +183,7 @@
     \end{itemize}
     \item Verifico si $A$ pertenece a la recta $L_2$:
     \begin{equation*}
-        A: \frac{1}{3} = \frac{1}{3}(2) + 1= \frac{2+3}{3}=\frac{5}{3} \quad \textbf{No pertenece}
+        A: \frac{1}{3} \neq \frac{1}{3}\left(-\frac{1}{9}\right) + 1 = -\frac{1}{27} + 1 = \frac{26}{27} \quad \textbf{No pertenece}
     \end{equation*}
     Ahora verifico si $B$ pertenece a la recta $L_1$
     \begin{equation*}
@@ -176,8 +191,7 @@
     \end{equation*}
     La distancia entre ambos puntos se obtiene mediante la fórmula de distancia:
     \begin{gather*}
-        d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} = \sqrt{\left(-\frac{1}{9} - 2\right)^2 + (-2 - \frac{1}{3})^2} = \sqrt{\left(-\frac{19}{9}\right)^2 + \left(-\frac{7}{3}\right)^2}\\
-         = \sqrt{\frac{361}{81} + \frac{189}{81}} = \sqrt{\frac{550}{81}} = \frac{\sqrt{550}}{9} = \frac{5\sqrt{22}}{9}
+        d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} = \sqrt{\left(-\frac{1}{9} + \frac{1}{9}\right)^2 + (-2 - \frac{1}{3})^2} = \sqrt{0^2 + \left(-\frac{7}{3}\right)^2} = \sqrt{\frac{49}{9}} = \frac{7}{3}
     \end{gather*}
 \end{enumerate}
 \item Sea la parábola $P: y = 2(x-3)^2 + k$ que pasa por el punto $Q=(2,-6)$.
@@ -244,14 +258,15 @@
     \begin{equation*}
         tan(45^{\circ}) = \frac{h}{100} \implies h = 100 \cdot tan(45^{\circ}) = 100 \cdot 1 = 100m
     \end{equation*}
-    Sabiendo la altura del edificio, podemos usar el segundo triángulo para encontrar la distancia entre las plazas:
+    Sabiendo la altura del edificio, podemos usar el segundo triángulo para encontrar la distancia entre las plazas, pues sabemos comparten este lado, además de ya conocer el ángulo antes dado.\\\\
     \item En el segundo triángulo:
     \begin{equation*}
         tan(30^{\circ}) = \frac{h}{100 + d} \implies 100 + d = \frac{h}{tan(30^{\circ})} = \frac{100}{\frac{1}{\sqrt{3}}} = 100\sqrt{3} \implies d = 100\sqrt{3} - 100 = 100(\sqrt{3} - 1)m
     \end{equation*}
+    Con esto determinamos que la altura del edificio es de 100 metros y la distancia entre las plazas es de $100(\sqrt{3} - 1)$ metros.
 \end{itemize}
 \item \begin{enumerate}
-    \item
+    \item La respuesta es el Consejo Superior.
     \begin{figure}[htb]
         \centering
         \includegraphics[scale=0.8]{CS.png}

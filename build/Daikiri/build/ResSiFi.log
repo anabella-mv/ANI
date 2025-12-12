@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  11 DEC 2025 14:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  12 DEC 2025 00:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -334,61 +334,88 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 {C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+<Acom.png, id=17, 725.71124pt x 361.35pt>
+File: Acom.png Graphic file (type png)
+<use Acom.png>
+Package pdftex.def Info: Acom.png  used on input line 128.
+(pdftex.def)             Requested size: 290.27936pt x 144.53743pt.
+<AUC.png, id=19, 717.43031pt x 356.83313pt>
+File: AUC.png Graphic file (type png)
+<use AUC.png>
+Package pdftex.def Info: AUC.png  used on input line 134.
+(pdftex.def)             Requested size: 286.96704pt x 142.73071pt.
+<AmenosC.png, id=20, 737.00343pt x 368.1253pt>
+File: AmenosC.png Graphic file (type png)
+<use AmenosC.png>
+Package pdftex.def Info: AmenosC.png  used on input line 140.
+(pdftex.def)             Requested size: 221.10274pt x 110.43843pt.
 
-[2]
-<parabola7.png, id=21, 420.06938pt x 572.89032pt>
+
+[2 <./Acom.png> <./AUC.png> <./AmenosC.png>]
+<parabola7.png, id=27, 420.06938pt x 572.89032pt>
 File: parabola7.png Graphic file (type png)
 <use parabola7.png>
-Package pdftex.def Info: parabola7.png  used on input line 208.
+Package pdftex.def Info: parabola7.png  used on input line 222.
 (pdftex.def)             Requested size: 168.02477pt x 229.15207pt.
 
-Overfull \hbox (20.12328pt too wide) detected at line 218
+Overfull \hbox (20.12328pt too wide) detected at line 232
 \OT1/cmr/m/n/10 1 = \OML/cmm/m/it/10 sen[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 cos[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 sen[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) + [][] = \OML/cmm/m/it/10 sen[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) + []  =[]\OMS/cmsy/m/n/10 )  \OML/cmm/m/it/10 sen[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) = 1 \OMS/cmsy/m/n/10 ^^@ [] \OT1/cmr/m/n/10 = []  =[]\OMS/cmsy/m/n/10 )  \OML/cmm/m/it/10 sen\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) = \OMS/cmsy/m/n/10 ^^@[]
  []
 
 
 
-[3 <./parabola7.png>]
-<CS.png, id=27, 615.80063pt x 137.01187pt>
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
+
+ []
+
+<CS.png, id=32, 615.80063pt x 137.01187pt>
 File: CS.png Graphic file (type png)
 <use CS.png>
-Package pdftex.def Info: CS.png  used on input line 257.
+Package pdftex.def Info: CS.png  used on input line 272.
 (pdftex.def)             Requested size: 492.64116pt x 109.60963pt.
 
-Overfull \hbox (8.94429pt too wide) in paragraph at lines 257--259
+Overfull \hbox (8.94429pt too wide) in paragraph at lines 272--274
  [][] 
  []
 
-<CE.png, id=28, 642.14906pt x 52.69687pt>
+<CE.png, id=33, 642.14906pt x 52.69687pt>
 File: CE.png Graphic file (type png)
 <use CE.png>
-Package pdftex.def Info: CE.png  used on input line 263.
+Package pdftex.def Info: CE.png  used on input line 278.
 (pdftex.def)             Requested size: 513.71994pt x 42.15753pt.
 
-Overfull \hbox (30.02307pt too wide) in paragraph at lines 263--265
+Overfull \hbox (30.02307pt too wide) in paragraph at lines 278--280
  [][] 
  []
 
 
 
-[4 <./CS.png> <./CE.png>] (c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\ResSiFi.aux)
+[4 <./parabola7.png>]
+
+[5 <./CS.png> <./CE.png>] (c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\ResSiFi.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4710 strings out of 468149
- 72195 string characters out of 5431082
- 504661 words of memory out of 5000000
- 33268 multiletter control sequences out of 15000+600000
+ 4734 strings out of 468149
+ 72551 string characters out of 5431082
+ 505730 words of memory out of 5000000
+ 33292 multiletter control sequences out of 15000+600000
  634730 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,15n,79p,572b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,15n,79p,572b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\maile\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\ResSiFi.pdf (4 pages, 244007 bytes).
+Output written on c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\ResSiFi.pdf (5 pages, 336185 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
+ 96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
