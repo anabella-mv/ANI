@@ -1,0 +1,209 @@
+\documentclass[a4paper]{article}
+
+%paquetes necesarios
+\usepackage[a4paper, top=1.5cm, left=2cm, right=2cm,bottom=2cm]{geometry}
+\usepackage{amsfonts}
+\usepackage{amsmath, scalerel}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{polynom}
+%texto del  documento
+\title{Facultad de Matemática, Astronomía, Física y Computación}
+\author{Simulacro Final\\ GURI - La Bisagra, conduccion del CEIMAF}
+\date{7 de Febrero de 2026}
+
+\begin{document}
+\maketitle
+\begin{enumerate}
+    \item 
+    \begin{enumerate}
+        \item Resolución de las operaciones:
+        \begin{enumerate}
+            \item 
+            \begin{gather*}
+                \frac{\left(\frac{3}{4}\right)^{-2}}{\frac{1}{9}-\frac{10}{18}}=\frac{\left(\frac{4}{3}\right)^{2}}{\frac{2-10}{18}}=\frac{\frac{16}{9}}{-\frac{8}{18}}=\frac{16}{9}\cdot \left(-\frac{18}{8}\right)=-4
+            \end{gather*}
+            \item 
+            \begin{gather*}
+                i^{8}\cdot \left(\overline{-i+2}\right)=1\cdot \left(2+i\right)=2+i
+            \end{gather*}
+            \item 
+            \begin{gather*}
+                \frac{\sqrt{98}\cdot 2^{\frac{1}{2}}}{\left(\frac{14}{3}\right)^{7}\cdot \left(\left(\frac{14}{3}\right)^{-1}\right)^{5}}\cdot \frac{14}{27}=\frac{\sqrt{49\cdot 2}\cdot \sqrt{2}}{\left(\frac{14}{3}\right)^{7}\cdot \left(\frac{14}{3}\right)^{-5}}\cdot \frac{14}{27}=\frac{7\cdot 2}{\left(\frac{14}{3}\right)^{7-5}}\cdot \frac{14}{27}=\frac{14}{\left(\frac{14}{3}\right)^{2}}\cdot \frac{14}{27}=\frac{14\cdot 3^2}{14^2}\cdot \frac{14}{27}\\
+                =\frac{9}{14}\cdot \frac{14}{27}=\frac{9}{27}=\frac{1}{3}
+            \end{gather*}
+            \end{enumerate}
+        \item Tabla de conjuntos numéricos:
+        \begin{table}[h!]
+                \centering
+                \resizebox{0.98\textwidth}{!}{
+                \begin{tabular}{|c|c|c|c|c|c|c|}
+                \hline
+                \ & $\mathbb{N}$(Naturales) & $\mathbb{Z}$(Enteros) & $\mathbb{Q}$(Racionales)& $\mathbb{I}$(Irracionales)& $\mathbb{R}$(Reales) & $\mathbb{C}$(Complejos) \\ \hline
+                Resultado operación I & \ & X & X & \ & X & X \\ \hline
+                Resultado operación II & \ & \ & \ & \ & \ & X \\ \hline
+                Resultado operación III & \ & \ & X & \ & X & X \\ \hline
+            \end{tabular}
+                }
+            \end{table}
+            \item Despeje de la incógnita $G$:
+            \begin{gather*}
+                \frac{4}{d}=\sqrt{\frac{4}{G-2}-(x+3n)}\\
+                \left(\frac{4}{d}\right)^2=\frac{4}{G-2}-(x+3n)\\
+                \frac{16}{d^2}=\frac{4}{G-2}-(x+3n)\\
+                \frac{16}{d^2}+(x+3n)=\frac{4}{G-2}\\
+                G-2=\frac{4}{\frac{16}{d^2}+(x+3n)}\\
+                G=2+\frac{4}{\frac{16}{d^2}+(x+3n)}
+            \end{gather*}
+        \end{enumerate}
+        \item 
+        \begin{enumerate}
+            \item resuelvo por partes:
+            \begin{gather}
+                -2Q(x)=-2(x^2-4x+1)=-2x^2+8x-2\\
+                P(x)-2Q(x)=x^4-2x^3+5x^2-7x+3-2x^2+8x-2=x^4-2x^3+3x^2+x+1\\
+                P(x)-2Q(x)-x^4-3x+1=x^4-2x^3+3x^2+x+1-x^4-3x+1=-2x^3+3x^2-2x+2
+            \end{gather}
+            El grado del polinomio resultante es 3, ya que el término de mayor exponente es $-2x^3$.
+            \item División de $P(x)$ por $Q(x)$:
+            \begin{center}
+                \polylongdiv[style=D]{x^4-2x^3+5x^2-7x+3}{x^2-4x+1}
+            \end{center}
+            El cociente es $x^2+2x+12$ y el resto es $39x-9$.
+            \item Utilizando el teorema del resto y evaluando en $x=1$:
+            \begin{gather*}
+                P(1)=1^4-2\cdot 1^3+5\cdot 1^2-7\cdot 1+3=1-2+5-7+3=0
+            \end{gather*}
+            Como el resultado es 0, entonces $P(x)$ es divisible por $x-1$.           
+        \end{enumerate}
+        \item Planteo y resolución del sistema de ecuaciones:
+        \begin{enumerate}
+            \item Planteo del sistema:
+            \begin{gather*}
+                g+a=100\\
+                1500g+2500a=205000
+            \end{gather*}
+            Donde $g$ representa la cantidad de galletitas y $a$ la cantidad de alfajores.
+            \item Resolución del sistema utilizando el método de sustitución:
+            De la primera ecuación, despejamos $a$:
+            \begin{gather*}
+                a=100-g
+            \end{gather*}
+            Sustituyendo en la segunda ecuación:
+            \begin{gather*}
+                1500g+2500(100-g)=205000\\
+                1500g+250000-2500g=205000\\
+                -1000g=-45000\\
+                g=45
+            \end{gather*}
+            Luego, sustituyendo el valor de $g$ en la primera ecuación para encontrar $a$:
+            \begin{gather*}
+                45+a=100\\
+                a=55
+            \end{gather*}
+            Por lo tanto, Sara compró 45 galletitas y 55 alfajores.
+            \item Clasificación del sistema:
+            El sistema tiene una única solución, por lo tanto es un sistema compatible determinado.
+    \end{enumerate}
+    \item \begin{enumerate}
+        \item Como sabemos la suma y producto de las raíces, podemos usar el siguiente dato conocido:
+        \begin{gather*}
+            x_1 + x_2 = -\frac{b}{a}\\
+            x_1 \cdot x_2 = \frac{c}{a} 
+        \end{gather*}
+        Reemplazo con los valores de mi ecuación
+        \begin{gather*}
+            x_1 + x_2 = -\frac{k}{2} = 7 \implies k = -14\\
+            x_1 \cdot x_2 = \frac{r}{2} = 10 \implies r = 20
+        \end{gather*}
+    \item \begin{enumerate}
+        \item Realizo el cambio de variable $y = x^2$, por lo que la ecuación queda:
+        \begin{gather*}
+            2y^2 - 6y + 4 = 0
+        \end{gather*}
+        \item Resuelvo la ecuación cuadrática en $y$:
+        \begin{gather*}
+            y = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} = \frac{6 \pm \sqrt{(-6)^2 - 4\cdot 2 \cdot 4}}{2\cdot 2} = \frac{6 \pm \sqrt{36 - 32}}{4} = \frac{6 \pm \sqrt{4}}{4} = \frac{6 \pm 2}{4}
+        \end{gather*}
+        Por lo tanto, las soluciones para $y$ son:
+        \begin{gather*}
+            y_1 = \frac{8}{4} = 2\\
+            y_2 = \frac{4}{4} = 1
+        \end{gather*}
+        Ahora, vuelvo a la variable original $x$:
+        \begin{gather*}
+            x^2 = 2 \implies x = \pm\sqrt{2}\\
+            x^2 = 1 \implies x = \pm 1
+        \end{gather*}
+        Por lo tanto, las soluciones de la ecuación original son $x = \sqrt{2}, -\sqrt{2}, 1, -1$.
+    \end{enumerate}
+\end{enumerate}
+\item Pasamos a resolver la ecuación fraccionaria:
+\begin{gather*}
+    \frac{x^2-5x+6}{x^2-4} - \frac{x-2}{x+2} = \frac{2}{x-2}
+\end{gather*}
+Primero, factorizamos los polinomios cuando sea posible:
+\begin{gather*}
+    \frac{(x-2)(x-3)}{(x-2)(x+2)} - \frac{x-2}{x+2} = \frac{2}{x-2}
+\end{gather*}
+Simplificamos la primera fracción:
+\begin{gather*}
+    \frac{x-3}{x+2} - \frac{x-2}{x+2} = \frac{2}{x-2}
+\end{gather*}
+Combinamos las fracciones del lado izquierdo:
+\begin{gather*}
+    \frac{(x-3) - (x-2)}{x+2} = \frac{2}{x-2}\\
+    \frac{-1}{x+2} = \frac{2}{x-2}
+\end{gather*}
+Ahora, cruzamos los productos:
+\begin{gather*}
+    -1 \cdot (x-2) = 2 \cdot (x+2)\\
+    -x + 2 = 2x + 4\\
+    2 - 4 = 2x + x\\
+    -2 = 3x\\
+    x = -\frac{2}{3}
+\end{gather*}
+La solución $x = -\frac{2}{3}$ es válida ya que no hace que ningún denominador sea cero. Hay que tener en cuenta esto a la hora de justificar las posibles soluciones.
+\item 
+\begin{enumerate}
+    \item Para determinar el valor de verdad de la proposición $\lnot (s \wedge b) \implies a$, primero analizamos las premisas dadas:
+\begin{gather*}
+    \lnot s \implies a \quad \text{(verdadero)}\\
+    b \vee a \quad \text{(falso)}
+\end{gather*}
+Dado que $b \vee a$ es falso, entonces tanto $b$ como $a$ deben ser falsos. Por lo tanto, $a$ es falso. Ahora, si $a$ es falso, entonces $\lnot s$ debe ser falso para que la primera premisa sea verdadera, lo que implica que $s$ es verdadero. Ahora evaluamos la proposición $\lnot (s \wedge b) \implies a$:
+\begin{gather*}
+    s \wedge b = \text{verdadero} \wedge \text{falso} = \text{falso}\\
+    \lnot (s \wedge b) = \lnot \text{falso} = \text{verdadero}\\
+    \lnot (s \wedge b) \implies a = \text{verdadero} \implies \text{falso} = \text{falso}
+\end{gather*}
+Por lo tanto, la proposición $\lnot (s \wedge b) \implies a$ es falsa.
+\item 
+\begin{enumerate}
+    \item Expresión de los conjuntos:\\
+    Para el conjunto $A$ por extensión resolvemos la ecuación cuadrática:
+    \begin{gather*}
+        x^2 - 5x + 6 = 0\\
+        (x-2)(x-3) = 0\\
+        x = 2, 3    
+    \end{gather*}
+    Entonces, $A = \{2, 3\}$.\\
+    El conjunto $B$ ya está expresado como intervalo: $B = (-1, 1)$.\\
+    El conjunto $C$ ya está expresado por comprensión: $C = \{x \in \mathcal{U} \mid -2 < x \leq 5\}$.
+    \item Determinación de las operaciones entre conjuntos:
+    \begin{gather*}
+        \left(A \cup B^{c}\right)^{c} = A^{c} \cap B = \{x \in \mathcal{U} \mid x \notin A\} \cap B = \{x \in \mathcal{U} \mid x \notin \{2, 3\}\} \cap (-1, 1) = (-1, 1)
+    \end{gather*}
+    \item Como A es el conjunto $\{2, 3\}$ y C es el intervalo $(-2, 5]$, la intersección $A \cap C$ incluye los elementos de A que también están en C. Dado que ambos 2 y 3 están dentro del intervalo $(-2, 5]$, entonces:
+    $A \cap C = \{2, 3\}$
+    \item Para listar los pares ordenados de $A \times A$, tomamos cada elemento de A y lo combinamos con cada elemento de A:
+    \begin{gather*}
+        A \times A = \{(2, 2), (2, 3), (3, 2), (3, 3)\}
+    \end{gather*}
+\end{enumerate}
+\item El valor de la verdad de la proposición $\forall x \in \mathbb{Z}, \quad \exists y \in \mathbb{Z} \mid x + y = 0$ es verdadero. Esto se debe a que para cada entero $x$, existe un entero $y$ (específicamente, $y = -x$) tal que la suma de $x$ y $y$ es igual a cero. Por ejemplo, si $x = 5$, entonces $y = -5$ y $5 + (-5) = 0$. De manera similar, si $x = -3$, entonces $y = 3$ y $-3 + 3 = 0$. Por lo tanto, la proposición es verdadera para todos los enteros $x$.
+\end{enumerate}
+\end{enumerate}
+\end{document}
