@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  9 FEB 2026 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  9 FEB 2026 18:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -278,11 +278,11 @@ LaTeX Font Info:    ... okay on input line 17.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(42.67912pt, 745.46222pt, 56.9055pt)
+* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=483.69687pt
-* \textheight=745.46222pt
+* \textheight=759.6886pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
 * \topmargin=-66.59087pt
@@ -330,27 +330,49 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
  (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Underfull \hbox (badness 10000) in paragraph at lines 24--27
+
+ []
+
+
 
 [1
 
-{C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (c:\Users\maile\OneDrive\Desktop\ANI\build\Geometria\build\TeoricoFinal.aux)
+{C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 60--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--66
+
+ []
+
+<imagenes/T10.png, id=17, 512.66531pt x 380.17032pt>
+File: imagenes/T10.png Graphic file (type png)
+<use imagenes/T10.png>
+Package pdftex.def Info: imagenes/T10.png  used on input line 72.
+(pdftex.def)             Requested size: 205.06248pt x 152.06543pt.
+
+
+[2 <./imagenes/T10.png>] (c:\Users\maile\OneDrive\Desktop\ANI\build\Geometria\build\TeoricoFinal.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4652 strings out of 468149
- 71350 string characters out of 5431082
- 480525 words of memory out of 5000000
- 33216 multiletter control sequences out of 15000+600000
- 631769 words of font info for 59 fonts, out of 8000000 for 9000
+ 4695 strings out of 468149
+ 72060 string characters out of 5431082
+ 500563 words of memory out of 5000000
+ 33251 multiletter control sequences out of 15000+600000
+ 635988 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,7n,79p,285b,222s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on c:\Users\maile\OneDrive\Desktop\ANI\build\Geometria\build\TeoricoFinal.pdf (1 page, 34394 bytes).
+ 72i,20n,79p,540b,233s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\maile\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on c:\Users\maile\OneDrive\Desktop\ANI\build\Geometria\build\TeoricoFinal.pdf (2 pages, 174360 bytes).
 PDF statistics:
- 21 PDF objects out of 1000 (max. 8388607)
+ 82 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,7 +1,7 @@
 \documentclass[a4paper]{article}
 
 %paquetes necesarios
-\usepackage[a4paper, top=1.5cm, left=2cm, right=2cm,bottom=2cm]{geometry}
+\usepackage[a4paper, top=1.5cm, left=2cm, right=2cm,bottom=1.5cm]{geometry}
 \usepackage{amsfonts}
 \usepackage{amsmath, scalerel}
 \usepackage{mathtools}
@@ -16,6 +16,66 @@
 
 \begin{document}
 \maketitle
-
-
+\section{Listado teórico:}
+\subsection{Teorema 4}
+\subsubsection{Enunciado}
+Sean $A$ una recta, $a \in A$ y $p \notin A$. Entonces $\overrightarrow{ap} \subset A_p$.
+\subsubsection{Demostración}
+Consideramos en $\overleftrightarrow{ap}$ el orden $<$ tal que $a<p$, quiero ir por el absurdo, supongo $\overrightarrow{ap}\nsubseteq A$, es decir, \textbf{existe $q \in \overrightarrow{ap}$ tal que $q \notin A_p$}.\\
+Pero como $A \subset A_p$ entonces $q \in \check{A_p}$, más precisamente $q \in \check{A_p}- A$.\\
+Por \textit{II.3} sabemos que $\overline{pq} \cap A \neq \varnothing$, pero $a,p,q$ están alineados, entonces $\overline{pq} \subseteq\overleftrightarrow{ap}$.\\
+\begin{itemize}
+    \item $\varnothing \neq \overline{pq} \cap A \subseteq \overleftrightarrow{ap} \cap A =\{a\} \text{ entonces } \overline{pq} \cap A=\{a\}$
+    \item $\implies q<a<p \text{ por definición de segmento,}$
+    \item $\text{pero } q \in \overrightarrow{ap} \implies a<q \text{ lo cual resulta }\textbf{absurdo}$
+\end{itemize}
+$\therefore \overrightarrow{ap} \subseteq A_p$
+\subsection{Corolario 5}
+\subsubsection{Enunciado}
+Los semiplanos cerrados son convexos.
+\subsubsection{Demostración}
+Dado un semiplano $A_p$ y sean $r, s \in A_p$ entonces hay 3 casos posibles:
+\begin{enumerate}
+    \item Si $r,s \in A_p - A$. Entonces por \textit{II.3} tenemos $\overline{rs} \subseteq A_p-A \subseteq A_p$
+    \item Si $r,s \in A$. Entonces por ser $A$ una recta, $\overline{rs} \subseteq A \subseteq A_p$
+    \item Si $r \in A_p -A$ y $s \in A$. Entonces $\overline{sr} \subseteq \overrightarrow{sr}\subseteq A_p$ por teorema 4
+\end{enumerate}
+En todos los casos llegamos a $\overline{rs} \subseteq A_p$\\
+$\therefore A_p$ es convexo.
+\subsection{Teorema 7}
+\subsubsection{Enunciado}
+Sea $\angle AB$ un ángulo con $a \in A$ y $b \in B$. Si R es una semirrecta interior al ángulo, entonces $R$ interseca a $\overline{ab}$ en un único punto.
+\subsubsection{Demostración}
+Sea $o$ el vértice de $\angle AB$. Si $a=o$ ó $b=o$, el resultado es claro.\\
+Consideremos ahora el caso $a,b \neq o$. Quiero ver que $a$ y $b$ están en semiplanos opuestos respecto a $\overleftrightarrow{R}$. Entonces sea $a'\in \check{A}$ con $a\neq o$, sabemos que $b \in A_B$ entonces por teorema 4 $\overrightarrow{a'b} \subseteq A_B$ y como $R \subseteq A_B$ y $R \subseteq B_A$, vale que:
+\begin{enumerate}
+    \item \textbf{$\overrightarrow{a'b} \cap \check{R}= \varnothing$}, análogamente $a'\in B_{\check{A}}$ entonces por teorema 4, $\overrightarrow{a'b} \subseteq B_{\check{A}}$
+    \item \textbf{$\overrightarrow{ba'} \cap R= \varnothing$}
+\end{enumerate}
+Entonces 
+\begin{gather*}
+    \overline{a'b} \cap \overleftrightarrow{R} = \overline{a'b} \cap (R \cup \check{R})\\
+    = (\overline{a'b} \cap R)\cup(\overline{a'b} \cap \check{R})\\
+    = \varnothing \cup \varnothing = \varnothing
+\end{gather*}
+Deducimos del \textit{II.3} que $a'$ y $b$ están en el mismo semiplano respecto a $\overleftrightarrow{R}$. Como $a \in A$ y $a'\in \check{A}$ resulta que $a$ y $a'$ están en semiplanos opuestos respecto de $\overleftrightarrow{R}$\\
+$\therefore a$ y $b$ están en semiplanos opuestos respecto a $\overleftrightarrow{R}$\\\\
+Por el \textit{II.3} se deduce que $\overline{ab} \cap R \neq \varnothing$ y además $a, b \in sec(\angle AB)$ que es convexo, entonces $\overline{ab} \subseteq sec(\angle AB)$, luego la intersección $\overline{ab} \cap \overleftrightarrow{R}$ debe estar en $R$ pues los puntos de $\check{R}$ son exteriores a $\angle AB$, por lo tanto $\overline{ab} \cap R \neq \varnothing$.\\\\
+Y si hubieran dos puntos de corte de $R$ y $\overline{ab}$, llamémoslos $p$ y $q$, entonces $\overline{ab} \subseteq \overleftrightarrow{pq}=\overleftrightarrow{R}$. Pero $\overline{ab} \subseteq sec(\angle AB)$.
+$\therefore \overline{ab} \subseteq R \implies a,b$ son puntos interiores al $\angle AB$, \textbf{absurdo} por lo cual el punto es único.
+\subsection{Teorema 10: Postulado de Pasch}
+\subsubsection{Enunciado}
+Si $R$ es una recta que interseca al $\triangle abc$ y no pasa por sus vértices, entonces $R$ interseca a $\triangle abc$ en exactamente dos puntos.
+\subsubsection{Demostración}
+\begin{figure}[htb]
+    \centering
+    \includegraphics[scale=0.4]{imagenes/T10.png}
+    \label{fig:Postulado de Pasch}
+\end{figure}
+Supongamos que R corta a $\overline{ac}$ en $p$ con $p \neq a$ y $p \neq c$. $R$ corta a $\overline{ac}$ únicamente en $p$ pues si la intersección tuviera más de un elemento resultaría en $\overleftrightarrow{R}=\overleftarrow{ac}$ lo cual es \textbf{absurdo}. Entonces $a$ y $c$ están en semiplanos opuestos respecto a $R$, es decir, $c \in \check{R}_a$. Ahora tenemos que $b \in R_a$ ó $b \in \check{R}_a$ (y $b \notin R$), entonces:
+\begin{itemize}
+    \item Si $b \in R_a$, entonces $a,b \in R_a - R$ y por $R_a - R$ convexo resulta $\overline{ab} \cap R=\varnothing$. Además, $c \in \check{R}_a$ y $b \in R_a$ y resulta por \textit{II.3} $\overline{bc} \cap R=\{q\}$ con $q \neq p$ y luego $R$ corta al $\triangle abc$ sólo en $p$ y $q$.
+    \item Si $b \in \check{R}_a$, entonces análogamente se ve que $R$ corta al $\triangle abc$ en $\overline{ac}$ y $\overline{ab}$ en dos puntos y no corta al $\overline{bc}$.
+\end{itemize}
+$\therefore R$ corta al $\triangle abc$ sólo en $p$ y $q$ con $q \in \overline{ab}$.
 \end{document}
