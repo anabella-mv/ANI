@@ -9,6 +9,8 @@
 \usepackage{multicol}
 \usepackage{graphicx}
 \usepackage{polynom}
+\usepackage{enumitem}
+
 %texto del  documento
 \title{Facultad de Matemática, Astronomía, Física y Computación}
 \author{Teórico Final de Geomtría I}
@@ -78,4 +80,36 @@ Supongamos que R corta a $\overline{ac}$ en $p$ con $p \neq a$ y $p \neq c$. $R$
     \item Si $b \in \check{R}_a$, entonces análogamente se ve que $R$ corta al $\triangle abc$ en $\overline{ac}$ y $\overline{ab}$ en dos puntos y no corta al $\overline{bc}$.
 \end{itemize}
 $\therefore R$ corta al $\triangle abc$ sólo en $p$ y $q$ con $q \in \overline{ab}$.
+\subsection{Teorema 11}
+\subsubsection{Enunciado}
+Toda semirrecta con origen en un punto interior de una región poligonal convexa, interseca al polígomo en un único punto.
+\subsubsection{Demostración}
+\begin{figure}[htb]
+    \centering
+    \includegraphics[scale=0.6]{imagenes/T11.png}
+    \label{fig:Teorema 11}
+\end{figure}
+Sea $o$ un punto interior al polígono $a_1, \ldots, a_n$. Entonces $o$ es interior a todos los ángulos $\angle a_i$ del polígono. En particular, $\overrightarrow{a_2o}$ es semirrecta interios al $\angle a_1a_2a_3$, y entonces $\overline{a_1a_2}$ y $\overline{a_2a_3}$ se encuentran en semiplanos distintos repecto de $\overleftrightarrow{oa_2}$, por el teorema 7. Luego, $\angle a_1oa_2$ y $\angle a_2oa_3$ son consecutivos. Análogamente, se tiene que $\angle a_{i-1}oa_i$ y $a_ioa_{i+1}$ son ángulos consecutivos para $i=1, \ldots, n$ (con $a_0=a_n$ y $a_{n+1}=a_1$). Por lo tanto, si $A_i = \overrightarrow{oa_i}$ para $i=1, \ldots, n$, entonces las semirrectas $A_i$ satisfacen las hipótesis del teorema 9.\\
+$\therefore \Pi = \bigcup_{i=1}^n sec \left(\angle A_iA_{i+1}\right)$\\\\
+Sea ahora $p \in \Pi$, $p\neq o$, si $\overrightarrow{op}=A_i$ para algún $i$, entonces $\overrightarrow{op}$ interseca al polígono únicamente en $a_i$. Si $\overrightarrow{op} \neq A_i, \forall i$, sabemos que $p \in \bigcup_{i=1}^n sec(\angle A_iA_{i+1})$ por el teorema 9, por lo tanto existe $i_o$ tal que $p \in sec(\angle A_{i_o}A_{i_o+1})$. Más aún, $p$ es interior al $\angle A_{i_o}A_{i_o+1}$ pues no está en sus lados. Luego $\overrightarrow{op}$ es una semirrecta interior al $\angle A_{i_o}A_{i_o+1}$. Por el teorema 7, el segmento $\overline{a_ia_{i+1}}$ interseca a $\overrightarrow{op}$, por lo que $\overrightarrow{op}$ corta al polígono.\\\\
+\textbf{Unicidad:} Si $\overrightarrow{op}$ cortara al polígono en $q$ y $q'(q\neq q')$, consideramos las posiciones de $o, q$ y $q'$ en la semirrecta $\overrightarrow{op}$. Puede ser $o<q<q'$ o bien $o<q'<q$.
+\begin{itemize}
+    \item En el primer caso, supongamos $q \in \overline{a_ia_{i+1}}$. Entonces $o$ y $q'$ estarían en semiplanos distintos respecto de $\overrightarrow{a_ia_{i+1}}$, lo cual es absurdo pues $o$ y $q'$ están en la región poligonal.
+    \item Es análogo
+\end{itemize}
+Luego, $\overrightarrow{op}$ corta al polígono en un único punto.
+\subsection{Teorema 16}
+\subsubsection{Enunciado}
+Sean $R$ una recta, $p \notin R$ y $T$ una transformación rígida. Entonces $T(R_p)=T(R)_{T(p)}$
+\subsubsection{Demostración}
+Definimos $R'=T(R)$ y $p'=T(p)$. Claramente $R'\subset R'_{p'}$ y $p' \in R'{p'}$. Sea ahora $q \in R_p-R$, con $q \neq p$. Luego $\overline{pq} \cap R= \varnothing$ y aplicando $T$ tenemos: $\overline{p'q}'\cap R' = \varnothing$ donde $q'\in T(q)$ por corolario 15. De esto se deduce que $q'\in R'_{p'}$, por lo que vale $T\left(R_p\right) \subseteq R'_{p'}$.\\
+Por axioma \textit{III.2}, sabemos que $T^{-1}$ es una transformación rígida y podemos considerar lo probado recién pero para esta transformación y obtenemos: $T^{-1}\left(R'_{p'}\right) \subseteq R_p$. Aplicando $T$: $R'_{p'} \subseteq T\left(R_p\right)$. Resulta entonces $T\left(R_p\right) = R'_{p'}$.
+\subsection{Teorema 20}
+\subsubsection{Enunciado}
+Sea $\left(A,\alpha\right)$ un par semirrecta-semiplano, $A$ de origen $o$ y $T$ la transformación rígida tal que $T(A,\alpha)=\left(\check{A}, \check{\alpha}\right)$. Entonces: 
+\begin{enumerate}[label=\alph*]
+    \item $T$ es involutiva.
+    \item Si $\left(B,\beta\right)$ es otro par de semirrecta-semiplano tal que $B$ tiene origen en $o$, entonces $T\left(B,\beta\right)=\left(\check{B}, \check{\beta}\right)$.
+\end{enumerate}
+\subsubsection{Demostración}
 \end{document}
