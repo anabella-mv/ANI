@@ -105,29 +105,29 @@ INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT .\gráfico.png
-INPUT .\gráfico.png
-INPUT .\gráfico.png
-INPUT .\gráfico.png
+INPUT .\Imagenes\gráfico.png
+INPUT .\Imagenes\gráfico.png
+INPUT .\Imagenes\gráfico.png
+INPUT .\Imagenes\gráfico.png
 OUTPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\simulacro2.pdf
-INPUT .\gráfico.png
-INPUT .\gráfico.png
-INPUT .\gráfico.png
+INPUT .\Imagenes\gráfico.png
+INPUT .\Imagenes\gráfico.png
+INPUT .\Imagenes\gráfico.png
 INPUT C:\Users\maile\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT .\punto final.png
-INPUT .\punto final.png
-INPUT .\punto final.png
-INPUT .\punto final.png
-INPUT .\punto final.png
-INPUT .\punto final.png
-INPUT .\punto final.png
-INPUT .\an.png
-INPUT .\an.png
-INPUT .\an.png
-INPUT .\an.png
-INPUT .\an.png
-INPUT .\an.png
-INPUT .\an.png
+INPUT .\Imagenes\punto final.png
+INPUT .\Imagenes\punto final.png
+INPUT .\Imagenes\punto final.png
+INPUT .\Imagenes\punto final.png
+INPUT .\Imagenes\punto final.png
+INPUT .\Imagenes\punto final.png
+INPUT .\Imagenes\punto final.png
+INPUT .\Imagenes\an.png
+INPUT .\Imagenes\an.png
+INPUT .\Imagenes\an.png
+INPUT .\Imagenes\an.png
+INPUT .\Imagenes\an.png
+INPUT .\Imagenes\an.png
+INPUT .\Imagenes\an.png
 INPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\simulacro2.aux
 INPUT C:\Users\maile\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\maile\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk

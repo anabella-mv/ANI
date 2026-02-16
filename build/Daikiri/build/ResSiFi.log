@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  12 DEC 2025 17:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  15 FEB 2026 21:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -334,28 +334,28 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 {C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<Acom.png, id=17, 725.71124pt x 361.35pt>
-File: Acom.png Graphic file (type png)
-<use Acom.png>
-Package pdftex.def Info: Acom.png  used on input line 128.
+<Imagenes/Acom.png, id=17, 725.71124pt x 361.35pt>
+File: Imagenes/Acom.png Graphic file (type png)
+<use Imagenes/Acom.png>
+Package pdftex.def Info: Imagenes/Acom.png  used on input line 128.
 (pdftex.def)             Requested size: 290.27936pt x 144.53743pt.
-<AUC.png, id=19, 717.43031pt x 356.83313pt>
-File: AUC.png Graphic file (type png)
-<use AUC.png>
-Package pdftex.def Info: AUC.png  used on input line 134.
+<Imagenes/AUC.png, id=19, 717.43031pt x 356.83313pt>
+File: Imagenes/AUC.png Graphic file (type png)
+<use Imagenes/AUC.png>
+Package pdftex.def Info: Imagenes/AUC.png  used on input line 134.
 (pdftex.def)             Requested size: 286.96704pt x 142.73071pt.
-<AmenosC.png, id=20, 737.00343pt x 368.1253pt>
-File: AmenosC.png Graphic file (type png)
-<use AmenosC.png>
-Package pdftex.def Info: AmenosC.png  used on input line 140.
+<Imagenes/AmenosC.png, id=20, 737.00343pt x 368.1253pt>
+File: Imagenes/AmenosC.png Graphic file (type png)
+<use Imagenes/AmenosC.png>
+Package pdftex.def Info: Imagenes/AmenosC.png  used on input line 140.
 (pdftex.def)             Requested size: 221.10274pt x 110.43843pt.
 
 
-[2 <./Acom.png> <./AUC.png> <./AmenosC.png>]
-<parabola7.png, id=27, 420.06938pt x 572.89032pt>
-File: parabola7.png Graphic file (type png)
-<use parabola7.png>
-Package pdftex.def Info: parabola7.png  used on input line 222.
+[2 <./Imagenes/Acom.png> <./Imagenes/AUC.png> <./Imagenes/AmenosC.png>]
+<Imagenes/parabola7.png, id=27, 420.06938pt x 572.89032pt>
+File: Imagenes/parabola7.png Graphic file (type png)
+<use Imagenes/parabola7.png>
+Package pdftex.def Info: Imagenes/parabola7.png  used on input line 222.
 (pdftex.def)             Requested size: 168.02477pt x 229.15207pt.
 
 Overfull \hbox (20.12328pt too wide) detected at line 232
@@ -374,20 +374,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 260--262
 
  []
 
-<CS.png, id=32, 615.80063pt x 137.01187pt>
-File: CS.png Graphic file (type png)
-<use CS.png>
-Package pdftex.def Info: CS.png  used on input line 272.
+<Imagenes/CS.png, id=32, 615.80063pt x 137.01187pt>
+File: Imagenes/CS.png Graphic file (type png)
+<use Imagenes/CS.png>
+Package pdftex.def Info: Imagenes/CS.png  used on input line 272.
 (pdftex.def)             Requested size: 492.64116pt x 109.60963pt.
 
 Overfull \hbox (8.94429pt too wide) in paragraph at lines 272--274
  [][] 
  []
 
-<CE.png, id=33, 642.14906pt x 52.69687pt>
-File: CE.png Graphic file (type png)
-<use CE.png>
-Package pdftex.def Info: CE.png  used on input line 278.
+<Imagenes/CE.png, id=33, 642.14906pt x 52.69687pt>
+File: Imagenes/CE.png Graphic file (type png)
+<use Imagenes/CE.png>
+Package pdftex.def Info: Imagenes/CE.png  used on input line 278.
 (pdftex.def)             Requested size: 513.71994pt x 42.15753pt.
 
 Overfull \hbox (30.02307pt too wide) in paragraph at lines 278--280
@@ -396,9 +396,9 @@ Overfull \hbox (30.02307pt too wide) in paragraph at lines 278--280
 
 
 
-[4 <./parabola7.png>]
+[4 <./Imagenes/parabola7.png>]
 
-[5 <./CS.png> <./CE.png>] (c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\ResSiFi.aux)
+[5 <./Imagenes/CS.png> <./Imagenes/CE.png>] (c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\ResSiFi.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-11>
@@ -406,7 +406,7 @@ L3 programming layer <2025-07-11>
  ) 
 Here is how much of TeX's memory you used:
  4734 strings out of 468149
- 72551 string characters out of 5431082
+ 72929 string characters out of 5431082
  504694 words of memory out of 5000000
  33292 multiletter control sequences out of 15000+600000
  634730 words of font info for 71 fonts, out of 8000000 for 9000

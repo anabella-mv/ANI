@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  20 NOV 2025 15:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  15 FEB 2026 21:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -327,10 +327,10 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
  (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<gráfico.png, id=1, 621.07031pt x 426.84468pt>
-File: gráfico.png Graphic file (type png)
-<use gráfico.png>
-Package pdftex.def Info: gráfico.png  used on input line 36.
+<Imagenes/gráfico.png, id=1, 621.07031pt x 426.84468pt>
+File: Imagenes/gráfico.png Graphic file (type png)
+<use Imagenes/gráfico.png>
+Package pdftex.def Info: Imagenes/gráfico.png  used on input line 36.
 (pdftex.def)             Requested size: 310.5344pt x 213.42181pt.
 
 Overfull \hbox (10.23685pt too wide) in paragraph at lines 52--53
@@ -341,20 +341,20 @@ Overfull \hbox (10.23685pt too wide) in paragraph at lines 52--53
 
 [1
 
-{C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./gráfico.png>]
-<punto final.png, id=16, 1936.23375pt x 1068.99374pt>
-File: punto final.png Graphic file (type png)
-<use punto final.png>
-Package pdftex.def Info: punto final.png  used on input line 90.
+{C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Imagenes/gráfico.png>]
+<Imagenes/punto final.png, id=16, 1936.23375pt x 1068.99374pt>
+File: Imagenes/punto final.png Graphic file (type png)
+<use Imagenes/punto final.png>
+Package pdftex.def Info: Imagenes/punto final.png  used on input line 90.
 (pdftex.def)             Requested size: 348.50703pt x 192.41057pt.
-<an.png, id=17, 286.06876pt x 191.9672pt>
-File: an.png Graphic file (type png)
-<use an.png>
-Package pdftex.def Info: an.png  used on input line 95.
+<Imagenes/an.png, id=17, 286.06876pt x 191.9672pt>
+File: Imagenes/an.png Graphic file (type png)
+<use Imagenes/an.png>
+Package pdftex.def Info: Imagenes/an.png  used on input line 95.
 (pdftex.def)             Requested size: 128.72974pt x 86.38443pt.
 
 
-[2 <./punto final.png> <./an.png>] (c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\simulacro2.aux)
+[2 <./Imagenes/punto final.png> <./Imagenes/an.png>] (c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\simulacro2.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-11>
@@ -362,7 +362,7 @@ L3 programming layer <2025-07-11>
  ) 
 Here is how much of TeX's memory you used:
  4312 strings out of 468149
- 66230 string characters out of 5431082
+ 66419 string characters out of 5431082
  482031 words of memory out of 5000000
  32876 multiletter control sequences out of 15000+600000
  634111 words of font info for 69 fonts, out of 8000000 for 9000
