@@ -27,6 +27,111 @@
             =&\frac{-3\pm \sqrt{49}}{2}=\frac{-3\pm 7}{2}\\
             =&\{-5,2\}
         \end{align*}
+        Por lo tanto $Dom(m(x))=\{x \in \mathbb{R} : x \neq -5 \wedge x \neq 2\}$.
+        \item Para determinar la imágen que pasa por $x=\frac{2}{5}$ y $x=4$ se debe evaluar la función en esos puntos:
+        \begin{align*}
+            m\left(\frac{2}{5}\right)=&\frac{6\cdot \frac{2}{5}}{\left(\frac{2}{5}\right)^2+3\cdot \frac{2}{5}-10}=\frac{\frac{12}{5}}{\frac{4}{25}+\frac{6}{5}-10}=\frac{\frac{12}{5}}{\frac{4}{25}+\frac{30}{25}-\frac{250}{25}}\\
+            =&\frac{\frac{12}{5}}{-\frac{216}{25}}=\frac{12}{5}\cdot \left(-\frac{25}{216}\right)=-\frac{1}{3}
+        \end{align*}
+        \begin{align*}
+            m(4)=&\frac{6\cdot 4}{4^2+3\cdot 4-10}=\frac{24}{16+12-10}=\frac{24}{18}=\frac{4}{3}
+        \end{align*}
+            Por lo tanto $m\left(\frac{2}{5}\right)=-\frac{1}{3}$ y $m(4)=\frac{4}{3}$.
+    \end{enumerate}
+    \item Considerando la función del gráfico y teniendo en cuenta sus puntos cerrados y abiertos podemos resolver los incisos:
+    \begin{enumerate}
+        \item 
+        \begin{itemize}
+            \item el dominio es de la forma $Dom(f(x))=[-4,-1)\cup (0,4]$
+            \item La imagen es de la forma $Im(f(x))=[-4,3]\cup [4,5)$
+            \item Las raices son en $x=-4$, $x=-3$ y $x=-2$ en la parte donde la funcion es senoidal ya que en $-1$ es un punto que no pertenece al dominio, en la parte donde la función es cuadrática se pueden observar las raíces en $x=1,2$ y $x=3,6$.
+        \end{itemize}
+        \item Los valores que cumplen tal condición son los que respectan a la parte senoidal y cuadrática, entonces ${x \in \mathbb{R}: f(x)\leq 3}=[-4,-1)\cup(1,4]$
+        \item Las transformaciones que se aplican para graficar $g(x)=-f(x+2)$ son:
+        \begin{itemize}
+            \item Traslación horizontal de $-2$ unidades, es decir, hacia la izquierda.
+            \begin{figure}[htb]
+                \centering
+                \includegraphics[scale=0.5]{Imagenes/f2izquierda.png}
+                \label{fig:funcion desplazada}
+            \end{figure}
+            \item Reflexión respecto al eje $x$.
+            \begin{figure}[hbt!]
+                \centering
+                \includegraphics[scale=0.5]{Imagenes/f2reflejada.png}
+                \label{fig:funcion reflejada}
+            \end{figure}
+        \end{itemize}
+    \end{enumerate}
+    \item 
+    \begin{enumerate}
+        \item Para determinar la ecuación de la recta que pasa por los puntos $A=(-5,\frac{3}{2})$ y $B=(1,\frac{15}{2})$ se debe calcular la pendiente de la recta y luego utilizar la forma punto-pendiente para escribir su ecuación:
+        \begin{align*}
+            m=&\frac{\frac{15}{2}-\frac{3}{2}}{1-(-5)}=\frac{\frac{12}{2}}{6}=1\\
+            y-y_1=&m(x-x_1)\\
+            y-\frac{3}{2}=&1(x-(-5))\\
+            y=&x+\frac{13}{2}
+        \end{align*}
+        \item Retomamos lo que conocemos de las rectas perpendiculares, sabemos que la pendiente de la recta $L$ es $m_L=\frac{3}{2}$ (esto es de distribuir y escribir la ecuación de forma polinómica $L: y=\frac{3}{2}x+\frac{9}{2}$), entonces la pendiente de la recta $P$ es $m_P=-\frac{1}{m_L}=-\frac{2}{3}$, ahora utilizando la forma punto-pendiente con el punto $C=(-7,7)$ se puede escribir la ecuación de la recta $P$:
+        \begin{align*}
+            y-y_1=&m(x-x_1)\\
+            y-7=&-\frac{2}{3}(x-(-7))\\
+            y=&-\frac{2}{3}x-\left(-\frac{2}{3}\right) \cdot (-7)+7\\
+            y=&-\frac{2}{3}x-\frac{14}{3}+7\\
+            =&-\frac{2}{3}x+\frac{7}{3}
+        \end{align*}
+        Entonces $P: y=-\frac{2}{3}x+\frac{7}{3}$.
+        \item Para calcular las coordenadas del punto de intersección entre las rectas $L$ y $P$ se debe igualar sus ecuaciones:
+        \begin{align*}
+            \frac{3}{2}x+\frac{9}{2}=&-\frac{2}{3}x+\frac{7}{3}\\
+            \frac{3}{2}x+\frac{2}{3}x=&\frac{7}{3}-\frac{9}{2}\\
+            \frac{9+4}{6}x=&\frac{14-27}{6}\\
+            x=&\frac{-13}{6}\cdot \frac{6}{13}=-1
+        \end{align*}
+        Ahora para calcular la coordenada $y$ se puede utilizar cualquiera de las dos rectas, por ejemplo utilizando $L$:
+        \begin{align*}
+            y=&\frac{3}{2}(-1)+\frac{9}{2}=\frac{6}{2}=3
+        \end{align*}
+        Por lo tanto las coordenadas del punto de intersección entre las rectas $L$ y $P$ son $(-1,3)$.
+    \end{enumerate}
+    \item Ayuda mucho reconocer que es la forma canónica de la parábola y aprovechar los datos que proporciona dicha forma.
+    \begin{enumerate}
+        \item Para calcular el valor del coeficiente $k$ se debe utilizar el punto $Q=(3,8)$ que pertenece a la parábola, entonces se debe evaluar la función en ese punto y despejar $k$:
+        \begin{align*}
+            8=&2\left(3-\frac{1}{2}\right)^2+k\\
+            =&2\left(\frac{5}{2}\right)^2+k\\
+            =&\frac{25}{2}+k\\
+            k=&8-\frac{25}{2}=-\frac{9}{2}
+        \end{align*}
+        Por lo tanto $k=-\frac{9}{2}$ y la parábola en su forma polinómica es:
+        \begin{align*}
+        P: y=&2\left(x-\frac{1}{2}\right)^2-\frac{9}{2}\\
+        =&2\left(x^2-x+\frac{1}{4}\right)-\frac{9}{2}\\
+        =&2x^2-2x+\frac{1}{2}-\frac{9}{2}\\
+        =&2x^2-2x-\frac{8}{2}\\
+        =&2x^2-2x-4
+        \end{align*} 
+        Por lo tanto $P: y= 2x^2-2x-4$
+        \item Como pide calcular las coordenadas, conozco que el eje de las ordenadas es el eje $y$ y lo intersecciona la parábola en su ordenada al origen, en la forma polinómica es $c=-4$, es decir, interseccionan en $(0,-4)$, y en el eje de las abscisas es el eje $x$ y lo intersecciona la parábola en sus raíces, basta usar Baskara:
+        \begin{align*}
+            x_{1,2}=&\frac{2\pm\sqrt{4-4\cdot 2 \cdot (-4)}}{2\cdot 2}\\
+            =&\frac{2\pm\sqrt{4+32}}{4}\\
+            =&\frac{2\pm\sqrt{36}}{4}\\
+            =&\frac{2\pm 6}{4}
+        \end{align*}
+        Por lo tanto $x_1=\frac{8}{4}=2$ y $x_2=\frac{-4}{4}=-1$, entonces las coordenadas de los puntos de intersección con el eje de las abscisas son $(-1,0)$ y $(2,0)$.
+        \item Para calcular las coordenadas del vértice de la parábola, se puede usar la fórmula del vértice en la forma canónica: $x_v=-\frac{b}{2a}$, donde $a=2$, $b=-2$, y $c=-4$. Entonces:
+        \begin{align*}
+            x_v=&-\frac{-2}{2\cdot 2}=\frac{1}{2}\\
+            y_v=&P(x_v)=P(\frac{1}{2})=2(\frac{1}{2})^2-2(\frac{1}{2})-4= \frac{1}{2}-1-4=-\frac{9}{2}
+        \end{align*}
+        Si bien eran datos ya conocidos por su forma canónica, está bueno verificarlo para cersiorar que nuestros cálculos tengan sentido.
+        \item El gráfico es:
+        \begin{figure}[hbt!]
+                \centering
+                \includegraphics[scale=0.5]{Imagenes/cuadraticaG.png}
+                \label{fig:funcion Cuadratica}
+        \end{figure}
     \end{enumerate}
 \end{enumerate}
 

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1771204472.16255 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/Simulacro2-2026.tex" "build/Simulacro2-2026.pdf" "Simulacro2-2026" 1771204472.90612 0
+["pdflatex"] 1771367494.86138 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/Simulacro2-2026.tex" "build/Simulacro2-2026.pdf" "Simulacro2-2026" 1771367495.69031 0
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1763148563 82011 97247c01f6bfb6f6d0c40fab12a08423 ""
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1770319395 14064 56bc4db3ccda63c58e8e08795dbdd1a8 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
@@ -25,6 +25,7 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
+  "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
@@ -59,9 +60,10 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/preprint/fullpage.sty" 1369148873 2867 05b418f78b224ec872f5b11081138605 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1749468414 10374 2ffd4f27c7f90b8a300608069537743c ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1749468414 33259 db80f750a01491473161bd4d0f6986d2 ""
-  "Simulacro2-2026.tex" 1771204471 1242 7a6b1162a2b478a5159701c4fa8e37d7 ""
-  "build/Simulacro2-2026.aux" 1771204472 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/Simulacro2-2026.tex" 1771204471 1242 7a6b1162a2b478a5159701c4fa8e37d7 ""
+  "Imagenes/f2.png" 1771359021 83040 f57ebba2f14510d6996451a88e5bf2b8 ""
+  "Simulacro2-2026.tex" 1771367494 3109 a9eddec9359b9b5a791b27cb31b91d45 ""
+  "build/Simulacro2-2026.aux" 1771367495 87 8b9b4da11b7a827611fd55e47da12535 "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/Simulacro2-2026.tex" 1771367494 3109 a9eddec9359b9b5a791b27cb31b91d45 ""
   (generated)
   "build/Simulacro2-2026.aux"
   "build/Simulacro2-2026.log"
