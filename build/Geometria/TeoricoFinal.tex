@@ -10,6 +10,7 @@
 \usepackage{graphicx}
 \usepackage{polynom}
 \usepackage{enumitem}
+\usepackage{xcolor}
 
 %texto del  documento
 \title{Facultad de Matemática, Astronomía, Física y Computación}
@@ -19,7 +20,7 @@
 \begin{document}
 \maketitle
 \section{Listado teórico:}
-\subsection{Teorema 4}
+\subsection{\textcolor{blue}{Teorema 4}}
 \subsubsection{Enunciado}
 Sean $A$ una recta, $a \in A$ y $p \notin A$. Entonces $\overrightarrow{ap} \subset A_p$.
 \subsubsection{Demostración}
@@ -32,7 +33,7 @@ Por \textit{II.3} sabemos que $\overline{pq} \cap A \neq \varnothing$, pero $a,p
     \item $\text{pero } q \in \overrightarrow{ap} \implies a<q \text{ lo cual resulta }\textbf{absurdo}$
 \end{itemize}
 $\therefore \overrightarrow{ap} \subseteq A_p$
-\subsection{Corolario 5}
+\subsection{\textcolor{blue}{Corolario 5}}
 \subsubsection{Enunciado}
 Los semiplanos cerrados son convexos.
 \subsubsection{Demostración}
@@ -44,7 +45,7 @@ Dado un semiplano $A_p$ y sean $r, s \in A_p$ entonces hay 3 casos posibles:
 \end{enumerate}
 En todos los casos llegamos a $\overline{rs} \subseteq A_p$\\
 $\therefore A_p$ es convexo.
-\subsection{Teorema 7}
+\subsection{\textcolor{blue}{Teorema 7}}
 \subsubsection{Enunciado}
 Sea $\angle AB$ un ángulo con $a \in A$ y $b \in B$. Si R es una semirrecta interior al ángulo, entonces $R$ interseca a $\overline{ab}$ en un único punto.
 \subsubsection{Demostración}
@@ -65,7 +66,7 @@ $\therefore a$ y $b$ están en semiplanos opuestos respecto a $\overleftrightarr
 Por el \textit{II.3} se deduce que $\overline{ab} \cap R \neq \varnothing$ y además $a, b \in sec(\angle AB)$ que es convexo, entonces $\overline{ab} \subseteq sec(\angle AB)$, luego la intersección $\overline{ab} \cap \overleftrightarrow{R}$ debe estar en $R$ pues los puntos de $\check{R}$ son exteriores a $\angle AB$, por lo tanto $\overline{ab} \cap R \neq \varnothing$.\\\\
 Y si hubieran dos puntos de corte de $R$ y $\overline{ab}$, llamémoslos $p$ y $q$, entonces $\overline{ab} \subseteq \overleftrightarrow{pq}=\overleftrightarrow{R}$. Pero $\overline{ab} \subseteq sec(\angle AB)$.
 $\therefore \overline{ab} \subseteq R \implies a,b$ son puntos interiores al $\angle AB$, \textbf{absurdo} por lo cual el punto es único.
-\subsection{Teorema 10: Postulado de Pasch}
+\subsection{\textcolor{blue}{Teorema 10: Postulado de Pasch}}
 \subsubsection{Enunciado}
 Si $R$ es una recta que interseca al $\triangle abc$ y no pasa por sus vértices, entonces $R$ interseca a $\triangle abc$ en exactamente dos puntos.
 \subsubsection{Demostración}
@@ -80,7 +81,7 @@ Supongamos que R corta a $\overline{ac}$ en $p$ con $p \neq a$ y $p \neq c$. $R$
     \item Si $b \in \check{R}_a$, entonces análogamente se ve que $R$ corta al $\triangle abc$ en $\overline{ac}$ y $\overline{ab}$ en dos puntos y no corta al $\overline{bc}$.
 \end{itemize}
 $\therefore R$ corta al $\triangle abc$ sólo en $p$ y $q$ con $q \in \overline{ab}$.
-\subsection{Teorema 11}
+\subsection{\textcolor{blue}{Teorema 11}}
 \subsubsection{Enunciado}
 Toda semirrecta con origen en un punto interior de una región poligonal convexa, interseca al polígomo en un único punto.
 \subsubsection{Demostración}
@@ -98,18 +99,58 @@ Sea ahora $p \in \Pi$, $p\neq o$, si $\overrightarrow{op}=A_i$ para algún $i$, 
     \item Es análogo
 \end{itemize}
 Luego, $\overrightarrow{op}$ corta al polígono en un único punto.
-\subsection{Teorema 16}
+\subsection{\textcolor{blue}{Teorema 16}}
 \subsubsection{Enunciado}
 Sean $R$ una recta, $p \notin R$ y $T$ una transformación rígida. Entonces $T(R_p)=T(R)_{T(p)}$
 \subsubsection{Demostración}
-Definimos $R'=T(R)$ y $p'=T(p)$. Claramente $R'\subset R'_{p'}$ y $p' \in R'{p'}$. Sea ahora $q \in R_p-R$, con $q \neq p$. Luego $\overline{pq} \cap R= \varnothing$ y aplicando $T$ tenemos: $\overline{p'q}'\cap R' = \varnothing$ donde $q'\in T(q)$ por corolario 15. De esto se deduce que $q'\in R'_{p'}$, por lo que vale $T\left(R_p\right) \subseteq R'_{p'}$.\\
+Definimos $R'=T(R)$ y $p'=T(p)$. Claramente $R'\subset R'_{p'}$ y $p' \in R'{p'}$. Sea ahora $q \in R_p-R$, con $q \neq p$. Luego $\overline{pq} \cap R= \varnothing$ y aplicando $T$ tenemos: $\overline{p'q'}\cap R' = \varnothing$ donde $q'= T(q)$ por corolario 15. De esto se deduce que $q'\in R'_{p'}$, por lo que vale $T\left(R_p\right) \subseteq R'_{p'}$.\\
 Por axioma \textit{III.2}, sabemos que $T^{-1}$ es una transformación rígida y podemos considerar lo probado recién pero para esta transformación y obtenemos: $T^{-1}\left(R'_{p'}\right) \subseteq R_p$. Aplicando $T$: $R'_{p'} \subseteq T\left(R_p\right)$. Resulta entonces $T\left(R_p\right) = R'_{p'}$.
-\subsection{Teorema 20}
+\subsection{\textcolor{blue}{Teorema 20}}
 \subsubsection{Enunciado}
 Sea $\left(A,\alpha\right)$ un par semirrecta-semiplano, $A$ de origen $o$ y $T$ la transformación rígida tal que $T(A,\alpha)=\left(\check{A}, \check{\alpha}\right)$. Entonces: 
-\begin{enumerate}[label=\alph*]
+\begin{enumerate}
     \item $T$ es involutiva.
     \item Si $\left(B,\beta\right)$ es otro par de semirrecta-semiplano tal que $B$ tiene origen en $o$, entonces $T\left(B,\beta\right)=\left(\check{B}, \check{\beta}\right)$.
 \end{enumerate}
 \subsubsection{Demostración}
+\begin{enumerate}
+    \item \textbf{T involutiva:} $T^2(A,\alpha)=T(T(A,\alpha))=T(\check{A},\check{\alpha})=(\check{T(A)},\check{T(\alpha)})=(\check{\check{A}},\check{\check{\alpha}})=(A,\alpha)$ y por unicidad del axioma \textit{III.4} resulta $T^2=Id$
+    \item Tiene dos casos posibles:
+    \begin{enumerate}
+        \item Si $B=A$ ó $B=\check{A}$ entonces:
+        \begin{equation*}
+        \left\{
+            \begin{array}{llll}
+                T(A,\alpha)=(\check{A},\check{\alpha})\\
+                T(\check{A},\check{\alpha})=(A,\alpha)\\
+                T(A,\check{\alpha})=(\check{A},\alpha)\\
+                T(\check{A},\alpha)=(A,\check{\alpha})
+            \end{array}
+        \right.
+        \text{por lo que la afirmación vale}\\
+        \end{equation*}
+        \item Si $B\neq A$ ó $B\neq \check{A}$ entonces $B \subseteq \alpha$ ó $B \subseteq \check{\alpha}$, consideramos ambos casos análogos entonces trabajamos con $B \subseteq \alpha$\\\\
+        Sea $p \in B$ y $p \neq o$ entonces $B=\overrightarrow{op}$ y sea $p':=T(p) \in \check{\alpha}$, por el axioma \textit{II.3} $\overline{pp'}$ corta a la recta $\overleftrightarrow{A}$ en un único punto $a$, lo cual puede estar en $A$ ó $\check{A}$, como son casos análogos, consideramos el primero:\\\\
+        Si $a \in A$ entonces $\overline{pp'}\cap A=\{a\}$. Aplicamos $T$ a ambos lados y desarrollamos:
+        \begin{equation*}
+            T(a)=T(\overline{pp'})\cap T(A)=\overline{p'p}\cap \check{A}
+        \end{equation*}
+        Como sabemos que $\overline{pp}$'corta a $A$ en un único punto entonces $T(a)=a$ lo cual implica que $a=o$ pues es el único punto fijo y $o \in \overline{pp'}$ lo que implica que $p'\in \check{B}$, entonces $T(B)=T(\overrightarrow{op})=\overrightarrow{op'} = \check{B}$.\\\\
+        Sea ahora $q \in \beta$ tal que $q \notin \overleftrightarrow{B}$ por lo probado anteriormente se tiene que $T(\overrightarrow{oq})=\check{\overrightarrow{oq} \therefore T(q) \in \check{\beta}}$ y así $T(\beta)=T(B_q)=\check{\beta}$
+    \end{enumerate}
+\end{enumerate}
+\subsection{\textcolor{blue}{Teorema 25}}
+\subsubsection{Enunciado}
+Sea $(A,\alpha)$ un par semirrecta-semiplano, $A$ de origen $o$ y sea $T$ la única transformación rígida tal que $T(A,\alpha)=\left(A,\check{\alpha}\right)$. Entonces:
+\begin{enumerate}
+    \item $T$ es involutiva.
+    \item $T(p)=p$ para todo $p$ en la recta $\overleftrightarrow{A}$
+    \item Si $B$ es una semirrecta de la recta $\overleftrightarrow{A}$ entonces $T(B,\alpha)=\left(B,\check{\alpha}\right)$.
+\end{enumerate}
+\subsubsection{Demostración}
+\begin{enumerate}
+    \item $T^2(A,\alpha)=T(T(A,\alpha))=T(A,\check{\alpha})=(T(A),\check{T(\alpha)})=(A,\check{\check{\alpha}})=(A,\alpha)$. Por unicidad de \textit{III.4} tenemos $T^2=Id$.
+    \item Como $T(A)=A$ y $A$ tiene origen en $o$ entonces $T(o)=o$ y sea $p':=T(p)\in A$ por $T(A)=A$ y $T(\overline{op})=\overline{op'}$ entonces por congruencia $\overline{op} \equiv \overline{op'}$ por lo tanto un segmento contiene a otro pero por \textit{III.3} resulta $\overline{op}=\overline{op'}$ por lo que $p=p'$, es decir, $p=T(p)$
+    \item Por ser $p$ un punto arbitrario de $A$ entonces la semirrecta $B$ cumple por \textbf{(b)} que $T(B)=B$ además por la propia definición de $T$ resulta $T(\alpha)=\check{\alpha} \therefore T(B,\alpha)=(B, \check{\alpha})$. 
+\end{enumerate}
 \end{document}
