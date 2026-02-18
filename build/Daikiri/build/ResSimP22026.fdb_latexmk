@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1771368866.54278 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSimP22026.tex" "build/ResSimP22026.pdf" "ResSimP22026" 1771368867.44487 0
+["pdflatex"] 1771442089.07927 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSimP22026.tex" "build/ResSimP22026.pdf" "ResSimP22026" 1771442090.1098 0
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1763148563 82011 97247c01f6bfb6f6d0c40fab12a08423 ""
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1770319395 14064 56bc4db3ccda63c58e8e08795dbdd1a8 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
@@ -62,12 +62,12 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/preprint/fullpage.sty" 1369148873 2867 05b418f78b224ec872f5b11081138605 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1749468414 10374 2ffd4f27c7f90b8a300608069537743c ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1749468414 33259 db80f750a01491473161bd4d0f6986d2 ""
-  "Imagenes/cuadraticaG.png" 1771368792 40521 27ccaa179f877cbebb631baea9627826 ""
+  "Imagenes/cuadraticaG.png" 1771439926 33558 fb4acbf51ceb096fbcdfe95b7a8af64e ""
   "Imagenes/f2izquierda.png" 1771361893 64531 1cf4a99bae8132e1dbc2ec0406675d64 ""
   "Imagenes/f2reflejada.png" 1771362117 68401 deb9fbfce37798a6c8c5591cfc910f65 ""
-  "ResSimP22026.tex" 1771368865 7976 4fd85cdd739c33beddd55ef9314bc8a2 ""
-  "build/ResSimP22026.aux" 1771368867 202 091b3128d81f328377ea0ead31587f53 "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSimP22026.tex" 1771368865 7976 4fd85cdd739c33beddd55ef9314bc8a2 ""
+  "ResSimP22026.tex" 1771442088 7980 a0f8866450bd6cc2f80ba3a8b3041d89 ""
+  "build/ResSimP22026.aux" 1771442089 202 091b3128d81f328377ea0ead31587f53 "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSimP22026.tex" 1771442088 7980 a0f8866450bd6cc2f80ba3a8b3041d89 ""
   (generated)
   "build/ResSimP22026.aux"
   "build/ResSimP22026.log"
