@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1771470276.33991 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/Simulacro2-2026.tex" "build/Simulacro2-2026.pdf" "Simulacro2-2026" 1771470278.05816 0
+["pdflatex"] 1771470440.24471 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/Simulacro2-2026.tex" "build/Simulacro2-2026.pdf" "Simulacro2-2026" 1771470441.84977 0
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1763148563 82011 97247c01f6bfb6f6d0c40fab12a08423 ""
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1770319395 14064 56bc4db3ccda63c58e8e08795dbdd1a8 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
@@ -64,9 +64,9 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1749468414 33259 db80f750a01491473161bd4d0f6986d2 ""
   "Imagenes/Tom y Juli.png" 1771446353 869329 566d70f39b0221a5778b7bfdf3f87b26 ""
   "Imagenes/f2.png" 1771469142 62122 aff41f22b2e97080f813872e83f57f43 ""
-  "Simulacro2-2026.tex" 1771470275 4339 6cb08ca2703c8aae60fb38a6d1c1e61b ""
-  "build/Simulacro2-2026.aux" 1771470277 148 845ab102b0f20593eef02c817ab6478e "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/Simulacro2-2026.tex" 1771470275 4339 6cb08ca2703c8aae60fb38a6d1c1e61b ""
+  "Simulacro2-2026.tex" 1771470439 4389 22ea8559bc1e813c185cfe3f679d9cf6 ""
+  "build/Simulacro2-2026.aux" 1771470441 148 845ab102b0f20593eef02c817ab6478e "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/Simulacro2-2026.tex" 1771470439 4389 22ea8559bc1e813c185cfe3f679d9cf6 ""
   (generated)
   "build/Simulacro2-2026.aux"
   "build/Simulacro2-2026.log"
