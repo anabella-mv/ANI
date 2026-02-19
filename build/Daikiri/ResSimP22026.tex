@@ -18,33 +18,29 @@
 \begin{enumerate}
     \item Sea $m(x)$ la funcion dada por:
     \begin{equation*}
-    m(x)=\frac{6x}{x^2+3x-10}
+    m(x)=\frac{6x}{\sqrt{x^2+3x-10}}
     \end{equation*}
     \begin{enumerate}
-        \item Para ver donde está bien definido el dominio de la función dada se debe tener en cuenta las posibles restricciones, en este caso evitar el 0 en el denominador, por lo tanto buscamos las raíces del denominador:
+        \item Para ver donde está bien definido el dominio de la función dada se debe tener en cuenta las posibles restricciones, en este caso evitar el 0 en el denominador y evitar que el radicando sea negativo pues estamos trabajando en los reales, por lo tanto, primero buscamos las raíces del denominador:
         \begin{align*}
             x_{1,2}=&\frac{-3\pm \sqrt{3^2-4\cdot 1 \cdot (-10)}}{2\cdot 1}\\
             =&\frac{-3\pm \sqrt{49}}{2}=\frac{-3\pm 7}{2}\\
             =&\{-5,2\}
         \end{align*}
-        Por lo tanto $Dom(m(x))=\{x \in \mathbb{R} : x \neq -5 \wedge x \neq 2\}$.
-        \item Para determinar la imágen que pasa por $x=\frac{2}{5}$ y $x=4$ se debe evaluar la función en esos puntos:
+        Ahora, viendo que el coeficiente principal es positivo, tenemos una idea del comportamiento de la cuadrática lo que resulta en que sus valores negativos sean alcanzados en medio de sus raíces, por lo tanto es un intervalo que debemos evitar para el dominio. Resulta $Dom(m(x))=\{x \in \mathbb{R} : x < -5 \vee x > 2\}$.
+        \item Para determinar la imágen que pasa por $x=4$ se debe evaluar la función en esos puntos:
         \begin{align*}
-            m\left(\frac{2}{5}\right)=&\frac{6\cdot \frac{2}{5}}{\left(\frac{2}{5}\right)^2+3\cdot \frac{2}{5}-10}=\frac{\frac{12}{5}}{\frac{4}{25}+\frac{6}{5}-10}=\frac{\frac{12}{5}}{\frac{4}{25}+\frac{30}{25}-\frac{250}{25}}\\
-            =&\frac{\frac{12}{5}}{-\frac{216}{25}}=\frac{12}{5}\cdot \left(-\frac{25}{216}\right)=-\frac{1}{3}
+            m(4)=&\frac{6\cdot 4}{\sqrt{4^2+3\cdot 4-10}}=\frac{24}{\sqrt{16+12-10}}=\frac{24}{\sqrt{18}}=\frac{24}{\sqrt{2\cdot 3^2}} =\frac{24}{3\sqrt{2}}=\frac{8}{\sqrt{2}}
         \end{align*}
-        \begin{align*}
-            m(4)=&\frac{6\cdot 4}{4^2+3\cdot 4-10}=\frac{24}{16+12-10}=\frac{24}{18}=\frac{4}{3}
-        \end{align*}
-            Por lo tanto $m\left(\frac{2}{5}\right)=-\frac{1}{3}$ y $m(4)=\frac{4}{3}$.
+            Por lo tanto $m(4)=\frac{8}{\sqrt{2}}$.
     \end{enumerate}
     \item Considerando la función del gráfico y teniendo en cuenta sus puntos cerrados y abiertos podemos resolver los incisos:
     \begin{enumerate}
         \item 
         \begin{itemize}
-            \item el dominio es de la forma $Dom(f(x))=[-4,-1)\cup (0,4]$
+            \item el dominio es de la forma $Dom(f(x))=[-4,-1)\cup (0,7]$
             \item La imagen es de la forma $Im(f(x))=[-4,3]\cup [4,5)$
-            \item Las raices son en $x=-4$, $x=-3$ y $x=-2$ en la parte donde la funcion es senoidal ya que en $-1$ es un punto que no pertenece al dominio, en la parte donde la función es cuadrática se pueden observar las raíces en $x=1,2$ y $x=3,6$.
+            \item Las raices son en $x=-4$, $x=-3$ y $x=-2$ en la parte donde la funcion es senoidal ya que en $-1$ es un punto que no pertenece al dominio.
         \end{itemize}
         \item Los valores que cumplen tal condición son los que respectan a la parte senoidal y cuadrática, entonces ${x \in \mathbb{R}: f(x)\leq 3}=[-4,-1)\cup(1,4]$
         \item Las transformaciones que se aplican para graficar $g(x)=-f(x+2)$ son:
@@ -123,7 +119,7 @@
         \item Para calcular las coordenadas del vértice de la parábola, se puede usar la fórmula del vértice en la forma canónica: $x_v=-\frac{b}{2a}$, donde $a=2$, $b=-2$, y $c=-4$. Entonces:
         \begin{align*}
             x_v=&-\frac{-2}{2\cdot 2}=\frac{1}{2}\\
-            y_v=&P(x_v)=P(\frac{1}{2})=2(\frac{1}{2})^2-2(\frac{1}{2})-4= \frac{1}{2}-1-4=-\frac{9}{2}
+            y_v=&P(x_v)=P\left(\frac{1}{2}\right)=2\left(\frac{1}{2}\right)^2-2\left(\frac{1}{2}\right)-4= \frac{1}{2}-1-4=-\frac{9}{2}
         \end{align*}
         Si bien eran datos ya conocidos por su forma canónica, está bueno verificarlo para cersiorar que nuestros cálculos tengan sentido.
         \item El gráfico es:

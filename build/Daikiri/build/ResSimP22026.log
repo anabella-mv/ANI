@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  18 FEB 2026 16:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  18 FEB 2026 23:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -317,16 +317,16 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
  (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Imagenes/f2izquierda.png, id=1, 511.9125pt x 526.21594pt>
+<Imagenes/f2izquierda.png, id=1, 574.39594pt x 452.4403pt>
 File: Imagenes/f2izquierda.png Graphic file (type png)
 <use Imagenes/f2izquierda.png>
-Package pdftex.def Info: Imagenes/f2izquierda.png  used on input line 55.
-(pdftex.def)             Requested size: 255.95563pt x 263.10733pt.
-<Imagenes/f2reflejada.png, id=3, 531.48563pt x 514.92375pt>
+Package pdftex.def Info: Imagenes/f2izquierda.png  used on input line 51.
+(pdftex.def)             Requested size: 287.19725pt x 226.2196pt.
+<Imagenes/f2reflejada.png, id=3, 621.82312pt x 472.76625pt>
 File: Imagenes/f2reflejada.png Graphic file (type png)
 <use Imagenes/f2reflejada.png>
-Package pdftex.def Info: Imagenes/f2reflejada.png  used on input line 61.
-(pdftex.def)             Requested size: 265.74216pt x 257.46124pt.
+Package pdftex.def Info: Imagenes/f2reflejada.png  used on input line 57.
+(pdftex.def)             Requested size: 310.9108pt x 236.38254pt.
 
 
 [1
@@ -336,10 +336,10 @@ Package pdftex.def Info: Imagenes/f2reflejada.png  used on input line 61.
 [2 <./Imagenes/f2izquierda.png> <./Imagenes/f2reflejada.png>]
 
 [3]
-<Imagenes/cuadraticaG.png, id=26, 265.74281pt x 381.67593pt>
+<Imagenes/cuadraticaG.png, id=27, 265.74281pt x 381.67593pt>
 File: Imagenes/cuadraticaG.png Graphic file (type png)
 <use Imagenes/cuadraticaG.png>
-Package pdftex.def Info: Imagenes/cuadraticaG.png  used on input line 132.
+Package pdftex.def Info: Imagenes/cuadraticaG.png  used on input line 128.
 (pdftex.def)             Requested size: 132.87108pt x 190.8375pt.
 
 
@@ -354,13 +354,13 @@ L3 programming layer <2025-07-11>
 Here is how much of TeX's memory you used:
  3957 strings out of 468149
  62259 string characters out of 5431082
- 483179 words of memory out of 5000000
+ 480179 words of memory out of 5000000
  32528 multiletter control sequences out of 15000+600000
  635005 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,10n,65p,539b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,9n,65p,539b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\maile\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\ResSimP22026.pdf (5 pages, 246799 bytes).
+Output written on c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\ResSimP22026.pdf (5 pages, 232245 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
