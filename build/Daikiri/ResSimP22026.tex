@@ -8,6 +8,7 @@
 \usepackage{multicol}
 \usepackage{fullpage}
 \usepackage{graphicx}
+\usepackage{float}
 
 \geometry{top=1.2cm}
 \title{\small Facultad de Matemática, Astronomía, Física y Computación}
@@ -46,13 +47,13 @@
         \item Las transformaciones que se aplican para graficar $g(x)=-f(x+2)$ son:
         \begin{itemize}
             \item Traslación horizontal de $-2$ unidades, es decir, hacia la izquierda.
-            \begin{figure}[htb]
+            \begin{figure}[H]
                 \centering
                 \includegraphics[scale=0.5]{Imagenes/f2izquierda.png}
                 \label{fig:funcion desplazada}
             \end{figure}
             \item Reflexión respecto al eje $x$.
-            \begin{figure}[hbt!]
+            \begin{figure}[H]
                 \centering
                 \includegraphics[scale=0.5]{Imagenes/f2reflejada.png}
                 \label{fig:funcion reflejada}
@@ -123,12 +124,151 @@
         \end{align*}
         Si bien eran datos ya conocidos por su forma canónica, está bueno verificarlo para cersiorar que nuestros cálculos tengan sentido.
         \item El gráfico es:
-        \begin{figure}[hbt!]
+        \begin{figure}[H]
                 \centering
                 \includegraphics[scale=0.5]{Imagenes/cuadraticaG.png}
                 \label{fig:funcion Cuadratica}
         \end{figure}
     \end{enumerate}
+    \item 
+        \begin{enumerate}
+            \item Como coseno nos suele indicar las coordenadas en $x$ de algún punto de un ángulo, es posible intuir que al ser negativo tenemos dos opciones, que el coseno se encuentre en el segundo o el tercer cuadrante. Además con las identidades trigonométricas podemos obtener otras operaciones necesarias y sabiendo al cuadrante al que pertenecen también podemos intuir el signo que tienen.
+            \begin{align*}
+                1=&cos^2(t)+sen^2(t)\\
+                1=&\left(-\frac{2}{3}\right)^2+sen^2(t)\\
+                1-\frac{4}{9}=&sen^2(t)\\
+                \sqrt{\frac{5}{9}}=&sen(t)\\
+                \pm\frac{\sqrt{5}}{3}=&sen(t)
+            \end{align*}
+            Como se encuentra en el tercer cuadrante, entonces seno también es negativo, por lo tanto $sen(t)=-\frac{\sqrt{5}}{3}$
+            \begin{itemize}
+                \item $tg(t)=\frac{sen(t)}{cos(t)}=\frac{\sqrt{5}}{2}$
+                \item $cosec(t)=\frac{1}{sen(t)}=-\frac{3}{\sqrt{5}}$
+                \item $sec(t)=\frac{1}{cos(t)}=-\frac{3}{2}$
+                \item $cotg(t)=\frac{1}{tg(t)}=\frac{2}{\sqrt{5}}$
+            \end{itemize}
+            \item Tratamos de usar propiedades de los radianes en funciones trigonometricas para ponerlo en valores que conocemos:
+            \begin{equation*}
+                \frac{11}{3}\pi=\frac{2}{3}\pi+\pi+2\pi
+            \end{equation*}
+            \begin{align*}
+                P\left(\frac{11}{3}\pi\right)=&\left(cos\left(\frac{11}{3}\pi\right),sen\left(\frac{11}{3}\pi\right)\right)\\
+                =&\left(cos\left(\frac{2}{3}\pi+\pi+2\pi\right),sen\left(\frac{2}{3}\pi+\pi+2\pi\right)\right)\\
+                =&\left(cos\left(\frac{2}{3}\pi+\pi\right),sen\left(\frac{2}{3}\pi+\pi\right)\right)\\
+                =&\left(-cos\left(\frac{2}{3}\pi\right),-sen\left(\frac{2}{3}\pi\right)\right)\\
+            \end{align*}
+            De acá podemos ver que $sen\left(\frac{2}{3}\pi\right)$ está a la misma altura que $sen\left(\frac{1}{3}\pi\right)$ y que $cos\left(\frac{2}{3}\pi\right)$ está a la misma distancia del origen que $cos\left(\frac{1}{3}\pi\right)$ sólo que con signo cambiado
+            \begin{align*}
+                \left(-cos\left(\frac{2}{3}\pi\right),-sen\left(\frac{2}{3}\pi\right)\right)=&\left(-\left(-cos\left(\frac{1}{3}\pi\right)\right),-sen\left(\frac{1}{3}\pi\right)\right)\\
+                =&\left(-\left(-\frac{1}{2}\right),-\left(\frac{\sqrt{3}}{2}\right)\right)\\
+                =&\left(\frac{1}{2},-\frac{\sqrt{3}}{2}\right)
+            \end{align*}
+            Entonces las coordenadas de $P\left(\frac{11}{3}\pi\right)$ son $\left(\frac{1}{2},-\frac{\sqrt{3}}{2}\right)$
+            \item Arranquemos con la interpretación gráfica, $210^{\circ}$ desde el eje de abscisas en sentido horario termina en un ángulo en el tercer cuadrante:
+            \begin{figure}[H]
+                \centering
+                \includegraphics[scale=0.5]{Imagenes/angulop2.png}
+            \end{figure}
+            Además $210^{\circ}=180^{\circ}+30^{\circ} \implies \pi+\frac{1}{6}\pi=\frac{7}{6}\pi$ es su equivalente en radianes y conocemos que la tangente del ángulo que se forma es la pendiente de una recta. Tengo dos opciones, considerar este ángulo o hallar otro para calcular la tangente de ese nuevo valor. Continuemos con este:
+            \begin{align*}
+                a=tg(210^{\circ})=&tg\left(\frac{7}{6}\pi\right)=\frac{sen\left(\frac{7}{6}\pi\right)}{cos\left(\frac{7}{6}\pi\right)}\\
+                =&\frac{sen\left(\frac{1}{6}\pi+\pi\right)}{cos\left(\frac{1}{6}\pi+\pi\right)}\\
+                =&\frac{-sen\left(\frac{1}{6}\pi\right)}{-cos\left(\frac{1}{6}\pi\right)}\\
+                =&\frac{-\frac{1}{2}}{-\frac{\sqrt{3}}{2}}=\frac{1}{2}\cdot \frac{2}{\sqrt{3}}=\frac{1}{\sqrt{3}}
+            \end{align*}
+            Por lo tanto la pendiente de la recta es $a=\frac{1}{\sqrt{3}}$
+        \end{enumerate}
+        \item Por interpretación tenemos lo siguiente
+        \begin{enumerate}
+            \item los triangulo son de la forma:\\
+            Tomi:
+            \begin{figure}[H]
+                \centering
+                \includegraphics[scale=0.5]{Imagenes/triangulo tomi.png}
+            \end{figure}
+            Juli:
+            \begin{figure}[H]
+                \centering
+                \includegraphics[scale=0.5]{Imagenes/triangulo juli.png}
+            \end{figure}
+            \item Vemos en los triángulos que comparten un lado y parte del otro que vienen a ser los catetos de los triangulos. Por razones trigonométricas obtenemos las siguientes ecuaciones:
+            \begin{enumerate}
+                \item Tomi:
+                \begin{itemize}
+                    \item $cos(60^{\circ})=\frac{D}{H_1}$
+                    \item $sen(60^{\circ})=\frac{h}{H_1}$
+                    \item $tg(60^{\circ})=\frac{h}{D}$
+                \end{itemize}
+                \item Juli:
+                \begin{itemize}
+                    \item $cos(30^{\circ})=\frac{D+\frac{4\sqrt{3}}{3}}{H_2}$
+                    \item $sen(30^{\circ})=\frac{h}{H_2}$
+                    \item $tg(30^{\circ})=\frac{h}{D+\frac{4\sqrt{3}}{3}}$
+                \end{itemize}
+            \end{enumerate}
+            Las ecuaciones que comparten incógnitas para hacer sistema de ecuaciones son:
+            \begin{equation*}
+        \left\{
+            \begin{array}{ll}
+                tg(60^{\circ})=\frac{h}{D}\\
+                tg(30^{\circ})=\frac{h}{D+\frac{4\sqrt{3}}{3}}
+            \end{array}
+        \right.
+        \implies
+        \left\{
+            \begin{array}{ll}
+                tg(\frac{\pi}{3})=\frac{h}{D}\\
+                tg(\frac{\pi}{6})=\frac{h}{D+\frac{4\sqrt{3}}{3}}
+            \end{array}
+        \right.
+        \implies
+        \left\{
+            \begin{array}{ll}
+                \sqrt{3}=\frac{h}{D}\\
+                \frac{1}{\sqrt{3}}=\frac{h}{D+\frac{4\sqrt{3}}{3}}
+            \end{array}
+        \right.
+        \end{equation*}
+        Resolvemos:
+        \begin{equation*}
+        \left\{
+            \begin{array}{ll}
+                \sqrt{3}=\frac{h}{D}\\
+                \frac{1}{\sqrt{3}}=\frac{h}{\frac{3D+4\sqrt{3}}{3}}
+            \end{array}
+        \right.
+        \implies
+        \left\{
+            \begin{array}{ll}
+                \sqrt{3}\cdot D=h\\
+                \frac{1}{\sqrt{3}}=\frac{h}{\frac{3D+4\sqrt{3}}{3}}
+            \end{array}
+        \right.
+        \implies
+        \left\{
+            \begin{array}{ll}
+                \sqrt{3}\cdot D=h\\
+                \frac{1}{\sqrt{3}}=h\cdot\frac{3}{3D+4\sqrt{3}}          \end{array}
+        \right.
+        \end{equation*}
+        Luego de uso sustitución:
+        \begin{align*}
+            \frac{1}{\sqrt{3}}=&D\sqrt{3}\cdot\frac{3}{3D+4\sqrt{3}}\\
+            1=&\frac{D\sqrt{3}\sqrt{3}\cdot 3}{3D+4\sqrt{3}}\\
+            3D+4\sqrt{3}=&D3\cdot 3\\
+            4\sqrt{3}=&9D-3D\\
+            4\sqrt{3}=&6D\\
+            \frac{4\sqrt{3}}{6}=&D=\frac{2\sqrt{3}}{3}
+        \end{align*}
+        Ahora reemplazo en I:
+        \begin{align*}
+            \sqrt{3}\cdot D=&h\\
+            \sqrt{3}\cdot \frac{2\sqrt{3}}{3}=&h\\
+            \frac{2\cdot 3}{3}=&h\\
+            2=h
+        \end{align*}
+        Y así llegamos a que la altura a la que se encuentra la bandera es de 2 metros.
+        \end{enumerate}
     \end{enumerate}
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  18 FEB 2026 23:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  19 FEB 2026 16:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -235,26 +235,33 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen185
 \Gin@req@width=\dimen186
+) (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count313
+\float@exts=\toks25
+\float@box=\box102
+\@float@everytoks=\toks26
+\@floatcapt=\box103
 ) (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count313
+\l__color_backend_stack_int=\count314
 ) (c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\ResSimP22026.aux)
 \openout1 = `ResSimP22026.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -292,46 +299,47 @@ LaTeX Font Info:    ... okay on input line 16.
 
 (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count314
+\scratchcounter=\count315
 \scratchdimen=\dimen187
-\scratchbox=\box102
-\nofMPsegments=\count315
-\nofMParguments=\count316
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count317
+\scratchbox=\box104
+\nofMPsegments=\count316
+\nofMParguments=\count317
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count318
 \MPscratchDim=\dimen188
-\MPnumerator=\count318
-\makeMPintoPDFobject=\count319
-\everyMPtoPDFconversion=\toks26
+\MPnumerator=\count319
+\makeMPintoPDFobject=\count320
+\everyMPtoPDFconversion=\toks28
 ) (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
  (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
  (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <Imagenes/f2izquierda.png, id=1, 574.39594pt x 452.4403pt>
 File: Imagenes/f2izquierda.png Graphic file (type png)
 <use Imagenes/f2izquierda.png>
-Package pdftex.def Info: Imagenes/f2izquierda.png  used on input line 51.
+Package pdftex.def Info: Imagenes/f2izquierda.png  used on input line 52.
 (pdftex.def)             Requested size: 287.19725pt x 226.2196pt.
-<Imagenes/f2reflejada.png, id=3, 621.82312pt x 472.76625pt>
-File: Imagenes/f2reflejada.png Graphic file (type png)
-<use Imagenes/f2reflejada.png>
-Package pdftex.def Info: Imagenes/f2reflejada.png  used on input line 57.
-(pdftex.def)             Requested size: 310.9108pt x 236.38254pt.
 
 
 [1
 
 {C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+<Imagenes/f2reflejada.png, id=17, 621.82312pt x 472.76625pt>
+File: Imagenes/f2reflejada.png Graphic file (type png)
+<use Imagenes/f2reflejada.png>
+Package pdftex.def Info: Imagenes/f2reflejada.png  used on input line 58.
+(pdftex.def)             Requested size: 310.9108pt x 236.38254pt.
+
 
 [2 <./Imagenes/f2izquierda.png> <./Imagenes/f2reflejada.png>]
 
@@ -339,30 +347,51 @@ Package pdftex.def Info: Imagenes/f2reflejada.png  used on input line 57.
 <Imagenes/cuadraticaG.png, id=27, 265.74281pt x 381.67593pt>
 File: Imagenes/cuadraticaG.png Graphic file (type png)
 <use Imagenes/cuadraticaG.png>
-Package pdftex.def Info: Imagenes/cuadraticaG.png  used on input line 128.
+Package pdftex.def Info: Imagenes/cuadraticaG.png  used on input line 129.
 (pdftex.def)             Requested size: 132.87108pt x 190.8375pt.
 
 
-[4]
+[4 <./Imagenes/cuadraticaG.png>]
+<Imagenes/angulop2.png, id=32, 399.894pt x 363.15675pt>
+File: Imagenes/angulop2.png Graphic file (type png)
+<use Imagenes/angulop2.png>
+Package pdftex.def Info: Imagenes/angulop2.png  used on input line 170.
+(pdftex.def)             Requested size: 199.9465pt x 181.57793pt.
 
-[5 <./Imagenes/cuadraticaG.png>] (c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\ResSimP22026.aux)
+
+[5]
+<Imagenes/triangulo tomi.png, id=36, 259.56975pt x 335.45325pt>
+File: Imagenes/triangulo tomi.png Graphic file (type png)
+<use Imagenes/triangulo tomi.png>
+Package pdftex.def Info: Imagenes/triangulo tomi.png  used on input line 187.
+(pdftex.def)             Requested size: 129.78455pt x 167.7262pt.
+<Imagenes/triangulo juli.png, id=37, 383.031pt x 254.1495pt>
+File: Imagenes/triangulo juli.png Graphic file (type png)
+<use Imagenes/triangulo juli.png>
+Package pdftex.def Info: Imagenes/triangulo juli.png  used on input line 192.
+(pdftex.def)             Requested size: 191.51503pt x 127.07443pt.
+
+
+[6 <./Imagenes/angulop2.png> <./Imagenes/triangulo tomi.png>]
+
+[7 <./Imagenes/triangulo juli.png>] (c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\ResSimP22026.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3957 strings out of 468149
- 62259 string characters out of 5431082
- 480179 words of memory out of 5000000
- 32528 multiletter control sequences out of 15000+600000
+ 4053 strings out of 468149
+ 64115 string characters out of 5431082
+ 485628 words of memory out of 5000000
+ 32620 multiletter control sequences out of 15000+600000
  635005 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,9n,65p,539b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\maile\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\ResSimP22026.pdf (5 pages, 232245 bytes).
+ 57i,11n,65p,539b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\maile\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\ResSimP22026.pdf (7 pages, 311696 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 104 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

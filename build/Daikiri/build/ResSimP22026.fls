@@ -55,6 +55,8 @@ INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphi
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\ResSimP22026.aux
@@ -114,14 +116,14 @@ OUTPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\ResSimP22026.pdf
 INPUT .\Imagenes\f2izquierda.png
 INPUT .\Imagenes\f2izquierda.png
 INPUT .\Imagenes\f2izquierda.png
-INPUT .\Imagenes\f2reflejada.png
-INPUT .\Imagenes\f2reflejada.png
-INPUT .\Imagenes\f2reflejada.png
-INPUT .\Imagenes\f2reflejada.png
-INPUT .\Imagenes\f2reflejada.png
-INPUT .\Imagenes\f2reflejada.png
-INPUT .\Imagenes\f2reflejada.png
 INPUT C:\Users\maile\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\Imagenes\f2reflejada.png
+INPUT .\Imagenes\f2reflejada.png
+INPUT .\Imagenes\f2reflejada.png
+INPUT .\Imagenes\f2reflejada.png
+INPUT .\Imagenes\f2reflejada.png
+INPUT .\Imagenes\f2reflejada.png
+INPUT .\Imagenes\f2reflejada.png
 INPUT .\Imagenes\cuadraticaG.png
 INPUT .\Imagenes\cuadraticaG.png
 INPUT .\Imagenes\cuadraticaG.png
@@ -129,6 +131,27 @@ INPUT .\Imagenes\cuadraticaG.png
 INPUT .\Imagenes\cuadraticaG.png
 INPUT .\Imagenes\cuadraticaG.png
 INPUT .\Imagenes\cuadraticaG.png
+INPUT .\Imagenes\angulop2.png
+INPUT .\Imagenes\angulop2.png
+INPUT .\Imagenes\angulop2.png
+INPUT .\Imagenes\angulop2.png
+INPUT .\Imagenes\angulop2.png
+INPUT .\Imagenes\angulop2.png
+INPUT .\Imagenes\angulop2.png
+INPUT .\Imagenes\triangulo tomi.png
+INPUT .\Imagenes\triangulo tomi.png
+INPUT .\Imagenes\triangulo tomi.png
+INPUT .\Imagenes\triangulo tomi.png
+INPUT .\Imagenes\triangulo tomi.png
+INPUT .\Imagenes\triangulo tomi.png
+INPUT .\Imagenes\triangulo tomi.png
+INPUT .\Imagenes\triangulo juli.png
+INPUT .\Imagenes\triangulo juli.png
+INPUT .\Imagenes\triangulo juli.png
+INPUT .\Imagenes\triangulo juli.png
+INPUT .\Imagenes\triangulo juli.png
+INPUT .\Imagenes\triangulo juli.png
+INPUT .\Imagenes\triangulo juli.png
 INPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\ResSimP22026.aux
 INPUT C:\Users\maile\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\maile\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
@@ -144,10 +167,14 @@ INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
+INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
