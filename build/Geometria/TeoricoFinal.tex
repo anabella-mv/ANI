@@ -188,6 +188,24 @@ Sea $o$ el vértice del ángulo $\angle AB$
 Si dos ángulos de un triángulo son congruentes los lados opuestos a tales ángulos tambíen lo son. Recíprocamente, si dos lados de un triángulo son congruentes los ángulos opuestos a tales lados son congruentes.
 \subsubsection{Demostración}
 \begin{enumerate}
-    \item Consideremos primero el $\triangle abc$ tal que $\angle bac \equiv \angle abc$. Sea $M=M_{\overline{ab}}$ la mediatriz del $\overline{ab}$ entonces $S_M(a)=b$, $S_M(b)=a$
+    \item Consideremos primero el $\triangle abc$ tal que $\angle bac \equiv \angle abc$. Sea $M=M_{\overline{ab}}$ la mediatriz del $\overline{ab}$ entonces $S_M(a)=b$, $S_M(b)=a$ y así $S_M(\overrightarrow{ab})=\overrightarrow{ba}$. Sea
+    \begin{gather*}
+        c'=S_M(c) \therefore S_M(\overrightarrow{ac})=\overrightarrow{bc'}\\
+        S_M(\angle bac)=\angle abc'\therefore \angle bac \equiv abc'
+    \end{gather*}
+    Luego $\angle abc \equiv abc'$. Además $\overrightarrow{bc}$ y $\overrightarrow{bc'}$ se encuentran en el mismo semiplano respecto de $\overleftrightarrow{ab}$ pues $M \perp \overleftrightarrow{ab}$ y $S_M(\overleftrightarrow{ab}_c)=\overleftrightarrow{ab}_c$. Por teorema 18, resulta $\overrightarrow{bc}=\overrightarrow{bc'}$, o sea, $S_M(\overrightarrow{ac})=\overrightarrow{bc}$. Como $S_M$ es involutiva, $S_M(\overrightarrow{bc})=\overrightarrow{ac}$, ahora:
+    \begin{align*}
+        \overrightarrow{ac} \cap \overrightarrow{bc}=&c\\
+        S_M(\overrightarrow{ac}) \cap S_M(\overrightarrow{bc})=&S_M(c)\\
+        \overrightarrow{bc} \cap \overrightarrow{ac}=&S_M(c) \quad \therefore S_M(c)=c
+    \end{align*}
+    $\therefore S_M(\overline{ac})=\overline{bc}$ con lo cual $\overline{ac}\equiv \overline{bc}$
+    \item Consideramos $\triangle abc$ tal que $\overline{ac} \equiv \overline{bc}$. Sea $B$ la bisectriz del $\angle acb$ entonces $S_B(\overrightarrow{ca})=\overrightarrow{cb}$. Sea $a':=S_B(a) \in \overrightarrow{cb}$ y $S_B(\overline{ca})=\overline{ca'}$ entonces $\overline{ca}\equiv \overline{ca'}$. Por hipótesis $\overline{bc} \equiv \overline{ca} \implies \overline{bc} \equiv \overline{ca'}$ y por teorema 18 vale que $b=a'=S_B(a)$ y $S_B(b)=a$. Finalmente $S_B(\angle cab)=\angle cba \implies \angle cab \equiv \angle cba$
 \end{enumerate}
+\subsection{\textcolor{blue}{Teorema 36}}
+\subsubsection{Enunciado}
+Una recta interseca a una circunferencia en a lo sumo dos puntos.
+\subsubsection{Demostración}
+Supongamos que $p$, $q$ y $r$ son tres puntos alineados pertenecientes a una circunferencia de centro $o$, con $q \in \overline{pr}$.Como $\overline{op}\equiv \overline{oq}$, pues $p$ y $q$ están en la circunferencia entonces $o \in M_{\overline{pq}}$ por corolario 35. Como $\overline{oq} \equiv \overline{or}$ entonces $o \in M_{\overline{qr}}$.\\\\
+Sean $m_1, m_2$ puntos medios de $\overline{pq}$ y $\overline{qr}$ respectivamente, entonces los puntos medios de $\overline{pq}$ y $\overline{qr}$ están en las semirrectas opeustas de $\overleftrightarrow{pr}$ con respecto a $q$. Luego $m_1\neq m_2$, como $m_1 \in M_{\overline{pq}}$ y $m_2 \in M_{\overline{qr}}$, resulta $M_{\overline{pq}}\neq M_{\overline{qr}}$ y ambas son perpendiculares a $\overleftrightarrow{pr}$ por $o$ lo que contradice la unicidad de las rectas perpendiculares que pasan por un punto.
 \end{document}
