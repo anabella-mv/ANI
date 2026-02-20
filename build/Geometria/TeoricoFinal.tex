@@ -178,6 +178,16 @@ Todo ángulo tiene una y solo una bisectriz
 \subsubsection{Demostración}
 Sea $o$ el vértice del ángulo $\angle AB$ 
 \begin{itemize}
-    \item \textbf{Existencia:} Sea $T$ la transformación rígida tal que $T(A,A_B)=(B,B_A)$, si $B':=T(B)$ entonces $T(\angle AB)=\angle BB'$ por lo tanto $\angle AB=\angle BB'$. Como $B'\subseteq B_A$ y $A\subseteq B_A$ por el teorema 18 resulta $B'=A$. Sean $a \in A$, $a\neq o$, $a':=T(a)\in B$ y $a'':=T(a')\in B$
+    \item \textbf{Existencia:} Sea $T$ la transformación rígida tal que $T(A,A_B)=(B,B_A)$, si $B':=T(B)$ entonces $T(\angle AB)=\angle BB'$ por lo tanto $\angle AB=\angle BB'$. Como $B'\subseteq B_A$ y $A\subseteq B_A$ por el teorema 18 resulta $B'=A$. Sean $a \in A$, $a\neq o$, $a':=T(a)\in B$ y $a'':=T(a')\in B$.\\\\
+    $T(\overline{oa})=\overline{oa'}$ y $T(\overline{oa'})=T(\overline{oa''})$, luego $\overline{oa}\equiv \overline{oa'} \equiv \overline{oa''}$ por teorema 18 $\overline{oa}=\overline{oa''}$. Por lo tanto, $a=T(a')=a''$. Entonces $T(\overline{aa'})=\overline{a'a}$, esto nos dice $T(m)=m$ donde $m$ es el punto medio de $\overline{a'a}$. Dado que $m$ es punto interior al $\angle AB$ resulta $R=\overrightarrow{om}$ semirrecta interior al $\angle AB$ y $T(\angle AR)=\angle BR$ por lo cual son congruentes. Además como $T(R, R_A)=(R,R_B)=(R,\check{R_A})$ resulta $T=S_R$
+    \item \textbf{Unicidad:} Sea $R'$ una semirrecta interior al $\angle AB$ tal que $\angle AR'\equiv \angle BR'$. Por teorema 31 se tiene $S_{R'}(A)=B$ y $S_{R'}(A_B)=\left(S_{R'}(A)\right)_{S_R(B)}=B_A$. Entonces $S_{R'}=T=S_R$ lo que implica $\overleftrightarrow{R}=\overleftrightarrow{R'}$.\\\\
+    Por ser los conjuntos de puntos fijos de $S_R$ y $S_{R'}$, como $o$ es el origen de $R$ y $R'$, tenemos $R'=R$ ó $R'= \check{R}$, pero como ambos son semirrectas interiores debe ser $R'=R$
 \end{itemize}
+\subsection{\textcolor{blue}{Teorema 34}}
+\subsubsection{Enunciado}
+Si dos ángulos de un triángulo son congruentes los lados opuestos a tales ángulos tambíen lo son. Recíprocamente, si dos lados de un triángulo son congruentes los ángulos opuestos a tales lados son congruentes.
+\subsubsection{Demostración}
+\begin{enumerate}
+    \item Consideremos primero el $\triangle abc$ tal que $\angle bac \equiv \angle abc$. Sea $M=M_{\overline{ab}}$ la mediatriz del $\overline{ab}$ entonces $S_M(a)=b$, $S_M(b)=a$
+\end{enumerate}
 \end{document}
