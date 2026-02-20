@@ -153,4 +153,31 @@ Sea $(A,\alpha)$ un par semirrecta-semiplano, $A$ de origen $o$ y sea $T$ la ún
     \item Como $T(A)=A$ y $A$ tiene origen en $o$ entonces $T(o)=o$ y sea $p':=T(p)\in A$ por $T(A)=A$ y $T(\overline{op})=\overline{op'}$ entonces por congruencia $\overline{op} \equiv \overline{op'}$ por lo tanto un segmento contiene a otro pero por \textit{III.3} resulta $\overline{op}=\overline{op'}$ por lo que $p=p'$, es decir, $p=T(p)$
     \item Por ser $p$ un punto arbitrario de $A$ entonces la semirrecta $B$ cumple por \textbf{(b)} que $T(B)=B$ además por la propia definición de $T$ resulta $T(\alpha)=\check{\alpha} \therefore T(B,\alpha)=(B, \check{\alpha})$. 
 \end{enumerate}
+\subsection{\textcolor{blue}{Teorema 28}}
+\subsubsection{Enunciado}
+Por cada punto del plano pasa una y solo una perperndicular a una recta dada. Es decir, dados $p \in \Pi$ y una recta $A$, existe una única recta $B$ tal que $B \perp A$ y $p \in B$.
+\subsubsection{Demostración}
+Consideramos dos casos:
+\begin{enumerate}
+    \item $p \in A$
+    \begin{itemize}
+        \item \textbf{Existencia:} Sea $p':=S_A(p)$ que es distinto de $p$ y sea $B=\overleftrightarrow{pp'}$ entonces $p \in B$ y $B \perp A$ por el Teorema 26.
+        \item \textbf{Unicidad:} Supongamos que $C$ es una recta tal que $p \in C$ y $C\perp A$. Por el teorema 27 $C$ es invariante por $S_A$ y como $p \in C$ luego $p':=S_A(p) \in C$ entonces $C=\overleftrightarrow{pp'}$ pero esa es $B \therefore B=C$ 
+    \end{itemize}
+    \item $p \notin A$
+    \begin{itemize}
+        \item \textbf{Existencia:} Sea $q \notin A$ y $q'=S_A(q)$ entonces por el teorema 26 $\overleftrightarrow{qq'}\perp A$. Si $\overleftrightarrow{qq'} \cap A=\{p\}$ tomamos $B=\overleftrightarrow{qq'}$, en cambio si $\overleftrightarrow{qq'}\cap A=\{o\}$, con $o\neq p$, sea $m$ el punto medio de $\overline{op}$ y consideramos $B=S_m(\overleftrightarrow{qq'})$. Sea $q''=S_m(q) \implies S_m(\angle qop)=\angle q''po \therefore \angle qop \equiv \angle q''po$. Como $\angle qop$ es recto, resulta que $\angle q''po$ es recto y esto dice que $B \perp A$ y $p \in B$
+        \item \textbf{Unicidad:} Supongamos que $B$ y $C$ son rectos tales que $B \perp A$ y $C\perp A$ y $p \in B\cap C$.\\\\
+        Sea $b \in A$ con $b \neq p$ entonces $\overrightarrow{pb}$ es una semirrecta de A y $S_B(\overrightarrow{pb})=\check{\overrightarrow{pb}}=S_C(\overrightarrow{pb})$ pues $A$ es invariante por $S_B$ y $S_C$ ya que es perpendicular a ambos.\\\\
+        Sea $\alpha$ un semiplano determinado por $A$ y consideremos $q \in \alpha \cap B$, $r \in \alpha \cap C$, con $q, r \notin A$. Luego, $S_B(q)=q$ y $S_C(r)=r$ entonces $S_B(\alpha)=S_C(\alpha)=\alpha$ y así $S_B(\overrightarrow{pb}, \alpha)=(\check{\overrightarrow{pb}}, \alpha)=S_C(\overrightarrow{pb}, \alpha) \implies S_B=S_C$ Por axioma \textit{III.4}. Esto dice que $B=C$, pues $B$ y $C$ son los conjuntos de puntos dijos de $S_B$ y $S_C$.  
+    \end{itemize}
+\end{enumerate}
+\subsection{\textcolor{blue}{Teorema 32}}
+\subsubsection{Enunciado}
+Todo ángulo tiene una y solo una bisectriz
+\subsubsection{Demostración}
+Sea $o$ el vértice del ángulo $\angle AB$ 
+\begin{itemize}
+    \item \textbf{Existencia:} Sea $T$ la transformación rígida tal que $T(A,A_B)=(B,B_A)$, si $B':=T(B)$ entonces $T(\angle AB)=\angle BB'$ por lo tanto $\angle AB=\angle BB'$. Como $B'\subseteq B_A$ y $A\subseteq B_A$ por el teorema 18 resulta $B'=A$. Sean $a \in A$, $a\neq o$, $a':=T(a)\in B$ y $a'':=T(a')\in B$
+\end{itemize}
 \end{document}
