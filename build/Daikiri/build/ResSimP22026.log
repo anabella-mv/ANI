@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  19 FEB 2026 16:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  21 FEB 2026 09:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -327,7 +327,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Imagenes/f2izquierda.png, id=1, 574.39594pt x 452.4403pt>
 File: Imagenes/f2izquierda.png Graphic file (type png)
 <use Imagenes/f2izquierda.png>
-Package pdftex.def Info: Imagenes/f2izquierda.png  used on input line 52.
+Package pdftex.def Info: Imagenes/f2izquierda.png  used on input line 53.
 (pdftex.def)             Requested size: 287.19725pt x 226.2196pt.
 
 
@@ -337,7 +337,7 @@ Package pdftex.def Info: Imagenes/f2izquierda.png  used on input line 52.
 <Imagenes/f2reflejada.png, id=17, 621.82312pt x 472.76625pt>
 File: Imagenes/f2reflejada.png Graphic file (type png)
 <use Imagenes/f2reflejada.png>
-Package pdftex.def Info: Imagenes/f2reflejada.png  used on input line 58.
+Package pdftex.def Info: Imagenes/f2reflejada.png  used on input line 59.
 (pdftex.def)             Requested size: 310.9108pt x 236.38254pt.
 
 
@@ -347,7 +347,7 @@ Package pdftex.def Info: Imagenes/f2reflejada.png  used on input line 58.
 <Imagenes/cuadraticaG.png, id=27, 265.74281pt x 381.67593pt>
 File: Imagenes/cuadraticaG.png Graphic file (type png)
 <use Imagenes/cuadraticaG.png>
-Package pdftex.def Info: Imagenes/cuadraticaG.png  used on input line 129.
+Package pdftex.def Info: Imagenes/cuadraticaG.png  used on input line 130.
 (pdftex.def)             Requested size: 132.87108pt x 190.8375pt.
 
 
@@ -355,7 +355,7 @@ Package pdftex.def Info: Imagenes/cuadraticaG.png  used on input line 129.
 <Imagenes/angulop2.png, id=32, 399.894pt x 363.15675pt>
 File: Imagenes/angulop2.png Graphic file (type png)
 <use Imagenes/angulop2.png>
-Package pdftex.def Info: Imagenes/angulop2.png  used on input line 170.
+Package pdftex.def Info: Imagenes/angulop2.png  used on input line 171.
 (pdftex.def)             Requested size: 199.9465pt x 181.57793pt.
 
 
@@ -363,12 +363,12 @@ Package pdftex.def Info: Imagenes/angulop2.png  used on input line 170.
 <Imagenes/triangulo tomi.png, id=36, 259.56975pt x 335.45325pt>
 File: Imagenes/triangulo tomi.png Graphic file (type png)
 <use Imagenes/triangulo tomi.png>
-Package pdftex.def Info: Imagenes/triangulo tomi.png  used on input line 187.
+Package pdftex.def Info: Imagenes/triangulo tomi.png  used on input line 188.
 (pdftex.def)             Requested size: 129.78455pt x 167.7262pt.
 <Imagenes/triangulo juli.png, id=37, 383.031pt x 254.1495pt>
 File: Imagenes/triangulo juli.png Graphic file (type png)
 <use Imagenes/triangulo juli.png>
-Package pdftex.def Info: Imagenes/triangulo juli.png  used on input line 192.
+Package pdftex.def Info: Imagenes/triangulo juli.png  used on input line 193.
 (pdftex.def)             Requested size: 191.51503pt x 127.07443pt.
 
 
@@ -387,9 +387,9 @@ Here is how much of TeX's memory you used:
  32620 multiletter control sequences out of 15000+600000
  635005 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,539b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,912b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\maile\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\ResSimP22026.pdf (7 pages, 311696 bytes).
+Output written on c:\Users\maile\OneDrive\Desktop\ANI\build\Daikiri\build\ResSimP22026.pdf (7 pages, 312428 bytes).
 PDF statistics:
  104 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

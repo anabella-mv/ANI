@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1771529355.24598 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSimP22026.tex" "build/ResSimP22026.pdf" "ResSimP22026" 1771529356.23224 0
+["pdflatex"] 1771677814.13791 "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSimP22026.tex" "build/ResSimP22026.pdf" "ResSimP22026" 1771677815.02084 0
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1771518687 82011 97247c01f6bfb6f6d0c40fab12a08423 ""
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1770319395 14064 56bc4db3ccda63c58e8e08795dbdd1a8 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
@@ -71,9 +71,9 @@
   "Imagenes/f2reflejada.png" 1771469395 62970 5d21b913dffb9682b1608ba73a3ca87d ""
   "Imagenes/triangulo juli.png" 1771526696 12088 fe54209c75481bda442be3c9d8da83a7 ""
   "Imagenes/triangulo tomi.png" 1771526792 8647 7cdc9afc2c3ba90515e315267cbb7b47 ""
-  "ResSimP22026.tex" 1771529354 15412 172edf92218130d275b6149a4c724d41 ""
-  "build/ResSimP22026.aux" 1771529356 202 e03afaee5e20513ad6cd59d16d6846da "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSimP22026.tex" 1771529354 15412 172edf92218130d275b6149a4c724d41 ""
+  "ResSimP22026.tex" 1771677813 16214 7ab0ab589269a817c5f628f9659ce141 ""
+  "build/ResSimP22026.aux" 1771677814 202 939d845e89e69cc1b66d1e2ad14e43ee "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Daikiri/ResSimP22026.tex" 1771677813 16214 7ab0ab589269a817c5f628f9659ce141 ""
   (generated)
   "build/ResSimP22026.aux"
   "build/ResSimP22026.log"

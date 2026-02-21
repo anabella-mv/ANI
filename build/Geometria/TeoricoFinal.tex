@@ -208,4 +208,31 @@ Una recta interseca a una circunferencia en a lo sumo dos puntos.
 \subsubsection{Demostración}
 Supongamos que $p$, $q$ y $r$ son tres puntos alineados pertenecientes a una circunferencia de centro $o$, con $q \in \overline{pr}$.Como $\overline{op}\equiv \overline{oq}$, pues $p$ y $q$ están en la circunferencia entonces $o \in M_{\overline{pq}}$ por corolario 35. Como $\overline{oq} \equiv \overline{or}$ entonces $o \in M_{\overline{qr}}$.\\\\
 Sean $m_1, m_2$ puntos medios de $\overline{pq}$ y $\overline{qr}$ respectivamente, entonces los puntos medios de $\overline{pq}$ y $\overline{qr}$ están en las semirrectas opeustas de $\overleftrightarrow{pr}$ con respecto a $q$. Luego $m_1\neq m_2$, como $m_1 \in M_{\overline{pq}}$ y $m_2 \in M_{\overline{qr}}$, resulta $M_{\overline{pq}}\neq M_{\overline{qr}}$ y ambas son perpendiculares a $\overleftrightarrow{pr}$ por $o$ lo que contradice la unicidad de las rectas perpendiculares que pasan por un punto.
+\subsection{\textcolor{blue}{39}}
+\subsubsection{Enunciado}
+En todo triángulo un ángulo exterior es mayor que cada ángulo interior no adyacente.
+\subsubsection{Demostración}
+\begin{figure}[htb]
+    \centering
+    \includegraphics[scale=0.6]{imagenes/t39.png}
+    \label{fig:Teorema 39}
+\end{figure}
+Sea $d \in \check{\overrightarrow{ba}}$. Probemos que $\angle cbd>\angle acb$. Sean $m$ el punto medio de $\overline{bc}$ y $a'=S_m(a)$. $S_m(\angle acb)=\angle a'bc \therefore \angle acb \equiv \angle a'bc$. Veamos que $a'$ es interior al $\angle cbd$:
+\begin{itemize}
+    \item $m \in \overline{aa'} \implies m$ y $a'$ están en el mismo semiplano respecto de $\overleftrightarrow{ab}$
+    \item $m \in \overline{bc'} \implies m$ y $c$ están en el mismo semiplano respecto de $\overleftrightarrow{ab}$
+\end{itemize}
+Entonces $a'$ y $c$ están en el mismo semiplano respecto de $\overleftrightarrow{ab} \therefore a'\in \overleftrightarrow{ab_c}$. Ahora, $a$ y $a'$ están en distintos semiplanos respecto de $\overleftrightarrow{bc} \therefore a'\in \check{\left(\overleftrightarrow{bc_a}\right)}$. Luego $a'\in \overleftrightarrow{ab_c}\cap \check{\left(\overleftarrow{bc_a}\right)}=sec(\angle cbd)$. Claramente, $a'\notin \angle cbd \therefore a'$ es interior al $\angle cbd$.
+\begin{equation*}
+    S_m(\angle acb)=\angle a'bc \therefore \angle acb \equiv \angle a'bc
+\end{equation*} 
+Como $\overrightarrow{ba'}$ es interior al $\angle cbd$ tenemos que $\angle cbd>\angle acb$. Falta ver $\angle cbd>\angle cab$\\\\
+Sea $d' \in \check{\overrightarrow{bc}}$. Por ser opuestos por el vértice, tenemos $\angle cbd \equiv \angle abd'$. Por lo recién probado, vale: $\angle abd'>\angle cab \therefore \angle cbd > \angle cab$
+\subsection{\textcolor{blue}{Teorema 41}}
+\subsubsection{Enunciado}
+En todo triángulo, a mayor lado se opone mayor ángulo y recíprocamente a mayor ángulo se opone mayor lado.
+\subsubsection{Demostración}
+\begin{enumerate}
+    \item Supongamos $\overline{ac}>\overline{ab}$, queremos probar que $\angle abc>\angle acb$
+\end{enumerate}
 \end{document}
