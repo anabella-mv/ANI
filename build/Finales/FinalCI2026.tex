@@ -1,0 +1,138 @@
+\documentclass[10pt]{article}
+
+% Bibliotecas necesarias
+
+\usepackage[a4paper, top=0.5cm, left=2cm, right=2cm,bottom=2cm]{geometry}
+\usepackage{amsfonts}
+\usepackage{amsmath, scalerel}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{float}
+
+\geometry{top=1.2cm}
+% Datos del documento
+
+\title{\small Facultad de Matemática, Astronomía, Física y Computación}
+\author{Simulacro Final\\ GURI - La Bisagra, conduccion del CEIMAF}
+\date{28 de Febrero de 2026}
+\begin{document}
+\maketitle
+
+%Datos del alumno 
+
+\noindent\textbf{Apellido y Nombre:}\\
+\textbf{Comisión:}\\
+\textbf{DNI:}
+\begin{itemize}
+        \item Leé cuidadosamente todas las consignas antes de comenzar.
+        \item No está permitido el uso de calculadoras y/o celulares.
+        \item Toda respuesta debe estar justificada, asegurate de acompañarla con su procedimiento y cuentas que realices, es evaluado como se llega a ella.
+\end{itemize}
+
+%Inicio de enumeración de las consignas a realizar 
+
+\begin{enumerate}
+    
+    %Punto 1: Propiedades de los numeros reales
+    \item Calcular:
+    \begin{equation*}
+        \frac{2026^2-2024^2}{2026+2024}+\left(\frac{3}{2}\right)^{44} \cdot \left(\frac{3}{2}\right)^{-46}\cdot 3^2 - \sqrt[16]{\left(\frac{2^4\cdot 3}{15 \cdot 5^2 \cdot 5^{-3}}\right)^4}
+    \end{equation*}   
+    
+    %Punto 2: Sistema de ecuaciones
+    \item Dado el siguiente enunciado:\\\\
+    \textit{Nahuel encargó nuevos stickers de cada carrera de FAMAF, como compró por plantillas y sin recortar, Franco quiere saber de cuantos stickers son cada plantilla para ver si se necesita más ayuda para recortarlos. Nahuel sabe que en total pidió 66 stickers por carrera y de los cuales vienen 3 plantillas grandes y 2 pequeñas y también que el local al que encargó tiene promos de 25 stickers por 1 plantilla grande y 1 plantilla pequeña.}
+    \begin{enumerate}
+        \item Escribir el sistema de ecuaciones que representa la situación.
+        \item Utilizando alguno de los métodos de igualación, sustitución o reducción, resolver el sistema de ecuaciones para encontrar cuantos animales había de cada especie.
+    \end{enumerate}
+
+    %Punto 3: Circunferencias, lógica proposicional y división de polinomios
+    \item Dadas las siguientes proposiciones:
+    \begin{itemize} 
+        \item \textit{c}: El resto de la división entre $P(x)=3x^4+6x^3+6x-3$ y $Q(x)=3x^2+3$ es $R(x)=0$
+        \item \textit{f}: La ecuación $(x-3)^2+(y-6)^2-25=24$  describe una circunferencia con centro en el punto $A=(3,6)$ y radio $9$
+        \item \textit{k}: $\lnot (\exists x \in \mathbb{R} \ x^0\neq 1) \equiv \forall x \in \mathbb{R} , x^0=1$
+    \end{itemize}
+    \begin{enumerate}
+        \item Dar el valor de la verdad de cada proposición.
+        \item Conociendo que la proposición $(\lnot t \iff q)$ es falsa y que $(p \implies q)$ es falsa, determinar el valor de la verdad de:\\\\
+        \begin{tabular}{cccc}
+             (i) $p$ & (ii) $q$ & (iii) $t$ & (iv) $(t \vee p)$ \\
+        \end{tabular}
+    \end{enumerate}
+
+    %Punto 4: Factorización y dominio con sus restricciones
+    \item 
+    \begin{enumerate}
+        \item Determinar el dominio de la función:
+        \begin{equation*}
+            f(x)=\frac{1}{x^2-3x} - \frac{x^2-4}{-x^2+5x-6}
+        \end{equation*}
+        \item Factorizar, simplificar y resolver la siguiente ecuación:
+        \begin{equation*}
+            \frac{1}{x^2-3x} - \frac{x^2-4}{-x^2+5x-6}
+        \end{equation*}
+    \end{enumerate}
+
+    %Punto 5: Operaciones entre conjuntos y sus representaciones
+    \item Sea $\mathcal{U}=(-\infty, 8]$ el conjunto universal. Sean $A=\{x \in \mathcal{U}/ x \geq 3\}$, $B=\{x-1/x \in \mathcal{U} \wedge x \in \mathbb{N} \wedge x>10\}$ y $C=(-\infty,7)$
+    \begin{enumerate}
+        \item Expresar el conjunto $A$ como intérvalo, al conjunto $B$ por extensión y al conjunto $C$ por compresión.
+        \item Calcular las siguientes operaciones entre conjuntos utilizando la recta real, expresar el conjunto solución como intervalo(o unión de intervalos), y realizar los diagramas de Venn que representan las operaciones:\\\\
+        \begin{tabular}{cccc}
+             (i) $D=B^{c}$ & (ii) $E=A \cap C$ & (iii) $F=A-C$ \\
+        \end{tabular}
+    \end{enumerate}
+    
+    %Punto 6: Intersección de rectas, distancia entre puntos y pendiente.
+    \item Sean las rectas $L_1$ y $L_2$ definidas por las ecuaciones:
+    \[
+        L_1: y = ax + b, \qquad \qquad L_2: y = \frac{3}{4}x + c
+    \]
+    Sabiendo que cortan en el punto $P=(3,-2)$ y son perpendiculares entre sí.
+    \begin{enumerate}
+        \item Calcular los valores de $a$, $b$ y $c$. Encontrar las coordenadas donde las rectas $L_1$ y $L_2$ intersecan con los ejes coordenados. (Eje x y eje y)
+        \item Determinar si los puntos $A=(\frac{1}{2},\frac{4}{3})$ pertenece a la recta $L_2$ y si $B=(\frac{2}{3},\frac{4}{3})$ pertenece a la recta $L_1$ y calcular la distancia entre los puntos $A$ y $B$.
+    \end{enumerate}
+
+    %Punto 7: Parábolas.
+    \item Sea la parábola $P: y = 2x^2+bx-16$ que tiene eje de simetría en $x=\frac{7}{2}$.
+    \begin{enumerate}
+        \item Calcular el valor del coeficiente $b$.
+        \item Calcular las coordenadas $(x_v,y_v)$ del vértice de la parábola.
+        \item Calcular las coordenadas de la intersección de la parábola con el eje de ordenadas y con el eje de abscisas (raíces).
+        \item Utilizando los datos encontrados en los incisos anteriores, esbozar el gráfico de la parábola (no utilizar tabla de valores).
+    \end{enumerate}
+
+    %Punto 8: identidades trigonométricas y circunferencia unitaria
+    \item El punto $P(t)$ se ubica sobre la circunferencia unitaria en el primer cuadrante y tiene coordenadas $(x,\frac{\sqrt{5}}{3})$
+    \begin{enumerate}
+        \item Calcular el valor de las seis funciones trigonométricas del ángulo $t$.
+        \item Ubicar en la circunferencia unitaria el punto $P(s)$ con $s=16\frac{\pi}{6}$ y dar sus coordenadas $(x,y)$.
+        \item Calcular $cos(s+\frac{\pi}{2})$
+    \end{enumerate}
+
+    %Punto 9: Trigonometría y aplicación.
+    
+    %Punto 10: IVU
+    \item En cada uno de los siguientes incisos, seleccione en esta hoja la casilla para indicar cúal es la recpuesta correcta:
+    \begin{enumerate}
+        \item Actualemnte la conduccion del CEIMAF la tiene el guri, como esta compuesto el CEIMAF?
+        \begin{itemize}
+            \item[$\square$] Consejerxs, titulares y suplentes
+            \item[$\square$] Presidentx, secretarix general y vocalías.
+            \item[$\square$] Decanato y secretarias.
+        \end{itemize}
+        \item ¿Cuál es el único requisito académico para poder ser elegido como representante estudiantil en el Consejo Directivo?
+        \begin{itemize}
+            \item[$\square$] Tener promedio mayor a 8 en al menos el $30\%$ de la carrera.
+            \item[$\square$] Tener aprobado por lo menos 1/3 del número de años de la carrera o un tercio 1/3 del número total de materias establecidas en el plan de estudio, indistintamente.
+            \item[$\square$] No existe requisito previo para poder ser electo Consejero Estudiantil.
+        \end{itemize}
+    \end{enumerate}
+\end{enumerate}
+\end{document}
