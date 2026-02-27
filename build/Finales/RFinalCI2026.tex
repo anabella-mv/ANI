@@ -1,0 +1,274 @@
+\documentclass[a4paper]{article}
+
+%paquetes necesarios
+\usepackage[a4paper, top=1.5cm, left=2cm, right=2cm,bottom=2cm]{geometry}
+\usepackage{amsfonts}
+\usepackage{amsmath, scalerel}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{polynom}
+\usepackage{float}
+
+
+%texto del  documento
+\title{Facultad de Matemática, Astronomía, Física y Computación}
+\author{Simulacro Final\\ GURI - La Bisagra, conducción del CEIMAF}
+\date{28 de Febrero de 2026}
+
+\begin{document}
+\maketitle
+\begin{enumerate}
+
+    %Punto 1
+    \item Resolución:
+    \begin{gather*}
+        \frac{2026^2-2024^2}{2026+2024}+\left(\frac{3}{2}\right)^{44} \cdot \left(\frac{3}{2}\right)^{-46}\cdot 3^2 - \sqrt[16]{\left(\frac{2^4\cdot 3}{15 \cdot 5^2 \cdot 5^{-3}}\right)^4}=\\
+        \frac{(2026-2024)(2026+2024)}{2026+2024}+\left(\frac{3}{2}\right)^{-2} \cdot 3^2 - \sqrt[16]{\left(\frac{2^4\cdot 3}{3 \cdot 5 \cdot 5^2 \cdot 5^{-3}}\right)^4}=\\
+        2+\left(\frac{2}{3}\right)^{2} \cdot 3^2 - \left(\frac{2^4\cdot 3}{3 \cdot 5^3 \cdot 5^{-3}}\right)^{\frac{4}{16}}=\\
+        2+\frac{4}{9} \cdot 9 - \left(\frac{2^4}{1}\right)^{\frac{1}{4}}=\\
+        2+4-2=4
+    \end{gather*}
+    %Punto 2
+    \item Por los datos dados, sea $G$ los stickers por plantilla grande y $P$ los stickers por plantillas pequeñas, entonces se puede escribir el siguiente sistema de ecuaciones:
+    \begin{enumerate}
+        \item 
+            \begin{equation*}
+            \begin{cases}
+                3G+2P=66\\
+                G+P=25
+            \end{cases}
+            \end{equation*}
+            \item Resolviendo el sistema de ecuaciones, por ejemplo, usando sustitución:
+                \begin{gather*}
+                    G=25-P\\
+                    3(25-P)+2P=66\\
+                    75-3P+2P=66\\
+                    75-P=66\\
+                    P=9\\
+                    G=25-9=16
+                \end{gather*}
+            Encontramos entonces que las plantillas grandes tienen 16 stickers y las pequeñas tienen 9 stickers.
+        \end{enumerate}
+    %Punto 3:
+    \item Analizando cada proposición:
+    \begin{enumerate}
+    \item    
+        \begin{itemize}
+            \item Para encontrar el resto de la división entre $P(x)$ y $Q(x)$, se puede realizar la división de polinomios:
+            \begin{center}
+                \polylongdiv[style=D]{3x^4+6x^3+0x^2+6x-3}{3x^2+0x+3}
+            \end{center}
+            El resultado de la división es $x^2+2x-1$ con un resto de $0$, por lo tanto, la proposición \textit{c} es verdadera.
+            \item La ecuación dada describe una circunferencia con centro en el punto $A=(3,6)$ y radio $\sqrt{24+25}=\sqrt{49}=7$, por lo tanto, la proposición \textit{f} es falsa.
+            \item La proposición \textit{k} es verdadera, ya que la negación de la primera parte resulta en la segunda por lo tanto la equivalencia es verdadera porque ambas proposiciones son iguales y verdaderas.
+        \end{itemize}
+    \item $\iff$ es falso cuando las proposiciones tienen valores distintos y la $\implies$ es falsa cuando la primera es verdadera y la segunda falsa, por lo tanto, $(p \implies q)$ nos dice que $p$ es verdadera y $q$ es falsa, entonces, para que $(\lnot t \iff q)$ sea falsa, $\lnot t$ debe ser verdadera, por lo tanto, $t$ es falsa.
+    \begin{tabular}{cccc}
+             (i) $p$ verdadera & (ii) $q$ falsa & (iii) $t$ falsa & (iv) $(t \vee p)$ verdadera\\
+    \end{tabular}
+    \end{enumerate}
+
+    %Punto 4:
+    \item 
+    \begin{enumerate}
+        \item Sabemos que en los denominadores de cualquier ecuación no puede haber 0, entonces quiero ver en que puntos el 0 se produce:
+        \begin{gather*}
+            x^2-3x=0\\
+            x(x-3)=0\\
+            x=0 \vee x=3
+        \end{gather*}
+        \begin{gather*}
+            -x^2+5x-6=0\\
+            x^2-5x+6=0\\
+            (x-2)(x-3)=0\\
+            x=2 \vee x=3
+        \end{gather*}
+        Por lo tanto, el dominio de la función es $\mathbb{R}\setminus \{0,2,3\}$.
+         \item Para resolver la ecuación, primero se puede factorizar cada denominador:
+         \begin{gather*}
+             \frac{1}{x(x-3)} = \frac{x^2-4}{-(x-2)(x-3)}\\
+             \frac{1}{x(x-3)} = -\frac{(x-2)(x+2)}{(x-2)(x-3)}\\
+             \frac{1}{x(x-3)} = -\frac{x+2}{x-3}\\
+             \frac{x-3}{(x-3)} = -x(x+2)\\
+                1 = -x(x+2)\\
+                1 = -x^2-2x\\
+                x^2+2x+1=0\\
+                (x+1)^2=0
+                x=-1
+         \end{gather*}
+         Por lo tanto, la solución de la ecuación es $x=-1$, que pertenece al dominio de la función.
+    \end{enumerate}
+
+    %Punto 5:
+    \item 
+    \begin{enumerate}
+        \item El conjunto $A$ se puede expresar como el intervalo $[3,8]$, el conjunto $B$ por extensión es $\{\}$ pues el conjunto universal sólo llega a 8 y $C$ se puede expresar por compresión como $\{x \in \mathcal{U}/ x<7\}$.
+        \item 
+        \begin{enumerate}
+            \item $D=B^{c}=\mathcal{U}\setminus B=(-\infty,8]$
+            \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.15]{Imagenes/Bcomplemento.png}
+            \end{figure}
+            \item $E=A \cap C=[3,7)$
+            \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.15]{Imagenes/AintC.png}
+            \end{figure}
+            \item $F=A-C=[7,8]$
+            \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.15]{Imagenes/AmenosC.png}
+            \end{figure}
+        \end{enumerate}
+    \end{enumerate}
+
+    %Punto 6:
+    \item 
+    \begin{enumerate}
+        \item Para encontrar los valores de $a$, $b$ y $c$, se puede usar el hecho de que las rectas son perpendiculares, lo que implica que el producto de sus pendientes es igual a $-1$. La pendiente de $L_2$ es $\frac{3}{4}$, por lo tanto, la pendiente de $L_1$ debe ser $-\frac{4}{3}$. Esto nos da la ecuación:
+        \begin{gather*}
+            a=-\frac{4}{3}
+        \end{gather*}
+        Luego, usando el punto de intersección $P=(3,-2)$, se puede encontrar $b$ y $c$:
+        \begin{gather*}
+            -2 = -\frac{4}{3} \cdot 3 + b\\
+            -2 = -4 + b\\
+            b=2
+        \end{gather*}
+        \begin{gather*}
+            -2 = \frac{3}{4} \cdot 3 + c\\
+            -2 = \frac{9}{4} + c\\
+            c=-\frac{17}{4}
+        \end{gather*}
+        Por lo tanto, las ecuaciones de las rectas son:
+        \[
+            L_1: y = -\frac{4}{3}x + 2, \qquad \qquad L_2: y = \frac{3}{4}x - \frac{17}{4}
+        \]
+        Para encontrar las intersecciones con los ejes coordenados:
+        \begin{gather*}
+            \text{Intersección de } L_1 \text{ con el eje x: } 0 = -\frac{4}{3}x + 2 \Rightarrow x = \frac{3}{2}\\
+            \text{Intersección de } L_1 \text{ con el eje y: } y = 2\\
+            \text{Intersección de } L_2 \text{ con el eje x: } 0 = \frac{3}{4}x - \frac{17}{4} \Rightarrow x = \frac{17}{3}\\
+            \text{Intersección de } L_2 \text{ con el eje y: } y = -\frac{17}{4}
+        \end{gather*}
+        \item Para determinar si los puntos $A$ y $B$ pertenecen a las rectas $L_1$ y $L_2$ respectivamente, se puede sustituir las coordenadas de cada punto en las ecuaciones de las rectas:
+        \begin{gather*}
+            \text{Para } A=\left(\frac{1}{2},\frac{4}{3}\right): \\
+            y = -\frac{4}{3} \cdot \frac{1}{2} + 2 = -\frac{2}{3} + 2 = \frac{4}{3} \quad (\text{pertenece a } L_1)\\
+            \text{Para } B=\left(\frac{2}{3},\frac{4}{3}\right): \\            
+            y = \frac{3}{4} \cdot \frac{2}{3} - \frac{17}{4} = \frac{1}{2} - \frac{17}{4} = -\frac{15}{4} \quad (\text{no pertenece a } L_2)
+        \end{gather*}
+        Ahora para calcular la distancia entre los puntos $A$ y $B$, se puede usar la fórmula de distancia entre dos puntos en el plano:
+        \begin{gather*}
+            d = \sqrt{\left(\frac{2}{3} - \frac{1}{2}\right)^2 + \left(\frac{4}{3} - \frac{4}{3}\right)^2} = \sqrt{\left(\frac{1}{6}\right)^2} = \frac{1}{6}
+        \end{gather*}
+    \end{enumerate}
+    
+    %Punto 7:
+    \item 
+    \begin{enumerate}
+        \item Para calcular el valor del coeficiente $b$, se puede usar la fórmula del eje de simetría de una parábola, que es $x = -\frac{b}{2a}$, donde $a$ es el coeficiente de $x^2$. En este caso, $a=3$, entonces:
+        \begin{gather*}
+            -\frac{b}{2 \cdot 3} = \frac{1}{2} \Rightarrow b = -3
+        \end{gather*}
+        \item Para calcular las coordenadas del vértice de la parábola, se puede usar la fórmula del vértice, que es $V\left(-\frac{b}{2a}, f\left(-\frac{b}{2a}\right)\right)$. Ya tenemos el valor de $-\frac{b}{2a}$, que es $\frac{1}{2}$, entonces:
+        \begin{gather*}
+            y_v = 3\left(\frac{1}{2}\right)^2 - 3\left(\frac{1}{2}\right) - 6 = \frac{3}{4} - \frac{3}{2} - 6 = -\frac{27}{4}
+        \end{gather*}
+        Por lo tanto, las coordenadas del vértice son $\left(\frac{1}{2}, -\frac{27}{4}\right)$.
+        \item Para calcular las coordenadas de la intersección de la parábola con el eje de ordenadas, se puede sustituir $x=0$ en la ecuación de la parábola:
+        \begin{gather*}
+            y = 3(0)^2 - 3(0) - 6 = -6
+        \end{gather*}
+        Por lo tanto, la intersección con el eje de ordenadas es $(0,-6)$.
+        Para calcular las coordenadas de la intersección de la parábola con el eje de abscisas, se puede igualar la ecuación de la parábola a cero y resolver para $x$:
+        \begin{gather*}
+            3x^2 - 3x - 6 = 0\\
+            x^2 - x - 2 = 0\\
+            (x-2)(x+1) = 0\\
+            x=2 \vee x=-1
+        \end{gather*}
+        Por lo tanto, las intersecciones con el eje de abscisas son $(2,0)$ y $(-1,0)$.
+        \item Para esbozar el gráfico de la parábola, se pueden usar los puntos
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.4]{Imagenes/parabola.png}
+        \end{figure}
+    \end{enumerate}
+
+    %Punto 8:
+    \item 
+    \begin{enumerate}
+        \item Para calcular las seis funciones trigonométricas del ángulo $t$, se puede usar las coordenadas del punto $P(t)$, que son $(x,\frac{\sqrt{5}}{3})$. Primero, se puede encontrar el valor de $x$ usando la ecuación de la circunferencia unitaria y teniendo en cuenta que debe ser positiva por el cuadrante al que pertenece el ángulo $t$:
+        \begin{gather*}
+            x^2 + \left(\frac{\sqrt{5}}{3}\right)^2 = 1\\
+            x^2 + \frac{5}{9} = 1\\
+            x^2 = \frac{4}{9}\\
+            x = \frac{2}{3}
+        \end{gather*}
+        Entonces, las coordenadas del punto $P(t)$ son $\left(\frac{2}{3},\frac{\sqrt{5}}{3}\right)$. Ahora se pueden calcular las funciones trigonométricas:
+        \begin{gather*}
+            \sin(t) = \frac{\sqrt{5}}{3}, \quad \cos(t) = \frac{2}{3}, \quad \tan(t) = \frac{\sin(t)}{\cos(t)} = \frac{\sqrt{5}/3}{2/3} = \frac{\sqrt{5}}{2}\\
+            \csc(t) = \frac{1}{\sin(t)} = \frac{3}{\sqrt{5}}, \quad \sec(t) = \frac{1}{\cos(t)} = \frac{3}{2}, \quad \cot(t) = \frac{1}{\tan(t)} = \frac{2}{\sqrt{5}}
+        \end{gather*}
+        Por lo tanto, las seis funciones trigonométricas del ángulo $t$ son:
+        \begin{center}
+        $\sin(t) = \frac{\sqrt{5}}{3}$, $\cos(t) = \frac{2}{3}$, $\tan(t) = \frac{\sqrt{5}}{2}$, $\csc(t) = \frac{3}{\sqrt{5}}$, $\sec(t) = \frac{3}{2}$, $\cot(t) = \frac{2}{\sqrt{5}}$
+        \end{center}
+        \item Para ubicar el punto $P(s)$ con $s=16\frac{\pi}{6}$ en la circunferencia unitaria, se puede usar el hecho de que $s$ es un ángulo coterminal con $s' = s - 2\pi k$, donde $k$ es un entero. En este caso, se puede restar $2\pi$ una vez para obtener un ángulo dentro del rango de $0$ a $2\pi$:
+        \begin{gather*}
+            s' = 16\frac{\pi}{6} - 2\pi = \frac{16\pi}{6} - \frac{12\pi}{6} = \frac{4\pi}{6} = \frac{2\pi}{3}
+        \end{gather*}
+        Ahora, se pueden usar las funciones trigonométricas para encontrar las coordenadas del punto $P(s)$:
+        \begin{gather*}
+            x = \cos\left(\frac{2\pi}{3}\right) = -\frac{1}{2}, \quad y = \sin\left(\frac{2\pi}{3}\right) = \frac{\sqrt{3}}{2}
+        \end{gather*}
+        Por lo tanto, las coordenadas del punto $P(s)$ son $\left(-\frac{1}{2}, \frac{\sqrt{3}}{2}\right)$.
+        \item Para calcular $cos(s+\frac{\pi}{2})$, se puede usar la identidad trigonométrica que dice que $cos(\alpha + \beta) = cos(\alpha)cos(\beta) - sin(\alpha)sin(\beta)$. En este caso, $\alpha = s$ y $\beta = \frac{\pi}{2}$, entonces:
+        \begin{gather*}
+            cos\left(s+\frac{\pi}{2}\right) = cos(s)cos\left(\frac{\pi}{2}\right) - sin(s)sin\left(\frac{\pi}{2}\right)\\
+            = cos(s) \cdot 0 - sin(s) \cdot 1\\
+            = -sin(s)   
+        \end{gather*}
+        Ya sabemos que $sin(s) = \frac{\sqrt{3}}{2}$, entonces:
+        \begin{gather*}
+            cos\left(s+\frac{\pi}{2}\right) = -\frac{\sqrt{3}}{2}
+        \end{gather*}
+        \end{enumerate}
+
+        %Punto 9:
+        \item
+        Tenemos que considerar los dos triángulos formados y los datos que conocemos de ellos:
+        \begin{itemize}
+            \item Triángulo formado por la bandera, la primera ventana y la cuerda:
+            \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.4]{Imagenes/bandera izquierda.png}
+            \end{figure}
+            Llamo $H_1$ a la hipotenusa de este triángulo que es lo que queremos saber y conociendo la altura de $60\sqrt{3}$ y la apertura del ángulo de $60^{\circ}$, se puede usar la función coseno para encontrar $H_1$:
+            \begin{gather*}
+                \cos(60^{\circ}) = \frac{60\sqrt{3}}{H_1} \Rightarrow H_1 = \frac{60\sqrt{3}}{\cos(60^{\circ})} = \frac{60\sqrt{3}}{\frac{1}{2}} = 120\sqrt{3}
+            \end{gather*}
+            \item Triángulo formado por la bandera, la cuarta ventana y la cuerda:
+            \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.55]{Imagenes/bandera derecha.png}
+            \end{figure}
+            Llamo $H_2$ a la hipotenusa de este triángulo que es lo que queremos saber y conociendo la altura de $60\sqrt{3}$ y la apertura del ángulo de $60^{\circ}$, se puede usar la función seno para encontrar $H_2$:
+            \begin{gather*}
+                \sin(60^{\circ}) = \frac{60\sqrt{3}}{H_2} \Rightarrow H_2 = \frac{60\sqrt{3}}{\sin(60^{\circ})} = \frac{60\sqrt{3}}{\frac{\sqrt{3}}{2}} = 120
+            \end{gather*}
+        \end{itemize}
+            Por lo tanto, la longitud de la cuerda que Marcio debe comprar es $H_1 + H_2 = 120\sqrt{3} + 120$ centímetros.
+
+        %Punto 10:
+        \item Las respuestas son:
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.8]{Imagenes/mc.png}
+        \end{figure}
+\end{enumerate}
+\end{document}

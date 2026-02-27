@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  26 FEB 2026 22:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  27 FEB 2026 00:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/maile/OneDrive/Desktop/ANI/build/Finales/FinalCI2026.tex
-(c:/Users/maile/OneDrive/Desktop/ANI/build/Finales/FinalCI2026.tex
+**c:/Users/maile/OneDrive/Desktop/ANI/build/Finales/RFinalCI2026.tex
+(c:/Users/maile/OneDrive/Desktop/ANI/build/Finales/RFinalCI2026.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-11>
 (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -245,36 +245,36 @@ Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
 \colbreak@box=\box101
 \mc@col@check@num=\count312
 \g__mc_curr_col_int=\count313
-) (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/preprint\fullpage.sty
-Package: fullpage 1999/02/23 1.1 (PWD)
-\FP@margin=\skip67
+) (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/polynom\polynom.sty
+Package: polynom 2017/07/17 0.19 (CH,HA)
+\pld@currstage=\count314
 ) (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count314
+\c@float@type=\count315
 \float@exts=\toks25
 \float@box=\box102
 \@float@everytoks=\toks26
 \@floatcapt=\box103
 ) (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count315
-) (c:\Users\maile\OneDrive\Desktop\ANI\build\Finales\%OUTDIR%\FinalCI2026.aux)
-\openout1 = `FinalCI2026.aux'.
+\l__color_backend_stack_int=\count316
+) (c:\Users\maile\OneDrive\Desktop\ANI\build\Finales\%OUTDIR%\RFinalCI2026.aux)
+\openout1 = `RFinalCI2026.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -285,19 +285,19 @@ LaTeX Font Info:    ... okay on input line 21.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(34.14322pt, 753.99812pt, 56.9055pt)
+* v-part:(T,H,B)=(42.67912pt, 745.46222pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=483.69687pt
-* \textheight=753.99812pt
+* \textheight=745.46222pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-38.12677pt
-* \headheight=0.0pt
-* \headsep=0.0pt
+* \topmargin=-66.59087pt
+* \headheight=12.0pt
+* \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=65.0pt
+* \marginparwidth=57.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
@@ -312,16 +312,16 @@ LaTeX Font Info:    ... okay on input line 21.
 
 (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count316
+\scratchcounter=\count317
 \scratchdimen=\dimen187
 \scratchbox=\box104
-\nofMPsegments=\count317
-\nofMParguments=\count318
+\nofMPsegments=\count318
+\nofMParguments=\count319
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count319
+\MPscratchCnt=\count320
 \MPscratchDim=\dimen188
-\MPnumerator=\count320
-\makeMPintoPDFobject=\count321
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
 \everyMPtoPDFconversion=\toks28
 ) (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -329,26 +329,16 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
  (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
  (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 46--48
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--89
-
+Overfull \hbox (0.67017pt too wide) in paragraph at lines 64--65
+[]\OT1/cmr/m/n/10 La ecuaci^^Son dada de-scribe una cir-cun-fer-en-cia con cen-tro en el punto $\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 = (3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6)$ y ra-dio $[] =
  []
 
 
@@ -356,31 +346,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--89
 [1
 
 {C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<Imagenes/Trigonometria.png, id=18, 1991.64075pt x 1013.58675pt>
-File: Imagenes/Trigonometria.png Graphic file (type png)
-<use Imagenes/Trigonometria.png>
-Package pdftex.def Info: Imagenes/Trigonometria.png  used on input line 123.
-(pdftex.def)             Requested size: 298.73322pt x 152.03145pt.
+<Imagenes/Bcomplemento.png, id=16, 1247.862pt x 667.89525pt>
+File: Imagenes/Bcomplemento.png Graphic file (type png)
+<use Imagenes/Bcomplemento.png>
+Package pdftex.def Info: Imagenes/Bcomplemento.png  used on input line 113.
+(pdftex.def)             Requested size: 187.17122pt x 100.17996pt.
+<Imagenes/AintC.png, id=18, 920.84026pt x 489.027pt>
+File: Imagenes/AintC.png Graphic file (type png)
+<use Imagenes/AintC.png>
+Package pdftex.def Info: Imagenes/AintC.png  used on input line 118.
+(pdftex.def)             Requested size: 138.12007pt x 73.35088pt.
+<Imagenes/AmenosC.png, id=19, 920.84026pt x 489.027pt>
+File: Imagenes/AmenosC.png Graphic file (type png)
+<use Imagenes/AmenosC.png>
+Package pdftex.def Info: Imagenes/AmenosC.png  used on input line 123.
+(pdftex.def)             Requested size: 138.12007pt x 73.35088pt.
 
 
-[2 <./Imagenes/Trigonometria.png>] (c:\Users\maile\OneDrive\Desktop\ANI\build\Finales\%OUTDIR%\FinalCI2026.aux)
+[2 <./Imagenes/Bcomplemento.png> <./Imagenes/AintC.png>]
+
+[3 <./Imagenes/AmenosC.png>]
+<Imagenes/parabola.png, id=31, 326.72063pt x 470.50781pt>
+File: Imagenes/parabola.png Graphic file (type png)
+<use Imagenes/parabola.png>
+Package pdftex.def Info: Imagenes/parabola.png  used on input line 198.
+(pdftex.def)             Requested size: 130.68593pt x 188.19978pt.
+
+
+[4 <./Imagenes/parabola.png>]
+<Imagenes/bandera izquierda.png, id=36, 368.577pt x 165.61874pt>
+File: Imagenes/bandera izquierda.png Graphic file (type png)
+<use Imagenes/bandera izquierda.png>
+Package pdftex.def Info: Imagenes/bandera izquierda.png  used on input line 249.
+(pdftex.def)             Requested size: 147.42818pt x 66.2463pt.
+<Imagenes/bandera derecha.png, id=37, 194.52675pt x 141.52875pt>
+File: Imagenes/bandera derecha.png Graphic file (type png)
+<use Imagenes/bandera derecha.png>
+Package pdftex.def Info: Imagenes/bandera derecha.png  used on input line 258.
+(pdftex.def)             Requested size: 106.99004pt x 77.84105pt.
+
+
+[5 <./Imagenes/bandera izquierda.png> <./Imagenes/bandera derecha.png>]
+<Imagenes/mc.png, id=43, 576.65437pt x 178.41656pt>
+File: Imagenes/mc.png Graphic file (type png)
+<use Imagenes/mc.png>
+Package pdftex.def Info: Imagenes/mc.png  used on input line 271.
+(pdftex.def)             Requested size: 461.32411pt x 142.73343pt.
+
+
+[6 <./Imagenes/mc.png>] (c:\Users\maile\OneDrive\Desktop\ANI\build\Finales\%OUTDIR%\RFinalCI2026.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4401 strings out of 468149
- 67934 string characters out of 5431082
- 488596 words of memory out of 5000000
- 32955 multiletter control sequences out of 15000+600000
- 634756 words of font info for 71 fonts, out of 8000000 for 9000
+ 4802 strings out of 468149
+ 74436 string characters out of 5431082
+ 504013 words of memory out of 5000000
+ 33358 multiletter control sequences out of 15000+600000
+ 634149 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,8n,79p,624b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\maile\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:\Users\maile\OneDrive\Desktop\ANI\build\Finales\%OUTDIR%\FinalCI2026.pdf (2 pages, 820612 bytes).
+ 72i,15n,79p,463b,481s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\maile\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on c:\Users\maile\OneDrive\Desktop\ANI\build\Finales\%OUTDIR%\RFinalCI2026.pdf (6 pages, 349668 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
+ 101 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
