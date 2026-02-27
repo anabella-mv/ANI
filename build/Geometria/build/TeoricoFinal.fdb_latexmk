@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1771776323.97775 "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/TeoricoFinal.tex" "build/TeoricoFinal.pdf" "TeoricoFinal" 1771776324.87408 0
+["pdflatex"] 1772223570.86128 "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/TeoricoFinal.tex" "build/TeoricoFinal.pdf" "TeoricoFinal" 1772223571.94461 0
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1771518687 82011 97247c01f6bfb6f6d0c40fab12a08423 ""
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1753230834 11548 d38a8a79954ee491fe27aafa6e132278 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
@@ -62,6 +62,7 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/enumitem/enumitem.sty" 1738917170 52272 63d293bc0d496619edb57585740861a2 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1623003186 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1739279216 46850 d87daedc2abdc653769a6f1067849fe0 ""
+  "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty" 1469023953 6916 16d2656a1984957e674b149555f1ea1d ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg" 1578053545 1104 7ac475a4e3466b0b43e138e9356bda83 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg" 1465894292 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
@@ -80,11 +81,12 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1749468414 10374 2ffd4f27c7f90b8a300608069537743c ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1749468414 33259 db80f750a01491473161bd4d0f6986d2 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "TeoricoFinal.tex" 1771776323 22463 f219c59182408b4e0fb74a6df04a37ff ""
-  "build/TeoricoFinal.aux" 1771776324 5122 339c7ffbf8c0159b2fb98b0d56fec40f "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/TeoricoFinal.tex" 1771776323 22463 f219c59182408b4e0fb74a6df04a37ff ""
+  "TeoricoFinal.tex" 1772223568 23713 0c41990273fb8bb263fd989950d4af2f ""
+  "build/TeoricoFinal.aux" 1772223571 5473 eee5a1334b93ada0d4a59fdcc03fde08 "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Geometria/TeoricoFinal.tex" 1772223568 23713 0c41990273fb8bb263fd989950d4af2f ""
   "imagenes/T10.png" 1770671010 30996 071a13220a39f277e31282da5b5f99ef ""
   "imagenes/T11.png" 1770745337 39870 2272bdbff62d187939646b4ba44ffdaf ""
+  "imagenes/T41.png" 1772222164 34240 291f31296b49c80f54216f5e88ccf9ad ""
   "imagenes/t39.png" 1771678445 54285 9dae570eb14d15000f7ac13c34f5844b ""
   (generated)
   "build/TeoricoFinal.aux"

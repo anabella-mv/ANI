@@ -68,6 +68,8 @@ INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Geometria\build\TeoricoFinal.aux
@@ -146,6 +148,13 @@ INPUT .\imagenes\t39.png
 INPUT .\imagenes\t39.png
 INPUT .\imagenes\t39.png
 INPUT .\imagenes\t39.png
+INPUT .\imagenes\T41.png
+INPUT .\imagenes\T41.png
+INPUT .\imagenes\T41.png
+INPUT .\imagenes\T41.png
+INPUT .\imagenes\T41.png
+INPUT .\imagenes\T41.png
+INPUT .\imagenes\T41.png
 INPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Geometria\build\TeoricoFinal.aux
 INPUT C:\Users\maile\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\maile\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk

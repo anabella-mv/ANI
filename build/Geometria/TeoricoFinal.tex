@@ -11,6 +11,7 @@
 \usepackage{polynom}
 \usepackage{enumitem}
 \usepackage{xcolor}
+\usepackage{float}
 
 %texto del  documento
 \title{Facultad de Matemática, Astronomía, Física y Computación}
@@ -208,13 +209,13 @@ Una recta interseca a una circunferencia en a lo sumo dos puntos.
 \subsubsection{Demostración}
 Supongamos que $p$, $q$ y $r$ son tres puntos alineados pertenecientes a una circunferencia de centro $o$, con $q \in \overline{pr}$.Como $\overline{op}\equiv \overline{oq}$, pues $p$ y $q$ están en la circunferencia entonces $o \in M_{\overline{pq}}$ por corolario 35. Como $\overline{oq} \equiv \overline{or}$ entonces $o \in M_{\overline{qr}}$.\\\\
 Sean $m_1, m_2$ puntos medios de $\overline{pq}$ y $\overline{qr}$ respectivamente, entonces los puntos medios de $\overline{pq}$ y $\overline{qr}$ están en las semirrectas opeustas de $\overleftrightarrow{pr}$ con respecto a $q$. Luego $m_1\neq m_2$, como $m_1 \in M_{\overline{pq}}$ y $m_2 \in M_{\overline{qr}}$, resulta $M_{\overline{pq}}\neq M_{\overline{qr}}$ y ambas son perpendiculares a $\overleftrightarrow{pr}$ por $o$ lo que contradice la unicidad de las rectas perpendiculares que pasan por un punto.
-\subsection{\textcolor{blue}{39}}
+\subsection{\textcolor{blue}{Teorema 39}}
 \subsubsection{Enunciado}
 En todo triángulo un ángulo exterior es mayor que cada ángulo interior no adyacente.
 \subsubsection{Demostración}
-\begin{figure}[htb]
+\begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{imagenes/t39.png}
+    \includegraphics[scale=0.5]{imagenes/t39.png}
     \label{fig:Teorema 39}
 \end{figure}
 Sea $d \in \check{\overrightarrow{ba}}$. Probemos que $\angle cbd>\angle acb$. Sean $m$ el punto medio de $\overline{bc}$ y $a'=S_m(a)$. $S_m(\angle acb)=\angle a'bc \therefore \angle acb \equiv \angle a'bc$. Veamos que $a'$ es interior al $\angle cbd$:
@@ -233,6 +234,26 @@ Sea $d' \in \check{\overrightarrow{bc}}$. Por ser opuestos por el vértice, tene
 En todo triángulo, a mayor lado se opone mayor ángulo y recíprocamente a mayor ángulo se opone mayor lado.
 \subsubsection{Demostración}
 \begin{enumerate}
-    \item Supongamos $\overline{ac}>\overline{ab}$, queremos probar que $\angle abc>\angle acb$
+    \item Supongamos $\overline{ac}>\overline{ab}$, queremos probar que $\angle abc>\angle acb$.
+    \begin{gather*}
+    \overline{ac}>\overline{ab} \implies \exists p \in \overline{ac} \text{ tal que } \overline{ap}\equiv \overline{ab} \therefore \triangle abp \text{ es isósceles. Luego,}\\
+    \angle abc > \angle abp \text{ (por definición), } \angle abp \equiv \angle apb \text{ (teorema 34) y } \angle apb> \angle acb \text{ (Teorema 39). De allí resulta}\\
+    \angle abc>\angle acb.
+    \end{gather*}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{imagenes/T41.png}
+    \end{figure}
+    \item Supongamos ahora $\angle abc > \angle acb$, queremos ver $\overline{ac}>\overline{ab}$. Comparando $\overline{ac}$ con $\overline{ab}$, hay 3 posibilidades:
+    \begin{itemize}
+        \item $\overline{ab}<\overline{ac}$
+        \item $\overline{ab} \equiv \overline{ac} \implies \angle acb \equiv \angle abc$ (Teorema 34). Absurdo.
+        \item $\overline{ab}>\overline{ac} \implies \angle acb> \angle abc$, absurdo.
+    \end{itemize}
+    Luego debe ser $\overline{ab}<\overline{ac}$
 \end{enumerate}
+\subsection{\textcolor{blue}{Teorema 44}}
+\subsubsection{Enunciado}
+En todo triángulo cualquiera de sus lados es menor que la suma de los otros dos.
+\subsubsection{Demostración}
 \end{document}
