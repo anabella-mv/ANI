@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  27 FEB 2026 12:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  27 FEB 2026 17:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -337,7 +337,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
  (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (0.67017pt too wide) in paragraph at lines 64--65
+Overfull \hbox (0.67017pt too wide) in paragraph at lines 65--66
 []\OT1/cmr/m/n/10 La ecuaci^^Son dada de-scribe una cir-cun-fer-en-cia con cen-tro en el punto $\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 = (3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6)$ y ra-dio $[] =
  []
 
@@ -349,17 +349,17 @@ Overfull \hbox (0.67017pt too wide) in paragraph at lines 64--65
 <Imagenes/Bcomplemento.png, id=16, 1247.862pt x 667.89525pt>
 File: Imagenes/Bcomplemento.png Graphic file (type png)
 <use Imagenes/Bcomplemento.png>
-Package pdftex.def Info: Imagenes/Bcomplemento.png  used on input line 114.
+Package pdftex.def Info: Imagenes/Bcomplemento.png  used on input line 115.
 (pdftex.def)             Requested size: 187.17122pt x 100.17996pt.
 <Imagenes/D.png, id=18, 581.92406pt x 143.03438pt>
 File: Imagenes/D.png Graphic file (type png)
 <use Imagenes/D.png>
-Package pdftex.def Info: Imagenes/D.png  used on input line 119.
+Package pdftex.def Info: Imagenes/D.png  used on input line 120.
 (pdftex.def)             Requested size: 290.96132pt x 71.517pt.
 <Imagenes/AintC.png, id=19, 920.84026pt x 489.027pt>
 File: Imagenes/AintC.png Graphic file (type png)
 <use Imagenes/AintC.png>
-Package pdftex.def Info: Imagenes/AintC.png  used on input line 125.
+Package pdftex.def Info: Imagenes/AintC.png  used on input line 126.
 (pdftex.def)             Requested size: 138.12007pt x 73.35088pt.
 
 
@@ -367,17 +367,17 @@ Package pdftex.def Info: Imagenes/AintC.png  used on input line 125.
 <Imagenes/E.png, id=27, 468.24937pt x 132.495pt>
 File: Imagenes/E.png Graphic file (type png)
 <use Imagenes/E.png>
-Package pdftex.def Info: Imagenes/E.png  used on input line 130.
+Package pdftex.def Info: Imagenes/E.png  used on input line 131.
 (pdftex.def)             Requested size: 234.1241pt x 66.24733pt.
 <Imagenes/AmenosC.png, id=28, 920.84026pt x 489.027pt>
 File: Imagenes/AmenosC.png Graphic file (type png)
 <use Imagenes/AmenosC.png>
-Package pdftex.def Info: Imagenes/AmenosC.png  used on input line 136.
+Package pdftex.def Info: Imagenes/AmenosC.png  used on input line 137.
 (pdftex.def)             Requested size: 138.12007pt x 73.35088pt.
 <Imagenes/F.png, id=29, 351.56343pt x 118.94438pt>
 File: Imagenes/F.png Graphic file (type png)
 <use Imagenes/F.png>
-Package pdftex.def Info: Imagenes/F.png  used on input line 141.
+Package pdftex.def Info: Imagenes/F.png  used on input line 142.
 (pdftex.def)             Requested size: 175.78128pt x 59.47203pt.
 
 
@@ -385,7 +385,7 @@ Package pdftex.def Info: Imagenes/F.png  used on input line 141.
 <Imagenes/parabola.png, id=37, 326.72063pt x 470.50781pt>
 File: Imagenes/parabola.png Graphic file (type png)
 <use Imagenes/parabola.png>
-Package pdftex.def Info: Imagenes/parabola.png  used on input line 216.
+Package pdftex.def Info: Imagenes/parabola.png  used on input line 217.
 (pdftex.def)             Requested size: 130.68593pt x 188.19978pt.
 
 
@@ -395,17 +395,17 @@ Package pdftex.def Info: Imagenes/parabola.png  used on input line 216.
 <Imagenes/bandera izquierda.png, id=45, 368.577pt x 165.61874pt>
 File: Imagenes/bandera izquierda.png Graphic file (type png)
 <use Imagenes/bandera izquierda.png>
-Package pdftex.def Info: Imagenes/bandera izquierda.png  used on input line 267.
+Package pdftex.def Info: Imagenes/bandera izquierda.png  used on input line 268.
 (pdftex.def)             Requested size: 147.42818pt x 66.2463pt.
 <Imagenes/bandera derecha.png, id=46, 194.52675pt x 141.52875pt>
 File: Imagenes/bandera derecha.png Graphic file (type png)
 <use Imagenes/bandera derecha.png>
-Package pdftex.def Info: Imagenes/bandera derecha.png  used on input line 276.
+Package pdftex.def Info: Imagenes/bandera derecha.png  used on input line 277.
 (pdftex.def)             Requested size: 106.99004pt x 77.84105pt.
 <Imagenes/mc.png, id=47, 576.65437pt x 178.41656pt>
 File: Imagenes/mc.png Graphic file (type png)
 <use Imagenes/mc.png>
-Package pdftex.def Info: Imagenes/mc.png  used on input line 289.
+Package pdftex.def Info: Imagenes/mc.png  used on input line 290.
 (pdftex.def)             Requested size: 461.32411pt x 142.73343pt.
 
 
@@ -418,13 +418,13 @@ L3 programming layer <2025-07-11>
 Here is how much of TeX's memory you used:
  4823 strings out of 468149
  74853 string characters out of 5431082
- 504013 words of memory out of 5000000
+ 505013 words of memory out of 5000000
  33379 multiletter control sequences out of 15000+600000
  634149 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,15n,79p,463b,481s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,15n,79p,467b,481s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\maile\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:\Users\maile\OneDrive\Desktop\ANI\build\Finales\build\RFinalCI2026.pdf (6 pages, 372676 bytes).
+Output written on c:\Users\maile\OneDrive\Desktop\ANI\build\Finales\build\RFinalCI2026.pdf (6 pages, 372900 bytes).
 PDF statistics:
  107 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

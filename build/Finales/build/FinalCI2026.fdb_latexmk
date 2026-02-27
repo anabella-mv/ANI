@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1772205595.57786 "c:/Users/maile/OneDrive/Desktop/ANI/build/Finales/FinalCI2026.tex" "build/FinalCI2026.pdf" "FinalCI2026" 1772205596.55629 0
+["pdflatex"] 1772225909.86886 "c:/Users/maile/OneDrive/Desktop/ANI/build/Finales/FinalCI2026.tex" "build/FinalCI2026.pdf" "FinalCI2026" 1772225910.87679 0
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1771518687 82011 97247c01f6bfb6f6d0c40fab12a08423 ""
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1753230834 11548 d38a8a79954ee491fe27aafa6e132278 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
@@ -73,10 +73,10 @@
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/scalerel/scalerel.sty" 1482995416 7825 43f8c26a0a3916d218f4f48c29aa92e4 ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1749468414 10374 2ffd4f27c7f90b8a300608069537743c ""
   "C:/Users/maile/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1749468414 33259 db80f750a01491473161bd4d0f6986d2 ""
-  "FinalCI2026.tex" 1772205594 8106 1d4af56853140ca3300a03a062d719c8 ""
+  "FinalCI2026.tex" 1772225909 8100 3d99d01e05290ace3b60ca008614eeae ""
   "Imagenes/Trigonometria.png" 1772143233 728407 b2e7b6de7ffbb4eac4581247dcd2c966 ""
-  "build/FinalCI2026.aux" 1772205596 75 e1a384a4b6fc40223efd12e9f304267b "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Finales/FinalCI2026.tex" 1772205594 8106 1d4af56853140ca3300a03a062d719c8 ""
+  "build/FinalCI2026.aux" 1772225910 75 e1a384a4b6fc40223efd12e9f304267b "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Finales/FinalCI2026.tex" 1772225909 8100 3d99d01e05290ace3b60ca008614eeae ""
   (generated)
   "build/FinalCI2026.aux"
   "build/FinalCI2026.log"

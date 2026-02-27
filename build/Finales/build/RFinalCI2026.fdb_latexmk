@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1772206232.76844 "c:/Users/maile/OneDrive/Desktop/ANI/build/Finales/RFinalCI2026.tex" "build/RFinalCI2026.pdf" "RFinalCI2026" 1772206233.78187 0
+["pdflatex"] 1772225800.36993 "c:/Users/maile/OneDrive/Desktop/ANI/build/Finales/RFinalCI2026.tex" "build/RFinalCI2026.pdf" "RFinalCI2026" 1772225801.31022 0
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1771518687 82011 97247c01f6bfb6f6d0c40fab12a08423 ""
   "C:/Users/maile/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1753230834 11548 d38a8a79954ee491fe27aafa6e132278 ""
   "C:/Users/maile/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1753226956 13254313 bbe0aa9d4c0ea772a5cdd7d7ce6dcabd ""
@@ -79,9 +79,9 @@
   "Imagenes/bandera izquierda.png" 1772159803 8909 1f15a70ac1ca9052b093135cb07276ff ""
   "Imagenes/mc.png" 1772161141 111635 099f92aff804f8e2efc18ea238c899d2 ""
   "Imagenes/parabola.png" 1772155913 54544 49801bab5203408ead62fd8357c1c8c8 ""
-  "RFinalCI2026.tex" 1772206232 15756 f34eeade1560384c39f7e697c1309fbf ""
-  "build/RFinalCI2026.aux" 1772206233 32 77e0dffd05b653a64f0caf3eb9bb454a "pdflatex"
-  "c:/Users/maile/OneDrive/Desktop/ANI/build/Finales/RFinalCI2026.tex" 1772206232 15756 f34eeade1560384c39f7e697c1309fbf ""
+  "RFinalCI2026.tex" 1772225799 15927 6c3993ed051e54c7d15979cbd3a7fe33 ""
+  "build/RFinalCI2026.aux" 1772225801 32 77e0dffd05b653a64f0caf3eb9bb454a "pdflatex"
+  "c:/Users/maile/OneDrive/Desktop/ANI/build/Finales/RFinalCI2026.tex" 1772225799 15927 6c3993ed051e54c7d15979cbd3a7fe33 ""
   (generated)
   "build/RFinalCI2026.aux"
   "build/RFinalCI2026.log"
