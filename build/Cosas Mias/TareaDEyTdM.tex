@@ -1,0 +1,68 @@
+\documentclass[a4paper]{article}
+
+%paquetes necesarios
+\usepackage[a4paper, top=1.5cm, left=2cm, right=2cm,bottom=2cm]{geometry}
+\usepackage{amsfonts}
+\usepackage{amsmath, scalerel}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{polynom}
+\usepackage{float}
+
+
+%texto del  documento
+\title{Facultad de Matemática, Astronomía, Física y Computación}
+\author{Actividad 1 - b\\ Mailén Anabella Valdez}
+\date{23 de Marzo de 2026}
+
+\begin{document}
+\maketitle
+\begin{enumerate}
+    \item Lean la Introducción y la Primera Parte de Pòlya (1945) (hasta página 41) y realicen las siguientes actividades
+        \begin{enumerate}
+            \item Pasos para resolver un problema:
+            \begin{itemize}
+                \item \textbf{Comprender el problema:} Nos pide identificar cual es el propósito del ejercicio \textit{"¿Cúal es la incógnita?"} y la información dada por el enunciado \textit{"¿Cuáles son los datos?"}. Todo con el objetivo de entender el problema y organizar la información para poder resolverlo, para ello dar nombres a dichos elementos e introducir una notación adecuada. Por último, es importante si las condiciones planteadas son posibles de llevar y si son suficientes.
+                \item \textbf{Concepción de un plan:} Para esto es necesario identificar el tipo de problema, pensar en los métodos que se pueden usar para resolverlo para esto es necesario relacionarlo a problemas conocidos o temas tratados mediante la pregunta \textit{"¿Conoce algún problemas relacionado?"} con esto referido al uso de notación, el cómo está redactado y la rama del ejercicio que podemos identificar o está dado y si lo relacionado lo podemos usar para el ejercicio aplicado. Luego, podemos pensar si reecribirlo para su mejor comprensión y por último ver si en este desarrollo se usan todas las condiciones planteadas.
+                \item \textbf{Ejecución del plan:} Se refiere a la aplicación de los métodos elegidos para resolver el ejercicio, es importante ser cuidadoso y organizado en esta parte, insistir en la verificación de cada paso y evaluar la necesidad de la demostración de los pasos a realizar y realizados.
+                \item \textbf{Examinar la solución obtenida:} Poner en crítica los resultados obtenidos y el método usado para llegar a ellos, esto se puede hacer mediante la pregunta \textit{"¿Es la solución obtenida razonable?"} y \textit{"¿Es el método usado el más adecuado?"} con esto referido a la comparación de los resultados obtenidos con los resultados esperados, la comparación de los métodos usados con otros métodos posibles y la reflexión sobre el proceso seguido para resolver el ejercicio. Esto con el fin de consolidar conocimientos, mejorar la capacidad de resolución de problemas y desarrollar un pensamiento crítico sobre los métodos y resultados obtenidos. \textit{"¿Puede utilizarse el resultado o método para resolver algún otro problema?"}.
+            \end{itemize}
+            \item Mi ejercicio elegido es
+            \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.75]{ejercicio.png}
+            \end{figure}
+            Se nos presenta la siguiente sumatoria: 
+            \begin{equation*}
+                \sum_{k=1}^{n} \frac{k}{\left(k+1\right)!}
+            \end{equation*}
+            como se nos pide el desarrollo de una fórmula es posible desglozar la sumatoria para identificar un patrón o ver cada termino individualmente para poder trabajar en otra forma de escribirlo:
+            \begin{equation*}
+                \frac{1}{2!} + \frac{2}{3!} + \frac{3}{4!} + \cdots + \frac{n}{\left(n+1\right)!}
+            \end{equation*} 
+            Creo es más cómodo trabajar con cada término de la sumatoria, en este caso, puedo ver que los términos los puedo reescribir usando una diferencia para simplificar algunos términos y concatenadamente eliminar otros:
+            \begin{equation*}
+                \frac{k}{\left(k+1\right)!} = \frac{\left(k+1\right) - 1}{\left(k+1\right)!} = \frac{k+1}{\left(k+1\right)!} - \frac{1}{\left(k+1\right)!} = \frac{1}{k!} - \frac{1}{\left(k+1\right)!}
+            \end{equation*}
+            Con esto, es posible reescribir la sumatoria como:
+            \begin{equation*}
+                \sum_{k=1}^{n} \left( \frac{1}{k!} - \frac{1}{\left(k+1\right)!} \right) = \left( \frac{1}{1!} - \frac{1}{2!} \right) + \left( \frac{1}{2!} - \frac{1}{3!} \right) + \cdots + \left( \frac{1}{n!} - \frac{1}{\left(n+1\right)!} \right)
+            \end{equation*}
+            Con esto la sumatoria es telescópica (terminos que se cancelan), para esto es necesario escribir cada término de la sumatoria como una diferencia de fracciones. Por lo tanto, la fórmula para la sumatoria es:
+            \begin{equation*}
+                \sum_{k=1}^{n} \left( \frac{1}{k!} - \frac{1}{\left(k+1\right)!} \right) = \frac{1}{1!} - \frac{1}{\left(n+1\right)!}
+            \end{equation*}
+             Ahora, es posible verificar la fórmula obtenida, para esto es necesario evaluar la sumatoria. Para un valor específico de $n$, por ejemplo, para $n=3$:
+            \begin{equation*}
+                \sum_{k=1}^{3} \frac{k}{\left(k+1\right)!} = \frac{1}{2!} + \frac{2}{3!} + \frac{3}{4!} = \frac{1\cdot 3 \cdot 4 + 2\cdot 4 + 3}{4!}= \frac{12+8+3}{24}= \frac{23}{24}
+            \end{equation*}
+            Comparando esto con la fórmula obtenida:
+            \begin{equation*}
+                \frac{1}{1!} - \frac{1}{\left(3+1\right)!} = 1 - \frac{1}{4!} = 1 - \frac{1}{24} = \frac{23}{24}
+            \end{equation*}
+            Con esto hay mas seguridad de que la fórmula obtenida es correcta, además, es posible evaluar para otros valores de $n$ para verificar la fórmula obtenida.
+        \end{enumerate}
+\end{enumerate}
+\end{document}
