@@ -65,4 +65,270 @@
             Con esto hay mas seguridad de que la fórmula obtenida es correcta, además, es posible evaluar para otros valores de $n$ para verificar la fórmula obtenida.
         \end{enumerate}
 \end{enumerate}
+\begin{enumerate}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.75]{Imagenes/1.png}
+    \end{figure}
+    \item 
+        \begin{enumerate}
+            \item Primero identificamos el comportamiento de las columnas, siendo la primera la tabla del 6 y la segunda es los mismos numeros +1, y así las columnas son divisibles por 6 más su resto, y además el cociente indica en que fila están desde 0 a infinito. Por ejemplo, sea el número 182:
+            \begin{equation*}
+                182 = 6\cdot 30 + 2
+            \end{equation*}
+            Esto implica que 182 está en la fila 31 y columna 3 (todo movido un lugar pues el 0 corresponde a la primera fila, primera columna)\\\\
+            Por lo tanto para 126:
+            \begin{equation*}
+                126 = 6\cdot 21 + 0
+            \end{equation*}
+            Esto implica que 126 está en la fila 22 y columna 1.\\\\
+            \item En la novena fila, segunda columna se encuentra el número que cumple:
+            \begin{equation*}
+                6\cdot 8 + 1 = 49
+            \end{equation*}
+            Es decir el numero es 49.
+            \item Primero debo saber en que columna se encuentra el 130, para esto seguimos el procedimiento anterior:
+            \begin{equation*}
+                130 = 6\cdot 21 + 4 
+            \end{equation*}
+            Esto implica que el número 130 se encuentra en la fila 22 y columna 5.\\\\
+            Para encontrar numeros en la columna 5 y mayor a 1000, basta dividir a 1000 en 6 y ver cual es el minimo cociente y de allí elegir mayores:
+            \begin{equation*}
+                1000 = 6\cdot 166 + 4
+            \end{equation*}
+            Entonces tengo que elegir numeros de la forma $6 \cdot k +4$ con $k>166$, en ese caso elijo 167 y 168 para $k$ y los números serían:
+            \begin{gather*}
+                6\cdot 167 + 4 = 1006\\
+                6\cdot 168 + 4 = 1012
+            \end{gather*}
+            Nota: todo $k$ de la forma planteada cumple con la condición!
+            \item Realizamos lo mismo que para b:
+            \begin{equation*}
+                6 \cdot 36 +2= 218
+            \end{equation*}
+            Por lo tanto, el número es 218.
+            \item Ya sabiendo la estructura de los números basta dividir al 27643:
+            \begin{equation*}
+                27643 = 6\cdot 4607 + 1
+            \end{equation*}
+            El número 27643 se encuentra en la fila 4608 y columna 2.\\\\
+            \item Siguiendo la idea anterior, nuevamente, si formamos 7 columnas, el comportamiento por fila se ve determinado por la tabla del 7 y las columnas refiriendo al resto de las divisiones por 7, entonces, para el número 126:
+            \begin{equation*}
+                126 = 7\cdot 18 + 0
+            \end{equation*}
+            Esto implica que el número 126 se encuentra en la fila 19 y columna 1.\\\\
+             Para el número  en la fila 8 y columna 4:
+            \begin{equation*}
+                7\cdot 7 + 3 = 52
+            \end{equation*}
+            Por lo tanto, el número es 52.
+            \item Primero para esta nueva columna, nos conviene saber de cuanto es la diferencia por fila y podemos deducir de allí, cual "tabla" es de la que se está hablando, de ahí es facil deducir el resto dividiendo los números de la columna (con uno basta) por el número de la diferencia obtenido:
+            \begin{gather*}
+                19=(19-7)\cdot k + r\\
+                19=12\cdot k + r\\
+                19/12=1+7 \implies k=1 \text{ y } r=7
+            \end{gather*}
+            Esto quiere decir que hablamos de la tabla del 12, es decir, hay 12 columnas que corresponden a los 12 restos posibles (de 0 a 11) y las filas corresponden al múltiplo de 12:
+            \begin{equation*}
+                1147=12\cdot 95 + 7
+            \end{equation*}
+            Por lo tanto, el número 1147 se encuentra en la fila 96 y columna 8.
+        \end{enumerate}
+    \item Determinar la longitud de la diagonal de un ortoedro conociendo las longitudes de sus aristas.\\\\
+    Los ortoedros son figuras tridimensionales con seis caras rectangulares, y sus aristas se pueden denotar como $a$, $b$ y $c$ (ya que coinciden de a pares en cada cara del ortoedro). La diagonal de un ortoedro se puede calcular utilizando el teorema de Pitágoras en tres dimensiones teniendo en cuenta que toma una de las aristas (sea esta $a$), la diagonal de una cara del ortoedro (como es de una cara donde no está $a$, resulta esa diagonal del triángulo formado por las aristas $b$ y $c$ $\implies d_1=\sqrt{b^2 +c^2}$) y resulta la hipotenusa de ese triangulo rectángulo la diagonal del ortoedro. La fórmula para la longitud de la diagonal $d$ es:
+        \begin{equation*}
+            d= \sqrt{a^2 + \left(\sqrt{b^2+c^2}\right)^2} = \sqrt{a^2 + b^2 + c^2}
+        \end{equation*}
+    Dependiendo que arista se tome como base, el resultado es el mismo, por lo tanto, la fórmula para la diagonal de un ortoedro con aristas $a$, $b$ y $c$ es la misma.
+    \item Considerar rectángulos cuyos perímetros son de 24cm. Con esta condición:\\\\
+    Al hablar del perímetro de un rectángulo, sabemos que es la suma de dos pares de lados iguales, es decir, $2h+2b=24cm \implies h+b=12cm$. Esto implica que la altura de un rectángulo es $h=12cm - b$ y la base es $b$. Por lo tanto, la altura de un rectángulo con perímetro de 24cm se puede expresar en función de su base como $h=12cm - b$. 
+    \begin{enumerate}
+        \item Asignar distintos valores a la base y encontrar el valor correspondiente de la altura. Dibuje algunos de estos rectángulos con las medidas de sus lados.
+        \begin{gather*}
+            b=4cm \implies h=8cm\\
+            b=5cm \implies h=7cm\\
+            b=6cm \implies h=6cm
+        \end{gather*}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.75]{Imagenes/rectangulos.png}
+        \end{figure}
+        \item ¿Cuál es el mayor valor que puede tomar la base? ¿Y el menor?\\\\
+        Viendo que los lados no pueden ser nulos porque si no no se formaría la figura, el menor lado posible es aquel que tienda a 0, no es un número fijo pues son infinitos los números en cualquier intervalo, pero sea ese lado base o altura es el mismo caso, y por la relación entre altura y base, el mayor lado posible es aquel que tienda a 12, pero nuevamente no es un número fijo pues son infinitos los números en cualquier intervalo, pero sea ese lado base o altura es el mismo caso.
+        \item Construir una tabla con los pares de valores obtenidos en $\left(a\right)$ y representarlos en ejes cartesianos. ¿Cómo están ubicados los puntos representados?
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.5]{Imagenes/Rectangulos2.png}
+        \end{figure}
+        Por como está interpretada la relación entre altura y base, los puntos representados se encuentran sobre la recta dada por la ecuación $h=12cm - b$, es decir, cada punto representa un par de valores de base y altura que cumplen con la condición del perímetro dado.
+        \item Construir una función que muestre la variación de la altura en función de la base.\\\\
+        Ya está hecho en la interpretación del perimetro ante de los incisos.
+        \item ¿Qué se puede decir del área de los distintos rectángulos?\\\\
+        El área de un rectángulo se calcula como el producto de su base por su altura, es decir, $A=b\cdot h$. Dado que la altura se puede expresar en función de la base como $h=12cm - b$, el área también se puede expresar en función de la base como $A=b\cdot (12cm - b) = 12b - b^2$. Esto implica que el área de los distintos rectángulos varía en función de la base, y se puede analizar esta variación utilizando la función cuadrática obtenida. Por ejemplo, para encontrar el valor máximo del área, se puede completar el cuadrado o utilizar la fórmula del vértice para encontrar el valor de $b$ que maximiza el área.
+        \item Partiendo de la tabla generada en el ítem c, construir otra en la que figure la longitud de la base y el área del rectángulo. Representar estos valores en los ejes cartesianos.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.5]{Imagenes/ParabolaArea.png}
+        \end{figure}
+            La gráfica obtenida es una parábola que se abre hacia abajo, esto se debe a que el coeficiente del término cuadrático en la función del área es negativo ($-b^2$), lo que indica que la función tiene un máximo en lugar de un mínimo. El vértice de esta parábola representa el punto donde el área es máxima, y se puede calcular utilizando la fórmula del vértice para funciones cuadráticas. En este caso, el vértice se encuentra en $b=6cm$, lo que corresponde a un área máxima de $A=36cm^2$. Esto implica que el rectángulo con perímetro de 24cm que tiene la mayor área es aquel con base y altura iguales a 6cm.
+        \item ¿Para qué valores de la base y la altura el área será máxima?\\\\
+        como se concluyó en el inciso anterior, el área será máxima cuando la base y la altura sean iguales a 6cm, es decir, cuando el rectángulo sea un cuadrado con lados de 6cm. Esto se debe a que la función del área es una parábola que se abre hacia abajo, y su vértice representa el punto donde el área es máxima. En este caso, el vértice se encuentra en $b=6cm$, lo que corresponde a un área máxima de $A=36cm^2$.
+        \item Determinar los dominios de las funciones construidas en los incisos anteriores.\\\\
+        Como están en término de la base y altura, y ninguna puede ser nula, ambos dominios están determinados en $(0,12)$
+    \end{enumerate}
+    \item Dado un prisma recto de base cuadrada, encontrar la longitud del lado de la base y la altura conociendo su volumen, $63cm^3$, y su área total $102cm^2$\\\\
+    Para resolver este problema, primero denotamos la longitud del lado de la base cuadrada como $s$ y la altura del prisma como $h$. El volumen de un prisma recto se calcula como el área de la base multiplicada por la altura, es decir, $V = A_{base} \cdot h$. Dado que la base es un cuadrado, su área se calcula como $A_{base} = s^2$. Por lo tanto, el volumen se puede expresar como:
+    \begin{equation*}
+        V = s^2 \cdot h
+    \end{equation*}
+    Dado que el volumen es de $63cm^3$, podemos escribir la ecuación:
+    \begin{equation*}
+        s^2 \cdot h = 63
+    \end{equation*}
+    Por otro lado, el área total de un prisma recto se calcula como la suma del área de las dos bases y el área lateral. El área de las dos bases es $2 \cdot A_{base} = 2s^2$, y el área lateral se calcula como el perímetro de la base multiplicado por la altura, es decir, $A_{lateral} = P_{base} \cdot h$. Dado que la base es un cuadrado, su perímetro se calcula como $P_{base} = 4s$. Por lo tanto, el área lateral se puede expresar como:
+    \begin{equation*}
+        A_{lateral} = 4s \cdot h
+    \end{equation*}
+    Por lo tanto, el área total del prisma se puede expresar como:
+    \begin{equation*}
+        A_{total} = 2s^2 + 4s \cdot h = 102
+    \end{equation*}
+    Ahora tenemos un sistema de dos ecuaciones con dos incógnitas:
+    \begin{gather*}
+        s^2 \cdot h = 63 \quad (1)\\
+        2s^2 + 4s \cdot h = 102 \quad (2)
+    \end{gather*}
+    Podemos resolver este sistema de ecuaciones para encontrar los valores de $s$ y $h$. Primero, despejamos $h$ de la ecuación (1):
+    \begin{equation*}
+        h = \frac{63}{s^2}
+    \end{equation*}
+    Luego, sustituimos este valor de $h$ en la ecuación (2):
+    \begin{equation*}
+        2s^2 + 4s \cdot \frac{63}{s^2} = 102
+    \end{equation*}
+    Simplificando esta ecuación, obtenemos:
+    \begin{equation*}
+        2s^2 + \frac{252}{s} = 102
+    \end{equation*}
+    Multiplicando ambos lados de la ecuación por $s$ para eliminar el denominador
+    \begin{equation*}
+        2s^3 + 252 = 102s
+    \end{equation*}
+    Reorganizando esta ecuación, obtenemos:
+    \begin{equation*}
+        2s^3 - 102s + 252 = 0
+    \end{equation*}
+    Dividiendo toda la ecuación por 2 para simplificarla, obtenemos:
+    \begin{equation*}
+        s^3 - 51s + 126 = 0
+    \end{equation*}
+    Ahora, podemos resolver esta ecuación cúbica para encontrar el valor de $s$. Podemos intentar encontrar una raíz racional utilizando el teorema de las raíces racionales o utilizando métodos numéricos. Probando con algunos divisores de 126, encontramos que $s=3$ es una raíz de la ecuación (desglozando el 51s en 9s+42s, es facil darse cuenta de donde viene (agregar $3s^2-3s^2$)). Por lo tanto, podemos factorizar la ecuación como:
+    \begin{equation*}
+        (s - 3)(s^2 + 3s - 42) = 0
+    \end{equation*}
+    Ahora, podemos resolver cada factor para encontrar las posibles soluciones para $s$. De la primera factor, obtenemos $s=3$. De la segunda factor, podemos usar la fórmula cuadrática para encontrar las raíces:
+    \begin{equation*}
+        s = \frac{-3 \pm \sqrt{3^2 - 4 \cdot 1 \cdot (-42)}}{2 \cdot 1} = \frac{-3 \pm \sqrt{9 + 168}}{2} = \frac{-3 \pm \sqrt{177}}{2}
+    \end{equation*}
+    Dado que $s$ representa la longitud del lado de la base, debe ser un número positivo. Por lo tanto, descartamos la raíz negativa y nos quedamos con:
+    \begin{equation*}
+        s = \frac{-3 + \sqrt{177}}{2}
+    \end{equation*}
+    Ahora que tenemos el valor de $s$, podemos sustituirlo en la ecuación (1) para encontrar el valor de $h$:
+    \begin{equation*}
+        h = \frac{63}{s^2} = \frac{63}{\left(\frac{-3 + \sqrt{177}}{2}\right)^2}
+    \end{equation*}
+    Por lo tanto, la longitud del lado de la base es $s = \frac{-3 + \sqrt{177}}{2}$ cm y la altura del prisma es $h = \frac{63}{\left(\frac{-3 + \sqrt{177}}{2}\right)^2}$ cm.
+    \item El círculo en la figura es tangente a las dos rectas dadas en los puntos P y Q. Demostrar las siguientes afirmaciones:
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.75]{Imagenes/5.png}        
+    \end{figure}
+    \begin{enumerate}
+        \item Como las dos rectas son tangentes al círculo, sabemos que su segmento al centro es perpendicular a ellas por el punto de tangencia, es decir:
+        \begin{gather*}
+            \overline{PC} \perp \overline{PV} \\
+            \overline{QC} \perp \overline{QV}
+        \end{gather*}
+        Más aún, como el segmento $\overline{PC}$ y $\overline{CQ}$ son radios de la circunferencia y por lo tanto son equivalentes, además si considero los triangulos $\triangle PCV$ y $\triangle QCV$, por criterio $L-A-L$ son congruentes, lo que implica $\overline{PC} \equiv \overline{QC}$
+        \item Como los ángulos son congruentes en ambos triangulos, entonces $\angle PVC$ y $\angle CVQ$ son congruentes, y por lo tanto, $\angle PVQ$ es un ángulo que da el doble de $\angle PVC$ o $\angle CVQ$ y por lo tanto $\overleftarrow{VC}$ es bisectriz.
+    \end{enumerate}
+    \item Se tienen dos rectas y un punto marcado en una de ellas. Mostrar cómo se construye, usando regla y compás, un círculo tangente a ambas rectas, que tenga al punto P como punto de tangencia en la recta de arriba.\\\\
+    \begin{enumerate}
+        \item Primero marco el arco con vértice en la intersección de las rectas y radio en $P$ y veo donde interseca en la otra recta.
+        \item Luego marco la perpendicular a la recta donde se encuentre $P$ que pase por $P$
+        \item En la intersección de la recta perpendicular con la bisectriz encuentro el centro de la circunferencia, sea este punto $C$.
+        \item Finalmente, con centro en $C$ y radio $CP$ trazo la circunferencia, esta es tangente a ambas rectas y pasa por el punto $P$.
+    \end{enumerate}
+    \item Se arroja agua en un recipiente cilíndrico, obteniéndose las siguientes mediciones de la altura del nivel de líquido y el volumen contenido en el recipiente. Realice el gráfico de la altura del nivel de líquido en el recipiente en función de su volumen
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.75]{Imagenes/7.png}
+    \end{figure}
+    Se ve una relacion de 1 a 10 entre la altura y el volumen, lo que es consistente con la fórmula del volumen de un cilindro $V=\pi r^2 h$, donde $r$ es el radio de la base del cilindro y $h$ es la altura del nivel de líquido. Dado que el radio del cilindro es constante, el volumen es directamente proporcional a la altura, lo que explica la relación lineal observada en el gráfico.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.5]{Imagenes/Tabla.png}
+    \end{figure}
+    \item Para cada uno de los siguientes recipientes, graficar la altura del nivel de líquido contenido en función de su volumen:
+    \begin{enumerate}
+        \item Recipiente cilíndrico que se achica en la parte superior, al igual que el punto anterior, inicia con una ecuación lineal entre el volumen y la altura y luego vuelve a otra lineal con una relación mayor, es decir, la altura crece más rápido en función del volumen.
+        \item Recipiente cilíndrico que en su parte superior está constantemente ensanchando, inicia con una ecuación lineal entre el volumen y la altura y luego pasa a otra cuadrática, es decir, la altura crece más rápido en función del volumen.
+        \item Recipiente en forma de bola que en su parte superior tiene la forma de un cilindro, inicialmente la altura en relación del volumen está constantemente disminuyendo y al pasar el radio de la bola en su altura, pasa a crecer más rápido en función del volumen, es decir, la relación entre altura y volumen tiene un comportamiento de una funcion cúbica con un punto de inflexión en el radio de la bola, finaliza con el comportamiento cilíndrico.
+        \item Recipiente en forma de cono, inicialmente la altura en relación del volumen está constantemente disminuyendo con un comportamiento cuadrático relacionado al recipiente.
+    \end{enumerate}
+    \item Gráfico de los recipientes:
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.3]{Imagenes/Recipientes.png}
+    \end{figure}
+    \item La piscina mostrada en la figura tiene 1m de profundidad mínima y 2,40m de profundidad máxima, 12m de largo y 9m de ancho, y el fondo es un plano inclinado.
+    \begin{enumerate}
+        \item Exprese el volumen V del agua contenida en la piscina en función de la altura h del nivel del agua desde el extremo mas profundo.\\\\
+        Para expresar el volumen $V$ del agua contenida en la piscina en función de la altura $h$ del nivel del agua desde el extremo más profundo, primero tengo que considerar la figura formada por el desnivel, primero el dato que no cambia es el ancho de la pileta siendo de 9m, de allí pensamos la figura formada por el desnivel multiplicando el ancho de la pileta por el triangulo formado por su cara (pensando que en él está reflejado el teorema de thales), sea el máximo de la altura en tal triangulo 1,4m por teorema de Thales, resulta: 
+        \begin{equation*}
+            \frac{1,4}{h}=\frac{12}{x} \implies x=\frac{12}{1,4} \cdot h
+        \end{equation*}
+        Ahora, el área del triangulo está dada por $A=\frac{1}{2} \cdot h \cdot x$, reemplazando $x$ por su valor, obtenemos $A=\frac{1}{2} \cdot h \cdot \frac{12}{1,4} \cdot h = \frac{6}{1,4} \cdot h^2$.\\\\
+        Finalmente el volumen hasta 1m de altura es de $V=9\cdot A=9 \cdot \frac{6}{1,4} \cdot h^2 = \frac{54}{1,4} \cdot h^2$. De allí el volumen tiene un comportamiento del volumen en un prisma de base con aristas de 9 y 12 metros y altura de 1 metro máximo que va variando según la altura en la que tomemos el nivel del agua, es decir el volumen se puede escribir como $V=h\cdot9\cdot 12$.\\\\
+        Esto implica que hasta la altura 1,4m desde la base de la pileta el volumen está dado por:
+        \begin{equation*}
+            V=\frac{54}{1,4} \cdot h^2
+        \end{equation*}
+        De allí, para alturas mayores a 1,4m, el volumen se puede escribir como la suma del volumen hasta 1,4m y el volumen adicional que se obtiene al aumentar la altura del agua, es decir:
+        \begin{equation*}
+            V=\frac{54}{1,4} \cdot 1,4^2 + 9\cdot 12 \cdot (h-1,4) = 54 + 108 \cdot (h-1,4)
+        \end{equation*}
+    \end{enumerate}
+    \item Voy a elegir un recipiente con la forma del desnivel de la pileta que es un prisma triangular donde el volumen está dado por los datos de la razón de la altura total con el largo y multiplicado por el ancho y la altura de recorrido del nivel del agua:
+    \begin{gather*}
+        V=\frac{1}{2}\cdot base \cdot h \cdot ancho\\
+        V=\frac{1}{2}\cdot \frac{largo_{total}\cdot h}{h_total} \cdot h \cdot ancho\\
+        V=\frac{1}{2}\cdot \frac{largo_{total} \cdot ancho}{h_total} \cdot h^2
+    \end{gather*}
+    Donde el largo total es un número conocido como la altura total y el ancho.
+    \item En una perfumería se venden botellas de un perfume A. Las botellas tienen una altura de 8cm y contienen 10cl de perfume. En la vidriera del negocio se publicita una botella de la misma forma pero agrandada y conteniendo el mismo perfume. Esta botella tiene una altura de 24cm, ¿cuánto perfume tendrá esta botella mayor?\\\\
+    No llego a entender a que se refiere con la forma agrandada.
+    \item Este está resuelto al principio
+    \item Intercambio de coeficientes
+    \begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.75]{imagenes/14.png}
+    \end{figure}
+    Si se calcula $x^nP(\frac{1}{x})$ se obtiene:
+    \begin{equation*}
+        x^nP\left(\frac{1}{x}\right) = x^n \left( a_0 + a_1 \cdot \frac{1}{x} + a_2 \cdot \frac{1}{x^2} + \cdots + a_n \cdot \frac{1}{x^n} \right) = a_0 x^n + a_1 x^{n-1} + a_2 x^{n-2} + \cdots + a_n
+    \end{equation*}
+    Esto es exactamente el polinomio $Q(x)$, por lo tanto, $Q(x) = x^nP\left(\frac{1}{x}\right)$ que quiere decir que si $r$ es raiz de $P(x)$, entonces $\frac{1}{r}$ es raíz de $Q(x)$, y viceversa. (Esto sale de que $P(\frac{1}{\frac{1}{r}})=P(r)=0$)
+    \item Sean $a_0$ y $a_1$ numeros reales. Se define la sucesión $\{a_n\}$ por:
+    \begin{equation*}
+        a_n = \frac{1}{2}\left(a_{n-2}+a_{n-1}\right)
+    \end{equation*}
+    Para n mayor o igual a 2 ¿Es convergente tal sucesión?¿Cual es el límite?\\\\
+    Para determinar si la sucesión $\{a_n\}$ es convergente, primero debemos encontrar su límite. Supongamos que la sucesión converge a un límite $L$. Entonces, podemos escribir:
+\begin{equation*}
+    L = \frac{1}{2}\left(L + L\right) = \frac{1}{2} \cdot 2L = L
+\end{equation*}
+
+\end{enumerate}
 \end{document}

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  15 APR 2026 15:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.22)  25 MAR 2026 17:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/maile/OneDrive/Desktop/ANI/build/Cosas Mias/TareaDEyTdM.tex"
-(c:/Users/maile/OneDrive/Desktop/ANI/build/Cosas Mias/TareaDEyTdM.tex
+**"c:/Users/maile/OneDrive/Desktop/ANI/build/Cosas Mias/tarea.tex"
+(c:/Users/maile/OneDrive/Desktop/ANI/build/Cosas Mias/tarea.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-11>
 (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -258,8 +258,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 ) (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count316
-) (c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\TareaDEyTdM.aux)
-\openout1 = `TareaDEyTdM.aux'.
+) (c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\tarea.aux)
+\openout1 = `tarea.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
@@ -337,209 +337,27 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
  (C:\Users\maile\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<ejercicio.png, id=1, 504.38437pt x 75.28125pt>
-File: ejercicio.png Graphic file (type png)
-<use ejercicio.png>
-Package pdftex.def Info: ejercicio.png  used on input line 35.
-(pdftex.def)             Requested size: 378.28734pt x 56.46078pt.
-
 
 [1
 
-{C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./ejercicio.png>]
-<Imagenes/1.png, id=19, 624.83438pt x 445.665pt>
-File: Imagenes/1.png Graphic file (type png)
-<use Imagenes/1.png>
-Package pdftex.def Info: Imagenes/1.png  used on input line 71.
-(pdftex.def)             Requested size: 468.62463pt x 334.24792pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--81
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--85
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--85
-
- []
-
-
-
-[2 <./Imagenes/1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 93--96
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--121
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--139
-
- []
-
-
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 143--145
-
- []
-
-<Imagenes/rectangulos.png, id=27, 402.00188pt x 229.60782pt>
-File: Imagenes/rectangulos.png Graphic file (type png)
-<use Imagenes/rectangulos.png>
-Package pdftex.def Info: Imagenes/rectangulos.png  used on input line 154.
-(pdftex.def)             Requested size: 301.50066pt x 172.20543pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
-
- []
-
-<Imagenes/Rectangulos2.png, id=28, 737.75626pt x 679.78969pt>
-File: Imagenes/Rectangulos2.png Graphic file (type png)
-<use Imagenes/Rectangulos2.png>
-Package pdftex.def Info: Imagenes/Rectangulos2.png  used on input line 161.
-(pdftex.def)             Requested size: 368.87723pt x 339.89401pt.
-
-
-[4 <./Imagenes/rectangulos.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 164--166
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--168
-
- []
-
-<Imagenes/ParabolaArea.png, id=33, 295.1025pt x 698.61pt>
-File: Imagenes/ParabolaArea.png Graphic file (type png)
-<use Imagenes/ParabolaArea.png>
-Package pdftex.def Info: Imagenes/ParabolaArea.png  used on input line 171.
-(pdftex.def)             Requested size: 147.55087pt x 349.30414pt.
-
-
-[5 <./Imagenes/Rectangulos2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 174--176
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--181
-
- []
-
-
-
-[6 <./Imagenes/ParabolaArea.png>]
-<Imagenes/5.png, id=42, 438.13687pt x 222.8325pt>
-File: Imagenes/5.png Graphic file (type png)
-<use Imagenes/5.png>
-Package pdftex.def Info: Imagenes/5.png  used on input line 245.
-(pdftex.def)             Requested size: 328.60184pt x 167.12396pt.
-
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
-
- []
-
-<Imagenes/7.png, id=51, 231.86626pt x 118.94438pt>
-File: Imagenes/7.png Graphic file (type png)
-<use Imagenes/7.png>
-Package pdftex.def Info: Imagenes/7.png  used on input line 266.
-(pdftex.def)             Requested size: 173.89925pt x 89.20805pt.
-<Imagenes/Tabla.png, id=52, 140.77594pt x 454.69875pt>
-File: Imagenes/Tabla.png Graphic file (type png)
-<use Imagenes/Tabla.png>
-Package pdftex.def Info: Imagenes/Tabla.png  used on input line 271.
-(pdftex.def)             Requested size: 70.38779pt x 227.34882pt.
-
-
-[8 <./Imagenes/5.png> <./Imagenes/7.png>]
-<Imagenes/Recipientes.png, id=59, 420.82219pt x 322.20375pt>
-File: Imagenes/Recipientes.png Graphic file (type png)
-<use Imagenes/Recipientes.png>
-Package pdftex.def Info: Imagenes/Recipientes.png  used on input line 283.
-(pdftex.def)             Requested size: 126.24762pt x 96.66187pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--289
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--295
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--295
-
- []
-
-
-
-[9 <./Imagenes/Tabla.png> <./Imagenes/Recipientes.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 310--312
-
- []
-
-<imagenes/14.png, id=65, 553.31718pt x 100.12407pt>
-File: imagenes/14.png Graphic file (type png)
-<use imagenes/14.png>
-Package pdftex.def Info: imagenes/14.png  used on input line 316.
-(pdftex.def)             Requested size: 414.98686pt x 75.09285pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--329
-
- []
-
-
-
-[10 <./imagenes/14.png>] (c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\TareaDEyTdM.aux)
+{C:/Users/maile/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\tarea.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4824 strings out of 468149
- 74765 string characters out of 5431082
- 497993 words of memory out of 5000000
- 33379 multiletter control sequences out of 15000+600000
- 634457 words of font info for 70 fonts, out of 8000000 for 9000
+ 4725 strings out of 468149
+ 72453 string characters out of 5431082
+ 482954 words of memory out of 5000000
+ 33285 multiletter control sequences out of 15000+600000
+ 631769 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,14n,79p,884b,401s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\maile\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\TareaDEyTdM.pdf" (10 pages, 440339 bytes).
+ 72i,6n,79p,281b,222s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maile/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on "c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\tarea.pdf" (1 page, 38125 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
+ 21 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

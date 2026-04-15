@@ -1,7 +1,7 @@
 PWD c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias
 INPUT C:\Users\maile\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\TareaDEyTdM.tex
-OUTPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\TareaDEyTdM.log
+INPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\tarea.tex
+OUTPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\tarea.log
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
@@ -62,10 +62,10 @@ INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\TareaDEyTdM.aux
-INPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\TareaDEyTdM.aux
-INPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\TareaDEyTdM.aux
-OUTPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\TareaDEyTdM.aux
+INPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\tarea.aux
+INPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\tarea.aux
+INPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\tarea.aux
+OUTPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\tarea.aux
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -99,121 +99,12 @@ INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
-INPUT .\ejercicio.png
-INPUT .\ejercicio.png
-INPUT .\ejercicio.png
-INPUT .\ejercicio.png
-OUTPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\TareaDEyTdM.pdf
-INPUT .\ejercicio.png
-INPUT .\ejercicio.png
-INPUT .\ejercicio.png
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+OUTPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\tarea.pdf
 INPUT C:\Users\maile\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT .\Imagenes\1.png
-INPUT .\Imagenes\1.png
-INPUT .\Imagenes\1.png
-INPUT .\Imagenes\1.png
-INPUT .\Imagenes\1.png
-INPUT .\Imagenes\1.png
-INPUT .\Imagenes\1.png
-INPUT .\Imagenes\rectangulos.png
-INPUT .\Imagenes\rectangulos.png
-INPUT .\Imagenes\rectangulos.png
-INPUT .\Imagenes\rectangulos.png
-INPUT .\Imagenes\rectangulos.png
-INPUT .\Imagenes\rectangulos.png
-INPUT .\Imagenes\rectangulos.png
-INPUT .\Imagenes\Rectangulos2.png
-INPUT .\Imagenes\Rectangulos2.png
-INPUT .\Imagenes\Rectangulos2.png
-INPUT .\Imagenes\Rectangulos2.png
-INPUT .\Imagenes\Rectangulos2.png
-INPUT .\Imagenes\Rectangulos2.png
-INPUT .\Imagenes\Rectangulos2.png
-INPUT .\Imagenes\ParabolaArea.png
-INPUT .\Imagenes\ParabolaArea.png
-INPUT .\Imagenes\ParabolaArea.png
-INPUT .\Imagenes\ParabolaArea.png
-INPUT .\Imagenes\ParabolaArea.png
-INPUT .\Imagenes\ParabolaArea.png
-INPUT .\Imagenes\ParabolaArea.png
-INPUT .\Imagenes\5.png
-INPUT .\Imagenes\5.png
-INPUT .\Imagenes\5.png
-INPUT .\Imagenes\5.png
-INPUT .\Imagenes\5.png
-INPUT .\Imagenes\5.png
-INPUT .\Imagenes\5.png
-INPUT .\Imagenes\7.png
-INPUT .\Imagenes\7.png
-INPUT .\Imagenes\7.png
-INPUT .\Imagenes\7.png
-INPUT .\Imagenes\7.png
-INPUT .\Imagenes\7.png
-INPUT .\Imagenes\7.png
-INPUT .\Imagenes\Tabla.png
-INPUT .\Imagenes\Tabla.png
-INPUT .\Imagenes\Tabla.png
-INPUT .\Imagenes\Tabla.png
-INPUT .\Imagenes\Tabla.png
-INPUT .\Imagenes\Tabla.png
-INPUT .\Imagenes\Tabla.png
-INPUT .\Imagenes\Recipientes.png
-INPUT .\Imagenes\Recipientes.png
-INPUT .\Imagenes\Recipientes.png
-INPUT .\Imagenes\Recipientes.png
-INPUT .\Imagenes\Recipientes.png
-INPUT .\Imagenes\Recipientes.png
-INPUT .\Imagenes\Recipientes.png
-INPUT .\imagenes\14.png
-INPUT .\imagenes\14.png
-INPUT .\imagenes\14.png
-INPUT .\imagenes\14.png
-INPUT .\imagenes\14.png
-INPUT .\imagenes\14.png
-INPUT .\imagenes\14.png
-INPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\TareaDEyTdM.aux
-INPUT C:\Users\maile\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Users\maile\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmex7.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmex7.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT c:\Users\maile\OneDrive\Desktop\ANI\build\Cosas Mias\build\tarea.aux
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
-INPUT C:\Users\maile\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
