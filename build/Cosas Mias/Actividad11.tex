@@ -1,0 +1,68 @@
+\documentclass[a4paper]{article}
+
+%paquetes necesarios
+\usepackage[a4paper, top=1.5cm, left=2cm, right=2cm,bottom=2cm]{geometry}
+\usepackage{amsfonts}
+\usepackage{amsmath, scalerel}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{polynom}
+\usepackage{float}
+
+
+%texto del  documento
+\title{Facultad de Matemática, Astronomía, Física y Computación}
+\author{Actividad 11\\ Mailén Anabella Valdez}
+\date{14 de Mayo de 2026}
+
+\begin{document}
+\maketitle
+\begin{enumerate}
+    \item Quiero pensar en un recipiente con la base de un prisma con datos dados que a medida que la altura aumente el largo del recipiente va disminuyendo de forma cuadrática. De la siguiente manera pensando en una vista lateral:
+    \begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.75]{imagenes/Recipiente lateral.png}
+    \end{figure}
+Es decir, que hasta cierta altura dada, el área está compuesta por el área bajo la cuadrática y un rectángulo de la altura dada y un largo reducido que es el largo total menos la raiz cuadrada de la altura dada pues el comportamiento de la altura es de una cuadrática correspondiente al desplazamiento del largo de la base y de ahí usamos las integrales para definir correctamente esta área:
+    \begin{gather*}
+        A(h)=\int_{0}^{\sqrt{h}} t^2 dt + \int_{\sqrt{h}}^{largo_{total}}h dt\\
+        A(h)= \frac{t^3}{3}\Big|_{0}^{\sqrt{h}} + h \cdot (largo_{total} - \sqrt{h})\\
+        A(h)= \frac{h^{\frac{3}{2}}}{3} + h \cdot (largo_{total} - \sqrt{h})
+    \end{gather*}
+De acá se puede obtener el volumen pensando en que el ancho del recipiente es constante, entonces el volumen se puede escribir como $V(h)=A(h)\cdot ancho$. Por lo tanto:
+    \begin{equation*}
+        V(h)= \left( \frac{h^{\frac{3}{2}}}{3} + h \cdot (largo_{total} - \sqrt{h}) \right) \cdot ancho
+    \end{equation*}
+Donde la altura máxima sea el cuadrado del largo total ya que quiero que coincida para que el rectángulo desaparezca y el máximo volumen sea sólo del área bajo la curva. Es decir, que el volumen máximo se alcance cuando $h=largo_{total}^2$ y entonces el volumen máximo se puede escribir como:
+    \begin{gather*}
+        V_{max}= \left( \frac{largo_{total}^3}{3} + largo_{total}^2 \cdot (largo_{total} - largo_{total}) \right) \cdot ancho \\
+            V_{max}= \frac{largo_{total}^3}{3} \cdot ancho
+    \end{gather*} 
+    \item Análisis de registro de clase:
+    En las heurísticas mencionadas por Polya podemos ver el uso de la particularización de las fórmulas que plantean les estudiantes para plantear contraejemplos o reafirmar sus ideas: 
+    \begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{imagenes/gabriel.png}
+    \end{figure}
+    \begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{imagenes/esther.png}
+    \end{figure}
+    En general se puede ver como la profesora trabaja en la etapa de la visión retrospectiva haciendo trabajar entre ellos sobre qué les parece es la solución y como formalizar lo escrito, además la misma intervención entre ellos permite hacer una crítica más completa que dentro de sus propios grupos podrían haber obviado.\\\\
+    Luego, pensando en Schoenfeld sobre el sistema de creencias, pensando en la creencia de los alumnos: 
+    \begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.75]{imagenes/resumen.png}
+    \end{figure}
+    De allí, podemos ver que en este resumen de clase se encuentran las siguientes creencias de ellos sobre la validez matemática:
+
+Creencia sobre la "Autoridad": Gabriel dice que prefiere su procedimiento "porque lo pensamos nosotros". Esto revela una creencia positiva sobre la autonomía: el conocimiento construido por uno mismo tiene más valor que el externo.\\\\
+
+Creencia sobre la "Licitud": En el Episodio 3, Gabriel duda de si es "lícito" inventar un número al azar. Existe la creencia escolar de que en matemática todo debe "salir de algún lado" mediante una fórmula. La profesora interviene para desafiar esa creencia, validando que "se puede inventar" (dentro de un dominio lógico), lo cual es una visión mucho más cercana a la actividad matemática real.\\\\
+
+De acá también se puede entrever las normas matemáticas propuestas por Sadovsky sobre el que valida la licitud de algún método y dimensiona el espacio social de la clase para dar lugar a la posibilidad de producción de conocimientos mediante el debate entre los alumnos y se presta a varias otras actividades de comprensión de otros aspectos de la matemática que no están comprendidas en el enunciado donde se toma conciencia sobre cuestiones involucradas que no lograron relacionar cuando lo encararon al enunciado por primera vez, desde la formalidad de la escritura, hasta la validez en los procedimientos según su explicación y se terminó debatiendo la cantidad de soluciones posibles que no estaba explícito en el problema inicial a resolver.
+\end{enumerate}
+
+\end{document}

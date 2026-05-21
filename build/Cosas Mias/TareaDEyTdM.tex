@@ -300,13 +300,21 @@
             V=\frac{54}{1,4} \cdot 1,4^2 + 9\cdot 12 \cdot (h-1,4) = 54 + 108 \cdot (h-1,4)
         \end{equation*}
     \end{enumerate}
-    \item Voy a elegir un recipiente con la forma del desnivel de la pileta que es un prisma triangular donde el volumen está dado por los datos de la razón de la altura total con el largo y multiplicado por el ancho y la altura de recorrido del nivel del agua:
+    \item Quiero pensar en un recipiente con la base de un prisma con datos dados que a medida que la altura aumente el largo del recipiente va disminuyendo de forma cuadrática. De la siguiente manera pensando en una vista lateral:
+    \begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.75]{imagenes/Recipiente lateral.png}
+    \end{figure}
+    Es decir, que hasta cierta altura dada, el área está compuesta por el área bajo la cuadrática y un rectángulo de la altura dada y un largo reducido:
     \begin{gather*}
-        V=\frac{1}{2}\cdot base \cdot h \cdot ancho\\
-        V=\frac{1}{2}\cdot \frac{largo_{total}\cdot h}{h_total} \cdot h \cdot ancho\\
-        V=\frac{1}{2}\cdot \frac{largo_{total} \cdot ancho}{h_total} \cdot h^2
+        A(h)=\int_{0}^{\sqrt{h}} t^2 dt + \int_{\sqrt{h}}^{largo_{total}}h dt\\
+        A(h)= \frac{t^3}{3}\Big|_{0}^{\sqrt{h}} + h \cdot (largo_{total} - \sqrt{h})\\
+        A(h)= \frac{h^{\frac{3}{2}}}{3} + h \cdot (largo_{total} - \sqrt{h})
     \end{gather*}
-    Donde el largo total es un número conocido como la altura total y el ancho.
+    De acá se puede obtener el volumen pensando en que el ancho del recipiente es constante, entonces el volumen se puede escribir como $V(h)=A(h)\cdot ancho$. Por lo tanto:
+    \begin{equation*}
+        V(h)= \left( \frac{h^{\frac{3}{2}}}{3} + h \cdot (largo_{total} - \sqrt{h}) \right) \cdot ancho
+    \end{equation*}
     \item En una perfumería se venden botellas de un perfume A. Las botellas tienen una altura de 8cm y contienen 10cl de perfume. En la vidriera del negocio se publicita una botella de la misma forma pero agrandada y conteniendo el mismo perfume. Esta botella tiene una altura de 24cm, ¿cuánto perfume tendrá esta botella mayor?\\\\
     No llego a entender a que se refiere con la forma agrandada.
     \item Este está resuelto al principio
