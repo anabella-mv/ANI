@@ -1,0 +1,60 @@
+\documentclass[a4paper]{article}
+
+%paquetes necesarios
+\usepackage[a4paper, top=1.5cm, left=2cm, right=2cm,bottom=2cm]{geometry}
+\usepackage{amsfonts}
+\usepackage{amsmath, scalerel}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{polynom}
+\usepackage{float}
+
+
+%texto del  documento
+\title{Facultad de Matemática, Astronomía, Física y Computación}
+\author{Actividad 4/6\\ Mailén y Araceli}
+\date{4 de Junio de 2026}
+
+\begin{document}
+\maketitle
+\begin{enumerate}
+    \item Tenemos dos funciones lineales (su reprentación es una linea recta) $f y g$ y hay otra $h$ la cual resulta del producto de las anteriores, con el gráfico obtenemos puntos en coordenadas conocidas para poder encontrar los valores de $f$ y $g$ con el fin de poder calcular $h$.
+    \begin{itemize}
+        \item Para $f$ tenemos los puntos $(-6,-5)$ y $(0,-2)$, entonces la pendiente es $m=\frac{-2-(-5)}{0-(-6)}=\frac{3}{6}=\frac{1}{2}$ y entonces la función $f$ se puede escribir como $f(x)=\frac{1}{2}x +b$ y para obtener la ordenada al origen basta con tomar en donde intereseca al eje y, por lo que resulta $f(x)=\frac{1}{2}x -2$
+        \item Análogamente para $g$ que pasa por los puntos $(-6,-5)$ y $(0,1)$, la pendiente es $m=\frac{1-(-5)}{0-(-6)}=\frac{6}{6}=1$ y entonces la función $g$ se puede escribir como $g(x)=x +b$ y para obtener la ordenada al origen basta con tomar en donde intereseca al eje y, por lo que resulta $g(x)=x +1$
+    \end{itemize}
+    Resulta entonces que $h(x)=f(x)\cdot g(x)=(\frac{1}{2}x -2)(x +1)$ y entonces $h(x)=\frac{1}{2}x^2 -\frac{3}{2}x -2$.\\\\
+    \begin{enumerate}
+        \item Para calcular el valor de $h(x)$ basta con reemplazar por el valor pedido donde se encuentre la variable:
+        \begin{enumerate}
+            \item $h(0)=\frac{1}{2}\cdot 0^2 -\frac{3}{2}\cdot 0 -2=-2$
+            \item $h(2)=\frac{1}{2}\cdot 2^2 -\frac{3}{2}\cdot 2 -2=2-3-2=-3$
+            \item $h(6)=\frac{1}{2}\cdot 6^2 -\frac{3}{2}\cdot 6 -2=18-9-2=7$
+            \item $h(3)=\frac{1}{2}\cdot 3^2 -\frac{3}{2}\cdot 3 -2=\frac{9}{2}-\frac{9}{2}-2=-2$
+            \item $h(-2)=\frac{1}{2}\cdot (-2)^2 -\frac{3}{2}\cdot (-2) -2=2+3-2=3$
+            \item $h(4)=\frac{1}{2}\cdot 4^2 -\frac{3}{2}\cdot 4 -2=8-6-2=0$
+            \item $h(-8)=\frac{1}{2}\cdot (-8)^2 -\frac{3}{2}\cdot (-8) -2=32+12-2=42$
+            \item $h(4.5)=\frac{1}{2}\cdot (4.5)^2 -\frac{3}{2}\cdot (4.5) -2=\frac{20.25}{2}-\frac{13.5}{2}-2=10.125-6.75-2=1.375$
+        \end{enumerate}   
+        \item Para decidir cuando es positiva o negativa lo podemos encarar desde dos lados, buscando donde interseca la función cuadrática al eje x sabiendo que tiene coeficiente principal positivo, los valores entre sus raices son valores negativos, fuera de ese intervalo es positivo y justo en ellas es cero ó evaluando en los valores dados, como las raíces son $x=-1$ y $x=4$, entonces para $x \in (-1,4)$, $h(x) < 0$; y para $x \in (-\infty, -1) \cup (4, \infty)$, $h(x) > 0$. y para $x=-1$ y $x=4$, $h(x)=0$.
+        \begin{enumerate}
+            \item $h(-10)>0$
+            \item $h(-20)>0$
+            \item $h(5)>0$
+            \item $h(-2.5)>0$
+        \end{enumerate}
+        Son todas positivas.
+        \item Para graficar basta tomar los puntos de las raíces y el vértice y aprovechar los otros puntos evaluados para mejorar el gráfico
+        \begin{gather*}
+            h(x)=2(x-4)(x+1)\\
+            h(\frac{5}{2})=2(\frac{5}{2}-4)(\frac{5}{2}+1)\\
+            h(\frac{5}{2})=2(-\frac{3}{2})(\frac{7}{2})=-\frac{21}{2}
+        \end{gather*}
+    \end{enumerate}
+    \item Se definió igual al punto 1
+    \item Pensando en el coeficiente principal de la función cuando resulta del producto de funciones lineales dependiendo si sus pendientes son iguales es positivo y cuando son distintas es negativo.
+    
+\end{enumerate}
+\end{document}
